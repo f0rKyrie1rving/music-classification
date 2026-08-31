@@ -1,0 +1,149 @@
+{
+  "dataset": "MTG-Jamendo",
+  "purpose": "Learning/decoding samples only; not a training or test set",
+  "repository": "https://github.com/MTG/mtg-jamendo-dataset",
+  "source_blobs": {
+    "licenses": "0672e1840650a4e1352dfe9ab487f67de8954171",
+    "genres": "b7b14e433e524d6c6bb5aff8fc814ea0d702f285",
+    "metadata": "b04c274789a6de3c0f8d40ef69aa5699e48d5e4f",
+    "audio_low_sha256": "570ff1abe98ed09c16f734a935f33797c3e1b22d"
+  },
+  "samples": [
+    {
+      "track_id": "track_0543400",
+      "artist_id": "artist_358348",
+      "album_id": "album_063324",
+      "original_path": "00/543400.mp3",
+      "archive_member": "00/543400.low.mp3",
+      "title": "Бойня",
+      "artist": "Radio Noiseville",
+      "album": "Metropolis",
+      "track_url": "http://www.jamendo.com/track/543400",
+      "duration_metadata_seconds": 110.2,
+      "genre_tags": [
+        "ambient",
+        "gothic"
+      ],
+      "license_url": "http://creativecommons.org/licenses/by/3.0/",
+      "attribution_verbatim": "00/543400.mp3\nБойня by Radio Noiseville from Jamendo: http://www.jamendo.com/track/543400\nAvailable under a Creative Commons Attribution license: http://creativecommons.org/licenses/by/3.0/",
+      "expected_sha256": "6d7053fc38ff9e10695b54b38f59bf5e5a9e0b7ff06b7fa17848a29d6b0a00bf",
+      "archive_url": "https://cdn.freesound.org/mtg-jamendo/raw_30s/audio-low/raw_30s_audio-low-00.tar",
+      "archive_bytes_total": 1661317120,
+      "audio_byte_range": [
+        13972992,
+        15094025
+      ],
+      "audio_file": "data/raw/543400.low.mp3",
+      "file_bytes": 1121034,
+      "sha256": "6d7053fc38ff9e10695b54b38f59bf5e5a9e0b7ff06b7fa17848a29d6b0a00bf",
+      "official_sha256_matches": true,
+      "retrieved_at_utc": "2026-08-27T06:54:30.733911+00:00",
+      "decoded_duration_seconds": 110.236735,
+      "preview": {
+        "file": "data/previews/track_0543400_30s.wav",
+        "start_seconds": 30.0,
+        "duration_seconds": 30.0,
+        "sample_rate_hz": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "rms_dbfs": -26.168,
+        "sha256": "6e7d0ab1a2a034956a62a323e7d48ee86bd77b96fee2fa990c95aae18651272b",
+        "modifications": "Excerpt from 30s to 60s, decoded and resampled to 22050 Hz mono PCM16 WAV; no gain normalization."
+      }
+    },
+    {
+      "track_id": "track_0207501",
+      "artist_id": "artist_341393",
+      "album_id": "album_030719",
+      "original_path": "01/207501.mp3",
+      "archive_member": "01/207501.low.mp3",
+      "title": "Little Place",
+      "artist": "Sean T Wright",
+      "album": "STRANGE CHANGE",
+      "track_url": "http://www.jamendo.com/track/207501",
+      "duration_metadata_seconds": 208.8,
+      "genre_tags": [
+        "indie",
+        "poprock",
+        "rock"
+      ],
+      "license_url": "http://creativecommons.org/licenses/by/3.0/",
+      "attribution_verbatim": "01/207501.mp3\nLittle Place by Sean T Wright from Jamendo: http://www.jamendo.com/track/207501\nAvailable under a Creative Commons Attribution license: http://creativecommons.org/licenses/by/3.0/",
+      "expected_sha256": "0e2dde5d77f86a1d544d975e7f53d7d74e40fcf2640efdc34ffeea2033c2f7e0",
+      "archive_url": "https://cdn.freesound.org/mtg-jamendo/raw_30s/audio-low/raw_30s_audio-low-01.tar",
+      "archive_bytes_total": 1595146240,
+      "audio_byte_range": [
+        159486464,
+        162133979
+      ],
+      "audio_file": "data/raw/207501.low.mp3",
+      "file_bytes": 2647516,
+      "sha256": "0e2dde5d77f86a1d544d975e7f53d7d74e40fcf2640efdc34ffeea2033c2f7e0",
+      "official_sha256_matches": true,
+      "retrieved_at_utc": "2026-08-27T06:54:30.735351+00:00",
+      "decoded_duration_seconds": 208.822857,
+      "preview": {
+        "file": "data/previews/track_0207501_30s.wav",
+        "start_seconds": 30.0,
+        "duration_seconds": 30.0,
+        "sample_rate_hz": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "rms_dbfs": -15.729,
+        "sha256": "3a50bc0e15a7ffdd626d6d1d197821916cdf8003dc46999f6b504c6f6ca0dcfd",
+        "modifications": "Excerpt from 30s to 60s, decoded and resampled to 22050 Hz mono PCM16 WAV; no gain normalization."
+      }
+    },
+    {
+      "track_id": "track_0913702",
+      "artist_id": "artist_342174",
+      "album_id": "album_108167",
+      "original_path": "02/913702.mp3",
+      "archive_member": "02/913702.low.mp3",
+      "title": "Back In The Days",
+      "artist": "Chill Carrier",
+      "album": "Back In The Days",
+      "track_url": "http://www.jamendo.com/track/913702",
+      "duration_metadata_seconds": 318,
+      "genre_tags": [
+        "80s",
+        "chillout",
+        "electronic",
+        "pop"
+      ],
+      "license_url": "http://creativecommons.org/licenses/by/3.0/",
+      "attribution_verbatim": "02/913702.mp3\nBack In The Days by Chill Carrier from Jamendo: http://www.jamendo.com/track/913702\nAvailable under a Creative Commons Attribution license: http://creativecommons.org/licenses/by/3.0/",
+      "expected_sha256": "6889bba32a1b41671bc7a1cb3123fb49bcd08c2f0853c72ee217364fa9157b7e",
+      "archive_url": "https://cdn.freesound.org/mtg-jamendo/raw_30s/audio-low/raw_30s_audio-low-02.tar",
+      "archive_bytes_total": 1706659840,
+      "audio_byte_range": [
+        16847872,
+        20640161
+      ],
+      "audio_file": "data/raw/913702.low.mp3",
+      "file_bytes": 3792290,
+      "sha256": "6889bba32a1b41671bc7a1cb3123fb49bcd08c2f0853c72ee217364fa9157b7e",
+      "official_sha256_matches": true,
+      "retrieved_at_utc": "2026-08-27T06:54:30.737426+00:00",
+      "decoded_duration_seconds": 317.962449,
+      "preview": {
+        "file": "data/previews/track_0913702_30s.wav",
+        "start_seconds": 30.0,
+        "duration_seconds": 30.0,
+        "sample_rate_hz": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "rms_dbfs": -19.011,
+        "sha256": "3b0fccbe39295ca619ccf2b50b5717eaadc6c4a5452426f89bd1b77cb60d3cc0",
+        "modifications": "Excerpt from 30s to 60s, decoded and resampled to 22050 Hz mono PCM16 WAV; no gain normalization."
+      }
+    }
+  ],
+  "verification": {
+    "official_sha256_matches": true,
+    "full_decode_success": true,
+    "previews_non_silent": true,
+    "preview_duration_seconds": 30,
+    "decoder": "macOS afconvert; original MP3 files were not modified"
+  }
+}

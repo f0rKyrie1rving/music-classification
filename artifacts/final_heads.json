@@ -1,0 +1,88 @@
+{
+  "format_version": 1,
+  "artifact": "four standardized binary logistic-regression heads",
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "representation": "maest_block07_cls_dist_signal_mean",
+  "feature_width": 2304,
+  "parameter_order": [
+    "mean",
+    "scale",
+    "coefficient"
+  ],
+  "intercepts": [
+    -0.8942711353302002,
+    -1.6255420446395874,
+    -0.8506549596786499,
+    -2.1702558994293213
+  ],
+  "thresholds": {
+    "f1": [
+      0.39999999999999997,
+      0.27499999999999997,
+      0.37499999999999994,
+      0.27499999999999997
+    ],
+    "precision_target": [
+      0.625,
+      1.01,
+      1.01,
+      0.525
+    ]
+  },
+  "selected": [
+    {
+      "label": "electronic",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": null
+      }
+    },
+    {
+      "label": "pop",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": null
+      }
+    },
+    {
+      "label": "ambient",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "label": "rock",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": null
+      }
+    }
+  ],
+  "precision_supported": [
+    true,
+    false,
+    false,
+    true
+  ],
+  "evaluation_scope": "final model fitted on 1206 development tracks",
+  "evaluation_plan_sha256": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+  "encoder": {
+    "model_id": "mtg-upf/discogs-maest-30s-pw-129e-519l",
+    "revision": "6c35f32a350f74351870937d5ae0bae1d898d1df",
+    "hidden_state_index": 7
+  },
+  "weights_file": "final_heads.npy",
+  "weights_sha256": "1ae6b52dbbba422f4fca3c61ac9858f9e46ff480792c1bc85f73ea9c84933632",
+  "source_joblib_sha256": "28281f952015a0230e1eb7cd014abfdc97f8a80666fef0a807b3b448d30484d7",
+  "license": "CC-BY-NC-4.0; see ../MODEL_LICENSE.md"
+}

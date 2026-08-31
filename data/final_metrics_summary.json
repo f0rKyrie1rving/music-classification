@@ -1,0 +1,18 @@
+{
+  "evaluation": "independent artist-disjoint holdout",
+  "tracks": 239,
+  "artists": 89,
+  "labels": ["electronic", "pop", "ambient", "rock"],
+  "micro_precision": 0.49838187702265374,
+  "micro_recall": 0.7549019607843137,
+  "micro_f1": 0.6003898635477583,
+  "macro_ap": 0.5939194741335702,
+  "per_label": [
+    {"label": "electronic", "precision": 0.5957446808510638, "recall": 0.8, "f1": 0.6829268292682927},
+    {"label": "pop", "precision": 0.5, "recall": 0.62, "f1": 0.5535714285714285},
+    {"label": "ambient", "precision": 0.38461538461538464, "recall": 0.8333333333333334, "f1": 0.5263157894736842},
+    {"label": "rock", "precision": 0.5510204081632653, "recall": 0.75, "f1": 0.6352941176470588}
+  ],
+  "source": "outputs/final_maest/holdout_metrics.json",
+  "source_sha256": "f9328df119a074f936f4450ab023e2e7de384d769dd51a5648fb223dacad6372"
+}

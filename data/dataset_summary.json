@@ -1,0 +1,53 @@
+{
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "splits": {
+    "train": {
+      "tracks": 300,
+      "artists": 199,
+      "positives": {
+        "electronic": 136,
+        "pop": 71,
+        "ambient": 64,
+        "rock": 69
+      },
+      "multi_label": 68,
+      "background": 30
+    },
+    "validation": {
+      "tracks": 90,
+      "artists": 64,
+      "positives": {
+        "electronic": 46,
+        "pop": 16,
+        "ambient": 18,
+        "rock": 17
+      },
+      "multi_label": 16,
+      "background": 9
+    },
+    "test": {
+      "tracks": 90,
+      "artists": 65,
+      "positives": {
+        "electronic": 35,
+        "pop": 25,
+        "ambient": 15,
+        "rock": 22
+      },
+      "multi_label": 16,
+      "background": 9
+    }
+  },
+  "licenses": {
+    "by-nc-sa": 267,
+    "by-sa": 148,
+    "by-nc": 33,
+    "by": 32
+  },
+  "indexed_headers_per_archive": 420
+}

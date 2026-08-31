@@ -1,0 +1,4 @@
+# Separate optional runtime; do not change the original .venv.
+-r requirements-lock.txt
+torch==2.8.0
+transformers==4.38.2

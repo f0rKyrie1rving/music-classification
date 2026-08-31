@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.venv-demo/
+.venv-release-check/
+.venv-improve/
+.venv-maest/
+.pytest_cache/
+.cache/
+outputs/
+
+# Personal learning notes remain local; public documentation is self-contained.
+LEARNING_NOTES.md
+PROJECT_BRIEF.md
+
+# Downloaded source material stays local; curated manifests and notes can be shared.
+data/source/
+data/raw/
+data/previews/*
+!data/previews/track_0207501_30s.wav
+data/README.md
+data/training_audio/
+data/expanded_audio/
+models/
+*.part

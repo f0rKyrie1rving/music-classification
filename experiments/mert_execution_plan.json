@@ -1,0 +1,8 @@
+{
+  "encoder_manifest_sha256": "bbd857f0776ba9dde255f6a7c7938f2319b50772cd4dfdf2296469b4ca7015a8",
+  "extractor_source_sha256": "e41e428e43224affeed9b890d4b8b2138aadff8db55c2e079ed6895630ef0ff0",
+  "driver_source_sha256": "abff0528b27aae2d5002377e47c830d874634da4ab73714ae3c145e25304eee5",
+  "plan_sha256": "3eb0b643decfa86195a6da77c8c85ca4a72bd10b2e9191d0a1a6c7d732d77fd1",
+  "device": "cpu",
+  "versions": "{\"librosa\": \"1.0.0\", \"numpy\": \"2.5.2\", \"soxr\": \"1.1.0\", \"torch\": \"2.8.0\", \"transformers\": \"4.38.2\"}"
+}

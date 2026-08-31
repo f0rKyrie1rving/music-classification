@@ -1,0 +1,8 @@
+# Direct dependencies for audio inspection and the MFCC feature baseline.
+numpy==2.5.2
+matplotlib==3.11.1
+librosa==1.0.0
+scikit-learn==1.9.0
+joblib==1.5.3
+soundfile==0.14.0
+soxr==1.1.0

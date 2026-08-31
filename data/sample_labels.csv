@@ -1,0 +1,4 @@
+﻿track_id,title,artist,genre_tags,audio_file,preview_file,duration_seconds,track_url,license_url
+track_0543400,Бойня,Radio Noiseville,ambient;gothic,data/raw/543400.low.mp3,data/previews/track_0543400_30s.wav,110.236735,http://www.jamendo.com/track/543400,http://creativecommons.org/licenses/by/3.0/
+track_0207501,Little Place,Sean T Wright,indie;poprock;rock,data/raw/207501.low.mp3,data/previews/track_0207501_30s.wav,208.822857,http://www.jamendo.com/track/207501,http://creativecommons.org/licenses/by/3.0/
+track_0913702,Back In The Days,Chill Carrier,80s;chillout;electronic;pop,data/raw/913702.low.mp3,data/previews/track_0913702_30s.wav,317.962449,http://www.jamendo.com/track/913702,http://creativecommons.org/licenses/by/3.0/

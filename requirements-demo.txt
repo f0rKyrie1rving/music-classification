@@ -1,0 +1,8 @@
+# Direct dependencies for the final local MAEST audio-tagging demo.
+# Exact versions tested on Python 3.13.15 and Apple Silicon macOS.
+numpy==2.5.2
+safetensors==0.8.0
+soundfile==0.14.0
+soxr==1.1.0
+torch==2.8.0
+transformers==4.38.2

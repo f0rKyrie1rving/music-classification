@@ -1,0 +1,7 @@
+# Experimental MAEST environment tested on CPython 3.13 / macOS 15 / ARM64.
+# Essentia is AGPL-3.0-only. The pinned wheel SHA-256 is recorded in
+# experiments/MAEST_PROTOCOL.md and MAEST_FEASIBILITY.md.
+essentia-tensorflow==2.1b6.dev1389
+numpy==2.5.2
+PyYAML==6.0.3
+six==1.17.0

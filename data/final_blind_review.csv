@@ -1,0 +1,41 @@
+query_id,label,track_id,artist,title,audio_file,auditor_hears_label,auditor_reason
+1,electronic,track_0492103,Rezydent S & Garaż Bogiego,Tarzany,data/expanded_audio/track_0492103.wav,no,盲听判断：听不出目标风格。
+2,electronic,track_0202201,Julien Boulier,Remanence Prisme,data/expanded_audio/track_0202201.wav,no,盲听判断：听不出目标风格。
+3,electronic,track_0822302,Chance's End,North Of Nowhere,data/expanded_audio/track_0822302.wav,yes,盲听判断：能听出目标风格。
+4,electronic,track_1118602,Zeffon,Dark Comet?,data/expanded_audio/track_1118602.wav,no,盲听判断：听不出目标风格。
+5,electronic,track_0156203,Mark.Nine,In Memories (Colors),data/expanded_audio/track_0156203.wav,no,盲听判断：听不出目标风格。
+6,electronic,track_1355200,alessandro ricci,the last saturday,data/expanded_audio/track_1355200.wav,no,盲听判断：听不出目标风格。
+7,electronic,track_1277702,Pablo Samonta,Happy Aquarella Dream,data/expanded_audio/track_1277702.wav,no,盲听判断：听不出目标风格。
+8,electronic,track_1044301,Zeffon,Man No. 44,data/expanded_audio/track_1044301.wav,no,盲听判断：听不出目标风格。
+9,electronic,track_1375801,Anatoly Shestopalov.,"Dance baby ,dance.",data/expanded_audio/track_1375801.wav,uncertain,盲听判断：风格边界不确定。
+10,electronic,track_0409700,Giulio Bradamante,Bagaglio pesante,data/expanded_audio/track_0409700.wav,no,盲听判断：听不出目标风格。
+11,pop,track_0206601,Crete Boom,Helpless,data/expanded_audio/track_0206601.wav,uncertain,盲听判断：风格边界不确定。
+12,pop,track_0697303,Labbed,Furg Neuui,data/expanded_audio/track_0697303.wav,no,盲听判断：听不出目标风格。
+13,pop,track_1243203,Four,Youth,data/expanded_audio/track_1243203.wav,yes,盲听判断：能听出目标风格。
+14,pop,track_1347102,Zapple Pie,Forever Valentine,data/expanded_audio/track_1347102.wav,yes,盲听判断：能听出目标风格。
+15,pop,track_0986803,Löhstana David,Vieux Con,data/expanded_audio/track_0986803.wav,yes,盲听判断：能听出目标风格。
+16,pop,track_0543401,Radio Noiseville,HOLY WIND,data/expanded_audio/track_0543401.wav,no,盲听判断：听不出目标风格。
+17,pop,track_1150102,Julien Boulier,Eole,data/expanded_audio/track_1150102.wav,no,盲听判断：听不出目标风格。
+18,pop,track_0818602,Celestial Aeon Project,Adventure,data/expanded_audio/track_0818602.wav,no,盲听判断：听不出目标风格。
+19,pop,track_1095602,Antanas Domanaitis,Вильнюс,data/expanded_audio/track_1095602.wav,no,盲听判断：听不出目标风格。
+20,pop,track_1066800,Mike Allen,Sand Dune,data/expanded_audio/track_1066800.wav,yes,盲听判断：能听出目标风格。
+21,ambient,track_1076603,EIVISSA SALINAS feat. DJ HSERES,Moroccan Theme,data/expanded_audio/track_1076603.wav,yes,盲听判断：能听出目标风格。
+22,ambient,track_1166102,Kara Square,We're Okay (Instrumental),data/expanded_audio/track_1166102.wav,no,盲听判断：听不出目标风格。
+23,ambient,track_1346600,Zeffon,Black Room of Dototajmari (Extract),data/expanded_audio/track_1346600.wav,yes,盲听判断：能听出目标风格。
+24,ambient,track_1044303,Zeffon,Man No. 13,data/expanded_audio/track_1044303.wav,yes,盲听判断：能听出目标风格。
+25,ambient,track_1416000,Porrazzo,New Product - Loop,data/expanded_audio/track_1416000.wav,yes,盲听判断：能听出目标风格。
+26,ambient,track_0518602,EIVISSA SALINAS feat. DJ HSERES,Lounge Bar XV,data/expanded_audio/track_0518602.wav,yes,盲听判断：能听出目标风格。
+27,ambient,track_1027901,Erizo,Oceanos,data/expanded_audio/track_1027901.wav,no,盲听判断：听不出目标风格。
+28,ambient,track_1036003,Rino Scamozzi,Figliol Prodigo,data/expanded_audio/track_1036003.wav,no,盲听判断：听不出目标风格。
+29,ambient,track_1294000,Townhouse Woods,In Regards To The Grace Which You've Been Granted,data/expanded_audio/track_1294000.wav,no,盲听判断：听不出目标风格。
+30,ambient,track_1223300,Kara Square,Joyful Jubilee (Loopable - No Intro or Drums),data/expanded_audio/track_1223300.wav,no,盲听判断：听不出目标风格。
+31,rock,track_1066801,Mike Allen,Celtic Punk,data/expanded_audio/track_1066801.wav,yes,盲听判断：能听出目标风格。
+32,rock,track_0973500,Freeky Cleen & Dickey F,Drinkin' Problem,data/expanded_audio/track_0973500.wav,yes,盲听判断：能听出目标风格。
+33,rock,track_0012303,Trafic de Blues,Tribute to the kings,data/expanded_audio/track_0012303.wav,no,盲听判断：听不出目标风格。
+34,rock,track_0208300,Atómica,Lo de Siempre,data/expanded_audio/track_0208300.wav,yes,盲听判断：能听出目标风格。
+35,rock,track_1257402,Zapple Pie,Help Me Now,data/expanded_audio/track_1257402.wav,yes,盲听判断：能听出目标风格。
+36,rock,track_1216201,Human,Let the sounds growing inside,data/expanded_audio/track_1216201.wav,no,盲听判断：听不出目标风格。
+37,rock,track_1355201,alessandro ricci,spagna,data/expanded_audio/track_1355201.wav,yes,盲听判断：能听出目标风格。
+38,rock,track_0219003,paniq,The Burden (Intro),data/expanded_audio/track_0219003.wav,yes,盲听判断：能听出目标风格。
+39,rock,track_1337802,Doctor Frost,No Stress,data/expanded_audio/track_1337802.wav,uncertain,盲听判断：风格边界不确定。
+40,rock,track_1180801,Mark Siddon,I See,data/expanded_audio/track_1180801.wav,uncertain,盲听判断：风格边界不确定。

@@ -1,0 +1,41 @@
+label,error_type,severity_rank,track_id,artist,title,score,threshold,source_tags,neighbour_tags,audio_file,auditor_hears_label,auditor_reason
+electronic,false_positive,1,track_1391102,DeadBunny Laura,Running Away,0.906069278717041,0.39999999999999997,dance;pop;rock,dance,data/training_audio/track_1391102.wav,yes,节奏感很强，并且这段音乐有明显的电子合成器音色。
+electronic,false_positive,2,track_0383000,GDream,Une autre galaxie (GDream Radio Remix),0.8733617067337036,0.39999999999999997,dance,dance,data/expanded_audio/track_0383000.wav,yes,电子音色非常突出，带有强烈的电流感。
+electronic,false_positive,3,track_1081801,BrunoXe,Ebon power (ft. Qvimera),0.8653268218040466,0.39999999999999997,hiphop,,data/expanded_audio/track_1081801.wav,yes,约第10秒开始的旋律具有明显电子音色。
+electronic,false_positive,4,track_1050502,EGA,Space Age,0.7760342955589294,0.39999999999999997,ambient;chillout;newage,,data/training_audio/track_1050502.wav,uncertain,片段偏短，无法确定主旋律是电子合成器还是电吉他。
+electronic,false_positive,5,track_1371700,Dj-J@M,The escape,0.7474589943885803,0.39999999999999997,ambient;atmospheric;dance,dance,data/training_audio/track_1371700.wav,yes,氛围铺底和旋律音色都具有明显电子感。
+electronic,false_negative,1,track_0037702,Mi Rara Coleccion,Your world,0.023197323083877563,0.39999999999999997,electronic;pop,,data/expanded_audio/track_0037702.wav,no,主要是男声与木吉他低声吟唱，没有听到电子音乐特征。
+electronic,false_negative,2,track_0974000,Anitek,Seasons,0.0530843585729599,0.39999999999999997,acidjazz;blues;experimental;jazz;rock;triphop,experimental,data/training_audio/track_0974000.wav,no,以吉他独奏和简单节奏为主，没有听到电子音乐特征。
+electronic,false_negative,3,track_0827701,Franck Mouzon,Dormir longtemps,0.0742572620511055,0.39999999999999997,ambient;chanson;downtempo,,data/expanded_audio/track_0827701.wav,no,没有听到电子音乐的痕迹。
+electronic,false_negative,4,track_1109903,Podington Bear,Meander,0.1223529577255249,0.39999999999999997,electronic;indie,,data/expanded_audio/track_1109903.wav,uncertain,音频较模糊，无法确认主要音色来自钢琴还是电子合成器。
+electronic,false_negative,5,track_0974001,Anitek,Dobro Wax,0.1289900243282318,0.39999999999999997,acidjazz;blues;experimental;jazz;rock;triphop,experimental,data/expanded_audio/track_0974001.wav,no,主要听到的是电吉他音色，不像电子音乐。
+pop,false_positive,1,track_1306202,Cortland Goffena,Shallow,0.85346519947052,0.27499999999999997,alternative;alternativerock;indie,indie,data/expanded_audio/track_1306202.wav,yes,吉他扫弦具有明显的流行音乐感觉。
+pop,false_positive,2,track_1306203,Cortland Goffena,Better Man,0.7894129157066345,0.27499999999999997,alternative;alternativerock;indie,indie,data/expanded_audio/track_1306203.wav,yes,吉他扫弦呈现出明显的流行音乐特征。
+pop,false_positive,3,track_1223700,andy blackwood,I'll Be Dead When I Get Home,0.7102296948432922,0.27499999999999997,country;folk,,data/expanded_audio/track_1223700.wav,yes,吉他分解和弦与人声同时带有乡村和流行音乐的感觉。
+pop,false_positive,4,track_1045702,Seba Lay,Deja,0.6976959705352783,0.27499999999999997,folk;indie,indie,data/expanded_audio/track_1045702.wav,yes,整体旋律、节奏和编配有明显流行感，但难以归因于某一个单独声音。
+pop,false_positive,5,track_0827701,Franck Mouzon,Dormir longtemps,0.6896690130233765,0.27499999999999997,ambient;chanson;downtempo,chanson,data/expanded_audio/track_0827701.wav,uncertain,片段中的人声信息太少，难以判断整体是否属于流行音乐。
+pop,false_negative,1,track_0506001,Franck Mouzon,This morning,0.040534693747758865,0.27499999999999997,electronic;instrumentalpop;newwave;poprock,,data/expanded_audio/track_0506001.wav,no,整体更接近电子音乐，没有明显的流行音乐感觉。
+pop,false_negative,2,track_1391103,DeadBunny Laura,The Flavour,0.061523325741291046,0.27499999999999997,dance;pop;rock,,data/expanded_audio/track_1391103.wav,uncertain,片段太短，无法形成可靠判断。
+pop,false_negative,3,track_0356100,MariaRespirando,"Luna llena, luna negra.",0.09786172211170197,0.27499999999999997,pop;rock,,data/expanded_audio/track_0356100.wav,yes,爵士鼓清晰、节奏感强，整体听感接近流行音乐。
+pop,false_negative,4,track_0436603,L.kRis,Musica Elisa,0.09950225055217743,0.27499999999999997,instrumentalpop;pop,,data/training_audio/track_0436603.wav,yes,贝斯、鼓和电吉他的组合带来明显的流行乐队感。
+pop,false_negative,5,track_1397903,DeadBunny Laura,The Ugly Duck,0.09951351583003998,0.27499999999999997,pop,,data/expanded_audio/track_1397903.wav,uncertain,听感更接近摇滚，但无法确定是否也具有流行音乐特征。
+ambient,false_positive,1,track_1153401,Atomic cat,Dreaming of You,0.940879225730896,0.37499999999999994,trance,,data/expanded_audio/track_1153401.wav,yes,声音具有飘渺、朦胧和空间感，符合氛围音乐的听感。
+ambient,false_positive,2,track_1241403,Renatus Cartesius,Fairytale,0.9163571000099182,0.37499999999999994,classical;soundtrack,,data/training_audio/track_1241403.wav,no,主旋律过于突出，不符合以氛围和音色为主的ambient听感。
+ambient,false_positive,3,track_0047403,2Inventions,For Niczyja (Bonus Track),0.915791392326355,0.37499999999999994,classical;orchestral;symphonic,,data/training_audio/track_0047403.wav,no,旋律主体过于鲜明，不像以环境质感和空间铺陈为主的ambient。
+ambient,false_positive,4,track_0255702,The Chill,The Chill - Night on the roof,0.8885612487792969,0.37499999999999994,electronic,,data/training_audio/track_0255702.wav,yes,整体较朦胧，并通过类似鸟鸣的声音营造环境氛围。
+ambient,false_positive,5,track_1112000,Podington Bear,Floaty,0.8782734274864197,0.37499999999999994,alternative;electronic,,data/expanded_audio/track_1112000.wav,yes,旋律被弱化，整体更强调持续的氛围和音色。
+ambient,false_negative,1,track_0863700,Secondhead,Synth,0.07466486841440201,0.37499999999999994,atmospheric;dubstep;electronic,,data/training_audio/track_0863700.wav,no,声音较吵且冲击感较强，更接近电子音乐，没有ambient的舒展和空间感。
+ambient,false_negative,2,track_0462203,Oneness,Get On Board,0.0861700028181076,0.37499999999999994,chillout;reggae,,data/expanded_audio/track_0462203.wav,no,节奏和律动更接近reggae，不像ambient。
+ambient,false_negative,3,track_1133301,Lillora Moss,Bring Me A Candle,0.08983602374792099,0.37499999999999994,ambient,,data/expanded_audio/track_1133301.wav,yes,女声具有明显的飘渺感，营造出ambient氛围。
+ambient,false_negative,4,track_1371801,JoosTVD,Chickenwing Dancing,0.11857840418815613,0.37499999999999994,chillout;dance;latin,,data/expanded_audio/track_1371801.wav,uncertain,音色具有飘渺感，但鼓点和节奏又很突出，处在ambient与节奏型音乐的边界。
+ambient,false_negative,5,track_1371802,JoosTVD,Erotic Birds,0.11994875967502594,0.37499999999999994,70s;chillout;funk,,data/expanded_audio/track_1371802.wav,uncertain,带有一些摇滚听感，但旋律较弱，难以确认是否也属于ambient。
+rock,false_positive,1,track_1169400,Screamatorium,Last Song,0.6846145391464233,0.27499999999999997,metal,metal,data/expanded_audio/track_1169400.wav,yes,吉他音色厚重且失真明显，带有重金属和摇滚特征。
+rock,false_positive,2,track_1115703,Podington Bear,Slide,0.6582250595092773,0.27499999999999997,indie;instrumentalpop;pop,indie,data/training_audio/track_1115703.wav,yes,电吉他和贝斯较突出，具有明显的摇滚乐队音色。
+rock,false_positive,3,track_0260300,Melophon,Twelve,0.6304975152015686,0.27499999999999997,fusion,,data/expanded_audio/track_0260300.wav,yes,鼓组音色和节奏具有明显的摇滚乐队感。
+rock,false_positive,4,track_1115700,Podington Bear,Just Us,0.6200798749923706,0.27499999999999997,indie;instrumentalpop;pop,indie,data/expanded_audio/track_1115700.wav,no,整体氛围轻松且力度较弱，没有明显的摇滚感。
+rock,false_positive,5,track_1115702,Podington Bear,Insurrection,0.6056036353111267,0.27499999999999997,indie;instrumentalpop;pop,indie,data/expanded_audio/track_1115702.wav,uncertain,电吉他和强节奏带有摇滚元素，但整体氛围偏轻松，风格边界不明确。
+rock,false_negative,1,track_0373103,Escape,RedRoom,0.023258108645677567,0.27499999999999997,rock,,data/expanded_audio/track_0373103.wav,no,旋律舒缓，没有明显的摇滚音色、力度或节奏特征。
+rock,false_negative,2,track_0004400,DIY-note,Conte écourté,0.042001474648714066,0.27499999999999997,alternative;electronic;experimental;postrock;rock,alternative,data/training_audio/track_0004400.wav,no,旋律单一且起伏和动态较弱，没有明显的摇滚推进感。
+rock,false_negative,3,track_0974000,Anitek,Seasons,0.04370560497045517,0.27499999999999997,acidjazz;blues;experimental;jazz;rock;triphop,,data/training_audio/track_0974000.wav,no,整体听感更接近R&B，没有明显的摇滚特征。
+rock,false_negative,4,track_0004401,DIY-note,Endless night,0.060996778309345245,0.27499999999999997,alternative;electronic;experimental;postrock;rock,alternative,data/expanded_audio/track_0004401.wav,yes,后半段出现明显的重金属音色和力度，符合摇滚特征。
+rock,false_negative,5,track_0004402,DIY-note,Raining outside,0.07090471684932709,0.27499999999999997,alternative;electronic;experimental;postrock;rock,alternative,data/training_audio/track_0004402.wav,no,整体更接近ambient，没有明显的摇滚特征。

@@ -1,0 +1,17 @@
+{
+  "verified_tracks": 480,
+  "split_counts": {
+    "train": 300,
+    "validation": 90,
+    "test": 90
+  },
+  "artist_count": 328,
+  "cached_source_bytes": 200384144,
+  "audio_seconds": 14400,
+  "id3_tags_skipped": 6,
+  "full_mp3_hashes_verified": 3,
+  "min_rms": 0.0032165202148412082,
+  "max_rms": 0.4774961832111082,
+  "manifest_sha256": "485d94f432c56c11ba6837ebaffed8dc099423698c87e5339a5dc14ecf70331e",
+  "verified_at_utc": "2026-08-27T11:21:25.173691+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "completed development comparison; 80% target not met; original demo retained",
+  "review_date": "2026-08-28",
+  "model_id": "m-a-p/MERT-v0-public",
+  "revision": "e8413e398b3180ca488534aea68fd829402044a4",
+  "revision_source": "https://huggingface.co/m-a-p/MERT-v0-public/commit/e8413e398b3180ca488534aea68fd829402044a4",
+  "model_card": "https://huggingface.co/m-a-p/MERT-v0-public",
+  "model_card_license_identifier": "cc-by-nc-4.0",
+  "pretraining_corpora_as_reported": [
+    "Music4All",
+    "FMA_full excluding experimental-tag tracks"
+  ],
+  "overlap_with_project_data": "not audited; cannot claim disjointness",
+  "listed_model_repository_size": "approximately 378 MB",
+  "listed_weight_file": "pytorch_model.bin",
+  "model_weights_downloaded": true,
+  "runtime_verified": true,
+  "features_extracted": 390,
+  "weight_sha256": "9b25bde740483579d9895f35d074a949f6593ef48449b6d76e26ee3c0e5e9acb",
+  "dependencies_installed": true,
+  "official_runtime_warning": "MERT repository recommends transformers 4.38 due to later incompatibility; compatibility with this Mac is not yet tested.",
+  "local_host": {
+    "architecture": "arm64",
+    "memory_gib": 16,
+    "python": "3.13.15"
+  },
+  "network_attempts": [
+    {
+      "host": "huggingface.co",
+      "result": "connection reset and connection timeout after sandbox escalation"
+    },
+    {
+      "host": "hf-mirror.com",
+      "result": "TLS connection timeout; third-party mirror, not an official source"
+    },
+    {
+      "host": "huggingface.co",
+      "result": "Download succeeded using the existing system HTTP proxy; no system settings changed."
+    }
+  ],
+  "next_gate": "Review development errors and any further data scope; a final claim still requires fresh independent evaluation, pretraining overlap audit, and release checks.",
+  "environment": ".venv-improve",
+  "runtime_device": "cpu",
+  "source_review": "experiments/MERT_REVIEW.md",
+  "execution_plan": "experiments/mert_execution_plan.json",
+  "results": "MERT_RESULTS.md",
+  "feature_extraction_seconds": 318.55699675006326,
+  "provisional_goal_met": false
+}
