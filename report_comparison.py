@@ -4,6 +4,7 @@ import csv
 import json
 import os
 from pathlib import Path
+from shutil import copyfile
 
 ROOT = Path(__file__).resolve().parent
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".cache/matplotlib"))
@@ -34,6 +35,7 @@ def main():
     predictions = {name: read_predictions(name, labels) for name in models}
     base, extended = models["mfcc"]["validation"], models["extended"]["validation"]
     lines = ["# Validation-only feature comparison", "", "Run date: 2026-08-28.", "",
+             "Historical exact-source-tag experiment. Its 300/90 development split and validation-tuned thresholds differ from the expanded broad-label comparisons in [README.md](README.md#model-development-path).", "",
              "## Scope", "",
              "One fixed comparison: 300 training tracks and 90 validation tracks; artist IDs are separated.",
              "The original baseline test results were already known. No test audio was read or predicted in this experiment.",
@@ -54,7 +56,7 @@ def main():
               "| --- | ---: | ---: | ---: | ---: | ---: |"]
     for a, b in zip(base["per_label"], extended["per_label"], strict=True):
         lines.append(f'| {a["label"]} | {a["support"]} | {a["average_precision"]:.4f} | {b["average_precision"]:.4f} | {a["f1"]:.4f} | {b["f1"]:.4f} |')
-    lines += ["", "![Validation comparison and pop threshold curve](outputs/feature_comparison/comparison.png)",
+    lines += ["", "![Validation comparison and pop threshold curve on the original 90 validation tracks](docs/assets/feature_comparison.png)",
               "", "## Thresholds and errors", "",
               "TP: predicted and annotated positive; FP: predicted positive but unannotated; FN: annotated positive but missed; TN: neither.",
               "These counts are relative to dataset annotations, which may be incomplete.", "",
@@ -101,7 +103,7 @@ def main():
               "No additional hyperparameter search or test-set evaluation was performed. The experiment stops after this fixed comparison.", "",
               "## Reproduce locally", "", "```bash", ".venv/bin/python compare_features.py", ".venv/bin/python report_comparison.py", "```", "",
               "Requires the original local baseline artifacts and prepared audio. No new packages or data downloads are required in the existing environment.",
-              "[Raw metrics](outputs/feature_comparison/metrics.json) · [MFCC predictions](outputs/feature_comparison/mfcc_validation_predictions.csv) · [Extended predictions](outputs/feature_comparison/extended_validation_predictions.csv)", "",
+              "Raw metrics (`outputs/feature_comparison/metrics.json`, generated locally) · MFCC predictions (`outputs/feature_comparison/mfcc_validation_predictions.csv`, generated locally) · Extended predictions (`outputs/feature_comparison/extended_validation_predictions.csv`, generated locally)", "",
               "[Metric definitions: F1](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) and [Average Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score.html).", ""]
     (ROOT / "EXPERIMENTS.md").write_text("\n".join(lines))
     (OUTPUT / "error_cases.json").write_text(json.dumps(cases, indent=2) + "\n")
@@ -131,6 +133,9 @@ def main():
     figure.suptitle("Development comparison · 90 validation tracks (not test results)", fontsize=12)
     figure.savefig(OUTPUT / "comparison.png", dpi=160)
     plt.close(figure)
+    assets = ROOT / "docs/assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    copyfile(OUTPUT / "comparison.png", assets / "feature_comparison.png")
     (OUTPUT / "threshold_sweep.json").write_text(json.dumps(sweep, indent=2) + "\n")
     check_protected(json.loads(PLAN_PATH.read_text()))
     print("Saved EXPERIMENTS.md, comparison.png, threshold sweep and two validation error cases.")

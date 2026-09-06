@@ -4,6 +4,7 @@ import csv
 import json
 import os
 from pathlib import Path
+from shutil import copyfile
 
 ROOT = Path(__file__).resolve().parent
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".cache/matplotlib"))
@@ -24,6 +25,7 @@ def main():
     prior_tags = [t for t, score, threshold in zip(labels, prior, metrics["prior_thresholds"], strict=True)
                   if score >= threshold]
     lines = ["# First MFCC baseline", "", "Actual results on the custom MTG-Jamendo subset.", "",
+             "Historical exact-source-tag experiment: the 90 test tracks here are distinct from the 90 development-validation tracks in later early-stage reports. The final broad-label model is evaluated separately in [FINAL_RESULTS.md](FINAL_RESULTS.md).", "",
              "## Protocol", "",
              f'Train / validation / test: {metrics["split_counts"]["train"]} / {metrics["split_counts"]["validation"]} / {metrics["split_counts"]["test"]} tracks.',
              "Artist IDs do not overlap across partitions. The model uses 13 MFCC means and 13 standard deviations.",
@@ -59,7 +61,10 @@ def main():
     ax.legend(loc="upper right", frameon=False, fontsize=9)
     figure.savefig(output / "baseline_f1.png", dpi=160)
     plt.close(figure)
-    lines += ["", "![Per-tag F1](outputs/baseline_f1.png)", "", "## Two error examples", "",
+    assets = ROOT / "docs/assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    copyfile(output / "baseline_f1.png", assets / "baseline_f1.png")
+    lines += ["", "![Per-tag F1 on the original 90-track test set](docs/assets/baseline_f1.png)", "", "## Two error examples", "",
               "Selected by the number of mismatched tags (descending), then track ID; all predictions remain available in the CSV.", ""]
     with (output / "test_predictions.csv").open(newline="") as file:
         predictions = list(csv.DictReader(file))
@@ -80,9 +85,9 @@ def main():
               "Only the first 30 seconds are analyzed. MFCC summary statistics discard time order and do not fully describe rhythm or harmony.",
               "Scores are not calibrated confidence. Results do not establish performance on arbitrary commercial music.",
               "No MFCC-count or classifier hyperparameter search has been performed. Test results were not used to tune this baseline.", "",
-              "See [dataset protocol and licenses](data/DATASET.md), [raw metrics](outputs/baseline_metrics.json), and [all test predictions](outputs/test_predictions.csv).", ""]
+              "See [dataset protocol and licenses](data/DATASET.md), raw metrics (`outputs/baseline_metrics.json`, generated locally), and all test predictions (`outputs/test_predictions.csv`, generated locally).", ""]
     (ROOT / "RESULTS.md").write_text("\n".join(lines))
-    print("Saved RESULTS.md and outputs/baseline_f1.png.")
+    print("Saved RESULTS.md, outputs/baseline_f1.png, and docs/assets/baseline_f1.png.")
 
 
 if __name__ == "__main__":

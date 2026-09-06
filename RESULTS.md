@@ -2,6 +2,8 @@
 
 Actual results on the custom MTG-Jamendo subset.
 
+Historical exact-source-tag experiment: the 90 test tracks here are distinct from the 90 development-validation tracks in later early-stage reports. The final broad-label model is evaluated separately in [FINAL_RESULTS.md](FINAL_RESULTS.md).
+
 ## Protocol
 
 Train / validation / test: 300 / 90 / 90 tracks.
@@ -38,7 +40,7 @@ After validation threshold selection, it always outputs: electronic, pop, ambien
 | ambient | 0.20 |
 | rock | 0.70 |
 
-!Per-tag F1 (`outputs/baseline_f1.png`, generated locally)
+![Per-tag F1 on the original 90-track test set](docs/assets/baseline_f1.png)
 
 ## Two error examples
 

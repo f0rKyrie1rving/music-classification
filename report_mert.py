@@ -3,6 +3,7 @@
 import json
 import os
 from pathlib import Path
+from shutil import copyfile
 
 ROOT = Path(__file__).resolve().parent
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".cache/matplotlib"))
@@ -23,6 +24,7 @@ def main():
     a, b = [results[name]["validation"]["f1"] for name in ("mfcc", "mert")]
     precise = results["mert"]["validation"]["precision_target"]
     lines = ["# Frozen music representations: MFCC vs MERT", "", "Development run: 2026-08-28.", "",
+        "Historical exact-source-tag experiment on 300 training and 90 validation tracks. Its metrics are not directly comparable with the later 903/303 broad-label task; see the [development-stage comparison](README.md#model-development-path).", "",
         "## Question and scope", "",
         "Does a frozen pretrained music representation improve this small four-genre tagging task over MFCC statistics?",
         "The encoder, pooling, data, classifier grid and selection rule were fixed before viewing MERT outcomes.",
@@ -30,7 +32,7 @@ def main():
         "Both representations use the same 300 training tracks, the same three artist-grouped folds, six logistic-regression settings, and the same 90 validation tracks.",
         "Choose the head by mean fold Macro AP; select thresholds on its training out-of-fold scores; refit on 300 tracks before validation prediction.",
         "No new test predictions are made. The 90 validation tracks were previously used in development; these are NOT independent final test results.",
-        "MERT pretraining used Music4All and part of FMA; overlap with Jamendo has not been audited. Artist separation here applies to our downstream splits, not to the encoder's pretraining corpus.", "",
+        "MERT pretraining used Music4All and part of FMA; overlap with Jamendo has not been audited. Artist separation here applies to the project's downstream splits, not to the encoder's pretraining corpus.", "",
         "## Representations and runtime", "",
         "MFCC: 13 temporal means plus 13 standard deviations. MERT: resample the prepared first-30-second audio to 16 kHz, split into six 5-second chunks, mean-pool time and 12 transformer layers (excluding layer 0), then average the chunks: 768 features.",
         "The encoder weights are frozen; only the scaler and four linear classifiers are fitted to this project's labels. No layer/crop/pooling search or encoder fine-tuning was performed.",
@@ -55,7 +57,7 @@ def main():
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for ra, rb in zip(a["per_label"], b["per_label"], strict=True):
         lines.append(f'| {ra["label"]} | {ra["support"]} | {ra["precision"]:.3f} | {rb["precision"]:.3f} | {ra["recall"]:.3f} | {rb["recall"]:.3f} | {ra["average_precision"]:.3f} | {rb["average_precision"]:.3f} |')
-    lines += ["", "![Development precision and recall](outputs/improvement/mert_comparison.png)", "",
+    lines += ["", "![MFCC versus MERT precision and recall on the original 90 validation tracks](docs/assets/mert_comparison.png)", "",
         "## Precision-oriented operating point", "",
         "Thresholds were chosen only from training OOF scores: >=80% precision, >=30% recall and >=10 emitted predictions per tag, then maximize recall among feasible choices.",
         "Unsupported tags are suppressed under this policy. Precision is N/A when there are no predictions; stored zeros follow the metric function's zero-division convention.", "",
@@ -79,7 +81,7 @@ def main():
         "The original predict.py and baseline bundle remain unchanged. Any eventual promotion must explicitly identify its operating policy and limitations.",
         "A final reliability claim needs newly preselected independent tracks/artists, fixed model/thresholds, an overlap audit, and uncertainty estimates. The 90 old test tracks cannot be relabeled as unseen.",
         "The small coverage-enriched sample, incomplete uploader genre labels, only four target genres, and first-30-second cropping limit generalization to arbitrary uploads.",
-        "Weight license: CC BY-NC 4.0 as identified by the model card. Final distribution review for our code, the pretrained weights, classifier and example audio remains separate and incomplete.", "",
+        "Weight license: CC BY-NC 4.0 as identified by the model card. Distribution terms for project code, pretrained weights, classifiers, and example audio are handled separately.", "",
         "## Reproduce locally", "", "```bash", "python3 -m venv .venv-improve",
         ".venv-improve/bin/python -m pip install -r requirements-mert-lock.txt",
         ".venv-improve/bin/python prepare_mert.py", ".venv-improve/bin/python extract_mert.py pilot --device cpu",
@@ -104,6 +106,9 @@ def main():
     fig.suptitle("Same 90 development tracks; not an independent final test", fontsize=13)
     fig.savefig(OUT / "mert_comparison.png", dpi=160)
     plt.close(fig)
+    assets = ROOT / "docs/assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    copyfile(OUT / "mert_comparison.png", assets / "mert_comparison.png")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,8 @@
 
 Run date: 2026-08-28.
 
+Historical exact-source-tag experiment. Its 300/90 development split and validation-tuned thresholds differ from the expanded broad-label comparisons in [README.md](README.md#model-development-path).
+
 ## Scope
 
 One fixed comparison: 300 training tracks and 90 validation tracks; artist IDs are separated.
@@ -28,7 +30,7 @@ Do not compare this table with the 90-track test scores in RESULTS.md as if the 
 | ambient | 18 | 0.3189 | 0.3866 | 0.4412 | 0.4444 |
 | rock | 17 | 0.3906 | 0.3732 | 0.5000 | 0.4054 |
 
-!Validation comparison and pop threshold curve (`outputs/feature_comparison/comparison.png`, generated locally)
+![Validation comparison and pop threshold curve on the original 90 validation tracks](docs/assets/feature_comparison.png)
 
 ## Thresholds and errors
 

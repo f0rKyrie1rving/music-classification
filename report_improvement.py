@@ -3,6 +3,7 @@
 import json
 import os
 from pathlib import Path
+from shutil import copyfile
 
 ROOT = Path(__file__).resolve().parent
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".cache/matplotlib"))
@@ -29,6 +30,7 @@ def main():
             held_mean=float(np.mean([r["held_macro_ap"] for r in subset])),
             held_std=float(np.std([r["held_macro_ap"] for r in subset], ddof=0))))
     lines = ["# Performance improvement: development checkpoint", "", "Run date: 2026-08-28.", "",
+        "Historical exact-source-tag experiment on 300 training and 90 validation tracks. Its metrics are not directly comparable with the later 903/303 broad-label task; see the [development-stage comparison](README.md#model-development-path).", "",
         "## What ran", "",
         "Three artist-grouped folds on the original 300 training tracks; six predeclared logistic-regression settings.",
         "The scaler is fitted separately inside each fold. Model selection uses mean fold Macro AP; thresholds use out-of-fold training scores.",
@@ -56,7 +58,7 @@ def main():
     lines += ["", "Held-out mean AP improves with more training artists in this small experiment, but one fold is non-monotonic.",
         "This supports investigating data quantity/diversity; it does not establish a sample count that would yield 80% precision.",
         "High training scores on tiny subsets with much lower held-out scores show sensitivity to limited data. The curve does not isolate feature quality from label noise or sampling bias.", "",
-        "![Grouped learning curve and validation ranking](outputs/improvement/diagnosis.png)", "",
+        "![Grouped learning curve and ranking on the original 90 validation tracks](docs/assets/mfcc_diagnosis.png)", "",
         "## Existing validation set (90 tracks)", "",
         "| Model / threshold source | Macro AP | Micro-F1 | Macro-F1 |",
         "| --- | ---: | ---: | ---: |",
@@ -86,7 +88,7 @@ def main():
         "## Reproduce the completed diagnostic", "", "```bash", ".venv/bin/python improve_model.py mfcc",
         ".venv/bin/python report_improvement.py", ".venv/bin/python -m unittest discover -s tests -v", "```", "",
         "Requires existing prepared data and baseline artifacts. The split/parameter plan is already frozen; do not rerun the `freeze` action.",
-        "Local raw results: [metrics](outputs/improvement/mfcc_metrics.json), [scores](outputs/improvement/mfcc_scores.npz).", "",
+        "Local raw results: metrics (`outputs/improvement/mfcc_metrics.json`, generated locally), scores (`outputs/improvement/mfcc_scores.npz`, generated locally).", "",
         "Sources: [MERT model card](https://huggingface.co/m-a-p/MERT-v0-public), [MERT runtime warning](https://github.com/yizhilll/MERT), [scikit-learn learning curves](https://scikit-learn.org/stable/modules/learning_curve.html).", ""]
     (ROOT / "IMPROVEMENT.md").write_text("\n".join(lines))
     (OUT / "learning_curve_summary.json").write_text(json.dumps(grouped, indent=2) + "\n")
@@ -108,6 +110,9 @@ def main():
     fig.suptitle("Development evidence only — AP is not thresholded precision", fontsize=13)
     fig.savefig(OUT / "diagnosis.png", dpi=160)
     plt.close(fig)
+    assets = ROOT / "docs/assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    copyfile(OUT / "diagnosis.png", assets / "mfcc_diagnosis.png")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,8 @@
 
 Run date: 2026-08-28.
 
+Historical exact-source-tag experiment on 300 training and 90 validation tracks. Its metrics are not directly comparable with the later 903/303 broad-label task; see the [development-stage comparison](README.md#model-development-path).
+
 ## What ran
 
 Three artist-grouped folds on the original 300 training tracks; six predeclared logistic-regression settings.
@@ -41,7 +43,7 @@ Held-out mean AP improves with more training artists in this small experiment, b
 This supports investigating data quantity/diversity; it does not establish a sample count that would yield 80% precision.
 High training scores on tiny subsets with much lower held-out scores show sensitivity to limited data. The curve does not isolate feature quality from label noise or sampling bias.
 
-!Grouped learning curve and validation ranking (`outputs/improvement/diagnosis.png`, generated locally)
+![Grouped learning curve and ranking on the original 90 validation tracks](docs/assets/mfcc_diagnosis.png)
 
 ## Existing validation set (90 tracks)
 

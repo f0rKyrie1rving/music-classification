@@ -2,6 +2,8 @@
 
 Development run: 2026-08-28.
 
+Historical exact-source-tag experiment on 300 training and 90 validation tracks. Its metrics are not directly comparable with the later 903/303 broad-label task; see the [development-stage comparison](README.md#model-development-path).
+
 ## Question and scope
 
 Does a frozen pretrained music representation improve this small four-genre tagging task over MFCC statistics?
@@ -45,7 +47,7 @@ The MFCC row here is the newly selected MFCC head with OOF thresholds, not the o
 | ambient | 18 | 0.321 | 0.414 | 0.500 | 0.667 | 0.315 | 0.496 |
 | rock | 17 | 0.538 | 0.643 | 0.412 | 0.529 | 0.461 | 0.602 |
 
-!Development precision and recall (`outputs/improvement/mert_comparison.png`, generated locally)
+![MFCC versus MERT precision and recall on the original 90 validation tracks](docs/assets/mert_comparison.png)
 
 ## Precision-oriented operating point
 

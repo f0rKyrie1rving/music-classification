@@ -5,9 +5,9 @@ An academic music-information-retrieval portfolio project that tags the first
 **ambient**, and **rock**. The final system uses a frozen pretrained
 Discogs-MAEST encoder and four locally trained logistic-regression heads.
 
-The project began with a 26-feature MFCC baseline, compared increasingly
-capable frozen music representations under a fixed evaluation protocol, and
-finished with a one-time artist-disjoint holdout evaluation. It is a research
+The project began with a 26-feature MFCC baseline, compared frozen music
+representations in separately documented development stages, and finished
+with a one-time artist-disjoint holdout evaluation. It is a research
 prototype with an honest error analysis, not a claim of production accuracy.
 
 **Author:** Chenglin Song（宋承麟）
@@ -84,6 +84,13 @@ contains only scaler parameters, linear coefficients, intercepts, thresholds,
 and provenance. It is loaded with `allow_pickle=False`; users do not need to
 retrain the heads. Pretrained MAEST weights and source audio are not included.
 
+The seventh-block CLS/DIST/signal-mean representation follows the
+[MAEST authors' extraction example](https://github.com/palonso/MAEST#using-maest-in-your-code);
+it was fixed before this project's MAEST evaluation, not selected by a local
+layer or pooling search. The [design rationale](docs/DESIGN_RATIONALE.md)
+explains this choice, the linear heads, metrics, artist grouping, background
+tracks, and the limits of the evaluation.
+
 ## Data and experimental boundary
 
 The source is the [MTG-Jamendo Dataset](https://github.com/MTG/mtg-jamendo-dataset).
@@ -104,7 +111,10 @@ The final experiment used:
 No artist appears in both the final-fit and holdout partitions. The subset is
 purposefully enriched for the four targets and is not the official benchmark
 distribution. Full provenance, acquisition checks, label mapping, and license
-information are in [data/DATASET.md](data/DATASET.md).
+information for the original subset are in [data/DATASET.md](data/DATASET.md).
+The [expansion protocol](experiments/DATA_EXPANSION_PROTOCOL.md) and
+[broad-label protocol](experiments/EXPANDED_MODEL_PROTOCOL.md) document the
+larger subset and the target mapping used by the final model.
 
 ## Results
 
@@ -134,19 +144,51 @@ result. See [BLIND_REVIEW_RESULTS.md](BLIND_REVIEW_RESULTS.md).
 
 ## Model-development path
 
-| Representation | Development micro-F1 | Development macro AP | Decision |
+These are two different development tasks. Compare rows **within** a table;
+differences **between** tables do not isolate an improvement from the encoder,
+because the data, label definition, and selection procedure also changed.
+
+### Early comparison: 300 training / 90 validation tracks, exact source tags
+
+Both rows use the same tracks, three artist-grouped training folds, six
+logistic settings, and thresholds selected on training out-of-fold (OOF)
+predictions. A target is positive only when its exact tag occurs in the source
+annotations; there is no broad-subgenre mapping in this stage.
+
+| Representation | Validation micro-F1 | Validation macro AP | Report |
 | --- | ---: | ---: | --- |
-| MFCC baseline | 0.517 | 0.424 | Interpretable starting point |
-| MERT-v0, expanded data | 0.502 | 0.524 | Better ranking, weaker F1 |
-| MERT-v1, expanded data | 0.517 | 0.535 | Small improvement |
-| Discogs-MAEST | **0.578** | **0.573** | Selected before final holdout |
+| MFCC + selected head | 0.517 | 0.424 | [MFCC vs MERT](MERT_RESULTS.md) |
+| MERT-v0 + selected head | 0.563 | 0.533 | [MFCC vs MERT](MERT_RESULTS.md) |
+
+This MFCC row is the later CV-selected head, not the original default baseline
+with validation-tuned thresholds. The original baseline's separate 90-track
+historical **test** result is micro-F1 0.480 and macro AP 0.451 in
+[RESULTS.md](RESULTS.md); that test set is not the 90-track validation set above.
+
+### Expanded comparison: 903 training / 303 validation tracks, broad labels
+
+All three rows use the same expanded tracks, broad-subgenre mapping, five
+artist-grouped training folds, six logistic settings, and training-OOF threshold
+rules. MERT layers are selected inside training CV; MAEST uses one fixed
+official representation. These are development comparisons of the declared
+pipelines, not a claim that every encoder had an identical representation search.
+
+| Representation | Validation micro-F1 | Validation macro AP | Report |
+| --- | ---: | ---: | --- |
+| MERT-v0 | 0.502 | 0.524 | [Expanded development](EXPANDED_RESULTS.md) |
+| MERT-v1 | 0.517 | 0.535 | [MERT-v1](MERT_V1_RESULTS.md) |
+| Discogs-MAEST | **0.578** | **0.573** | [MAEST](MAEST_RESULTS.md) |
+
+MAEST was selected before the final 239-track holdout. None of the development
+rows above is a new independent test result. The selected MAEST heads were
+then refitted on all 1,206 development tracks for the separately reported
+[final evaluation](FINAL_RESULTS.md).
 
 The original baseline summarizes 13 MFCCs over time with a mean and standard
 deviation, producing 26 features. Later experiments keep the linear heads but
 replace handcrafted features with frozen pretrained music representations.
-Detailed reports are available in [RESULTS.md](RESULTS.md),
-[MERT_RESULTS.md](MERT_RESULTS.md), [MERT_V1_RESULTS.md](MERT_V1_RESULTS.md),
-and [MAEST_RESULTS.md](MAEST_RESULTS.md).
+The earlier [handcrafted-feature comparison](EXPERIMENTS.md) and
+[MFCC diagnostic](IMPROVEMENT.md) retain their original experimental scope.
 
 ## Repository guide
 
@@ -160,6 +202,9 @@ and [MAEST_RESULTS.md](MAEST_RESULTS.md).
 | `experiments/` | Frozen protocols and model-selection records |
 | `tests/` | Synthetic numerical, split-integrity, and input checks |
 | `FINAL_RESULTS.md` | Formal holdout report |
+| `docs/DESIGN_RATIONALE.md` | Design choices, evidence, and limits |
+| `docs/ROADMAP.md` | Completed documentation fixes and planned improvements |
+| `docs/assets/` | Published report figures and their provenance |
 
 Development scripts and intermediate reports are retained to show how the
 final decision was reached. Downloaded audio, pretrained weights, feature
