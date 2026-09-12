@@ -38,9 +38,9 @@ def main():
     axes[1].set(title="Primary four-label policy", ylabel="Score", ylim=(0, 1))
     axes[1].grid(axis="y", alpha=0.2)
 
-    figure.suptitle("Discogs-MAEST independent holdout evaluation", fontsize=15, weight="bold")
+    figure.suptitle("Discogs-MAEST final holdout evaluation", fontsize=15, weight="bold")
     figure.text(0.5, -0.015,
-                "239 tracks · 89 unseen artists · frozen thresholds · source-label evaluation",
+                "239 tracks · 89 artists excluded from fitting · prior exposure disclosed in report",
                 ha="center", color="#555555")
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     figure.savefig(OUTPUT, dpi=180, bbox_inches="tight", facecolor="white")

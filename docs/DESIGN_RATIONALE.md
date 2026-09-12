@@ -68,11 +68,13 @@ unbiased final estimate after model and threshold selection. The
 [README comparison](../README.md#model-development-path) separates these stages.
 
 Final MAEST fitting used all 1,206 development tracks while retaining the
-already selected settings and thresholds. The independent 239-track evaluation
+already selected settings and thresholds. The 239-track holdout evaluation
 tested that refitted model; it did not provide another tuning opportunity.
 The 80% precision target was not achieved. Classifier scores remain explicitly
 uncalibrated, including the ambient head fitted with balanced class weighting.
-See [FINAL_RESULTS.md](../FINAL_RESULTS.md).
+See [FINAL_RESULTS.md](../FINAL_RESULTS.md) and the
+[review supplement](../EVALUATION_REVIEW.md) for prior exposure, question order,
+and the change from artist-grouped uncertainty to the original track bootstrap.
 
 ## Why group by artist?
 

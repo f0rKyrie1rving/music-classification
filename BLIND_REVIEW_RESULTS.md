@@ -1,9 +1,16 @@
-# Final blind perceptual-check results
+# Final perceptual-check results
 
 Review completed on 2026-08-30. The 40 queries were frozen before final
 holdout scoring. For each of four labels, the set deliberately contains five
 source-positive and five source-negative tracks. During listening, the reviewer
 saw only the queried label and audio, and answered `yes`, `no`, or `uncertain`.
+
+Order disclosure added 2026-09-12: for each label, the five source-positive
+questions came before the five source-negative questions, and the interface
+followed that order. A reviewer familiar with the protocol could infer source
+targets despite their being hidden on screen. This is an order-structured
+single-reviewer audit; the records do not establish whether order influenced
+the answers. Original queries, answers, counts and results are retained.
 
 ## Results
 
@@ -45,6 +52,7 @@ This is a secondary qualitative audit, not a new headline accuracy estimate:
 - the 40 queries are balanced by source target rather than sampled according
   to real-world tag prevalence;
 - there is one reviewer, and broad genres have subjective boundaries;
+- source targets may be inferred from the predictable presentation order;
 - each query asks about one label rather than requesting complete annotation;
 - the sample is only ten queries per label, with four uncertain answers;
 - no answer is used to change the evaluated model or its thresholds.

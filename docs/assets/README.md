@@ -19,5 +19,7 @@ They render stored results without fitting classifiers or producing new model
 predictions. Some generators also validate the original data and frozen hashes;
 their other required inputs remain described in the respective reports.
 
-Raw metrics, feature caches, and prediction files remain local. Only the report
-images are included here; this does not change audio or model distribution.
+Feature caches and working prediction files remain local. The curated final
+evaluation package is now published in [data/evaluation](../../data/evaluation/README.md).
+The final figure's caption was corrected on 2026-09-12 to distinguish exclusion
+from fitting from absence of all historical exposure; its metric values are unchanged.

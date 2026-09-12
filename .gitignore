@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 .venv-demo/
 .venv-release-check/
+.venv-evaluation/
 .venv-improve/
 .venv-maest/
 .pytest_cache/
@@ -14,8 +15,13 @@ outputs/
 LEARNING_NOTES.md
 PROJECT_BRIEF.md
 
-# Downloaded source material stays local; curated manifests and notes can be shared.
-data/source/
+# Audio/receipts stay local; the five frozen metadata/index snapshots are shared.
+data/source/*
+!data/source/training_pool.json
+!data/source/archive_index_00.json
+!data/source/archive_index_01.json
+!data/source/archive_index_02.json
+!data/source/archive_index_03.json
 data/raw/
 data/previews/*
 !data/previews/track_0207501_30s.wav

@@ -1,0 +1,432 @@
+{
+  "candidate": "mtg-upf/discogs-maest-30s-pw-129e-519l",
+  "plan_sha256": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+  "development_feature_sha256": "cfb693735b4affcd966375926026fb39c45348bb60d19cef8e244ac436aeca52",
+  "holdout_feature_sha256": "39217b8c7fd148405d813f7b4249eed3f7099cf2194430a452efa50632b74211",
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "fit_count": 1206,
+  "holdout_count": 239,
+  "historical_test_prediction_count": 0,
+  "new_holdout_prediction_count": 239,
+  "selected": [
+    {
+      "label": "electronic",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": null
+      }
+    },
+    {
+      "label": "pop",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": null
+      }
+    },
+    {
+      "label": "ambient",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "label": "rock",
+      "representation": "maest_block07_cls_dist_signal_mean",
+      "config": {
+        "C": 0.001,
+        "class_weight": null
+      }
+    }
+  ],
+  "thresholds": {
+    "f1": [
+      0.39999999999999997,
+      0.27499999999999997,
+      0.37499999999999994,
+      0.27499999999999997
+    ],
+    "precision_target": [
+      0.625,
+      1.01,
+      1.01,
+      0.525
+    ]
+  },
+  "precision_supported": [
+    true,
+    false,
+    false,
+    true
+  ],
+  "versions": {
+    "numpy": "2.5.2",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "joblib": "1.5.3"
+  },
+  "holdout": {
+    "f1": {
+      "micro_precision": 0.49838187702265374,
+      "micro_recall": 0.7549019607843137,
+      "micro_f1": 0.6003898635477583,
+      "macro_precision": 0.5078451184074284,
+      "macro_recall": 0.7508333333333334,
+      "macro_f1": 0.599527041240116,
+      "macro_ap": 0.5939194741335702,
+      "track_output_coverage": 0.8619246861924686,
+      "tracks_with_output": 206,
+      "per_label": [
+        {
+          "label": "electronic",
+          "positives": 70,
+          "tp": 56,
+          "fp": 38,
+          "fn": 14,
+          "predictions": 94,
+          "precision": 0.5957446808510638,
+          "recall": 0.8,
+          "f1": 0.6829268292682927,
+          "average_precision": 0.7492764137362145
+        },
+        {
+          "label": "pop",
+          "positives": 50,
+          "tp": 31,
+          "fp": 31,
+          "fn": 19,
+          "predictions": 62,
+          "precision": 0.5,
+          "recall": 0.62,
+          "f1": 0.5535714285714285,
+          "average_precision": 0.5060454685927395
+        },
+        {
+          "label": "ambient",
+          "positives": 48,
+          "tp": 40,
+          "fp": 64,
+          "fn": 8,
+          "predictions": 104,
+          "precision": 0.38461538461538464,
+          "recall": 0.8333333333333334,
+          "f1": 0.5263157894736842,
+          "average_precision": 0.44415144265342765
+        },
+        {
+          "label": "rock",
+          "positives": 36,
+          "tp": 27,
+          "fp": 22,
+          "fn": 9,
+          "predictions": 49,
+          "precision": 0.5510204081632653,
+          "recall": 0.75,
+          "f1": 0.6352941176470588,
+          "average_precision": 0.6762045715518993
+        }
+      ],
+      "provisional_goal_met": false
+    },
+    "precision_target": {
+      "micro_precision": 0.6781609195402298,
+      "micro_recall": 0.28921568627450983,
+      "micro_f1": 0.4054982817869416,
+      "macro_precision": 0.34259259259259256,
+      "macro_recall": 0.2748015873015873,
+      "macro_f1": 0.30463980463980467,
+      "macro_ap": 0.5939194741335702,
+      "track_output_coverage": 0.36401673640167365,
+      "tracks_with_output": 87,
+      "per_label": [
+        {
+          "label": "electronic",
+          "positives": 70,
+          "tp": 40,
+          "fp": 20,
+          "fn": 30,
+          "predictions": 60,
+          "precision": 0.6666666666666666,
+          "recall": 0.5714285714285714,
+          "f1": 0.6153846153846153,
+          "average_precision": 0.7492764137362145
+        },
+        {
+          "label": "pop",
+          "positives": 50,
+          "tp": 0,
+          "fp": 0,
+          "fn": 50,
+          "predictions": 0,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "average_precision": 0.5060454685927395
+        },
+        {
+          "label": "ambient",
+          "positives": 48,
+          "tp": 0,
+          "fp": 0,
+          "fn": 48,
+          "predictions": 0,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "average_precision": 0.44415144265342765
+        },
+        {
+          "label": "rock",
+          "positives": 36,
+          "tp": 19,
+          "fp": 8,
+          "fn": 17,
+          "predictions": 27,
+          "precision": 0.7037037037037037,
+          "recall": 0.5277777777777778,
+          "f1": 0.6031746031746033,
+          "average_precision": 0.6762045715518993
+        }
+      ],
+      "provisional_goal_met": false
+    }
+  },
+  "confidence_intervals": {
+    "f1": {
+      "method": "track bootstrap percentile interval",
+      "confidence": 0.95,
+      "replicates": 2000,
+      "seed": 20260830,
+      "overall": {
+        "micro_precision": [
+          0.4444444444444444,
+          0.5529889624724061
+        ],
+        "micro_recall": [
+          0.695182486631016,
+          0.8181818181818182
+        ],
+        "micro_f1": [
+          0.5486843271580707,
+          0.6505685446735279
+        ],
+        "macro_precision": [
+          0.45029443377099165,
+          0.5659494073207795
+        ],
+        "macro_recall": [
+          0.6879076891625441,
+          0.8155623421707375
+        ],
+        "macro_f1": [
+          0.5420513028390969,
+          0.650124667916431
+        ],
+        "macro_ap": [
+          0.5375801934506549,
+          0.6711830686177184
+        ],
+        "track_output_coverage": [
+          0.8200836820083682,
+          0.9037656903765691
+        ]
+      },
+      "per_label": {
+        "electronic": {
+          "precision": [
+            0.4946207018787664,
+            0.7
+          ],
+          "recall": [
+            0.701455223880597,
+            0.890625
+          ],
+          "f1": [
+            0.5945945945945946,
+            0.7640614672835425
+          ],
+          "average_precision": [
+            0.6509015099585487,
+            0.836741165677213
+          ]
+        },
+        "pop": {
+          "precision": [
+            0.3728730475240944,
+            0.625
+          ],
+          "recall": [
+            0.4888888888888889,
+            0.7555555555555555
+          ],
+          "f1": [
+            0.4329896907216495,
+            0.6597938144329897
+          ],
+          "average_precision": [
+            0.393438125627619,
+            0.6536824278670735
+          ]
+        },
+        "ambient": {
+          "precision": [
+            0.29464285714285715,
+            0.48000980392156856
+          ],
+          "recall": [
+            0.7209302325581395,
+            0.9333333333333333
+          ],
+          "f1": [
+            0.4274556578356533,
+            0.618430139575458
+          ],
+          "average_precision": [
+            0.3326441488083348,
+            0.5852445398335986
+          ]
+        },
+        "rock": {
+          "precision": [
+            0.4,
+            0.6944562146892654
+          ],
+          "recall": [
+            0.6,
+            0.8918918918918919
+          ],
+          "f1": [
+            0.4941023682200153,
+            0.7446912807676264
+          ],
+          "average_precision": [
+            0.5202874357249121,
+            0.8439522591358046
+          ]
+        }
+      }
+    },
+    "precision_target": {
+      "method": "track bootstrap percentile interval",
+      "confidence": 0.95,
+      "replicates": 2000,
+      "seed": 20260831,
+      "overall": {
+        "micro_precision": [
+          0.5769021739130434,
+          0.7717638339920947
+        ],
+        "micro_recall": [
+          0.23151781072851943,
+          0.34977273881468685
+        ],
+        "micro_f1": [
+          0.33581953371827,
+          0.47138997952951445
+        ],
+        "macro_precision": [
+          0.28898561507936504,
+          0.3918269230769231
+        ],
+        "macro_recall": [
+          0.2235335497835498,
+          0.32589986398624843
+        ],
+        "macro_f1": [
+          0.2559946437951553,
+          0.3452804979518689
+        ],
+        "macro_ap": [
+          0.5400774337128786,
+          0.6707732090381134
+        ],
+        "track_output_coverage": [
+          0.3054393305439331,
+          0.42677824267782427
+        ]
+      },
+      "per_label": {
+        "electronic": {
+          "precision": [
+            0.546875,
+            0.782608695652174
+          ],
+          "recall": [
+            0.4561339009287925,
+            0.6911764705882353
+          ],
+          "f1": [
+            0.5132743362831858,
+            0.708341535433071
+          ],
+          "average_precision": [
+            0.6558431150848139,
+            0.8342304039507107
+          ]
+        },
+        "pop": {
+          "precision": [
+            0,
+            0
+          ],
+          "recall": [
+            0,
+            0
+          ],
+          "f1": [
+            0,
+            0
+          ],
+          "average_precision": [
+            0.38791093211369443,
+            0.6595836932612668
+          ]
+        },
+        "ambient": {
+          "precision": [
+            0,
+            0
+          ],
+          "recall": [
+            0,
+            0
+          ],
+          "f1": [
+            0,
+            0
+          ],
+          "average_precision": [
+            0.3298136141979851,
+            0.5786251768680932
+          ]
+        },
+        "rock": {
+          "precision": [
+            0.519962962962963,
+            0.8695652173913043
+          ],
+          "recall": [
+            0.35135135135135137,
+            0.6857142857142857
+          ],
+          "f1": [
+            0.43636363636363634,
+            0.727334152334152
+          ],
+          "average_precision": [
+            0.5250938232596766,
+            0.8378108132406369
+          ]
+        }
+      }
+    }
+  }
+}

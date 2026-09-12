@@ -1,6 +1,6 @@
 # Improvement roadmap
 
-Updated 2026-08-31. This is a work list, not a frozen experimental protocol.
+Updated 2026-09-12. This is a work list, not a frozen experimental protocol.
 The existing MAEST release artifact, source-label results, and single-reviewer
 audit remain the historical baseline. A pending item does not imply that the
 work has been performed or that it will improve the model.
@@ -22,6 +22,19 @@ pixel for pixel. Local documentation links were checked and 97 protected files
 retained their hashes. No model was retrained and no new predictions were made.
 
 ## Repository maintenance
+
+Review repairs completed 2026-09-12:
+
+- [x] Protect the completed development listening sheet from diagnostic reruns.
+- [x] Disclose historical holdout exposure and predictable listening order.
+- [x] Preserve baseline hashes without refreezing historical plans.
+- [x] Publish all final scores/targets/decisions and archived metrics, with an
+  audio-free recalculation command.
+- [x] Include exact source-pool/index snapshots and a separate fixed-final-model
+  replay with timing separated from feature provenance.
+- [x] Add post-hoc track/artist exclusions for the learning sample, retaining
+  the original 239-track result. See [review supplement](../EVALUATION_REVIEW.md)
+  and [reproduction scope](../REPRODUCTION.md).
 
 - [ ] Tag or release a verified baseline before reorganizing code. Retain its
   environment and reproduction instructions; do not rewrite experiment history.
@@ -51,7 +64,7 @@ retained their hashes. No model was retrained and no new predictions were made.
 
 ## Statistical uncertainty and independent evaluation
 
-- [ ] Add artist-cluster bootstrap as a supplementary analysis: sample artists
+- [x] Add artist-cluster bootstrap as a supplementary analysis: sample artists
   with replacement and retain their tracks together. Declare whether metrics
   weight tracks or artists, the seed, number of replicates, interval method,
   and treatment of replicates with no positives or no predictions for a label.

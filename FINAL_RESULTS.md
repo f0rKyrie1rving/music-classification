@@ -1,14 +1,14 @@
 # Final Discogs-MAEST holdout results
 
 Final run: 2026-08-30. The model, thresholds, holdout IDs, and reporting rules
-were frozen before holdout audio acquisition or scoring. No holdout result was
+were frozen before final MAEST holdout scoring. No holdout result was
 used to change the evaluated system.
 
 ## Evaluation boundary
 
 - Final fit: all 1,206 development tracks (903 train and 303 development
   validation), comprising 469 artists.
-- Independent holdout: 239 previously untouched tracks from 89 different
+- Final holdout: 239 tracks from 89 different
   artists, with no artist overlap with the fit rows.
 - Historical test: 90 previously observed tracks, excluded from final fitting,
   feature extraction, and prediction.
@@ -17,6 +17,14 @@ used to change the evaluated system.
 - Representation: fixed 2,304-value Discogs-MAEST block-7 CLS, DIST, and mean
   signal-token vector.
 - Heads and thresholds: copied exactly from development; no holdout tuning.
+
+Review addendum (2026-09-12): 40 of these artists also appeared in the previously
+observed historical test, accounting for 150 holdout tracks. `track_0543400` was
+already downloaded and processed as a learning/decoding sample. It was excluded
+from the original 480-track subset but reintroduced during expansion. No holdout
+artist occurs in the final fit; this does not establish that all holdout tracks
+and artists were previously unobserved. The original scores and all 239 rows
+are retained. See [post-hoc exposure and uncertainty checks](EVALUATION_REVIEW.md).
 
 The frozen protocol is in
 [`experiments/FINAL_HOLDOUT_PROTOCOL.md`](experiments/FINAL_HOLDOUT_PROTOCOL.md).
@@ -48,7 +56,10 @@ Track-bootstrap 95% intervals using the frozen 2,000 replicates were:
 
 These intervals describe holdout sampling variability. They do not account for
 source-label incompleteness, reviewer subjectivity, or unknown MAEST pretraining
-overlap.
+overlap. They also treat tracks as independent sampling units. The earlier
+expansion protocol promised artist-grouped uncertainty, while the final protocol
+specified track bootstrap before scoring. This protocol change and supplementary
+artist-cluster intervals are documented in [EVALUATION_REVIEW.md](EVALUATION_REVIEW.md).
 
 ## Secondary electronic/rock selective policy
 
@@ -69,7 +80,7 @@ so this policy must not be presented as an 80%-precision mode.
 
 ## Development-to-holdout comparison
 
-| Primary-policy metric | Development validation | Independent holdout |
+| Primary-policy metric | Development validation | Final holdout |
 | --- | ---: | ---: |
 | micro precision | 0.512 | 0.498 |
 | micro recall | 0.663 | 0.755 |
@@ -98,8 +109,10 @@ precision problem; pop ranking was better on holdout than on development.
 
 Generated local artifacts include `holdout_predictions.csv`,
 `holdout_scores.npz`, and `final_broad_genre_model.joblib` under
-`outputs/final_maest/`. Audio, features, predictions, and trained models remain
-excluded from Git.
+`outputs/final_maest/`. Audio and feature caches remain local. A curated copy of
+all targets, scores, decisions and original metrics is now available in
+[`data/evaluation/`](data/evaluation/README.md), with `evaluate_release.py` for
+independent recalculation. The original artifact digests above remain historical.
 
 ## Interpretation and decision
 
@@ -117,4 +130,6 @@ answers were decisive, source targets agreed with the reviewer on 25/36
 reviewer's decisive answers, descriptive model precision was 13/17 = 76.5%.
 These balanced, single-reviewer counts are qualitative evidence rather than a
 replacement accuracy estimate, and they were not used for tuning. See the
-[blind perceptual-check report](BLIND_REVIEW_RESULTS.md).
+[perceptual-check report](BLIND_REVIEW_RESULTS.md). The reviewer interface hid
+source targets and model outputs, but question order could reveal source-target
+strata; this was an order-structured single-reviewer audit.

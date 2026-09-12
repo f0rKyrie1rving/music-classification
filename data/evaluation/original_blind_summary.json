@@ -1,0 +1,192 @@
+{
+  "purpose": "secondary single-reviewer perceptual check; not model tuning or a population estimate",
+  "selection": "five source-positive and five source-negative queries per label, frozen before scoring",
+  "uncertain_policy": "exclude uncertain answers from human-agreement denominators",
+  "input_sha256": {
+    "final_holdout_plan": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+    "completed_blind_review": "8a3bd3c209f4efcd96dff534f3353802e48c8c6172df4781bf126a2e964103c6",
+    "holdout_predictions": "7949b0ee53d1afab5c1e8fd5a10fa37ded2a968aa44c2958bb398a19ce82f962"
+  },
+  "overall": {
+    "queries": 40,
+    "human_yes": 16,
+    "human_no": 20,
+    "human_uncertain": 4,
+    "decisive_queries": 36,
+    "source_human_agreement_count": 25,
+    "source_human_agreement_rate_decisive": 0.6944444444444444,
+    "model_human_agreement_count": 29,
+    "model_human_agreement_rate_decisive": 0.8055555555555556,
+    "model_source_agreement_count": 30,
+    "model_source_agreement_rate": 0.75,
+    "model_human_confusion_decisive": {
+      "tp": 13,
+      "fp": 4,
+      "fn": 3,
+      "tn": 16
+    },
+    "model_human_precision_decisive": 0.7647058823529411,
+    "model_human_recall_decisive": 0.8125,
+    "model_human_f1_decisive": 0.7878787878787878,
+    "source_strata": {
+      "0": {
+        "queries": 20,
+        "human_yes": 4,
+        "human_no": 13,
+        "human_uncertain": 3
+      },
+      "1": {
+        "queries": 20,
+        "human_yes": 12,
+        "human_no": 7,
+        "human_uncertain": 1
+      }
+    }
+  },
+  "by_label": {
+    "electronic": {
+      "queries": 10,
+      "human_yes": 1,
+      "human_no": 8,
+      "human_uncertain": 1,
+      "decisive_queries": 9,
+      "source_human_agreement_count": 5,
+      "source_human_agreement_rate_decisive": 0.5555555555555556,
+      "model_human_agreement_count": 5,
+      "model_human_agreement_rate_decisive": 0.5555555555555556,
+      "model_source_agreement_count": 7,
+      "model_source_agreement_rate": 0.7,
+      "model_human_confusion_decisive": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 0,
+        "tn": 4
+      },
+      "model_human_precision_decisive": 0.2,
+      "model_human_recall_decisive": 1,
+      "model_human_f1_decisive": 0.3333333333333333,
+      "source_strata": {
+        "0": {
+          "queries": 5,
+          "human_yes": 0,
+          "human_no": 4,
+          "human_uncertain": 1
+        },
+        "1": {
+          "queries": 5,
+          "human_yes": 1,
+          "human_no": 4,
+          "human_uncertain": 0
+        }
+      }
+    },
+    "pop": {
+      "queries": 10,
+      "human_yes": 4,
+      "human_no": 5,
+      "human_uncertain": 1,
+      "decisive_queries": 9,
+      "source_human_agreement_count": 7,
+      "source_human_agreement_rate_decisive": 0.7777777777777778,
+      "model_human_agreement_count": 7,
+      "model_human_agreement_rate_decisive": 0.7777777777777778,
+      "model_source_agreement_count": 7,
+      "model_source_agreement_rate": 0.7,
+      "model_human_confusion_decisive": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 2,
+        "tn": 5
+      },
+      "model_human_precision_decisive": 1,
+      "model_human_recall_decisive": 0.5,
+      "model_human_f1_decisive": 0.6666666666666666,
+      "source_strata": {
+        "0": {
+          "queries": 5,
+          "human_yes": 1,
+          "human_no": 4,
+          "human_uncertain": 0
+        },
+        "1": {
+          "queries": 5,
+          "human_yes": 3,
+          "human_no": 1,
+          "human_uncertain": 1
+        }
+      }
+    },
+    "ambient": {
+      "queries": 10,
+      "human_yes": 5,
+      "human_no": 5,
+      "human_uncertain": 0,
+      "decisive_queries": 10,
+      "source_human_agreement_count": 8,
+      "source_human_agreement_rate_decisive": 0.8,
+      "model_human_agreement_count": 10,
+      "model_human_agreement_rate_decisive": 1,
+      "model_source_agreement_count": 8,
+      "model_source_agreement_rate": 0.8,
+      "model_human_confusion_decisive": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "tn": 5
+      },
+      "model_human_precision_decisive": 1,
+      "model_human_recall_decisive": 1,
+      "model_human_f1_decisive": 1,
+      "source_strata": {
+        "0": {
+          "queries": 5,
+          "human_yes": 1,
+          "human_no": 4,
+          "human_uncertain": 0
+        },
+        "1": {
+          "queries": 5,
+          "human_yes": 4,
+          "human_no": 1,
+          "human_uncertain": 0
+        }
+      }
+    },
+    "rock": {
+      "queries": 10,
+      "human_yes": 6,
+      "human_no": 2,
+      "human_uncertain": 2,
+      "decisive_queries": 8,
+      "source_human_agreement_count": 5,
+      "source_human_agreement_rate_decisive": 0.625,
+      "model_human_agreement_count": 7,
+      "model_human_agreement_rate_decisive": 0.875,
+      "model_source_agreement_count": 8,
+      "model_source_agreement_rate": 0.8,
+      "model_human_confusion_decisive": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "tn": 2
+      },
+      "model_human_precision_decisive": 1,
+      "model_human_recall_decisive": 0.8333333333333334,
+      "model_human_f1_decisive": 0.9090909090909091,
+      "source_strata": {
+        "0": {
+          "queries": 5,
+          "human_yes": 2,
+          "human_no": 1,
+          "human_uncertain": 2
+        },
+        "1": {
+          "queries": 5,
+          "human_yes": 4,
+          "human_no": 1,
+          "human_uncertain": 0
+        }
+      }
+    }
+  }
+}

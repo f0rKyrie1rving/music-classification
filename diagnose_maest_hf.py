@@ -15,6 +15,7 @@ from prepare_dataset import save_json
 
 
 ROOT = Path(__file__).resolve().parent
+REVIEW = ROOT / "data/maest_error_listening_review.csv"
 NEIGHBOURS = {
     "electronic": {"dance", "experimental", "industrial"},
     "pop": {"chanson", "indie", "singersongwriter"},
@@ -70,7 +71,25 @@ def error_audit(rows, y, scores, thresholds):
     return summaries, cases
 
 
+def write_listening_review(cases, path=REVIEW):
+    """Create a new sheet exclusively; never replace existing human work."""
+    fields = ("label", "error_type", "severity_rank", "track_id", "artist", "title", "score",
+              "threshold", "source_tags", "neighbour_tags", "audio_file", "auditor_hears_label",
+              "auditor_reason")
+    with Path(path).open("x", newline="", encoding="utf-8") as file:
+        writer = csv.DictWriter(file, fieldnames=fields)
+        writer.writeheader()
+        for row in cases:
+            writer.writerow({**{key: row.get(key, "") for key in fields},
+                             "source_tags": ";".join(row["source_tags"]),
+                             "neighbour_tags": ";".join(row["neighbour_tags"])})
+
+
 def main():
+    # Fail before expensive diagnostics or any output writes. Exclusive creation
+    # below also prevents a concurrent writer from being overwritten.
+    if REVIEW.exists():
+        raise FileExistsError(f"Listening sheet already exists; preserving it unchanged: {REVIEW}")
     plan = load_plan(); _, rows, y, groups = load_development(); values = load_features(plan, rows)
     metrics = json.loads((OUT / "development_metrics.json").read_text())
     with np.load(OUT / "development_scores.npz", allow_pickle=False) as data:
@@ -96,16 +115,8 @@ def main():
               "learning_curve": curve, "learning_curve_summary": curve_summary,
               "heuristic_neighbours": {k: sorted(v) for k, v in NEIGHBOURS.items()},
               "error_summary": audit, "listening_cases": cases}
+    write_listening_review(cases)
     save_json(OUT / "post_outcome_diagnostic.json", result)
-    fields = ("label", "error_type", "severity_rank", "track_id", "artist", "title", "score",
-              "threshold", "source_tags", "neighbour_tags", "audio_file", "auditor_hears_label",
-              "auditor_reason")
-    with (ROOT / "data/maest_error_listening_review.csv").open("w", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=fields); writer.writeheader()
-        for row in cases:
-            writer.writerow({**{key: row.get(key, "") for key in fields},
-                             "source_tags": ";".join(row["source_tags"]),
-                             "neighbour_tags": ";".join(row["neighbour_tags"])})
     print(json.dumps({"top_k_validation": top_k, "learning_curve_summary": curve_summary,
                       "error_summary": audit, "listening_cases": len(cases)}, indent=2))
 

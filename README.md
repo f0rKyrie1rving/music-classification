@@ -20,7 +20,7 @@ prototype with an honest error analysis, not a claim of production accuracy.
 - audio preprocessing and frozen representation extraction;
 - artist-disjoint development and evaluation to reduce identity leakage;
 - validation-only model and threshold selection;
-- a final 239-track holdout opened only after the protocol was frozen;
+- a final 239-track holdout scored after the protocol was frozen, with prior exposure disclosed;
 - quantitative evaluation plus a separately frozen listening review;
 - a local command that accepts a user's WAV, FLAC, OGG, or supported MP3 file.
 
@@ -105,7 +105,7 @@ The final experiment used:
 | Training | 903 | Fit development candidates |
 | Development validation | 303 | Compare frozen representations and policies |
 | Final fit | 1,206 | Refit the selected heads before holdout scoring |
-| Independent holdout | 239 | One-time evaluation on 89 unseen artists |
+| Final holdout | 239 | Evaluation on 89 artists excluded from final fitting |
 | Historical test excluded | 90 | Kept out because earlier results were already observed |
 
 No artist appears in both the final-fit and holdout partitions. The subset is
@@ -115,6 +115,14 @@ information for the original subset are in [data/DATASET.md](data/DATASET.md).
 The [expansion protocol](experiments/DATA_EXPANSION_PROTOCOL.md) and
 [broad-label protocol](experiments/EXPANDED_MODEL_PROTOCOL.md) document the
 larger subset and the target mapping used by the final model.
+
+Of the 89 holdout artists, 40 also appeared in the previously observed historical
+test, accounting for 150 holdout tracks. One holdout track, `track_0543400`, had
+already been used as a learning/decoding sample. Thus this is artist-disjoint
+from final fitting, but not wholly unobserved across the project's history.
+The original 239-track results are retained; exclusions of that sample/artist
+and artist-cluster uncertainty are reported as post-hoc checks in
+[the evaluation review supplement](EVALUATION_REVIEW.md).
 
 ## Results
 
@@ -140,7 +148,9 @@ Four answers were uncertain. Across the remaining 36, the model agreed with
 the reviewer on 29 (80.6%); descriptive precision against that single reviewer
 was 76.5%. This small balanced audit helps diagnose missing or
 segment-mismatched source tags, but it does not replace the 239-track formal
-result. See [BLIND_REVIEW_RESULTS.md](BLIND_REVIEW_RESULTS.md).
+result. Questions followed a predictable source-positive/source-negative order,
+so source targets were hidden on screen but potentially inferable from order.
+See [BLIND_REVIEW_RESULTS.md](BLIND_REVIEW_RESULTS.md).
 
 ## Model-development path
 
@@ -208,56 +218,50 @@ The earlier [handcrafted-feature comparison](EXPERIMENTS.md) and
 
 Development scripts and intermediate reports are retained to show how the
 final decision was reached. Downloaded audio, pretrained weights, feature
-caches, predictions, virtual environments, and local joblib files are ignored
-by Git.
+caches, working predictions, virtual environments, and local joblib files are
+ignored by Git. A compact [evaluation package](data/evaluation/README.md)
+publishes all 239 sets of targets, scores and decisions, plus archived metrics.
 
 <details>
-<summary><strong>Full research reproduction commands</strong></summary>
+<summary><strong>Verify results and reproduce the fixed final model</strong></summary>
 
-## Reproduce the research pipeline
+### Recalculate the reported results (no audio or encoder required)
 
-The compact demo above is the recommended way to try the project. Full
-reproduction is heavier and uses the pinned research environment:
+The following verifies both policies' complete metrics, the original bootstrap
+intervals, and all listening-summary counts. It also computes the post-hoc
+artist-cluster intervals and sample-exclusion sensitivities.
+
+```bash
+python3 -m venv .venv-evaluation
+.venv-evaluation/bin/python -m pip install -r requirements-evaluation.txt
+.venv-evaluation/bin/python evaluate_release.py --output outputs/review_audit.json
+```
+
+### Reproduce the fixed final model
+
+This heavier workflow uses the published exact source pool/index snapshots and
+archived manifests. It downloads the 1,206 fit and 239 holdout excerpts, verifies
+their archived WAV hashes, extracts MAEST features, and refits the already
+selected heads. It writes to `outputs/reproduction/`. Runtime timing is stored
+separately from feature provenance. No existing final plan needs to be refrozen.
 
 ```bash
 python3 -m venv .venv-improve
 .venv-improve/bin/python -m pip install -r requirements-mert-lock.txt
-```
-
-### Original frozen MFCC subset
-
-```bash
-.venv-improve/bin/python prepare_dataset.py download --workers 8
-.venv-improve/bin/python audit_dataset.py
-.venv-improve/bin/python train.py
-.venv-improve/bin/python report_results.py
-```
-
-### Expanded MAEST development experiment
-
-```bash
-.venv-improve/bin/python prepare_expansion.py download-development --workers 8
-.venv-improve/bin/python prepare_expansion.py verify-development
+.venv-improve/bin/python reproduce_final.py check
+.venv-improve/bin/python reproduce_final.py download --workers 8
 .venv-improve/bin/python prepare_maest_hf.py
-.venv-improve/bin/python extract_expanded_maest_hf.py pilot
-.venv-improve/bin/python extract_expanded_maest_hf.py extract
-.venv-improve/bin/python expanded_maest_hf.py run
+.venv-improve/bin/python reproduce_final.py extract --device cpu
+.venv-improve/bin/python reproduce_final.py run --device cpu
 ```
 
-### Frozen final holdout
-
-The final plan is already frozen; do not run its `freeze` command again.
-
-```bash
-.venv-improve/bin/python prepare_holdout.py download --workers 8
-.venv-improve/bin/python prepare_holdout.py verify
-.venv-improve/bin/python extract_holdout_maest_hf.py --device cpu
-.venv-improve/bin/python final_maest_holdout.py run
-.venv-improve/bin/python report_blind_review.py
-```
-
-Exact experimental rules are in
-[experiments/FINAL_HOLDOUT_PROTOCOL.md](experiments/FINAL_HOLDOUT_PROTOCOL.md).
+This replays the fixed final model, not every historical candidate-selection
+experiment. See [reproduction scope and verification](REPRODUCTION.md), including
+the distinction between clean-copy metric verification and retained-cache replay.
+Historical scripts still enforce their original byte-level records, including
+runtime-dependent metadata, and require retained local research inputs. Use a
+separate checkout of baseline commit `68b51d5` when replaying that historical
+workflow; do not refresh old plan hashes just to accept changed files.
 
 </details>
 
@@ -270,7 +274,9 @@ training examples or reported metrics.
 .venv-improve/bin/python -m unittest discover -s tests -v
 ```
 
-The local release candidate passes 48 tests. The packaged classifier was also
+The revised project passes 58 tests, including listening-sheet protection,
+cluster resampling, published-result checks and resumable cache validation.
+The packaged classifier was also
 compared with the archived sklearn bundle on all 239 holdout feature vectors;
 all threshold decisions matched.
 
