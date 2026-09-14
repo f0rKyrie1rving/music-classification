@@ -1,0 +1,27 @@
+Music Tagging Demo — academic portfolio release
+
+This installer and application are unsigned. Windows may show an
+unknown-publisher or SmartScreen warning. This project does not require
+disabling Windows security features.
+
+The installer contains the desktop application, the project-owned classifier
+heads, and one attributed demonstration excerpt. It does not contain the
+third-party Discogs-MAEST weights.
+
+On first analysis the application downloads approximately 348 MB from the
+official MTG-UPF Hugging Face repository and verifies every downloaded file
+against the checksums recorded by this project. The exact upstream model card
+does not declare a weight license. This project therefore treats the model
+conservatively as a non-commercial academic/research dependency; see the
+installed THIRD_PARTY_NOTICES.md for details.
+
+Project code: MIT License
+Final classifier heads: CC BY-NC 4.0
+Included example excerpt: CC BY 3.0
+
+Uninstalling from Windows Settings removes the application, downloaded model,
+and application cache. Audio selected from elsewhere on the computer is not
+copied, modified, or deleted.
+
+This research prototype is not a production classifier. Its scores are not
+calibrated confidence percentages.

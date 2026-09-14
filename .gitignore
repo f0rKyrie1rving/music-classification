@@ -10,6 +10,10 @@ __pycache__/
 .pytest_cache/
 .cache/
 outputs/
+build/
+dist/
+dist-installer/
+*.spec.bak
 
 # Personal learning notes remain local; public documentation is self-contained.
 LEARNING_NOTES.md
