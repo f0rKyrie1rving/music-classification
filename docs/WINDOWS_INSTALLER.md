@@ -71,6 +71,9 @@ pinned upstream model, performs end-to-end inference on the included example,
 creates the Inno Setup installer, and finishes with a silent install/uninstall
 test that checks both program files and downloaded model/cache cleanup.
 
+The repository's `.gitattributes` disables automatic line-ending conversion
+so Windows checkouts preserve the bytes used by the frozen provenance hashes.
+
 Run the workflow manually to obtain a temporary GitHub Actions artifact. To
 publish a permanent GitHub Release, push a version tag:
 
