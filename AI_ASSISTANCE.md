@@ -8,8 +8,8 @@ does not overstate unaided authorship or hide the use of development tools.
 
 - defined the portfolio purpose, time constraints, four-label scope, and
   multi-label user experience;
-- decided to prioritize a working research prototype and command-line release
-  over a graphical interface;
+- decided to prioritize and freeze a working research prototype and command-line
+  release before later approving a separate reviewer-facing desktop interface;
 - studied and explained the distinction between scores and thresholds, and the
   trade-off among precision, recall, F1, and output coverage;
 - made all 40 subjective listening-review decisions and wrote the musical
@@ -24,6 +24,8 @@ does not overstate unaided authorship or hide the use of development tools.
   author's direction, including data checks, feature-extraction wrappers,
   evaluation utilities, and the command-line interface;
 - helped debug environment, dependency, download, and model-format issues;
+- helped draft the desktop interface, Windows packaging definitions, release
+  automation, and uninstall documentation without changing reported results;
 - proposed automated tests and integrity checks that were then executed on the
   local project;
 - organized experiment records and helped edit English and Chinese technical

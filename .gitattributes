@@ -1,0 +1,3 @@
+# Preserve audited bytes when Git checks out files on Windows. The frozen
+# evaluation plan and other provenance records are verified with SHA-256.
+* -text

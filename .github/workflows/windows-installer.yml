@@ -1,0 +1,161 @@
+name: Build Windows installer
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "codex/windows-installer"
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  windows-installer:
+    runs-on: windows-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out the tagged source
+        uses: actions/checkout@v5
+
+      - name: Set up Python 3.12 x64
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          architecture: "x64"
+          cache: "pip"
+
+      - name: Install runtime and build dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-demo.txt
+          python -m pip install -r requirements-build-windows.txt
+
+      - name: Run unit tests on Windows
+        shell: pwsh
+        run: |
+          python -m venv .venv-tests
+          .venv-tests/Scripts/python.exe -m pip install -r requirements.txt certifi==2026.7.22
+          if ($LASTEXITCODE -ne 0) { throw "Test dependency installation failed." }
+          .venv-tests/Scripts/python.exe -m unittest discover -s tests -v
+          if ($LASTEXITCODE -ne 0) { throw "Windows unit tests failed." }
+
+      - name: Resolve application version
+        shell: pwsh
+        run: |
+          if ("${{ github.ref_type }}" -eq "tag") {
+            $version = "${{ github.ref_name }}".TrimStart("v")
+          } else {
+            $version = (Get-Content "app_version.txt" -Raw).Trim()
+          }
+          if ($version -notmatch '^\d+\.\d+\.\d+$') { throw "Expected a numeric major.minor.patch version." }
+          $version | Set-Content "app_version.txt" -Encoding ascii
+          "APP_VERSION=$version" | Out-File $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Build the desktop bundle
+        shell: pwsh
+        run: python -m PyInstaller --noconfirm --clean packaging/windows/MusicClassification.spec
+
+      - name: Run packaged end-to-end inference
+        shell: pwsh
+        run: |
+          $audio = (Resolve-Path "data/previews/track_0207501_30s.wav").Path
+          $result = Join-Path $env:RUNNER_TEMP "windows-smoke-result.json"
+          $process = Start-Process `
+            -FilePath "dist/MusicClassification/MusicClassification.exe" `
+            -ArgumentList @("--smoke-test", "`"$audio`"", "--output", "`"$result`"") `
+            -Wait -PassThru
+          if ($process.ExitCode -ne 0) {
+            if (Test-Path $result) { Get-Content $result }
+            throw "Packaged inference failed with exit code $($process.ExitCode)."
+          }
+          $payload = Get-Content $result -Raw | ConvertFrom-Json
+          if (-not $payload.ok -or $payload.result.predicted_tags -notcontains "rock") {
+            Get-Content $result
+            throw "Packaged inference did not reproduce the included-example decision."
+          }
+          Get-Content $result
+
+      - name: Install Inno Setup when needed
+        shell: pwsh
+        run: |
+          $candidates = @(
+            "${env:ProgramFiles}\Inno Setup 7\ISCC.exe",
+            "${env:ProgramFiles(x86)}\Inno Setup 7\ISCC.exe",
+            "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe"
+          )
+          $iscc = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+          if (-not $iscc) {
+            choco install innosetup --no-progress --yes
+            $iscc = $candidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+          }
+          if (-not $iscc) { throw "Inno Setup compiler was not found after installation." }
+          "ISCC=$iscc" | Out-File $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Build installer and checksum
+        shell: pwsh
+        run: |
+          & $env:ISCC "/DAppVersion=$env:APP_VERSION" "packaging/windows/installer.iss"
+          if ($LASTEXITCODE -ne 0) { throw "Inno Setup failed." }
+          $installer = Get-ChildItem "dist-installer/*.exe" | Select-Object -First 1
+          $hash = (Get-FileHash $installer.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash *$($installer.Name)" | Set-Content "dist-installer/SHA256SUMS.txt" -Encoding ascii
+
+      - name: Verify silent install and complete uninstall
+        shell: pwsh
+        run: |
+          $installer = Get-ChildItem "dist-installer/*.exe" | Select-Object -First 1
+          $installed = Join-Path $env:LOCALAPPDATA "Programs/MusicClassification"
+          $appData = Join-Path $env:LOCALAPPDATA "MusicClassification"
+          $install = Start-Process $installer.FullName `
+            -ArgumentList @("/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/SP-") `
+            -Wait -PassThru
+          if ($install.ExitCode -ne 0 -or -not (Test-Path "$installed/MusicClassification.exe")) {
+            throw "Silent installer verification failed."
+          }
+          $audio = Join-Path $env:RUNNER_TEMP "reviewer example.wav"
+          Copy-Item "data/previews/track_0207501_30s.wav" $audio
+          $result = Join-Path $env:RUNNER_TEMP "installed smoke result.json"
+          $analysis = Start-Process "$installed/MusicClassification.exe" `
+            -WorkingDirectory $env:RUNNER_TEMP `
+            -ArgumentList @("--smoke-test", "`"$audio`"", "--output", "`"$result`"") `
+            -Wait -PassThru
+          if ($analysis.ExitCode -ne 0) { throw "Installed app inference failed." }
+          $payload = Get-Content $result -Raw | ConvertFrom-Json
+          if (-not $payload.ok -or $payload.result.predicted_tags -notcontains "rock") {
+            throw "Installed app did not reproduce the example decision."
+          }
+          $uninstaller = Get-ChildItem "$installed/unins*.exe" | Select-Object -First 1
+          $uninstall = Start-Process $uninstaller.FullName `
+            -ArgumentList @("/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART") `
+            -Wait -PassThru
+          Start-Sleep -Seconds 2
+          if ($uninstall.ExitCode -ne 0 -or (Test-Path $installed) -or (Test-Path $appData)) {
+            throw "Uninstall verification left program or model/cache data behind."
+          }
+          if (-not (Test-Path $audio)) { throw "Uninstall removed user-selected audio." }
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-installer
+          path: |
+            dist-installer/*.exe
+            dist-installer/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Publish tagged GitHub release
+        if: github.ref_type == 'tag'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $assets = Get-ChildItem "dist-installer/*" | ForEach-Object { $_.FullName }
+          gh release create $env:GITHUB_REF_NAME $assets `
+            --verify-tag `
+            --notes-file docs/RELEASE_NOTES_WINDOWS.md `
+            --title "Music Tagging Demo $env:GITHUB_REF_NAME"

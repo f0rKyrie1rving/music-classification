@@ -14,6 +14,41 @@ prototype with an honest error analysis, not a claim of production accuracy.
 
 ![Final holdout results](docs/assets/final_holdout_results.png)
 
+## Windows desktop app
+
+For a reviewer-friendly demonstration, download
+`MusicClassification-Setup-<version>-win64.exe` from the
+[GitHub Releases page](https://github.com/f0rKyrie1rving/music-classification/releases).
+Under **Assets**, choose the `.exe` installer. GitHub's **Source code (zip)**,
+**Source code (tar.gz)**, and **Code → Download ZIP** contain source files, not
+an installable app. If no `.exe` asset is listed yet, the Windows build has not
+been published; check [build progress](https://github.com/f0rKyrie1rving/music-classification/actions/workflows/windows-installer.yml).
+The 64-bit, per-user installer targets Windows 10 version 1809 or newer and
+does not require Python, Git, administrator access, or a terminal. The app
+provides an audio picker, an included attributed example, and a four-label
+score-and-threshold table.
+
+The first analysis downloads approximately 348 MB of pinned Discogs-MAEST
+files from the official MTG-UPF Hugging Face repository and verifies every
+file. The installer excludes those third-party weights because the exact model
+card does not declare their license. Internet access to Hugging Face is required
+for this first download. To uninstall, use **Settings → Apps → Installed apps**
+(Windows 11) or **Apps & features** (Windows 10), then select
+**Music Tagging Demo → Uninstall**; the uninstaller also removes
+the downloaded model and app cache, without touching audio selected elsewhere.
+
+See the [Windows installation, download verification, and uninstall guide](docs/WINDOWS_INSTALLER.md).
+The installer is produced on a real Windows runner and must pass unit tests plus
+packaged end-to-end inference and an install/uninstall cleanup check before a
+tagged release is published. This academic portfolio release is **unsigned**:
+Windows may display an unknown-publisher or SmartScreen warning, and managed
+university computers may block it. No security-setting changes are required or
+recommended by this project. Reviewers can also view the results and figures
+in this README without installing anything.
+
+This is the fourth source revision and the first desktop installer release
+(app version `1.0.0`); the earlier research results are unchanged.
+
 ## What the project demonstrates
 
 - multi-label prediction: a track may receive several tags or no tag;
@@ -24,7 +59,7 @@ prototype with an honest error analysis, not a claim of production accuracy.
 - quantitative evaluation plus a separately frozen listening review;
 - a local command that accepts a user's WAV, FLAC, OGG, or supported MP3 file.
 
-## Try the final model
+## Try the final model from source
 
 The following setup was tested on Apple Silicon macOS with Python 3.13.15.
 The first run downloads approximately 348 MB of pinned MAEST files from the
@@ -46,6 +81,25 @@ On Apple Silicon, `--device mps` may accelerate feature extraction:
 
 ```bash
 .venv-demo/bin/python predict_maest.py "path/to/your_music.mp3" --device mps
+```
+
+Windows source-code users can open PowerShell in the repository and use the
+desktop entry point. This separate downloader is implemented with Python's
+standard library and leaves the frozen research acquisition scripts unchanged:
+
+```powershell
+py -3.12 -m venv .venv-demo
+.venv-demo\Scripts\python.exe -m pip install --upgrade pip
+.venv-demo\Scripts\python.exe -m pip install -r requirements-demo.txt
+.venv-demo\Scripts\python.exe desktop_app.py
+```
+
+The final command-line interface is also available on Windows. Use the
+Windows-compatible verified downloader once, then run the same predictor:
+
+```powershell
+.venv-demo\Scripts\python.exe prepare_maest_windows.py
+.venv-demo\Scripts\python.exe predict_maest.py data\previews\track_0207501_30s.wav
 ```
 
 The output is JSON so it can be read directly or consumed by another program:
@@ -205,9 +259,14 @@ The earlier [handcrafted-feature comparison](EXPERIMENTS.md) and
 | Path | Purpose |
 | --- | --- |
 | `predict_maest.py` | Final user-audio command |
+| `desktop_app.py` | Reviewer-friendly desktop interface and release smoke test |
+| `desktop_runtime.py` | Cross-platform, resumable, checksum-verified desktop model download |
+| `prepare_maest_windows.py` | Windows-compatible source checkout model preparation |
 | `artifacts/` | Safe final linear-head parameters and provenance |
 | `prepare_maest_hf.py` | Pinned, checksum-verified upstream model retrieval |
 | `maest_hf_features.py` | Reviewed audio and MAEST feature extraction |
+| `packaging/windows/` | PyInstaller and Inno Setup release definitions |
+| `.github/workflows/windows-installer.yml` | Windows build, inference check, installer and Release automation |
 | `train.py`, `features.py`, `predict.py` | Original MFCC baseline |
 | `experiments/` | Frozen protocols and model-selection records |
 | `tests/` | Synthetic numerical, split-integrity, and input checks |
@@ -274,8 +333,9 @@ training examples or reported metrics.
 .venv-improve/bin/python -m unittest discover -s tests -v
 ```
 
-The revised project passes 58 tests, including listening-sheet protection,
-cluster resampling, published-result checks and resumable cache validation.
+The revised project passes the complete test suite, including listening-sheet
+protection, cluster resampling, published-result checks and resumable cache
+validation.
 The packaged classifier was also
 compared with the archived sklearn bundle on all 239 holdout feature vectors;
 all threshold decisions matched.
@@ -291,8 +351,9 @@ all threshold decisions matched.
 - The exact upstream 519-label model repository does not state a weight
   license, so this project retrieves pinned files from the official source and
   does not redistribute them.
-- Only Apple Silicon macOS and the recorded dependency versions have been
-  tested; other platforms are not claimed to work without verification.
+- The source command was tested directly on Apple Silicon macOS. Each published
+  Windows installer must pass the Windows workflow's packaged end-to-end check,
+  but the unsigned installer may still trigger an unknown-publisher warning.
 
 ## Development responsibility
 
