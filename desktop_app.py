@@ -28,12 +28,27 @@ APP_DATA_ROOT, MODEL_DIR = configure_runtime(
 SAMPLE_AUDIO = BUNDLE_ROOT / "data/previews/track_0207501_30s.wav"
 
 
+def score_display_rows(result, show_original=False):
+    """Format either score view without recomputing inference or tag decisions."""
+    rows = []
+    for item in result["scores"]:
+        score = item.get("raw_score", item["score"]) if show_original else item["score"]
+        threshold = (
+            item.get("raw_threshold", item["threshold"])
+            if show_original else item["threshold"]
+        )
+        rows.append(
+            (item["label"], (f"{score:.4f}", f"{threshold:.4f}", "Yes" if item["selected"] else "No"))
+        )
+    return rows
+
+
 def run_prediction(audio, callback=None):
     """Prepare the model if needed, then classify one audio file."""
     prepare_desktop_model(data_root=APP_DATA_ROOT, callback=callback)
     # Import only after configure_runtime has redirected model and cache paths.
     from maest_hf_features import HfMaestEncoder
-    from predict_maest import classify
+    from predict_app import classify
 
     if callback is not None:
         callback("Loading MAEST encoder", None)
@@ -55,6 +70,11 @@ class MusicTaggingApp:
         self.root = root
         self.events = queue.Queue()
         self.audio_path = tk.StringVar()
+        self.last_result = None
+        self.show_original = tk.BooleanVar(value=False)
+        self.score_note = tk.StringVar(
+            value="Estimates suggest how likely each tag is; they can be wrong."
+        )
         self.status = tk.StringVar(
             value="Model ready" if model_files_present(MODEL_DIR) else "Model downloads on first analysis"
         )
@@ -117,7 +137,7 @@ class MusicTaggingApp:
         columns = ("score", "threshold", "decision")
         self.results = ttk.Treeview(outer, columns=columns, show="tree headings", height=6)
         self.results.heading("#0", text="Label")
-        self.results.heading("score", text="Score")
+        self.results.heading("score", text="Estimate")
         self.results.heading("threshold", text="Threshold")
         self.results.heading("decision", text="Selected")
         self.results.column("#0", width=220, anchor="w")
@@ -136,11 +156,19 @@ class MusicTaggingApp:
         )
         ttk.Label(
             footer,
-            text="Scores are classifier outputs, not calibrated confidence percentages.",
+            textvariable=self.score_note,
             style="Subtitle.TLabel",
-        ).grid(row=1, column=0, sticky="w", pady=(3, 0))
+            wraplength=640,
+        ).grid(row=2, column=0, sticky="w", pady=(3, 0))
+        self.compare_checkbox = ttk.Checkbutton(
+            footer,
+            text="Compare original scores",
+            variable=self.show_original,
+            command=self.refresh_result_view,
+        )
+        self.compare_checkbox.grid(row=1, column=0, sticky="w", pady=(5, 0))
         ttk.Button(footer, text="About", command=self.show_about).grid(
-            row=0, column=1, rowspan=2, sticky="e"
+            row=0, column=1, rowspan=3, sticky="e"
         )
 
         root.after(100, self.process_events)
@@ -217,15 +245,8 @@ class MusicTaggingApp:
                     self.selected_tags.set(
                         "Selected tags: " + (", ".join(tags) if tags else "none")
                     )
-                    for item in payload["scores"]:
-                        self.results.item(
-                            item["label"],
-                            values=(
-                                f'{item["score"]:.4f}',
-                                f'{item["threshold"]:.4f}',
-                                "Yes" if item["selected"] else "No",
-                            ),
-                        )
+                    self.last_result = payload
+                    self.refresh_result_view()
                     self.status.set("Analysis complete")
                     self.set_busy(False)
                 elif kind == "error":
@@ -237,6 +258,18 @@ class MusicTaggingApp:
         except queue.Empty:
             pass
         self.root.after(100, self.process_events)
+
+    def refresh_result_view(self):
+        """Switch the displayed values from the cached prediction only."""
+        original = self.show_original.get()
+        self.results.heading("score", text="Original score" if original else "Estimate")
+        self.score_note.set(
+            "Original scores are shown for comparison. The selected tags stay the same."
+            if original else "Estimates suggest how likely each tag is; they can be wrong."
+        )
+        if self.last_result is not None:
+            for label, values in score_display_rows(self.last_result, original):
+                self.results.item(label, values=values)
 
     def show_about(self):
         from tkinter import messagebox

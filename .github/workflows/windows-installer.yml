@@ -77,6 +77,12 @@ jobs:
             Get-Content $result
             throw "Packaged inference did not reproduce the included-example decision."
           }
+          $ambient = $payload.result.scores | Where-Object { $_.label -eq "ambient" }
+          if ($payload.result.score_mode -ne "weight_corrected" -or
+              -not $ambient -or $ambient.score -ge $ambient.raw_score -or
+              [Math]::Abs($ambient.threshold - 0.1321) -gt 0.00001) {
+            throw "Packaged inference did not apply the v1.1 score correction."
+          }
           Get-Content $result
 
       - name: Install Inno Setup when needed
@@ -127,6 +133,9 @@ jobs:
           $payload = Get-Content $result -Raw | ConvertFrom-Json
           if (-not $payload.ok -or $payload.result.predicted_tags -notcontains "rock") {
             throw "Installed app did not reproduce the example decision."
+          }
+          if ($payload.result.score_mode -ne "weight_corrected") {
+            throw "Installed app did not use the v1.1 score correction."
           }
           $uninstaller = Get-ChildItem "$installed/unins*.exe" | Select-Object -First 1
           $uninstall = Start-Process $uninstaller.FullName `

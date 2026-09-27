@@ -1,12 +1,22 @@
-# Windows desktop demo — first installer release
+# Windows desktop demo — v1.1 score correction
 
-The fourth source revision adds a desktop interface and an unsigned Windows
-installer for the existing four-label academic music-tagging project. Reported
-research results, classifier heads, and evaluation protocols are unchanged.
+Version 1.1 corrects the ambient label's training class-weight offset before
+displaying its estimated probability. The corresponding threshold changes with
+it, so tag decisions remain unchanged. **Compare original scores** switches the
+desktop table back to the original values without analyzing the audio again.
+The classifier heads and original research results are retained.
+
+On two previously observed cohorts (239 and 266 tracks), average Brier error
+decreased by 6.13% and 6.57%, respectively. All 505 tracks retained the same tags
+under both decision policies. These are retrospective probability-error
+reductions, not classification accuracy gains or new independent validation.
+The 239-track artist-bootstrap interval includes no improvement. See the
+[v1.1 evaluation](https://github.com/f0rKyrie1rving/music-classification/blob/main/docs/APPLICATION_V1_1.md)
+for the full results and limitations.
 
 ## Download and try
 
-1. Under **Assets**, download `MusicClassification-Setup-1.0.0-win64.exe`.
+1. Under **Assets**, download `MusicClassification-Setup-1.1.0-win64.exe`.
    **Source code (zip)** and **Source code (tar.gz)** are for developers.
 2. Run the installer and open **Music Tagging Demo** from the Start menu.
    The Windows x64 app targets Windows 10 version 1809 or newer, including
@@ -42,5 +52,5 @@ selected from other folders is preserved.
 Before publication, the Windows workflow must pass the unit suite, packaged
 inference, inference from the installed app, and install/uninstall cleanup.
 See the [installation guide](https://github.com/f0rKyrie1rving/music-classification/blob/main/docs/WINDOWS_INSTALLER.md)
-for details. Scores are not calibrated confidence percentages; this is a
-research and portfolio prototype.
+for details. The corrected values remain experimental estimates, not guaranteed
+confidence percentages; this is a research and portfolio prototype.

@@ -46,8 +46,14 @@ university computers may block it. No security-setting changes are required or
 recommended by this project. Reviewers can also view the results and figures
 in this README without installing anything.
 
-This is the fourth source revision and the first desktop installer release
-(app version `1.0.0`); the earlier research results are unchanged.
+The current source version is **1.1.0**. It corrects the ambient score's training
+class-weight offset and offers **Compare original scores** in the desktop UI.
+On two previously observed cohorts, macro Brier decreased by 6.13% and 6.57%, with
+every selected tag unchanged. These are probability-error reductions, not accuracy
+increases or new independent validation. See [the v1.1 evaluation](docs/APPLICATION_V1_1.md).
+The original v1.0 model, predictor and historical results are retained. A source
+version change alone does not publish a new Windows installer; use the version
+shown on the downloaded release asset.
 
 ## What the project demonstrates
 
@@ -71,7 +77,7 @@ python3 -m venv .venv-demo
 .venv-demo/bin/python -m pip install --upgrade pip
 .venv-demo/bin/python -m pip install -r requirements-demo.txt
 .venv-demo/bin/python prepare_maest_hf.py
-.venv-demo/bin/python predict_maest.py data/previews/track_0207501_30s.wav
+.venv-demo/bin/python predict_app.py data/previews/track_0207501_30s.wav
 ```
 
 The included 30-second CC BY 3.0 excerpt provides a reproducible first check.
@@ -80,7 +86,7 @@ To analyze another track, replace that path with your own audio file.
 On Apple Silicon, `--device mps` may accelerate feature extraction:
 
 ```bash
-.venv-demo/bin/python predict_maest.py "path/to/your_music.mp3" --device mps
+.venv-demo/bin/python predict_app.py "path/to/your_music.mp3" --device mps
 ```
 
 Windows source-code users can open PowerShell in the repository and use the
@@ -99,7 +105,7 @@ Windows-compatible verified downloader once, then run the same predictor:
 
 ```powershell
 .venv-demo\Scripts\python.exe prepare_maest_windows.py
-.venv-demo\Scripts\python.exe predict_maest.py data\previews\track_0207501_30s.wav
+.venv-demo\Scripts\python.exe predict_app.py data\previews\track_0207501_30s.wav
 ```
 
 The output is JSON so it can be read directly or consumed by another program:
@@ -107,17 +113,23 @@ The output is JSON so it can be read directly or consumed by another program:
 ```json
 {
   "predicted_tags": ["rock"],
+  "score_mode": "weight_corrected",
   "scores": [
     {"label": "electronic", "score": 0.0699, "threshold": 0.4, "selected": false},
     {"label": "pop", "score": 0.2483, "threshold": 0.275, "selected": false},
-    {"label": "ambient", "score": 0.0301, "threshold": 0.375, "selected": false},
+    {"label": "ambient", "score": 0.0078, "threshold": 0.1321, "selected": false},
     {"label": "rock", "score": 0.6237, "threshold": 0.275, "selected": true}
   ]
 }
 ```
 
-Scores are classifier outputs, not calibrated confidence percentages. Only
-the first 30 seconds are analyzed. Missing, corrupt, shorter-than-30-second,
+The JSON also includes `raw_score` and `raw_threshold` for each label. The ambient
+estimate and its displayed threshold receive the same monotone correction; tag
+decisions still use the original unrounded scores and thresholds. Other labels
+are unchanged. These estimates can still be wrong and are not guaranteed confidence
+percentages. Pass `--raw-scores` to restore original values; `predict_maest.py` is
+also retained as the original v1.0 interface. Only the first 30 seconds are analyzed.
+Missing, corrupt, shorter-than-30-second,
 silent, and non-finite inputs are rejected.
 
 ## System design
@@ -131,6 +143,8 @@ flowchart LR
     E --> F[4 standardized<br/>logistic heads]
     F --> G[Per-label thresholds]
     G --> H[0 to 4 tags]
+    F --> I[Ambient weight correction]
+    I --> J[Displayed estimates<br/>and transformed thresholds]
 ```
 
 The public classifier artifact is a 221 KB NumPy array plus JSON metadata. It
@@ -258,7 +272,9 @@ The earlier [handcrafted-feature comparison](EXPERIMENTS.md) and
 
 | Path | Purpose |
 | --- | --- |
-| `predict_maest.py` | Final user-audio command |
+| `predict_app.py`, `score_correction.py` | v1.1 user-audio command and validated score correction |
+| `predict_maest.py` | Retained v1.0 user-audio command |
+| `evaluate_application_correction.py` | Reproduce the v1.1 probability comparison from published values |
 | `desktop_app.py` | Reviewer-friendly desktop interface and release smoke test |
 | `desktop_runtime.py` | Cross-platform, resumable, checksum-verified desktop model download |
 | `prepare_maest_windows.py` | Windows-compatible source checkout model preparation |

@@ -13,10 +13,13 @@ analysis = Analysis(
         (str(project_root / "app_version.txt"), "."),
         (str(project_root / "artifacts/final_heads.npy"), "artifacts"),
         (str(project_root / "artifacts/final_heads.json"), "artifacts"),
+        (str(project_root / "artifacts/score_correction.json"), "artifacts"),
         (str(project_root / "experiments/final_holdout_plan.json"), "experiments"),
         (str(project_root / "data/previews/track_0207501_30s.wav"), "data/previews"),
     ],
     hiddenimports=[
+        "predict_app",
+        "score_correction",
         "safetensors.torch",
         "soundfile",
         "soxr",
