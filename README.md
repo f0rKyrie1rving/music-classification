@@ -51,6 +51,9 @@ The current source version is **1.2.0**. The desktop app and
 confirmation. **Compare v1.1** shows the previous application's scores,
 thresholds and selected tags using the same audio features. See the
 [v1.2 integration record](docs/APPLICATION_V1_2.md) for checks and release status.
+The [Windows validation build](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877)
+passed all 215 tests, packaged and installed audio inference, installation and
+uninstall checks. Its temporary artifact is separate from a published release.
 
 The retained v1.1 comparator corrects the ambient score's training class-weight
 offset. Its original interface offered **Compare original scores**.

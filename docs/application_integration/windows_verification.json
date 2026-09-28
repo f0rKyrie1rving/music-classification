@@ -1,0 +1,64 @@
+{
+  "state": "passed",
+  "application_version": "1.2.0",
+  "tested_commit": "6ee1a9c61cda37ed405ad63d45629dc1e446faae",
+  "workflow_run_id": 36441140877,
+  "job_id": 108991622970,
+  "workflow_url": "https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877",
+  "runner": "GitHub-hosted Windows Server 2025 x64",
+  "python": "3.12.10",
+  "unit_tests": {
+    "count": 215,
+    "passed": true,
+    "skipped": 0
+  },
+  "checks": {
+    "version_and_model_identity": true,
+    "portable_real_audio_inference": true,
+    "installed_real_audio_inference": true,
+    "installer_creation": true,
+    "silent_install": true,
+    "complete_uninstall": true,
+    "user_selected_audio_preserved": true,
+    "artifact_upload": true
+  },
+  "candidate_id": "music-candidate-20260927-v1",
+  "candidate_weights_sha256": "70ceca1ab53b9b8d968d6e1ca4664bc78e22b78e2c70def772d495cbbf208036",
+  "artifact": {
+    "id": 10978217942,
+    "name": "windows-installer",
+    "bytes": 124591386,
+    "zip_digest": "sha256:7a17ce678f2cc75c6f4513f5ca1f4b31a10916e3c956c9ab92b87ba55bba2fc5",
+    "created_at": "2026-09-28T15:14:48Z",
+    "expires_at": "2026-10-12T15:14:43Z",
+    "download_url": "https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877/artifacts/10978217942",
+    "contents": [
+      "MusicClassification-Setup-1.2.0-win64.exe",
+      "SHA256SUMS.txt"
+    ]
+  },
+  "first_attempt": {
+    "run_id": 36440542257,
+    "tested_commit": "c42d1b09908c935f03b9175ed95f2e93aace4655",
+    "result": "failed",
+    "cause": [
+      "Windows newline translation changed synthetic metadata fixture bytes.",
+      "Test code read UTF-8 plan/manifest with Windows default text encoding."
+    ],
+    "fix_commit": "6ee1a9c61cda37ed405ad63d45629dc1e446faae",
+    "assertions_relaxed": false,
+    "model_or_frozen_research_changed": false
+  },
+  "scope": "Automated Windows build/inference/installation validation; not manual Windows GUI testing or another model-quality evaluation.",
+  "public_release_created": false,
+  "log_evidence": [
+    "2026-09-28T15:07:15.4820284Z Microsoft Windows Server 2025",
+    "2026-09-28T15:07:27.0108262Z Successfully set up CPython (3.12.10)",
+    "2026-09-28T15:09:39.4149274Z Ran 215 tests in 8.529s",
+    "2026-09-28T15:09:39.4149493Z OK",
+    "2026-09-28T15:12:13.0268824Z Verified application 1.2.0: music-candidate-20260927-v1; fixed model, F1 thresholds, and shared-feature v1.1 comparison.",
+    "2026-09-28T15:12:14.1187643Z Compiler engine version: Inno Setup 6.7.1",
+    "2026-09-28T15:14:39.4780670Z Verified application 1.2.0: music-candidate-20260927-v1; fixed model, F1 thresholds, and shared-feature v1.1 comparison.",
+    "2026-09-28T15:14:48.6592144Z SHA256 digest of uploaded artifact zip is 7a17ce678f2cc75c6f4513f5ca1f4b31a10916e3c956c9ab92b87ba55bba2fc5"
+  ]
+}

@@ -5,6 +5,15 @@ version 1809 or newer. Reviewers do not need Python, Git, or a terminal.
 The release workflow builds with Python 3.12 because all pinned runtime
 dependencies publish Windows x64 wheels for that interpreter version.
 
+The v1.2 validation build passed on 2026-09-28 using Windows Server 2025 x64 and
+Python 3.12.10: all 215 tests, packaged and installed real-audio inference, silent
+installation, complete uninstall, and preservation of user audio. See the
+[successful workflow](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877)
+and [verification receipt](application_integration/windows_verification.json).
+Its temporary [installer artifact](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877/artifacts/10978217942)
+requires GitHub sign-in and expires on 2026-10-12. This validation does not create
+a permanent v1.2.0 Release; use the release assets below for public distribution.
+
 ## Install and run
 
 1. Open the repository's [Releases page](https://github.com/f0rKyrie1rving/music-classification/releases).
