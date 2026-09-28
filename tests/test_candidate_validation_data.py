@@ -81,8 +81,9 @@ class ConfirmationDataTests(unittest.TestCase):
             'checksums.txt': '\n'.join('a' * 64 + f' 12/{i}.low.mp3' for i in (1, 2))}
         blobs = {}
         for name, content in contents.items():
-            (self.root / name).write_text(content)
-            encoded = content.encode()
+            # Hash the exact fixture bytes, without Windows newline translation.
+            encoded = content.encode('utf-8')
+            (self.root / name).write_bytes(encoded)
             blobs[name] = hashlib.sha1(f'blob {len(encoded)}\0'.encode() + encoded).hexdigest()
         config = {'source_blobs': blobs, 'archives': ['12'], 'allowed_license_codes': ['by'],
                   'expected_frame_tracks': 1, 'expected_frame_artists': 1}

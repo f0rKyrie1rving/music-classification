@@ -19,7 +19,7 @@ WIDTH = predict_maest.FEATURE_WIDTH
 class ScoreCorrectionTests(unittest.TestCase):
     def setUp(self):
         self.bundle = predict_maest.load_bundle()
-        self.record = json.loads(score_correction.CORRECTION.read_text())
+        self.record = json.loads(score_correction.CORRECTION.read_text(encoding='utf-8'))
         self.offsets = np.array([0., 0., np.log(244/962), 0.])
 
     def validate(self, record, bundle=None):
@@ -47,8 +47,8 @@ class ScoreCorrectionTests(unittest.TestCase):
     def test_packaged_recipe_is_bound_to_actual_training_counts(self):
         offsets = self.validate(self.record)
         np.testing.assert_array_equal(offsets, self.offsets)
-        plan = json.loads(predict_maest.PLAN.read_text())
-        tracks = json.loads((ROOT/'data/expanded_manifest.json').read_text())['tracks']
+        plan = json.loads(predict_maest.PLAN.read_text(encoding='utf-8'))
+        tracks = json.loads((ROOT/'data/expanded_manifest.json').read_text(encoding='utf-8'))['tracks']
         by_id = {r['track_id']: r for r in tracks}
         positives = [sum(bool(set(by_id[i]['tags']) & set(plan['ontology'][label]))
                          for i in plan['fit_ids']) for label in predict_maest.LABELS]
