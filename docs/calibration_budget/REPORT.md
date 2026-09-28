@@ -124,5 +124,5 @@ Complete subset IDs, calibration counts, parameters, probabilities and source sn
 are in `outputs/calibration_budget/20260926_v1` under the repository root. The original study's
 source, caches and results were kept unchanged. No new audio or model downloads were used.
 
-Codex assisted with design implementation, execution, verification and drafting.
+Development support is documented in the [project development statement](../../AI_ASSISTANCE.md).
 This report records exploratory results and does not claim independent confirmation.

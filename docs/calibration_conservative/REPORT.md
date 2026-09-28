@@ -124,5 +124,5 @@ See [verification](results/verification.json), [reproduction commands](../../res
 [selected strengths](results/strengths.csv), [candidate scores](results/candidates.csv),
 and [all macro results](results/summary.csv). Complete OOF predictions, inner-fold
 parameters, source snapshots and bootstrap draws are in `outputs/calibration_conservative/20260926_v1/`.
-Tests are executed separately from numerical verification. Codex assisted with design,
-implementation, execution and writing, with independent code/design checks.
+Tests are executed separately from numerical verification. Development support and
+AI-assisted code/design checks are described in the [project development statement](../../AI_ASSISTANCE.md).

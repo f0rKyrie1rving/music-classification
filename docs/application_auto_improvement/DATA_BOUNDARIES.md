@@ -125,7 +125,7 @@ DNS 失败；这些阶段耗时不等同于纯传输时间，不能据此承诺�
 
 ## 机器可读依据与缓存路径
 
-相对路径均从项目根目录 `/Users/alansong/Documents/ChatGPT/Music Classification` 起算。
+所有相对路径均从项目根目录起算。
 
 - 原开发行身份、原模型评估角色：`experiments/final_holdout_plan.json`。
 - 原历史全集：`data/expanded_manifest.json`。

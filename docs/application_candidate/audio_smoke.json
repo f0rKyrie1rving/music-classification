@@ -5,7 +5,7 @@
   "max_absolute_cache_difference": 0.0,
   "absolute_tolerance": 1e-05,
   "inference": {
-    "audio": "/Users/alansong/Documents/ChatGPT/Music Classification/data/training_audio/track_0001100.wav",
+    "audio": "data/training_audio/track_0001100.wav",
     "analyzed": "Exactly the first 30 seconds of an input at least 30 seconds long",
     "model": "Discogs-MAEST block 7 plus four logistic-regression heads",
     "candidate_id": "music-candidate-20260927-v1",
@@ -95,5 +95,12 @@
       "shared_feature": true
     }
   },
-  "scope": "Existing development control audio; functionality only, not validation."
+  "scope": "Existing development control audio; functionality only, not validation.",
+  "_presentation": {
+    "description": "Public display copy with repository-relative paths; numerical results and source hashes are unchanged.",
+    "original_sha256": "dd1efa9e28d6a59ad1d63a822ee522e2b618444733d454aa9b1d8ca1c9facd20",
+    "original_git_revision": "458a03ba3ae229f04e4c27521e4c3d550a5d110c",
+    "original_repository_path": "docs/application_candidate/audio_smoke.json",
+    "frozen_receipts_refer_to_original_bytes": true
+  }
 }

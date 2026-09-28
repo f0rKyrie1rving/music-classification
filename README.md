@@ -88,7 +88,7 @@ cases fell from 152 to 124 (**18.42%**), while missed focus labels rose from 59 
 61. Micro F1 increased from 0.619910 to 0.637002, and macro Brier decreased by
 2.72%. The fixed coverage, point-estimate and paired artist-interval gates passed;
 independent reconstruction confirmed the result. Following that confirmation,
-the user authorized integrating those unchanged weights into v1.2. These remain
+those unchanged weights were integrated into v1.2. These remain
 same-source/proxy-label results, not human-confirmed accuracy on arbitrary music.
 The original v1.0/v1.1 models, predictors and historical results are retained. A source
 version change alone does not publish a new Windows installer; use the version

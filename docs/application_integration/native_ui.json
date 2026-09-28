@@ -48,6 +48,13 @@
       "Yes"
     ]
   },
-  "actual_audio": "/Users/alansong/Documents/ChatGPT/Music Classification/data/previews/track_0207501_30s.wav",
-  "checks": "Actual sample/analyze/toggle buttons; title, all rows, selected tags, and toggle-back without new inference"
+  "actual_audio": "data/previews/track_0207501_30s.wav",
+  "checks": "Actual sample/analyze/toggle buttons; title, all rows, selected tags, and toggle-back without new inference",
+  "_presentation": {
+    "description": "Public display copy with repository-relative paths; numerical results and source hashes are unchanged.",
+    "original_sha256": "853b4bf8b052a9f457184f15294a9597715831b32c42f72fded8847e18b4d7f1",
+    "original_git_revision": "458a03ba3ae229f04e4c27521e4c3d550a5d110c",
+    "original_repository_path": "docs/application_integration/native_ui.json",
+    "frozen_receipts_refer_to_original_bytes": true
+  }
 }

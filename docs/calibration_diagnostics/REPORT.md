@@ -145,6 +145,6 @@ See [protocol](../../research/calibration_diagnostics/protocol.md),
 and [plain-language explanation](SUMMARY_ZH.md). New tests check exact loss identities,
 artist aggregation, direct deletion calculations, fixed raw-bin membership and empty
 cases. Full inputs and old source hashes were rechecked; the original studies remain
-unchanged. Codex assisted with implementation and reporting, with independent read-only
-agent checks of the design and numerical conclusions. No independent scientific
-validation is claimed.
+unchanged. Separate AI-assisted software reviews checked the design and numerical
+conclusions; these are not independent human or scientific validation. Development
+support is described in the [project development statement](../../AI_ASSISTANCE.md).

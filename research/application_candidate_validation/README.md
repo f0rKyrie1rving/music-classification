@@ -48,7 +48,7 @@ the development control audio/cache, and the prior verification records named in
 `pipeline.BASE_INPUTS` and `freeze.json`. No model or cache is silently rebuilt.
 
 ```sh
-cd "/Users/alansong/Documents/ChatGPT/Music Classification"
+# Run from the music-classification repository root.
 candidate_validation_out="outputs/application_candidate_validation/20260928_v1"
 
 # Local metadata only: audit the whole frame and fix selected IDs.
@@ -72,9 +72,9 @@ candidate_validation_out="outputs/application_candidate_validation/20260928_v1"
 ```
 
 The network commands need an execution context permitted to reach
-`https://cdn.freesound.org`. In the current Codex environment, ordinary sandbox
-execution produced DNS failures on a preflight request; archive indexing and
-downloading therefore use the approved network-enabled execution context. Do not
+`https://cdn.freesound.org`. A restricted execution environment produced DNS
+failures on a preflight request; archive indexing and downloading therefore
+require an environment with working network access. Do not
 start the actual sample download from a context known to block network access:
 recorded terminal failures are part of the fixed run and cannot simply be erased.
 

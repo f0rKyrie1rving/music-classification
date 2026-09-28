@@ -5,7 +5,7 @@
   "authoritative_history_sources": [
     {
       "path": "data/expanded_manifest.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/data/expanded_manifest.json",
+      "absolute_path": "data/expanded_manifest.json",
       "sha256": "01d93dbe0474e517861e0d0cbe95ca4a4e8dc769f180ec74d2e3d34490689077",
       "rows": 1535,
       "unique_tracks": 1535,
@@ -15,7 +15,7 @@
     },
     {
       "path": "data/source/training_pool.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/data/source/training_pool.json",
+      "absolute_path": "data/source/training_pool.json",
       "sha256": "ce1973cbe7bbfad9d732495dad5308287a3bd73c714f7877142914c39592083e",
       "rows": 1535,
       "unique_tracks": 1535,
@@ -25,7 +25,7 @@
     },
     {
       "path": "data/source/candidates.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/data/source/candidates.json",
+      "absolute_path": "data/source/candidates.json",
       "sha256": "aeff5bf5c2043f22f2c1c357e540848aab74407f24ae7a4a9977038e1a6ef675",
       "rows": 79,
       "unique_tracks": 79,
@@ -35,7 +35,7 @@
     },
     {
       "path": "data/source/planned_manifest.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/data/source/planned_manifest.json",
+      "absolute_path": "data/source/planned_manifest.json",
       "sha256": "2ad6ee62d980397c82a5fdb5bf33724ecbdb534ec1a9fe24c70ead3a9bf83df5",
       "rows": 480,
       "unique_tracks": 480,
@@ -45,7 +45,7 @@
     },
     {
       "path": "data/dataset_manifest.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/data/dataset_manifest.json",
+      "absolute_path": "data/dataset_manifest.json",
       "sha256": "485d94f432c56c11ba6837ebaffed8dc099423698c87e5339a5dc14ecf70331e",
       "rows": 480,
       "unique_tracks": 480,
@@ -55,7 +55,7 @@
     },
     {
       "path": "data/sample_manifest.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/data/sample_manifest.json",
+      "absolute_path": "data/sample_manifest.json",
       "sha256": "af7e6ff6820adaa77abc783b2a513a846ca7a91b163a4a08f83f71f118ac0932",
       "rows": 3,
       "unique_tracks": 3,
@@ -65,7 +65,7 @@
     },
     {
       "path": "outputs/calibration_validation/20260927_v1/candidate_pool.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/outputs/calibration_validation/20260927_v1/candidate_pool.json",
+      "absolute_path": "outputs/calibration_validation/20260927_v1/candidate_pool.json",
       "sha256": "60afd999be21c9491e827ca7585ec7eab84d2f5d30e35a8e172afbb5555ef739",
       "rows": 394,
       "unique_tracks": 394,
@@ -75,7 +75,7 @@
     },
     {
       "path": "outputs/calibration_validation/20260927_v1/selected_manifest.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/outputs/calibration_validation/20260927_v1/selected_manifest.json",
+      "absolute_path": "outputs/calibration_validation/20260927_v1/selected_manifest.json",
       "sha256": "ff248ec7ef85bed005adae9009044777c69e248f0f3e6eb947fb9f7032b6986f",
       "rows": 266,
       "unique_tracks": 266,
@@ -85,7 +85,7 @@
     },
     {
       "path": "outputs/calibration_validation/20260927_v1/manifest.json",
-      "absolute_path": "/Users/alansong/Documents/ChatGPT/Music Classification/outputs/calibration_validation/20260927_v1/manifest.json",
+      "absolute_path": "outputs/calibration_validation/20260927_v1/manifest.json",
       "sha256": "65a829898827e089e0688b586815a8666740cee8f25e728d7efa0fba8218ef69",
       "rows": 266,
       "unique_tracks": 266,
@@ -3539,5 +3539,12 @@
     },
     "method_review": "No scoring/labels enter artist or per-artist hash selection. Official genre tags are used to define outcomes but no label quotas. All 171 frame artists included. Metadata-only amendment documented before selection/audio/predictions. Full exclusion union includes every prior candidate artist.",
     "nonblocking_note": "sample() currently slices artists[:artist_count] and checks only selected count; a future robustness guard should require candidate artist count equals configured 171 for the stated census. Current frozen-source candidate frame has exactly 171, independently verified, so this does not affect the present selection."
+  },
+  "_presentation": {
+    "description": "Public display copy with repository-relative paths; numerical results and source hashes are unchanged.",
+    "original_sha256": "ce896752b69a8308482f6914cfa96e78306dceb13862c76177f87a99716543f0",
+    "original_git_revision": "458a03ba3ae229f04e4c27521e4c3d550a5d110c",
+    "original_repository_path": "docs/application_fresh_validation/results/independent_audit.json",
+    "frozen_receipts_refer_to_original_bytes": true
   }
 }

@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-09-28T14:54:34.291839+00:00",
+  "state": "passed",
+  "scope": "Documentation wording and portable display paths; model parameters and predictions unchanged.",
+  "prior_integration_checks": "checks.json remains the historical integration record; this receipt covers the current documentation and workflow wording.",
+  "unit_tests": {
+    "count": 215,
+    "passed": true
+  },
+  "historical_calibration_freezes_verified": [
+    "calibration_budget",
+    "calibration_conservative",
+    "calibration_diagnostics"
+  ],
+  "candidate_freeze_and_release_verified": true,
+  "path_only_json_transform_verified": true,
+  "frozen_report_generators_unchanged": true,
+  "current_file_sha256": {
+    ".github/workflows/windows-installer.yml": "74453ce66bdab7d743f0e0cc7679aa8ff73e33f6a138d0b628eaf79155b00d02",
+    "README.md": "0b6467097f22b2b88850f98745b80d1eee8081c39edcdd09096a7b077d81cbc8",
+    "docs/application_auto_improvement/DATA_BOUNDARIES.md": "8c4f99bbe202ad750c04c1e2c29263510d517f041d2f8237eb8f3573e7d3cc95",
+    "docs/application_candidate/audio_smoke.json": "52874203369ae77faf2ab45b1b94db92f827b4beed4a00a87b245bfe0204d20a",
+    "docs/application_fresh_validation/results/independent_audit.json": "54eb6adf10130af1d4b3f12f563d08ccd88533ab4e3798ddcbda3a1af16f53d3",
+    "docs/application_integration/native_ui.json": "c1d72b032c68e720a104d4a43dd66358f604a833e45e9c6eb3e3197e7684a910",
+    "docs/calibration/REPORT.md": "0a13d460839adc94a9237bd5c18fd504fca6e0ecc6a6792c5a514d9bcdccb479",
+    "docs/calibration_budget/REPORT.md": "e5176631043a3671d2492974f663451cfb7cead0c534ab57825171d6a56fcd52",
+    "docs/calibration_conservative/REPORT.md": "787272bbab05fa25913993bca56226ba8beaadf777694aee632ecdee06de6409",
+    "docs/calibration_diagnostics/REPORT.md": "7bb63bfe1a0ba6a9b223a54e100b7ef1ddf20a9f8eed021f6b2d636449f42aff",
+    "docs/calibration_validation/REPORT.md": "7636b2089f012397f7a522f63ee8712428e571a1be32dc09b4e330af469ae5d8",
+    "research/application_candidate_validation/README.md": "f00c07e0ffadff88c7afb6a41af0d197ee0a2a7e735c3f331d1fc22bfa32e203"
+  }
+}

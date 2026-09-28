@@ -166,8 +166,8 @@ license records define the acquisition frame. See the [data audit](results/data_
 and [source/model hashes](results/freeze.json). Audio was used locally for non-commercial
 research under the retained source conditions.
 
-Codex assisted with protocol implementation, acquisition, execution, numerical checks
-and report writing. Separate agent reviews checked sampling, inference and numerical
+Development support is described in the [project development statement](../../AI_ASSISTANCE.md).
+Separate AI-assisted software reviews checked sampling, inference and numerical
 results; these are software/research checks, not independent human replication.
 The [data-use ledger](DATA_USE_LEDGER.md) records this sample's completed use for future
 studies, and the [Chinese explanation](SUMMARY_ZH.md) summarizes the findings.
