@@ -1,0 +1,47 @@
+{
+  "state": "passed",
+  "checks": 137747,
+  "maximum_absolute_difference": 1.1102230246251565e-16,
+  "objective_gradient_maxima": {
+    "inner_0/baseline_pop": 6.211492681355115e-05,
+    "inner_0/new_pop": 4.293519398918341e-05,
+    "inner_0/baseline_ambient": 8.45070474284318e-05,
+    "inner_0/new_ambient": 8.533335955267736e-05,
+    "inner_1/baseline_pop": 9.1650299653451e-05,
+    "inner_1/new_pop": 8.354793672794417e-05,
+    "inner_1/baseline_ambient": 8.826333675694968e-05,
+    "inner_1/new_ambient": 8.720871238734475e-05,
+    "inner_2/baseline_pop": 2.9150978859189228e-05,
+    "inner_2/new_pop": 8.223854379647151e-05,
+    "inner_2/baseline_ambient": 8.300879474934496e-05,
+    "inner_2/new_ambient": 4.6381933228113495e-05,
+    "inner_3/baseline_pop": 4.186210446217593e-05,
+    "inner_3/new_pop": 9.073773847601723e-05,
+    "inner_3/baseline_ambient": 8.691031772695227e-05,
+    "inner_3/new_ambient": 4.963221219592501e-05,
+    "final/pop": 6.519343660990292e-05,
+    "final/ambient": 2.2432139753041162e-05
+  },
+  "maximum_objective_gradient": 9.1650299653451e-05,
+  "actual_fit_count": 18,
+  "independently_replayed_selection": true,
+  "final_fit_tracks": 1915,
+  "baseline_unchanged": true,
+  "no_refitting": true,
+  "controls": {
+    "f1": {
+      "tracks": 1915,
+      "electronic_rock_exact": true,
+      "all_selected_tags_exact": false
+    },
+    "precision_target": {
+      "tracks": 1915,
+      "electronic_rock_exact": true,
+      "all_selected_tags_exact": true
+    }
+  },
+  "synthetic_boundary_vectors": 13,
+  "candidate_sha256": "8c335d7140a6b5ea72b6be43c087c72ce917ba352a9f112fd2774464d6a79b12",
+  "fresh_validation_complete": false,
+  "limitation": "Numerical/provenance audit; OOF scores selected thresholds and are not fresh validation."
+}

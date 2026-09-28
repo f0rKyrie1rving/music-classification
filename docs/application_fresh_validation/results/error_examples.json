@@ -1,0 +1,734 @@
+[
+  {
+    "label": "electronic",
+    "kind": "false_positive",
+    "track_id": "track_1159310",
+    "artist_id": "artist_450905",
+    "source_tags": [
+      "ambient",
+      "chillout"
+    ],
+    "raw_score": 0.9200716672491871,
+    "corrected_score": 0.9200716672491871,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "10/1159310.mp3\nKaiskan - Search by Kaiskan from Jamendo: http://www.jamendo.com/track/1159310\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1159310.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_positive",
+    "track_id": "track_0939911",
+    "artist_id": "artist_420115",
+    "source_tags": [
+      "ambient",
+      "chillout",
+      "dance"
+    ],
+    "raw_score": 0.8862025940093904,
+    "corrected_score": 0.8862025940093904,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/939911.mp3\nAttitude by HaKu from Jamendo: http://www.jamendo.com/track/939911\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/2.0/de/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0939911.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_positive",
+    "track_id": "track_1082910",
+    "artist_id": "artist_439567",
+    "source_tags": [
+      "ambient",
+      "chillout",
+      "classical"
+    ],
+    "raw_score": 0.8008016728874761,
+    "corrected_score": 0.8008016728874761,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "10/1082910.mp3\nKAKUSEI - Arousal by DJ Gami.K from Jamendo: http://www.jamendo.com/track/1082910\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1082910.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_positive",
+    "track_id": "track_1418411",
+    "artist_id": "artist_377522",
+    "source_tags": [
+      "hiphop"
+    ],
+    "raw_score": 0.7904330152453212,
+    "corrected_score": 0.7904330152453212,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/1418411.mp3\nno song for you by Jocire from Jamendo: http://www.jamendo.com/track/1418411\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1418411.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_positive",
+    "track_id": "track_1060611",
+    "artist_id": "artist_436908",
+    "source_tags": [
+      "dance",
+      "experimental",
+      "fusion",
+      "soundtrack"
+    ],
+    "raw_score": 0.7739079176957343,
+    "corrected_score": 0.7739079176957343,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/1060611.mp3\nHALLOWEEN JOVI by JOVI LEAL CLAVEL from Jamendo: http://www.jamendo.com/track/1060611\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1060611.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_negative",
+    "track_id": "track_1162011",
+    "artist_id": "artist_004777",
+    "source_tags": [
+      "alternative",
+      "electronic",
+      "indie",
+      "pop",
+      "rock"
+    ],
+    "raw_score": 0.08006307017613282,
+    "corrected_score": 0.08006307017613282,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "11/1162011.mp3\nUpper Class Groupie by STEEP from Jamendo: http://www.jamendo.com/track/1162011\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1162011.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_negative",
+    "track_id": "track_0208410",
+    "artist_id": "artist_340445",
+    "source_tags": [
+      "easylistening",
+      "electronic",
+      "lounge"
+    ],
+    "raw_score": 0.08737626869688282,
+    "corrected_score": 0.08737626869688282,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/208410.mp3\ndesgdokpikboogie by zsolnai from Jamendo: http://www.jamendo.com/track/208410\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0208410.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_negative",
+    "track_id": "track_1179511",
+    "artist_id": "artist_003027",
+    "source_tags": [
+      "ambient",
+      "electronic",
+      "triphop"
+    ],
+    "raw_score": 0.17115106646917147,
+    "corrected_score": 0.17115106646917147,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "11/1179511.mp3\nasdcccc by ZERO_1 from Jamendo: http://www.jamendo.com/track/1179511\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1179511.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_negative",
+    "track_id": "track_0040611",
+    "artist_id": "artist_005734",
+    "source_tags": [
+      "electronic"
+    ],
+    "raw_score": 0.21304639341239456,
+    "corrected_score": 0.21304639341239456,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "11/40611.mp3\nDance of the Zen Master by Krayne from Jamendo: http://www.jamendo.com/track/40611\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0040611.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "electronic",
+    "kind": "false_negative",
+    "track_id": "track_1338009",
+    "artist_id": "artist_489253",
+    "source_tags": [
+      "alternative",
+      "electronic",
+      "rock"
+    ],
+    "raw_score": 0.22097104278158947,
+    "corrected_score": 0.22097104278158947,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "09/1338009.mp3\nMOSSS - 12 by MOSSS from Jamendo: http://www.jamendo.com/track/1338009\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1338009.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_positive",
+    "track_id": "track_0246908",
+    "artist_id": "artist_337679",
+    "source_tags": [
+      "rock"
+    ],
+    "raw_score": 0.7944899292771993,
+    "corrected_score": 0.7944899292771993,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "08/246908.mp3\nN'attends pas by Dutajel from Jamendo: http://www.jamendo.com/track/246908\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0246908.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_positive",
+    "track_id": "track_1113608",
+    "artist_id": "artist_438631",
+    "source_tags": [
+      "ambient",
+      "progressive",
+      "soundtrack"
+    ],
+    "raw_score": 0.7014319689187566,
+    "corrected_score": 0.7014319689187566,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "08/1113608.mp3\nAutumnal Equinox Final by Transcendent Sound Generation from Jamendo: http://www.jamendo.com/track/1113608\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1113608.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_positive",
+    "track_id": "track_1033910",
+    "artist_id": "artist_422519",
+    "source_tags": [
+      "punkrock",
+      "rock"
+    ],
+    "raw_score": 0.6841914734333854,
+    "corrected_score": 0.6841914734333854,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "10/1033910.mp3\nDon't fear us by Nachei from Jamendo: http://www.jamendo.com/track/1033910\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1033910.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_positive",
+    "track_id": "track_1218608",
+    "artist_id": "artist_467100",
+    "source_tags": [
+      "alternative",
+      "folk"
+    ],
+    "raw_score": 0.6746606467074873,
+    "corrected_score": 0.6746606467074873,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "08/1218608.mp3\nIf I Hit You by The Spinning Yarns from Jamendo: http://www.jamendo.com/track/1218608\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1218608.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_positive",
+    "track_id": "track_1113611",
+    "artist_id": "artist_438631",
+    "source_tags": [
+      "ambient",
+      "progressive",
+      "soundtrack"
+    ],
+    "raw_score": 0.6451354310894177,
+    "corrected_score": 0.6451354310894177,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/1113611.mp3\nThe Night Sky and the Coming of Dawn by Transcendent Sound Generation from Jamendo: http://www.jamendo.com/track/1113611\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1113611.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_negative",
+    "track_id": "track_1300010",
+    "artist_id": "artist_485648",
+    "source_tags": [
+      "poprock"
+    ],
+    "raw_score": 0.029062217386468966,
+    "corrected_score": 0.029062217386468966,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/1300010.mp3\n\u041f\u0440\u043e \u0428\u043a\u043e\u043b\u0443... by TAKCI from Jamendo: http://www.jamendo.com/track/1300010\nAvailable under a Creative Commons Attribution license: http://creativecommons.org/licenses/by/3.0/",
+    "license_code": "by",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1300010.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_negative",
+    "track_id": "track_0392210",
+    "artist_id": "artist_352224",
+    "source_tags": [
+      "classical",
+      "newage",
+      "pop"
+    ],
+    "raw_score": 0.06889722157851218,
+    "corrected_score": 0.06889722157851218,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/392210.mp3\nGrey Sky by Elisa Di Lenardo from Jamendo: http://www.jamendo.com/track/392210\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0392210.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_negative",
+    "track_id": "track_0300708",
+    "artist_id": "artist_348252",
+    "source_tags": [
+      "pop",
+      "rock"
+    ],
+    "raw_score": 0.104647688036866,
+    "corrected_score": 0.104647688036866,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "08/300708.mp3\nsend me a note  by Kismet from Jamendo: http://www.jamendo.com/track/300708\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/nl/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0300708.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_negative",
+    "track_id": "track_0357210",
+    "artist_id": "artist_350883",
+    "source_tags": [
+      "latin",
+      "pop"
+    ],
+    "raw_score": 0.2071148096126381,
+    "corrected_score": 0.2071148096126381,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/357210.mp3\nSi Te Arrepentiste by ProyectoT from Jamendo: http://www.jamendo.com/track/357210\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0357210.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "pop",
+    "kind": "false_negative",
+    "track_id": "track_1145709",
+    "artist_id": "artist_365250",
+    "source_tags": [
+      "dance",
+      "electronic",
+      "pop"
+    ],
+    "raw_score": 0.20852228756245045,
+    "corrected_score": 0.20852228756245045,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "09/1145709.mp3\nCrazy Super Love by Oz BODYCON from Jamendo: http://www.jamendo.com/track/1145709\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1145709.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_positive",
+    "track_id": "track_1252010",
+    "artist_id": "artist_339551",
+    "source_tags": [
+      "indie",
+      "singersongwriter"
+    ],
+    "raw_score": 0.9432023966464989,
+    "corrected_score": 0.8081355287933842,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "10/1252010.mp3\nTicket to somewhere by 7StairsUp! from Jamendo: http://www.jamendo.com/track/1252010\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1252010.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_positive",
+    "track_id": "track_0039711",
+    "artist_id": "artist_005593",
+    "source_tags": [
+      "electronic"
+    ],
+    "raw_score": 0.9038408021185593,
+    "corrected_score": 0.704496334340044,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/39711.mp3\nHuman madness by Liscus from Jamendo: http://www.jamendo.com/track/39711\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/2.5/it/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0039711.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_positive",
+    "track_id": "track_1066711",
+    "artist_id": "artist_438057",
+    "source_tags": [
+      "classical"
+    ],
+    "raw_score": 0.8046340571173861,
+    "corrected_score": 0.5109149984604452,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/1066711.mp3\nLa Catedral Preludio 1 by Chadwick E. Becks from Jamendo: http://www.jamendo.com/track/1066711\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1066711.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_positive",
+    "track_id": "track_0161211",
+    "artist_id": "artist_339322",
+    "source_tags": [
+      "soundtrack"
+    ],
+    "raw_score": 0.7800202914374149,
+    "corrected_score": 0.47350942827381937,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/161211.mp3\nInfluence by Afrodreams from Jamendo: http://www.jamendo.com/track/161211\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/2.0/fr/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0161211.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_positive",
+    "track_id": "track_0648408",
+    "artist_id": "artist_349389",
+    "source_tags": [
+      "experimental"
+    ],
+    "raw_score": 0.7730262311771542,
+    "corrected_score": 0.4634732630994724,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "08/648408.mp3\nAnti symphonie I - bonus by Diaenoxe from Jamendo: http://www.jamendo.com/track/648408\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0648408.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_negative",
+    "track_id": "track_0036709",
+    "artist_id": "artist_005126",
+    "source_tags": [
+      "ambient",
+      "electronic",
+      "techno",
+      "trance"
+    ],
+    "raw_score": 0.08900920437353319,
+    "corrected_score": 0.024182667909416984,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "09/36709.mp3\nMaster of your nightmare by -mystery- from Jamendo: http://www.jamendo.com/track/36709\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/2.5/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0036709.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_negative",
+    "track_id": "track_1364709",
+    "artist_id": "artist_491905",
+    "source_tags": [
+      "ambient",
+      "disco",
+      "experimental"
+    ],
+    "raw_score": 0.11634665126613536,
+    "corrected_score": 0.032316192640350384,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "09/1364709.mp3\nYo quiero Alabarte by Luis Felipe Rodriguez from Jamendo: http://www.jamendo.com/track/1364709\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1364709.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_negative",
+    "track_id": "track_1113608",
+    "artist_id": "artist_438631",
+    "source_tags": [
+      "ambient",
+      "progressive",
+      "soundtrack"
+    ],
+    "raw_score": 0.15922831845980223,
+    "corrected_score": 0.04583331164752945,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "08/1113608.mp3\nAutumnal Equinox Final by Transcendent Sound Generation from Jamendo: http://www.jamendo.com/track/1113608\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1113608.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_negative",
+    "track_id": "track_1179510",
+    "artist_id": "artist_003027",
+    "source_tags": [
+      "ambient",
+      "electronic",
+      "triphop"
+    ],
+    "raw_score": 0.17325013174003615,
+    "corrected_score": 0.05046885013235253,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/1179510.mp3\nA Laurum_01 by ZERO_1 from Jamendo: http://www.jamendo.com/track/1179510\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1179510.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "ambient",
+    "kind": "false_negative",
+    "track_id": "track_0962910",
+    "artist_id": "artist_338522",
+    "source_tags": [
+      "ambient",
+      "easylistening"
+    ],
+    "raw_score": 0.17532659554421298,
+    "corrected_score": 0.05116480807699525,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/962910.mp3\nenjoy land by Noblemo \"piano,sountrack,lounge\" from Jamendo: http://www.jamendo.com/track/962910\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0962910.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_positive",
+    "track_id": "track_0357510",
+    "artist_id": "artist_350867",
+    "source_tags": [
+      "metal"
+    ],
+    "raw_score": 0.6857901329342455,
+    "corrected_score": 0.6857901329342455,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "10/357510.mp3\nGurutzearen itzala by Kudai from Jamendo: http://www.jamendo.com/track/357510\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0357510.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_positive",
+    "track_id": "track_1045311",
+    "artist_id": "artist_354459",
+    "source_tags": [
+      "indie",
+      "psychedelic"
+    ],
+    "raw_score": 0.6298178612496587,
+    "corrected_score": 0.6298178612496587,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/1045311.mp3\nB - side: the Cop by Downlouders from Jamendo: http://www.jamendo.com/track/1045311\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1045311.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_positive",
+    "track_id": "track_1361910",
+    "artist_id": "artist_491771",
+    "source_tags": [
+      "indie"
+    ],
+    "raw_score": 0.551784669579576,
+    "corrected_score": 0.551784669579576,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "10/1361910.mp3\nInsoportable by Maldito Reloj from Jamendo: http://www.jamendo.com/track/1361910\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1361910.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_positive",
+    "track_id": "track_1418009",
+    "artist_id": "artist_496894",
+    "source_tags": [
+      "hiphop"
+    ],
+    "raw_score": 0.5372465064592019,
+    "corrected_score": 0.5372465064592019,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "09/1418009.mp3\nErmi - Final fight by Ermi from Jamendo: http://www.jamendo.com/track/1418009\nAvailable under a Creative Commons Attribution-Non-Commercial license: http://creativecommons.org/licenses/by-nc/3.0/",
+    "license_code": "by-nc",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1418009.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_positive",
+    "track_id": "track_1361911",
+    "artist_id": "artist_491771",
+    "source_tags": [
+      "indie"
+    ],
+    "raw_score": 0.4784387797959813,
+    "corrected_score": 0.4784387797959813,
+    "source_target": 0,
+    "selected": true,
+    "attribution_verbatim": "11/1361911.mp3\nPerderme contigo by Maldito Reloj from Jamendo: http://www.jamendo.com/track/1361911\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1361911.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_negative",
+    "track_id": "track_1199610",
+    "artist_id": "artist_462229",
+    "source_tags": [
+      "funk",
+      "hiphop",
+      "jazz",
+      "psychedelic",
+      "rock"
+    ],
+    "raw_score": 0.03628916775903402,
+    "corrected_score": 0.03628916775903402,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/1199610.mp3\n05. Hip-Hop Jazz by Prospect Of Idiots from Jamendo: http://www.jamendo.com/track/1199610\nAvailable under a Creative Commons Attribution license: http://creativecommons.org/licenses/by/3.0/",
+    "license_code": "by",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1199610.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_negative",
+    "track_id": "track_1082009",
+    "artist_id": "artist_439436",
+    "source_tags": [
+      "instrumentalrock",
+      "newage"
+    ],
+    "raw_score": 0.05784615477442201,
+    "corrected_score": 0.05784615477442201,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "09/1082009.mp3\nthe lost jem by Vincent Lefebvre from Jamendo: http://www.jamendo.com/track/1082009\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/2.5/ca/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1082009.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_negative",
+    "track_id": "track_0765209",
+    "artist_id": "artist_352172",
+    "source_tags": [
+      "atmospheric",
+      "rock"
+    ],
+    "raw_score": 0.10524295797190229,
+    "corrected_score": 0.10524295797190229,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "09/765209.mp3\n\u0412\u044b\u0441\u043e\u0445\u0448\u0435\u0435 \u043c\u043e\u0440\u0435 (Instrumental) by \u041f\u0415\u0422\u0420\u041e\u0413\u0420\u0410\u0414\u0421\u041a\u0410\u042f \u0421\u0422\u041e\u0420\u041e\u041d\u0410 from Jamendo: http://www.jamendo.com/track/765209\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0765209.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_negative",
+    "track_id": "track_1338010",
+    "artist_id": "artist_489253",
+    "source_tags": [
+      "alternative",
+      "electronic",
+      "rock"
+    ],
+    "raw_score": 0.13766607068058762,
+    "corrected_score": 0.13766607068058762,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "10/1338010.mp3\nMOSSS - Minornaya by MOSSS from Jamendo: http://www.jamendo.com/track/1338010\nAvailable under a Creative Commons Attribution-Share-Alike license: http://creativecommons.org/licenses/by-sa/3.0/",
+    "license_code": "by-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_1338010.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  },
+  {
+    "label": "rock",
+    "kind": "false_negative",
+    "track_id": "track_0943411",
+    "artist_id": "artist_351690",
+    "source_tags": [
+      "poprock",
+      "rock",
+      "rocknroll"
+    ],
+    "raw_score": 0.17597619278932042,
+    "corrected_score": 0.17597619278932042,
+    "source_target": 1,
+    "selected": false,
+    "attribution_verbatim": "11/943411.mp3\nTrovador by Basilio Montes from Jamendo: http://www.jamendo.com/track/943411\nAvailable under a Creative Commons Attribution-Non-Commercial-Share-Alike license: http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "license_code": "by-nc-sa",
+    "audio_file": "outputs/application_fresh_validation/20260927_v1/audio/track_0943411.wav",
+    "scope": "post-evaluation highest squared-error examples among source-label disagreements; not human-adjudicated mistakes"
+  }
+]

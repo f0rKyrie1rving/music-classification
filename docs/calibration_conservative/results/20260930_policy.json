@@ -1,0 +1,540 @@
+{
+  "labels": {
+    "electronic": {
+      "selected_lambda": 0.0,
+      "selection": {
+        "selected_lambda": 0.0,
+        "best_lambda": 0.25,
+        "paired_se": 0.0009640807972221688,
+        "threshold": 0.10398930232047447,
+        "selection_oof_brier": 0.1031599485275939,
+        "candidates": [
+          {
+            "lambda": 0.0,
+            "brier": 0.1031599485275939,
+            "delta_brier": 0.0
+          },
+          {
+            "lambda": 0.25,
+            "brier": 0.1030252215232523,
+            "delta_brier": -0.00013472700434159768
+          },
+          {
+            "lambda": 0.5,
+            "brier": 0.1033478715417684,
+            "delta_brier": 0.0001879230141745014
+          },
+          {
+            "lambda": 0.75,
+            "brier": 0.10412789858314225,
+            "delta_brier": 0.0009679500555483528
+          },
+          {
+            "lambda": 1.0,
+            "brier": 0.10536530264737384,
+            "delta_brier": 0.0022053541197799426
+          }
+        ],
+        "interpretation": "selection heuristic; paired SE is not a confidence guarantee"
+      },
+      "inner_fits": [
+        {
+          "fold": 0,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.5204409297344899,
+            "intercept": -0.011124625779706956,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.3035035568894432,
+            "initial_log_loss": 0.3269426931107662,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 1,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.4171756252994994,
+            "intercept": -0.07580912474663591,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.3185318303155811,
+            "initial_log_loss": 0.33586358292791507,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 2,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.1995992680506975,
+            "intercept": -0.2897497463326864,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.3615446559739278,
+            "initial_log_loss": 0.37357870246281627,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 3,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.4494610184835046,
+            "intercept": 0.12818979429989413,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 7,
+            "calibration_log_loss": 0.3289240834277359,
+            "initial_log_loss": 0.3458643695502701,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 4,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.515602699504839,
+            "intercept": 0.028176447947198247,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.2919389906455187,
+            "initial_log_loss": 0.31493362726995183,
+            "bound_hit": false
+          }
+        }
+      ],
+      "full_fit": {
+        "method": "sigmoid",
+        "slope": 1.4188645409642633,
+        "intercept": -0.04111234098059919,
+        "temperature": null,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 8,
+        "calibration_log_loss": 0.3214035240574928,
+        "initial_log_loss": 0.33857891523135025,
+        "bound_hit": false
+      },
+      "fallback_reason": null
+    },
+    "pop": {
+      "selected_lambda": 0.0,
+      "selection": {
+        "selected_lambda": 0.0,
+        "best_lambda": 0.0,
+        "paired_se": 0.0,
+        "threshold": 0.13020565786729907,
+        "selection_oof_brier": 0.13020565786729907,
+        "candidates": [
+          {
+            "lambda": 0.0,
+            "brier": 0.13020565786729907,
+            "delta_brier": 0.0
+          },
+          {
+            "lambda": 0.25,
+            "brier": 0.13043080070038632,
+            "delta_brier": 0.00022514283308724958
+          },
+          {
+            "lambda": 0.5,
+            "brier": 0.1307109896882787,
+            "delta_brier": 0.0005053318209796431
+          },
+          {
+            "lambda": 0.75,
+            "brier": 0.1310462248309762,
+            "delta_brier": 0.0008405669636771251
+          },
+          {
+            "lambda": 1.0,
+            "brier": 0.1314365061284789,
+            "delta_brier": 0.0012308482611798344
+          }
+        ],
+        "interpretation": "selection heuristic; paired SE is not a confidence guarantee"
+      },
+      "inner_fits": [
+        {
+          "fold": 0,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.0409944383131526,
+            "intercept": -0.029794062366804895,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 7,
+            "calibration_log_loss": 0.41889505345914213,
+            "initial_log_loss": 0.4193469508726065,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 1,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.0793393713519022,
+            "intercept": 0.05019069615334256,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.43520908837260014,
+            "initial_log_loss": 0.4357118409962638,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 2,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.1222783380393369,
+            "intercept": -0.01085708261735972,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 9,
+            "calibration_log_loss": 0.42107693269781754,
+            "initial_log_loss": 0.42313569212050234,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 3,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.020031248802746,
+            "intercept": -0.23944164794759884,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 9,
+            "calibration_log_loss": 0.3999130546550129,
+            "initial_log_loss": 0.4043109439535769,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 4,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.0805809135748214,
+            "intercept": 0.061377453909026866,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.4235362982348662,
+            "initial_log_loss": 0.4240612837669989,
+            "bound_hit": false
+          }
+        }
+      ],
+      "full_fit": {
+        "method": "sigmoid",
+        "slope": 1.069214103346163,
+        "intercept": -0.031125460563334553,
+        "temperature": null,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 7,
+        "calibration_log_loss": 0.4201100181830038,
+        "initial_log_loss": 0.4210914097341192,
+        "bound_hit": false
+      },
+      "fallback_reason": null
+    },
+    "ambient": {
+      "selected_lambda": 0.5,
+      "selection": {
+        "selected_lambda": 0.5,
+        "best_lambda": 1.0,
+        "paired_se": 0.017580149275202538,
+        "threshold": 0.13466318574996694,
+        "selection_oof_brier": 0.12533814645601313,
+        "candidates": [
+          {
+            "lambda": 0.0,
+            "brier": 0.156175911927038,
+            "delta_brier": 0.0
+          },
+          {
+            "lambda": 0.25,
+            "brier": 0.13793419725530354,
+            "delta_brier": -0.018241714671734466
+          },
+          {
+            "lambda": 0.5,
+            "brier": 0.12533814645601313,
+            "delta_brier": -0.030837765471024875
+          },
+          {
+            "lambda": 0.75,
+            "brier": 0.11838775952916675,
+            "delta_brier": -0.037788152397871255
+          },
+          {
+            "lambda": 1.0,
+            "brier": 0.1170830364747644,
+            "delta_brier": -0.03909287545227361
+          }
+        ],
+        "interpretation": "selection heuristic; paired SE is not a confidence guarantee"
+      },
+      "inner_fits": [
+        {
+          "fold": 0,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 0.9344097538414904,
+            "intercept": -1.3488962762139294,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 7,
+            "calibration_log_loss": 0.3587009867367804,
+            "initial_log_loss": 0.4775779715667107,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 1,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 0.7335015869397203,
+            "intercept": -1.320579849721086,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.3810389378439214,
+            "initial_log_loss": 0.4961645179112448,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 2,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 0.8909239205173622,
+            "intercept": -1.3773973383913263,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 7,
+            "calibration_log_loss": 0.33284157477289317,
+            "initial_log_loss": 0.44448618717515403,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 3,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 0.8026075194249735,
+            "intercept": -1.4296742040276165,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.3699392176394059,
+            "initial_log_loss": 0.5075737526247678,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 4,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 0.8587680514821724,
+            "intercept": -1.2256273519921863,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 7,
+            "calibration_log_loss": 0.37846197550396776,
+            "initial_log_loss": 0.4768991662379276,
+            "bound_hit": false
+          }
+        }
+      ],
+      "full_fit": {
+        "method": "sigmoid",
+        "slope": 0.8399062405159531,
+        "intercept": -1.3390878864750915,
+        "temperature": null,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 7,
+        "calibration_log_loss": 0.36534517490328083,
+        "initial_log_loss": 0.48110117988849554,
+        "bound_hit": false
+      },
+      "fallback_reason": null
+    },
+    "rock": {
+      "selected_lambda": 0.0,
+      "selection": {
+        "selected_lambda": 0.0,
+        "best_lambda": 0.0,
+        "paired_se": 0.0,
+        "threshold": 0.08217294249122284,
+        "selection_oof_brier": 0.08217294249122284,
+        "candidates": [
+          {
+            "lambda": 0.0,
+            "brier": 0.08217294249122284,
+            "delta_brier": 0.0
+          },
+          {
+            "lambda": 0.25,
+            "brier": 0.08282817353411812,
+            "delta_brier": 0.0006552310428952768
+          },
+          {
+            "lambda": 0.5,
+            "brier": 0.08360050896514624,
+            "delta_brier": 0.0014275664739234056
+          },
+          {
+            "lambda": 0.75,
+            "brier": 0.08448994878430725,
+            "delta_brier": 0.0023170062930844143
+          },
+          {
+            "lambda": 1.0,
+            "brier": 0.08549649299160111,
+            "delta_brier": 0.003323550500378275
+          }
+        ],
+        "interpretation": "selection heuristic; paired SE is not a confidence guarantee"
+      },
+      "inner_fits": [
+        {
+          "fold": 0,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.1595866274494118,
+            "intercept": -0.09568506238498731,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 9,
+            "calibration_log_loss": 0.2518743917193209,
+            "initial_log_loss": 0.25629826438768166,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 1,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.1794199567816215,
+            "intercept": 0.08937487020540394,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.2913840644720035,
+            "initial_log_loss": 0.29438012911818523,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 2,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.1715757491578442,
+            "intercept": 0.1393295934046506,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 7,
+            "calibration_log_loss": 0.29068984103134915,
+            "initial_log_loss": 0.29344010796008846,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 3,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.3736175903580168,
+            "intercept": 0.44538674998570094,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 8,
+            "calibration_log_loss": 0.25518768542830844,
+            "initial_log_loss": 0.2650020551490109,
+            "bound_hit": false
+          }
+        },
+        {
+          "fold": 4,
+          "parameters": {
+            "method": "sigmoid",
+            "slope": 1.0769645036776638,
+            "intercept": -0.08597118071474248,
+            "temperature": null,
+            "success": true,
+            "status": 0,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "iterations": 9,
+            "calibration_log_loss": 0.28708298030135404,
+            "initial_log_loss": 0.2886995162221253,
+            "bound_hit": false
+          }
+        }
+      ],
+      "full_fit": {
+        "method": "sigmoid",
+        "slope": 1.1852912509233609,
+        "intercept": 0.08721193829038695,
+        "temperature": null,
+        "success": true,
+        "status": 0,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "calibration_log_loss": 0.2757501085648228,
+        "initial_log_loss": 0.2789056226561193,
+        "bound_hit": false
+      },
+      "fallback_reason": null
+    }
+  }
+}

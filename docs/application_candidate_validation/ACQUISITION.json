@@ -1,0 +1,386 @@
+{
+  "created_utc": "2026-09-27T17:32:29.828561+00:00",
+  "scope": "Completed acquisition only. No feature files or model predictions were read.",
+  "state": "passed",
+  "selection": {
+    "requested_tracks": 372,
+    "requested_artists": 250,
+    "successful_tracks": 372,
+    "successful_artists": 250,
+    "failed_tracks": 0,
+    "replacement_tracks": 0,
+    "track_coverage": 1.0,
+    "artist_coverage": 1.0,
+    "licenses": {
+      "by-nc-sa": 201,
+      "by": 30,
+      "by-sa": 117,
+      "by-nc": 24
+    }
+  },
+  "retirement": {
+    "historical_tracks": 2195,
+    "historical_artists": 1008,
+    "whole_eligible_frame_tracks": 640,
+    "whole_eligible_frame_artists": 288,
+    "future_excluded_tracks": 2835,
+    "future_excluded_artists": 1296
+  },
+  "indices": {
+    "12": {
+      "complete": true,
+      "frame_members": 40,
+      "selected_tracks": 28,
+      "headers_scanned": 519,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 520,
+      "archive_bytes": 1588295680,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T16:53:25.810059+00:00",
+          "offset": 0,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:01:21.932475+00:00"
+        }
+      ]
+    },
+    "13": {
+      "complete": true,
+      "frame_members": 53,
+      "selected_tracks": 29,
+      "headers_scanned": 530,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 531,
+      "archive_bytes": 1689937920,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T16:53:25.809923+00:00",
+          "offset": 0,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:01:37.135931+00:00"
+        }
+      ]
+    },
+    "14": {
+      "complete": true,
+      "frame_members": 70,
+      "selected_tracks": 37,
+      "headers_scanned": 529,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 530,
+      "archive_bytes": 1651333120,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T16:53:25.810035+00:00",
+          "offset": 0,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:01:36.691560+00:00"
+        }
+      ]
+    },
+    "15": {
+      "complete": true,
+      "frame_members": 71,
+      "selected_tracks": 41,
+      "headers_scanned": 542,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 543,
+      "archive_bytes": 1690664960,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T16:53:25.810125+00:00",
+          "offset": 0,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:01:33.074568+00:00"
+        }
+      ]
+    },
+    "16": {
+      "complete": true,
+      "frame_members": 93,
+      "selected_tracks": 53,
+      "headers_scanned": 550,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 551,
+      "archive_bytes": 1708636160,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T17:01:21.938862+00:00",
+          "offset": 0,
+          "state": "failed",
+          "completed_utc": "2026-09-27T17:05:38.884740+00:00",
+          "error": "RuntimeError('Range download failed: curl: (28) Failed to connect to cdn.freesound.org port 443 after 8006 ms: Timeout was reached')"
+        },
+        {
+          "started_utc": "2026-09-27T17:08:11.285229+00:00",
+          "offset": 603004928,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:13:16.559722+00:00"
+        }
+      ]
+    },
+    "17": {
+      "complete": true,
+      "frame_members": 100,
+      "selected_tracks": 50,
+      "headers_scanned": 560,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 561,
+      "archive_bytes": 1768611840,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T17:01:33.079114+00:00",
+          "offset": 0,
+          "state": "failed",
+          "completed_utc": "2026-09-27T17:05:37.904835+00:00",
+          "error": "RuntimeError('Range download failed: curl: (28) Failed to connect to cdn.freesound.org port 443 after 8002 ms: Timeout was reached')"
+        },
+        {
+          "started_utc": "2026-09-27T17:08:11.284991+00:00",
+          "offset": 491546112,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:14:03.349845+00:00"
+        }
+      ]
+    },
+    "18": {
+      "complete": true,
+      "frame_members": 105,
+      "selected_tracks": 62,
+      "headers_scanned": 548,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 549,
+      "archive_bytes": 1663703040,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T17:01:36.695933+00:00",
+          "offset": 0,
+          "state": "failed",
+          "completed_utc": "2026-09-27T17:06:12.593920+00:00",
+          "error": "RuntimeError('Range download failed: curl: (28) Failed to connect to cdn.freesound.org port 443 after 8005 ms: Timeout was reached')"
+        },
+        {
+          "started_utc": "2026-09-27T17:08:11.285068+00:00",
+          "offset": 517377024,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:13:53.497779+00:00"
+        }
+      ]
+    },
+    "19": {
+      "complete": true,
+      "frame_members": 108,
+      "selected_tracks": 72,
+      "headers_scanned": 541,
+      "terminal_zero_headers": 1,
+      "saved_header_files": 542,
+      "archive_bytes": 1675038720,
+      "invocations": [
+        {
+          "started_utc": "2026-09-27T17:01:37.139185+00:00",
+          "offset": 0,
+          "state": "failed",
+          "completed_utc": "2026-09-27T17:05:37.908163+00:00",
+          "error": "RuntimeError('Range download failed: curl: (28) Failed to connect to cdn.freesound.org port 443 after 8006 ms: Timeout was reached')"
+        },
+        {
+          "started_utc": "2026-09-27T17:08:11.285032+00:00",
+          "offset": 529699840,
+          "state": "success",
+          "completed_utc": "2026-09-27T17:13:40.447682+00:00"
+        }
+      ]
+    }
+  },
+  "network": {
+    "by_phase": {
+      "index": {
+        "requests": 4331,
+        "attempts": 4348,
+        "attempt_states": {
+          "success": 4327,
+          "failed": 21
+        },
+        "request_terminal_states": {
+          "success": 4327,
+          "failed": 4
+        },
+        "requests_using_retries": 12,
+        "successful_response_bytes": 2215424,
+        "failed_attempt_error_categories": {
+          "curl_error_28": 21
+        },
+        "distinct_failed_attempt_error_messages": 7,
+        "failed_attempt_error_examples": [
+          "curl: (28) Failed to connect to cdn.freesound.org port 443 after 8002 ms: Timeout was reached",
+          "curl: (28) Failed to connect to cdn.freesound.org port 443 after 8003 ms: Timeout was reached",
+          "curl: (28) Failed to connect to cdn.freesound.org port 443 after 8005 ms: Timeout was reached",
+          "curl: (28) Failed to connect to cdn.freesound.org port 443 after 8006 ms: Timeout was reached",
+          "curl: (28) Operation timed out after 25005 milliseconds with 0 bytes received",
+          "curl: (28) Operation timed out after 25006 milliseconds with 0 bytes received",
+          "curl: (28) SSL connection timeout"
+        ]
+      },
+      "audio": {
+        "requests": 2377,
+        "attempts": 2377,
+        "attempt_states": {
+          "success": 2377
+        },
+        "request_terminal_states": {
+          "success": 2377
+        },
+        "requests_using_retries": 0,
+        "successful_response_bytes": 155669922,
+        "failed_attempt_error_categories": {},
+        "distinct_failed_attempt_error_messages": 0,
+        "failed_attempt_error_examples": []
+      }
+    },
+    "total_request_records": 6708,
+    "total_attempts": 6725,
+    "all_request_records_sha256": "79bdb4a6ad3a2378b308cf2935cb74da00df75803e03072702d7bf409bb0c5b0",
+    "index_failure_interpretation": "Four exhausted index requests were retained; the affected archives resumed within the fixed maximum of three invocations. These are infrastructure failures, not failed selected songs."
+  },
+  "audio": {
+    "downloaded_encoded_bytes": 155669922,
+    "downloaded_encoded_mib": 148.45840644836426,
+    "minimum_bytes_per_track": 335495,
+    "maximum_bytes_per_track": 786432,
+    "full_mp3_official_sha256_verified_tracks": 2,
+    "partial_prefix_tracks": 370,
+    "decoded_frames_per_track": 661500,
+    "sample_rate_hz": 22050,
+    "channels": 1,
+    "wav_subtype": "PCM_16",
+    "checkpoint_states": {
+      "success": 372
+    }
+  },
+  "integrity": {
+    "checks": 43931,
+    "check_counts": {
+      "selected_ids_unique": 1,
+      "successful_ids_equal_fixed_selection_in_order": 1,
+      "all_372_accounted_without_replacement": 1,
+      "download_identity_matches_frozen_resolved_selection": 1,
+      "resolved_preserves_selection_metadata": 1,
+      "all_frame_tracks_retired": 1,
+      "all_frame_artists_retired": 1,
+      "12/complete_fixed_frame_coverage": 1,
+      "12/bounded_successful_index_invocations": 1,
+      "12/index_identity": 1,
+      "12/resolved_index_hash": 1,
+      "12/raw_header_hash_and_size": 520,
+      "12/wanted_member_unique": 40,
+      "12/raw_headers_reconstruct_exact_index": 1,
+      "12/no_extra_recorded_headers": 1,
+      "13/complete_fixed_frame_coverage": 1,
+      "13/bounded_successful_index_invocations": 1,
+      "13/index_identity": 1,
+      "13/resolved_index_hash": 1,
+      "13/raw_header_hash_and_size": 531,
+      "13/wanted_member_unique": 53,
+      "13/raw_headers_reconstruct_exact_index": 1,
+      "13/no_extra_recorded_headers": 1,
+      "14/complete_fixed_frame_coverage": 1,
+      "14/bounded_successful_index_invocations": 1,
+      "14/index_identity": 1,
+      "14/resolved_index_hash": 1,
+      "14/raw_header_hash_and_size": 530,
+      "14/wanted_member_unique": 70,
+      "14/raw_headers_reconstruct_exact_index": 1,
+      "14/no_extra_recorded_headers": 1,
+      "15/complete_fixed_frame_coverage": 1,
+      "15/bounded_successful_index_invocations": 1,
+      "15/index_identity": 1,
+      "15/resolved_index_hash": 1,
+      "15/raw_header_hash_and_size": 543,
+      "15/wanted_member_unique": 71,
+      "15/raw_headers_reconstruct_exact_index": 1,
+      "15/no_extra_recorded_headers": 1,
+      "16/complete_fixed_frame_coverage": 1,
+      "16/bounded_successful_index_invocations": 1,
+      "16/index_identity": 1,
+      "16/resolved_index_hash": 1,
+      "16/raw_header_hash_and_size": 551,
+      "16/wanted_member_unique": 93,
+      "16/raw_headers_reconstruct_exact_index": 1,
+      "16/no_extra_recorded_headers": 1,
+      "17/complete_fixed_frame_coverage": 1,
+      "17/bounded_successful_index_invocations": 1,
+      "17/index_identity": 1,
+      "17/resolved_index_hash": 1,
+      "17/raw_header_hash_and_size": 561,
+      "17/wanted_member_unique": 100,
+      "17/raw_headers_reconstruct_exact_index": 1,
+      "17/no_extra_recorded_headers": 1,
+      "18/complete_fixed_frame_coverage": 1,
+      "18/bounded_successful_index_invocations": 1,
+      "18/index_identity": 1,
+      "18/resolved_index_hash": 1,
+      "18/raw_header_hash_and_size": 549,
+      "18/wanted_member_unique": 105,
+      "18/raw_headers_reconstruct_exact_index": 1,
+      "18/no_extra_recorded_headers": 1,
+      "19/complete_fixed_frame_coverage": 1,
+      "19/bounded_successful_index_invocations": 1,
+      "19/index_identity": 1,
+      "19/resolved_index_hash": 1,
+      "19/raw_header_hash_and_size": 542,
+      "19/wanted_member_unique": 108,
+      "19/raw_headers_reconstruct_exact_index": 1,
+      "19/no_extra_recorded_headers": 1,
+      "no_unaccounted_header_files": 1,
+      "track_checkpoint_identity_success": 372,
+      "three_receipt_copies_equal": 372,
+      "decoded_audio_hash": 372,
+      "decoded_audio_header_geometry": 372,
+      "encoded_range_hash_size_location": 372,
+      "encoded_ranges_inside_member": 372,
+      "encoded_byte_budget": 372,
+      "full_checksum_claim_matches_coverage": 372,
+      "full_mp3_checksum_matches_official": 2,
+      "exact_checkpoint_file_set": 1,
+      "exact_receipt_file_set": 1,
+      "network_attempt_numbers_and_budget": 6708,
+      "network_no_attempt_after_success": 6708,
+      "network_no_unfinished_attempt": 6725,
+      "network_success_range_length": 6704,
+      "network_index_success_header_hash": 4327,
+      "network_audio_range_in_cached_prefix": 2377,
+      "network_audio_range_hash": 2377,
+      "audio_successful_network_bytes_equal_cached_bytes": 1,
+      "completed_acquisition_status_unchanged_during_audit": 1
+    },
+    "issues": [],
+    "exact_track_checkpoint_receipt_sets": true,
+    "saved_header_files": 4327,
+    "saved_header_bytes": 2215424,
+    "header_inventory_sha256": "60d6f5470c6c784905047580c465be0d00be595192106fbc0e69e476a7f67eb9",
+    "checkpoint_inventory_sha256": "49242f4c06a195127a382704d59e0d99a6dcb696accd42effe8cd4b33574e647",
+    "receipt_inventory_sha256": "57f5f9c6e0ad3d769f56d78d48f99146b2c145d56c5dc9818651e37aaba77f11",
+    "encoded_cache_inventory_sha256": "42355b1612650dee27ae6739021488692f12f8c4a0efbeb0b75f9c2760f6285b",
+    "decoded_wav_inventory_sha256": "4c9119a8656831e21b3329deafbcd6589b27f8f3048f68d7284acc248c2c640e"
+  },
+  "source_hashes": {
+    "freeze.json": "db6c022cece91c5c98fbb430e0c9ee29304b4303f376b58673177f8e5ff5118a",
+    "config.json": "9e911d9e0e1f3144772c759915d9ca429eb1ca8be01c77f89ad9f47eb360a7e1",
+    "selected_manifest.json": "acf6acdc046c1749e9bdaa78e23fc9b6da4b12a1567f1d4e2a9147ac32120ea5",
+    "resolved_manifest.json": "dd1d8a3159e8b5a88b974e000d0b828868896f40b0b8467b80a65b565a50a884",
+    "candidate_pool.json": "5c62ec01c931fca4dc5e9d72f7fcdb64e97aac90e6ebdbc2bff9edb9f302ab16",
+    "exclusions.json": "fc01f6fb482e7b0debf4c769c9af3a817f95d7d9570c71eb616caf0ffba8338d",
+    "future_exclusions.json": "b42ce653ed7b13bb00afdee7bc3583ce0f2a2f9cba0c261dafc1e98294f69392",
+    "download_status.json": "57829c9b2d4072766e46e05d8fae426ca32bbe62f286e5aa15f17b161dbac0b3"
+  },
+  "index_hashes": {
+    "archive_index_12.json": "cf3d634442f363f4744f747a32d1b23fd0ab0f73bff2ef83b1a9d85427fbd757",
+    "archive_index_13.json": "224de6e266116b3a843726f355152750d0d1dceb804e755dab6b8070d151543a",
+    "archive_index_14.json": "6f6e52b6cd62c0f7eaf0637a7d805dbb1a92ec8affe3475d4a3451ab67cb2676",
+    "archive_index_15.json": "5b06ea863a5097e8698e871dcc7f684eea27ef6cfc97a33c4ce761c6aff276d4",
+    "archive_index_16.json": "281b20f5ab20314750d0fd9fae89669eb60e9fdd761b430de30c9d907f81674d",
+    "archive_index_17.json": "a8b913f0403c29fd48cd4e544633d676f682117d17e7998d6e47215207ca0c50",
+    "archive_index_18.json": "8cb28b4a10922294288afc5183d27b94533cbb4e8561283f1a39ab88a205d837",
+    "archive_index_19.json": "768155cef887b4b5cb38954d166b29e02cf18ac4bd6bd0e9563c5b1634e88e77"
+  }
+}

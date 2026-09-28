@@ -1,0 +1,167 @@
+{
+  "replicates": 2000,
+  "seed": 2026092805,
+  "artists": 250,
+  "direction": "candidate minus baseline; negative favors candidate for losses and false positives",
+  "scope": "Paired artist-cluster 95% percentile intervals, conditional on this fixed candidate, observed licensed frame and successful acquisition. No finite-population correction, refitting or adjustment for annotation omissions, missing audio, within-artist song selection, undocumented exposure or encoder pretraining. Only the prespecified intersection of macro-Brier and focus-FP-rate benefits supports the go rule; other intervals are descriptive, without simultaneous coverage guarantees.",
+  "count_interval_definition": "focus_fp_count_equivalent = observed track count times focus FP rate; rate counts both focus-label FP cases per track and can exceed 1.",
+  "metrics": {
+    "macro_brier": {
+      "baseline": 0.12898903174408477,
+      "candidate": 0.12547490705605466,
+      "delta": -0.0035141246880301125,
+      "ci95": [
+        -0.0059144478084948,
+        -0.00119524735207888
+      ],
+      "valid_replicates": 2000
+    },
+    "macro_log_loss": {
+      "baseline": 0.4057143971111447,
+      "candidate": 0.39483737482133363,
+      "delta": -0.010877022289811078,
+      "ci95": [
+        -0.01890668371198815,
+        -0.0033293701390711993
+      ],
+      "valid_replicates": 2000
+    },
+    "micro_f1": {
+      "baseline": 0.6199095022624435,
+      "candidate": 0.6370023419203747,
+      "delta": 0.01709283965793129,
+      "ci95": [
+        0.002277949468823581,
+        0.03344217644786433
+      ],
+      "valid_replicates": 2000
+    },
+    "micro_recall": {
+      "baseline": 0.7116883116883117,
+      "candidate": 0.7064935064935065,
+      "delta": -0.0051948051948051965,
+      "ci95": [
+        -0.02393617021276595,
+        0.015037593984962405
+      ],
+      "valid_replicates": 2000
+    },
+    "focus_fp_rate": {
+      "baseline": 0.40860215053763443,
+      "candidate": 0.3333333333333333,
+      "delta": -0.07526881720430112,
+      "ci95": [
+        -0.1157053975813606,
+        -0.03759247313995445
+      ],
+      "valid_replicates": 2000
+    },
+    "focus_fp_count_equivalent": {
+      "baseline": 152.0,
+      "candidate": 124.0,
+      "delta": -28.0,
+      "ci95": [
+        -43.04240790026615,
+        -13.984400008063062
+      ],
+      "valid_replicates": 2000
+    },
+    "focus_fp_relative_change": {
+      "baseline": 0.0,
+      "candidate": -0.18421052631578957,
+      "delta": -0.18421052631578957,
+      "ci95": [
+        -0.2690172287004938,
+        -0.09696480938416424
+      ],
+      "valid_replicates": 2000,
+      "undefined_replicates": 0
+    }
+  },
+  "per_label_losses": {
+    "brier": {
+      "electronic": {
+        "baseline": 0.11875641800353458,
+        "candidate": 0.11875641800353458,
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "valid_replicates": 2000
+      },
+      "pop": {
+        "baseline": 0.17100756370857337,
+        "candidate": 0.1620742423740682,
+        "delta": -0.008933321334505168,
+        "ci95": [
+          -0.014798428362953052,
+          -0.0033594841043518594
+        ],
+        "valid_replicates": 2000
+      },
+      "ambient": {
+        "baseline": 0.12143919784712003,
+        "candidate": 0.11631602042950467,
+        "delta": -0.005123177417615352,
+        "ci95": [
+          -0.012391138322871463,
+          0.0013288980156597825
+        ],
+        "valid_replicates": 2000
+      },
+      "rock": {
+        "baseline": 0.10475294741711122,
+        "candidate": 0.10475294741711122,
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "valid_replicates": 2000
+      }
+    },
+    "log_loss": {
+      "electronic": {
+        "baseline": 0.3729047351534287,
+        "candidate": 0.3729047351534287,
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "valid_replicates": 2000
+      },
+      "pop": {
+        "baseline": 0.5146133117718237,
+        "candidate": 0.48884686636983654,
+        "delta": -0.025766445401987137,
+        "ci95": [
+          -0.04413487284380218,
+          -0.008385682056879734
+        ],
+        "valid_replicates": 2000
+      },
+      "ambient": {
+        "baseline": 0.38323534885291555,
+        "candidate": 0.3654937050956585,
+        "delta": -0.017741643757257064,
+        "ci95": [
+          -0.04444266221306214,
+          0.005833190605505653
+        ],
+        "valid_replicates": 2000
+      },
+      "rock": {
+        "baseline": 0.3521041926664113,
+        "candidate": 0.3521041926664113,
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "valid_replicates": 2000
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "checks": 285928,
+  "model_sets": 60,
+  "actual_fitted_heads": 360,
+  "maximum_absolute_numeric_difference": 5.551115123125783e-16,
+  "tracks": 1915,
+  "artists": 908,
+  "primary_gate_passed": true,
+  "freeze_sha256": "b90ce503928ad8ec5adbe36d7bbf90a4cdb1ce818d2337b67a9a11430e233e04",
+  "predictions_sha256": "962df36d4d00b7621732baca3ed6ffbe254a5f119867e96d29237487b263828d",
+  "scope": "Independent arithmetic, saved-model replay, fit-only scaler/prior/counts, exact grouped schedules, policy selection, all pooled/fold/cohort metrics and frozen hash receipts; no fitting.",
+  "script_sha256": "38569f5f5745945ad4ca06a3644595fd3b1dd09fab60c2ee029337b93d84c9e2"
+}

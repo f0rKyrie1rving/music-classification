@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-26T16:20:54.106087+00:00",
+  "reference_sha256": "e6ccace2dcb1b5ed6190fe8872d79d016fde07dfc2a2dc4c1e4946201922ec18",
+  "files": {
+    "outputs/calibration/20260926_v2/freeze.json": "97377bf16ecae6754838adc76879c991e7820411156ebbf8591093469379b3c1",
+    "outputs/calibration/20260926_v2/config.json": "4be0722cf53e190e0059bba460ab5b7bfcb0ddb2a858f8172ecf1918cb696e5b",
+    "outputs/calibration/20260926_v2/splits.json": "98be5f0eb9f39ef16b6e0591b26c8f86a857700e609b7615c322d207209189b1",
+    "outputs/calibration/20260926_v2/seed_20260926/parameters.json": "020aaac493023e93f8da85bfa7f8147d585038cd7fab1bf335ccd7ef6f60c219",
+    "outputs/calibration/20260926_v2/seed_20260926/predictions.npz": "a896249035dd6571cce39738a849958fa1d7820b8e7d6c5f18829dc1a9b5774e",
+    "outputs/calibration_conservative/20260926_v1/freeze.json": "1a36c31482fdf2d05b1953dc0f0aa3a89316a2dddf0cd2c117a1c1fa2544cc98",
+    "outputs/calibration_conservative/20260926_v1/config.json": "62a66a51523d1b2e48ecf46882815a754342553cc1788ec572669b0cc59c856c",
+    "outputs/calibration_conservative/20260926_v1/selection/status.json": "2057a9dfb000f3404e6c09ee09ca9e51e9ce295818916c471d460ef2a725ffc4",
+    "outputs/calibration_conservative/20260926_v1/selection/20260926_policy.json": "4036554bc0975f44a1a7ae737ba84fb70cab7d486008bc5a0a24d4bebc0ec029",
+    "outputs/calibration_conservative/20260926_v1/evaluation/status.json": "886d7939f0dc594b3afecfdcaa3eac223129629585c0129571b5182b9724ece1",
+    "outputs/calibration_conservative/20260926_v1/evaluation/20260926_predictions.npz": "18cc2d7202d12554494237b01dc79f359a5d4a1f02d238654d9c7f47df899ad2",
+    "outputs/maest_hf/features.npy": "cfb693735b4affcd966375926026fb39c45348bb60d19cef8e244ac436aeca52",
+    "outputs/maest_hf/features.json": "d73ce7028619ce1cdb75cef1c20a4a3757fa4bb64d0da4368e0654e144e7d936",
+    "data/expanded_manifest.json": "01d93dbe0474e517861e0d0cbe95ca4a4e8dc769f180ec74d2e3d34490689077",
+    "experiments/final_holdout_plan.json": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+    "expanded_model.py": "0ebdfd2d1032b47abf95eca0b862834d62578b49511bad179c56110512a9af6b"
+  }
+}

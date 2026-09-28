@@ -1,3 +1,6 @@
 # Preserve audited bytes when Git checks out files on Windows. The frozen
 # evaluation plan and other provenance records are verified with SHA-256.
 * -text
+
+# Python CSV exports retain their original CRLF bytes for provenance checks.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

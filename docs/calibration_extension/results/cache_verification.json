@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": {
+    "mert_v0": {
+      "shape": [
+        266,
+        768
+      ],
+      "dtype": "float32",
+      "feature_sha256": "17d8bb63ead2e75b220a7ce62210a23906fe5d43260566596fd03e6ca969dac9",
+      "unique_feature_rows": 266,
+      "control_exact": true,
+      "status": "passed"
+    },
+    "mert_v1": {
+      "shape": [
+        266,
+        768
+      ],
+      "dtype": "float32",
+      "feature_sha256": "2ca917d02aae3169af928e235d294265d04f31e363b91e307df1d764a5d39008",
+      "unique_feature_rows": 266,
+      "control_exact": true,
+      "status": "passed"
+    }
+  },
+  "all_input_audio_hashes_verified": true,
+  "all_frozen_sources_verified": true,
+  "completed_cache_repeat_did_not_write_files": true,
+  "protected_file_count": 8,
+  "unit_tests": 7,
+  "unit_test_failures": 0
+}

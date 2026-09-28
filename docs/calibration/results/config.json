@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "scope": "exploratory reuse of historical development pool",
+  "seeds": [20260926, 20260927, 20260928, 20260929, 20260930],
+  "split_candidates": 256,
+  "methods": ["identity", "sigmoid", "temperature"],
+  "slope_bounds": [0.001, 100.0],
+  "intercept_bounds": [-20.0, 20.0],
+  "optimizer_options": {"maxiter": 2000, "ftol": 1e-12, "gtol": 1e-8},
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 202609260,
+  "bin_counts": [5, 10],
+  "log_loss_epsilon": 1e-12,
+  "primary_metric": "macro_binary_brier",
+  "classifier": {"C": 0.001, "class_weight": [null, null, "balanced", null], "max_iter": 3000, "random_state": 2026, "solver": "lbfgs", "tol": 0.0001}
+}

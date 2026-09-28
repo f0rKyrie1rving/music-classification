@@ -1,0 +1,10 @@
+{
+  "state": "passed",
+  "tracks": 372,
+  "predictions_and_bootstrap_replayed_exactly": true,
+  "all_metrics_and_gates_recomputed": true,
+  "models_unchanged": true,
+  "freeze_sha256": "db6c022cece91c5c98fbb430e0c9ee29304b4303f376b58673177f8e5ff5118a",
+  "predictions_sha256": "f5afce44f35d4d2288196bd46a2d4dc2cfbd4584eab07afa5dd81acc377cf7f9",
+  "no_refitting": true
+}

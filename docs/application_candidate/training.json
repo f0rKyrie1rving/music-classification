@@ -1,0 +1,51 @@
+{
+  "candidate_id": "music-candidate-20260927-v1",
+  "tracks": 1915,
+  "artists": 908,
+  "positive_counts": [
+    690,
+    395,
+    399,
+    337
+  ],
+  "newly_fitted_labels": [
+    "pop",
+    "ambient"
+  ],
+  "copied_labels": [
+    "electronic",
+    "rock"
+  ],
+  "new_head_config": {
+    "C": 0.0003,
+    "class_weight": null,
+    "max_iter": 3000,
+    "random_state": 2026,
+    "solver": "lbfgs",
+    "tol": 0.0001
+  },
+  "training_ids_sha256": "b27ee97cecc9e21ffc8b02135beec52d992b7c551248539f804d75c1fd21d234",
+  "freeze_sha256": "a7b113f255072f21cb7590ca452023fbb5ec167c59dc00035dd4605031599b99",
+  "models": {
+    "models/final/ambient.npz": "c82ba2f3b26ce055f2089a87cb9532ba3b1a92efaff6099c4983eaeb67a6c41a",
+    "models/final/pop.npz": "3f6a12ad2afde76e63f043582becec7053b66a4198bea09857188d5c415daf0b",
+    "models/inner_0/baseline_ambient.npz": "1f97bf58eb0ac51116832a74787327d527d0cc8be375ea500def44406c959bbd",
+    "models/inner_0/baseline_pop.npz": "f7a94c033f8be1fb74af5cd489fc7db8f1e0a28f2ca735e959bec283e63f07ce",
+    "models/inner_0/new_ambient.npz": "9ed110afd60041017679b5433b9a885cb55ef9d3d826fea51d11d5f72ec81ed9",
+    "models/inner_0/new_pop.npz": "bb9a5bfc788fb7bce3ef716f6e47e34d81230b5e27e843905f6f07a1cca0d8f6",
+    "models/inner_1/baseline_ambient.npz": "ddc4eccf9379ebd1ad8319f9dd8cc3274f70fa2f59b48dfe7ed4bdbdce8c0569",
+    "models/inner_1/baseline_pop.npz": "5435470ac91569f5016a7bb94be2974582e6b05687cf1fe5625b1e513407207c",
+    "models/inner_1/new_ambient.npz": "c28784d1cb17ce242f3f983ad615153055bc2e023a8502e314dde84630cecde6",
+    "models/inner_1/new_pop.npz": "cb5337d03dfe82036bd1f1dd210f5795350a7abd13b093bd6d25ddd7c6724794",
+    "models/inner_2/baseline_ambient.npz": "4cc5cd6afb38aae325b981187cefc99205b3193730cda1e73acc1feb63e0f245",
+    "models/inner_2/baseline_pop.npz": "c9d330748cf0595cbeeba2d305802f06f16a47bd56392aa9f30d50a732903480",
+    "models/inner_2/new_ambient.npz": "5ca5788601001d0e668c98e2408d46a20887cac0bc9c7a34c2e01b63921bea51",
+    "models/inner_2/new_pop.npz": "cbb759f52ce46496ea109ba9513c48611ee91ce837299412a00c0cdd06ecb0d5",
+    "models/inner_3/baseline_ambient.npz": "475367d79dc34da50a463243d5869e6a6cfe7181da8e253826415f1dc15bebef",
+    "models/inner_3/baseline_pop.npz": "9c8e3d0ceaaf4e666d8710953e7b9e538ddf8ae49f141fa5a1391a2346c08647",
+    "models/inner_3/new_ambient.npz": "c0ba3c9ad2ff8376b054cecdf8e7808b1bf9d05a3792f47e4d3fb62ff9754254",
+    "models/inner_3/new_pop.npz": "5b68897126be142d0265a03945f0ee54d30e5c7ca2e012ffdf8915bb7b060f1a"
+  },
+  "actual_fit_count": 18,
+  "fresh_validation_complete": false
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "scope": "exploratory conservative calibration motivated by previously inspected evaluation results",
+  "base_run": "outputs/calibration/20260926_v2",
+  "outer_seeds": [20260926, 20260927, 20260928, 20260929, 20260930],
+  "primary_seed": 20260926,
+  "folds": 5,
+  "inner_seed": 2026092603,
+  "lambda_grid": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "tie_tolerance": 1e-12,
+  "selection_rule": "smallest lambda within one paired artist-cluster SE of the best OOF Brier",
+  "failure_policy": "labelwise identity if any inner fit or full fit cannot be used; record and never redraw",
+  "methods": ["identity", "sigmoid", "temperature", "conservative_sigmoid"],
+  "primary_metric": "macro_binary_brier",
+  "secondary_metrics": ["label_brier", "binary_log_loss", "reliability_5_10", "ap"],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 2026092604
+}

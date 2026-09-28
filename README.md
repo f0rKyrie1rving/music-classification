@@ -46,12 +46,51 @@ university computers may block it. No security-setting changes are required or
 recommended by this project. Reviewers can also view the results and figures
 in this README without installing anything.
 
-The current source version is **1.1.0**. It corrects the ambient score's training
-class-weight offset and offers **Compare original scores** in the desktop UI.
+The current source version is **1.2.0**. The desktop app and
+`application_predict.py` use the exact candidate that passed the 372-song
+confirmation. **Compare v1.1** shows the previous application's scores,
+thresholds and selected tags using the same audio features. See the
+[v1.2 integration record](docs/APPLICATION_V1_2.md) for checks and release status.
+
+The retained v1.1 comparator corrects the ambient score's training class-weight
+offset. Its original interface offered **Compare original scores**.
 On two previously observed cohorts, macro Brier decreased by 6.13% and 6.57%, with
 every selected tag unchanged. These are probability-error reductions, not accuracy
 increases or new independent validation. See [the v1.1 evaluation](docs/APPLICATION_V1_1.md).
-The original v1.0 model, predictor and historical results are retained. A source
+The subsequent fixed check on 204 new project tracks from 150 artists found only
+a **0.67%** reduction, with a paired artist interval spanning zero. It did **not**
+meet the prespecified acceptance gate; the correction remains experimental.
+Twenty-eight selected tracks were unavailable because of DNS failures and were
+retained in the failure record. See [the new-song validation](docs/application_fresh_validation/SUMMARY_ZH.md).
+The [pop/ambient error audit](docs/application_fp_audit/SUMMARY_ZH.md) found no
+evidence of failed downloads entering the scored data; listening adjudication
+of the source-label disagreements remains pending.
+An [automatic development experiment](docs/application_auto_improvement/SUMMARY_ZH.md)
+then tested pop/ambient head and threshold changes without listening labels.
+Grouped development false positives fell 4.87%, but missed labels increased and
+micro F1 declined slightly. The candidate failed its fixed development gate;
+the application was not replaced and no new-song confirmation was launched.
+A later [factorial development study](docs/application_factorial/SUMMARY_ZH.md)
+separated classifier and threshold changes on an explicitly retired, expanded
+1,915-track development pool. The fixed combined procedure reduced focus-label
+false positives by 10.18% and raised micro F1 from 0.605109 to 0.613212, narrowly
+passing its development gate. Learning curves supported more training data in
+the pooled sample, with source-level exceptions. That study compared refitted
+recipes, not final application artifacts; it did not acquire a new-song cohort.
+A [fixed candidate](docs/application_candidate/SUMMARY_ZH.md) was built
+separately: pop/ambient heads trained on all 1,915 development tracks, with the
+actual application's electronic/rock heads preserved. Its parameters, thresholds
+and audio inference have been verified. Its subsequent [fixed new-song
+confirmation](docs/application_candidate_validation/SUMMARY_ZH.md) covered all
+372 selected tracks from 250 new documented-project artist IDs, with no missing
+audio or features. Against the actual v1.1 application, pop/ambient false-positive
+cases fell from 152 to 124 (**18.42%**), while missed focus labels rose from 59 to
+61. Micro F1 increased from 0.619910 to 0.637002, and macro Brier decreased by
+2.72%. The fixed coverage, point-estimate and paired artist-interval gates passed;
+independent reconstruction confirmed the result. Following that confirmation,
+the user authorized integrating those unchanged weights into v1.2. These remain
+same-source/proxy-label results, not human-confirmed accuracy on arbitrary music.
+The original v1.0/v1.1 models, predictors and historical results are retained. A source
 version change alone does not publish a new Windows installer; use the version
 shown on the downloaded release asset.
 
@@ -77,7 +116,7 @@ python3 -m venv .venv-demo
 .venv-demo/bin/python -m pip install --upgrade pip
 .venv-demo/bin/python -m pip install -r requirements-demo.txt
 .venv-demo/bin/python prepare_maest_hf.py
-.venv-demo/bin/python predict_app.py data/previews/track_0207501_30s.wav
+.venv-demo/bin/python application_predict.py data/previews/track_0207501_30s.wav
 ```
 
 The included 30-second CC BY 3.0 excerpt provides a reproducible first check.
@@ -86,7 +125,7 @@ To analyze another track, replace that path with your own audio file.
 On Apple Silicon, `--device mps` may accelerate feature extraction:
 
 ```bash
-.venv-demo/bin/python predict_app.py "path/to/your_music.mp3" --device mps
+.venv-demo/bin/python application_predict.py "path/to/your_music.mp3" --device mps
 ```
 
 Windows source-code users can open PowerShell in the repository and use the
@@ -105,30 +144,34 @@ Windows-compatible verified downloader once, then run the same predictor:
 
 ```powershell
 .venv-demo\Scripts\python.exe prepare_maest_windows.py
-.venv-demo\Scripts\python.exe predict_app.py data\previews\track_0207501_30s.wav
+.venv-demo\Scripts\python.exe application_predict.py data\previews\track_0207501_30s.wav
 ```
 
 The output is JSON so it can be read directly or consumed by another program:
 
 ```json
 {
-  "predicted_tags": ["rock"],
-  "score_mode": "weight_corrected",
+  "application_version": "1.2.0",
+  "predicted_tags": ["pop", "rock"],
+  "score_mode": "validated_candidate",
   "scores": [
     {"label": "electronic", "score": 0.0699, "threshold": 0.4, "selected": false},
-    {"label": "pop", "score": 0.2483, "threshold": 0.275, "selected": false},
-    {"label": "ambient", "score": 0.0078, "threshold": 0.1321, "selected": false},
+    {"label": "pop", "score": 0.3219, "threshold": 0.275, "selected": true},
+    {"label": "ambient", "score": 0.0272, "threshold": 0.2, "selected": false},
     {"label": "rock", "score": 0.6237, "threshold": 0.275, "selected": true}
   ]
 }
 ```
 
-The JSON also includes `raw_score` and `raw_threshold` for each label. The ambient
-estimate and its displayed threshold receive the same monotone correction; tag
-decisions still use the original unrounded scores and thresholds. Other labels
-are unchanged. These estimates can still be wrong and are not guaranteed confidence
-percentages. Pass `--raw-scores` to restore original values; `predict_maest.py` is
-also retained as the original v1.0 interface. Only the first 30 seconds are analyzed.
+The JSON also includes the model identity, validation receipt, `raw_score` and
+`raw_threshold`. Decisions use the candidate's unrounded scores and thresholds;
+the old ambient correction is not applied to its new unweighted classifier.
+The included example reproduces `pop` and `rock` in v1.2, versus only `rock` in
+v1.1; this is a reproducibility check, not a human-certified genre annotation.
+Pass `--compare-baseline` to include v1.1 scores and tags from the same feature
+vector. `predict_app.py` and `predict_maest.py` remain the frozen v1.1 and v1.0
+interfaces. Estimates can still be wrong and are not guaranteed confidence
+percentages. Only the first 30 seconds are analyzed.
 Missing, corrupt, shorter-than-30-second,
 silent, and non-finite inputs are rejected.
 
@@ -143,13 +186,15 @@ flowchart LR
     E --> F[4 standardized<br/>logistic heads]
     F --> G[Per-label thresholds]
     G --> H[0 to 4 tags]
-    F --> I[Ambient weight correction]
-    I --> J[Displayed estimates<br/>and transformed thresholds]
+    F --> J[Displayed estimates]
+    E -. optional comparison .-> K[Frozen v1.1 heads<br/>and ambient correction]
+    K --> L[Cached v1.1 scores<br/>thresholds and tags]
 ```
 
-The public classifier artifact is a 221 KB NumPy array plus JSON metadata. It
-contains only scaler parameters, linear coefficients, intercepts, thresholds,
-and provenance. It is loaded with `allow_pickle=False`; users do not need to
+The current classifier is a NumPy NPZ plus JSON metadata and provenance receipts.
+It contains scaler parameters, linear coefficients, intercepts and thresholds;
+the original 221 KB v1.0/v1.1 array is also retained for comparison. Parameters
+are loaded with `allow_pickle=False`; users do not need to
 retrain the heads. Pretrained MAEST weights and source audio are not included.
 
 The seventh-block CLS/DIST/signal-mean representation follows the
@@ -272,7 +317,9 @@ The earlier [handcrafted-feature comparison](EXPERIMENTS.md) and
 
 | Path | Purpose |
 | --- | --- |
-| `predict_app.py`, `score_correction.py` | v1.1 user-audio command and validated score correction |
+| `application_predict.py`, `application_release.py` | Current v1.2 user-audio command and pinned release identity |
+| `artifacts/application_release.json` | Binds the application to the unchanged candidate and its confirmation records |
+| `predict_app.py`, `score_correction.py` | Retained v1.1 comparator and score correction |
 | `predict_maest.py` | Retained v1.0 user-audio command |
 | `evaluate_application_correction.py` | Reproduce the v1.1 probability comparison from published values |
 | `desktop_app.py` | Reviewer-friendly desktop interface and release smoke test |

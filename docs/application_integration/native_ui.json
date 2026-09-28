@@ -1,0 +1,53 @@
+{
+  "state": "passed",
+  "platform": "darwin",
+  "native_tk": true,
+  "version": "1.2.0",
+  "inference_calls": 1,
+  "current_rows": {
+    "electronic": [
+      "0.0699",
+      "0.4000",
+      "No"
+    ],
+    "pop": [
+      "0.3219",
+      "0.2750",
+      "Yes"
+    ],
+    "ambient": [
+      "0.0272",
+      "0.2000",
+      "No"
+    ],
+    "rock": [
+      "0.6237",
+      "0.2750",
+      "Yes"
+    ]
+  },
+  "baseline_rows": {
+    "electronic": [
+      "0.0699",
+      "0.4000",
+      "No"
+    ],
+    "pop": [
+      "0.2483",
+      "0.2750",
+      "No"
+    ],
+    "ambient": [
+      "0.0078",
+      "0.1321",
+      "No"
+    ],
+    "rock": [
+      "0.6237",
+      "0.2750",
+      "Yes"
+    ]
+  },
+  "actual_audio": "/Users/alansong/Documents/ChatGPT/Music Classification/data/previews/track_0207501_30s.wav",
+  "checks": "Actual sample/analyze/toggle buttons; title, all rows, selected tags, and toggle-back without new inference"
+}

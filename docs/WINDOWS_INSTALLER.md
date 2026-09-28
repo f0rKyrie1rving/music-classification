@@ -28,11 +28,13 @@ Face; if it fails, check connectivity and retry. The installer excludes these th
 weights because the exact upstream model card does not declare their license.
 
 The app reads exactly the first 30 seconds. It does not upload, move, rewrite,
-or retain the selected audio. Version 1.1 defaults to corrected estimates and has
-a **Compare original scores** checkbox. Switching views uses the existing result,
-so the audio is not analyzed again. The selected tags stay the same. Estimates may
+or retain the selected audio. Version 1.2 defaults to the confirmed candidate and has
+a **Compare v1.1** checkbox. Switching views uses the existing result, so the audio
+is not analyzed again. Scores, thresholds and tags all switch to the selected
+model's result; tags can differ between versions. Estimates may
 still be wrong; this is not a promise of calibrated confidence for arbitrary music.
-See [the v1.1 evaluation](APPLICATION_V1_1.md).
+See [the v1.2 integration record](APPLICATION_V1_2.md). The included example returns
+`pop, rock` in v1.2 and `rock` in v1.1.
 
 ## Uninstall
 
@@ -81,13 +83,16 @@ Run the workflow manually to obtain a temporary GitHub Actions artifact. To
 publish a permanent GitHub Release, push a version tag:
 
 ```bash
-git tag v1.1.0
-git push origin v1.1.0
+git tag v1.2.0
+git push origin v1.2.0
 ```
 
 The workflow publishes the installer, its SHA-256 checksum, and the reviewer
 instructions in `docs/RELEASE_NOTES_WINDOWS.md`. The first desktop release was
-`v1.0.0`; the current source targets `v1.1.0`. Source changes do not themselves
+`v1.0.0`; the current source targets `v1.2.0`. The tag must match
+`application_release.APP_VERSION` and its pinned release receipt. Do not edit
+`app_version.txt`, which belongs to the frozen v1.1 research comparator.
+Source changes do not themselves
 produce or publish the installer. PyInstaller is
 not a cross-compiler, so a Windows application must be built on Windows; the
 workflow supplies that environment rather than attempting to cross-build from

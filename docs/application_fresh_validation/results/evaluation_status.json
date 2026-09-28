@@ -1,0 +1,12 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-09-27T05:19:13.385493+00:00",
+  "hashes": {
+    "predictions.npz": "8152707b19f14095612e8d9da10c05ed7d4a5b875c388b42e0c09a04d8a03156",
+    "metrics.json": "b3eb4b32dc2be4a11ef5892bb82416f9a1f57cb2bea0b206b117a35613e28fac",
+    "intervals.json": "b8c4daa6332d01427e1f0b00afb6c8a4fe9babf92c962dda77c8c08e35de50bf",
+    "summary.json": "358dbc6d65ee316e7103abeb387854643fc0a4886b04ac9d6070e45692dc21e8",
+    "public_predictions.json": "08d7394c0f9569e49bd25b255aa23b58a1abb834631db8ed495cef667f16936d"
+  },
+  "verdict": "promising"
+}

@@ -1,0 +1,5 @@
+{
+  "base_run": "outputs/calibration/20260926_v2",
+  "conservative_run": "outputs/calibration_conservative/20260926_v1",
+  "primary_seed": 20260926
+}

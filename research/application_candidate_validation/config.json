@@ -1,0 +1,75 @@
+{
+  "source_commit": "cafd8e20c265ed84f1e61f1c875327971f43a62f",
+  "source_blobs": {
+    "genres.tsv": "b7b14e433e524d6c6bb5aff8fc814ea0d702f285",
+    "licenses.txt": "0672e1840650a4e1352dfe9ab487f67de8954171",
+    "checksums.txt": "570ff1abe98ed09c16f734a935f33797c3e1b22d"
+  },
+  "tracks_per_artist": 2,
+  "allowed_license_codes": [
+    "by",
+    "by-sa",
+    "by-nc",
+    "by-nc-sa"
+  ],
+  "maximum_prefix_bytes_per_track": 1310720,
+  "version": 1,
+  "archives": [
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "artist_count": 250,
+  "sample_seed": "music-candidate-confirmation-20260928-v1",
+  "candidate_directory": "artifacts/candidates/20260927_v1",
+  "candidate_metadata_sha256": "8c335d7140a6b5ea72b6be43c087c72ce917ba352a9f112fd2774464d6a79b12",
+  "candidate_weights_sha256": "70ceca1ab53b9b8d968d6e1ca4664bc78e22b78e2c70def772d495cbbf208036",
+  "historical_exclusions": "artifacts/candidates/20260927_v1/future_exclusions.json",
+  "expected_excluded_tracks": 2195,
+  "expected_excluded_artists": 1008,
+  "expected_frame_tracks": 640,
+  "expected_frame_artists": 288,
+  "bootstrap_seed": 2026092805,
+  "bootstrap_replicates": 2000,
+  "minimum_observed_fraction": 0.8,
+  "minimum_observed_tracks": 250,
+  "minimum_observed_artists": 200,
+  "minimum_focus_positive_tracks": 30,
+  "minimum_focus_negative_tracks": 30,
+  "minimum_focus_positive_artists": 20,
+  "minimum_focus_negative_artists": 20,
+  "focus": [
+    1,
+    2
+  ],
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "primary_policy": "f1",
+  "gate": {
+    "minimum_focus_fp_reduction": 0.1,
+    "maximum_micro_recall_drop": 0.03,
+    "maximum_label_recall_drop": 0.05,
+    "metric_tolerance": 1e-12,
+    "require_focus_fp_rate_ci_upper_below_zero": true,
+    "require_macro_brier_ci_upper_below_zero": true
+  },
+  "network": {
+    "attempts_per_range": 3,
+    "connect_timeout_seconds": 8,
+    "request_timeout_seconds": 25,
+    "index_workers": 4,
+    "download_workers": 4,
+    "maximum_index_invocations": 3
+  },
+  "evaluation_scope": "New to documented project track and artist IDs; same dataset source, upstream encoder pretraining and artist aliases remain unknown; one fixed comparison, no refit or threshold changes.",
+  "metadata_source": "outputs/application_fresh_validation/20260927_v1/source"
+}

@@ -1,0 +1,174 @@
+{
+  "raw": {
+    "replicates": 2000,
+    "seed": 2026092702,
+    "artists": 200,
+    "direction": "conservative sigmoid minus identity; negative favors conservative sigmoid",
+    "scope": "Pointwise artist-cluster percentile intervals, conditional on the fixed classifier, calibration data and selected policy. No multiplicity adjustment or refitting uncertainty.",
+    "results": {
+      "conservative_sigmoid": {
+        "brier": {
+          "macro": {
+            "delta": -0.002608374820929497,
+            "ci95": [
+              -0.0035478994723131137,
+              -0.001672603565430367
+            ]
+          },
+          "electronic": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "pop": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "ambient": {
+            "delta": -0.010433499283717994,
+            "ci95": [
+              -0.014191597889252455,
+              -0.006690414261721468
+            ]
+          },
+          "rock": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "log_loss": {
+          "macro": {
+            "delta": -0.006550686516817158,
+            "ci95": [
+              -0.009070989514099837,
+              -0.004135006039672659
+            ]
+          },
+          "electronic": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "pop": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "ambient": {
+            "delta": -0.026202746067268648,
+            "ci95": [
+              -0.03628395805639935,
+              -0.016540024158690637
+            ]
+          },
+          "rock": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "baseline": "identity"
+  },
+  "full_sigmoid": {
+    "replicates": 2000,
+    "seed": 2026092702,
+    "artists": 200,
+    "direction": "conservative sigmoid minus sigmoid; negative favors conservative sigmoid",
+    "scope": "Pointwise artist-cluster percentile intervals, conditional on the fixed classifier, calibration data and selected policy. No multiplicity adjustment or refitting uncertainty.",
+    "results": {
+      "conservative_sigmoid": {
+        "brier": {
+          "macro": {
+            "delta": 0.004851704367907828,
+            "ci95": [
+              0.0017854279412795695,
+              0.0079723551251019
+            ]
+          },
+          "electronic": {
+            "delta": -0.0001320908371973036,
+            "ci95": [
+              -0.0013636749685141222,
+              0.001106102757499675
+            ]
+          },
+          "pop": {
+            "delta": -0.002717088980982596,
+            "ci95": [
+              -0.0061071574558466,
+              0.0007203733809876538
+            ]
+          },
+          "ambient": {
+            "delta": 0.020357006438421706,
+            "ci95": [
+              0.009539112146318472,
+              0.03108859725485718
+            ]
+          },
+          "rock": {
+            "delta": 0.0018989908513895055,
+            "ci95": [
+              -0.002826039619256248,
+              0.007245876821907196
+            ]
+          }
+        },
+        "log_loss": {
+          "macro": {
+            "delta": 0.010268525025777091,
+            "ci95": [
+              0.0022172993280226753,
+              0.018633518878430365
+            ]
+          },
+          "electronic": {
+            "delta": -0.0008026161058380843,
+            "ci95": [
+              -0.00418248145809129,
+              0.0025042035608706
+            ]
+          },
+          "pop": {
+            "delta": -0.006050535705327282,
+            "ci95": [
+              -0.014890709971631682,
+              0.002642799720110882
+            ]
+          },
+          "ambient": {
+            "delta": 0.046788622422616145,
+            "ci95": [
+              0.019191426421087076,
+              0.07438098135814017
+            ]
+          },
+          "rock": {
+            "delta": 0.001138629491657569,
+            "ci95": [
+              -0.0126884398244798,
+              0.017586869164005325
+            ]
+          }
+        }
+      }
+    },
+    "baseline": "sigmoid"
+  }
+}

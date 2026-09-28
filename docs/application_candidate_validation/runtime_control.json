@@ -1,0 +1,16 @@
+{
+  "track_id": "track_0001100",
+  "max_absolute_feature_error": 0.0,
+  "absolute_tolerance": 1e-05,
+  "versions": {
+    "torch": "2.8.0",
+    "transformers": "4.38.2",
+    "safetensors": "0.8.0",
+    "numpy": "2.5.2",
+    "soundfile": "0.14.0",
+    "soxr": "1.1.0"
+  },
+  "device": "cpu",
+  "audio_sha256": "c5874e834285a7e5df962350668275d33f964c49e71d5cd84079097edbbb21d9",
+  "freeze_sha256": "db6c022cece91c5c98fbb430e0c9ee29304b4303f376b58673177f8e5ff5118a"
+}

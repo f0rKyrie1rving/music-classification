@@ -1,0 +1,83 @@
+{
+  "replicates": 2000,
+  "seed": 2026092802,
+  "artists": 150,
+  "direction": "weight_corrected minus raw; negative favors correction",
+  "scope": "Pointwise paired artist-cluster percentile intervals conditional on the fixed release and correction, with no refitting or multiplicity adjustment. They do not account for missing tracks, finite-frame sampling fractions, within-artist song selection, annotation error or pretraining exposure.",
+  "metrics": {
+    "brier": {
+      "delta": -0.0007228340845427944,
+      "ci95": [
+        -0.007737381732846963,
+        0.006680193960217053
+      ],
+      "per_label": {
+        "electronic": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "pop": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ambient": {
+          "delta": -0.0028913363381711777,
+          "ci95": [
+            -0.03094952693138785,
+            0.02672077584086821
+          ]
+        },
+        "rock": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "log_loss": {
+      "delta": -0.002941547106155456,
+      "ci95": [
+        -0.021666665560236782,
+        0.01699935997032129
+      ],
+      "per_label": {
+        "electronic": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "pop": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ambient": {
+          "delta": -0.011766188424621826,
+          "ci95": [
+            -0.08666666224094713,
+            0.06799743988128516
+          ]
+        },
+        "rock": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

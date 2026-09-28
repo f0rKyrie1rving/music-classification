@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "scope": "post-hoc descriptive diagnosis selected after prior evaluation outcomes",
+  "base_run": "outputs/calibration/20260926_v2",
+  "context_seeds": [20260926, 20260927, 20260928, 20260929, 20260930],
+  "focus_seed": 20260927,
+  "methods": ["sigmoid", "temperature"],
+  "score_quantiles": [0.1, 0.5, 0.9],
+  "raw_score_bin_count": 5,
+  "top_positive_artist_count": 5
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "seed": 20260926,
+    "role": "fit",
+    "label": "electronic",
+    "tracks": 733,
+    "artists": 281,
+    "positive": 257,
+    "positive_artists": 109,
+    "positive_fraction": 0.3506139154160982
+  },
+  {
+    "seed": 20260926,
+    "role": "fit",
+    "label": "pop",
+    "tracks": 733,
+    "artists": 281,
+    "positive": 159,
+    "positive_artists": 70,
+    "positive_fraction": 0.21691678035470668
+  },
+  {
+    "seed": 20260926,
+    "role": "fit",
+    "label": "ambient",
+    "tracks": 733,
+    "artists": 281,
+    "positive": 136,
+    "positive_artists": 65,
+    "positive_fraction": 0.1855388813096862
+  },
+  {
+    "seed": 20260926,
+    "role": "fit",
+    "label": "rock",
+    "tracks": 733,
+    "artists": 281,
+    "positive": 133,
+    "positive_artists": 68,
+    "positive_fraction": 0.18144611186903137
+  },
+  {
+    "seed": 20260926,
+    "role": "calibration",
+    "label": "electronic",
+    "tracks": 232,
+    "artists": 94,
+    "positive": 86,
+    "positive_artists": 40,
+    "positive_fraction": 0.3706896551724138
+  },
+  {
+    "seed": 20260926,
+    "role": "calibration",
+    "label": "pop",
+    "tracks": 232,
+    "artists": 94,
+    "positive": 44,
+    "positive_artists": 25,
+    "positive_fraction": 0.1896551724137931
+  },
+  {
+    "seed": 20260926,
+    "role": "calibration",
+    "label": "ambient",
+    "tracks": 232,
+    "artists": 94,
+    "positive": 57,
+    "positive_artists": 23,
+    "positive_fraction": 0.24568965517241378
+  },
+  {
+    "seed": 20260926,
+    "role": "calibration",
+    "label": "rock",
+    "tracks": 232,
+    "artists": 94,
+    "positive": 41,
+    "positive_artists": 22,
+    "positive_fraction": 0.17672413793103448
+  },
+  {
+    "seed": 20260926,
+    "role": "evaluation",
+    "label": "electronic",
+    "tracks": 241,
+    "artists": 94,
+    "positive": 92,
+    "positive_artists": 40,
+    "positive_fraction": 0.3817427385892116
+  },
+  {
+    "seed": 20260926,
+    "role": "evaluation",
+    "label": "pop",
+    "tracks": 241,
+    "artists": 94,
+    "positive": 58,
+    "positive_artists": 24,
+    "positive_fraction": 0.24066390041493776
+  },
+  {
+    "seed": 20260926,
+    "role": "evaluation",
+    "label": "ambient",
+    "tracks": 241,
+    "artists": 94,
+    "positive": 51,
+    "positive_artists": 27,
+    "positive_fraction": 0.21161825726141079
+  },
+  {
+    "seed": 20260926,
+    "role": "evaluation",
+    "label": "rock",
+    "tracks": 241,
+    "artists": 94,
+    "positive": 46,
+    "positive_artists": 23,
+    "positive_fraction": 0.1908713692946058
+  },
+  {
+    "seed": 20260927,
+    "role": "fit",
+    "label": "electronic",
+    "tracks": 719,
+    "artists": 281,
+    "positive": 257,
+    "positive_artists": 117,
+    "positive_fraction": 0.3574408901251738
+  },
+  {
+    "seed": 20260927,
+    "role": "fit",
+    "label": "pop",
+    "tracks": 719,
+    "artists": 281,
+    "positive": 147,
+    "positive_artists": 74,
+    "positive_fraction": 0.20445062586926285
+  },
+  {
+    "seed": 20260927,
+    "role": "fit",
+    "label": "ambient",
+    "tracks": 719,
+    "artists": 281,
+    "positive": 141,
+    "positive_artists": 67,
+    "positive_fraction": 0.19610570236439498
+  },
+  {
+    "seed": 20260927,
+    "role": "fit",
+    "label": "rock",
+    "tracks": 719,
+    "artists": 281,
+    "positive": 134,
+    "positive_artists": 71,
+    "positive_fraction": 0.18636995827538247
+  },
+  {
+    "seed": 20260927,
+    "role": "calibration",
+    "label": "electronic",
+    "tracks": 244,
+    "artists": 94,
+    "positive": 86,
+    "positive_artists": 36,
+    "positive_fraction": 0.3524590163934426
+  },
+  {
+    "seed": 20260927,
+    "role": "calibration",
+    "label": "pop",
+    "tracks": 244,
+    "artists": 94,
+    "positive": 65,
+    "positive_artists": 26,
+    "positive_fraction": 0.26639344262295084
+  },
+  {
+    "seed": 20260927,
+    "role": "calibration",
+    "label": "ambient",
+    "tracks": 244,
+    "artists": 94,
+    "positive": 43,
+    "positive_artists": 23,
+    "positive_fraction": 0.1762295081967213
+  },
+  {
+    "seed": 20260927,
+    "role": "calibration",
+    "label": "rock",
+    "tracks": 244,
+    "artists": 94,
+    "positive": 40,
+    "positive_artists": 20,
+    "positive_fraction": 0.16393442622950818
+  },
+  {
+    "seed": 20260927,
+    "role": "evaluation",
+    "label": "electronic",
+    "tracks": 243,
+    "artists": 94,
+    "positive": 92,
+    "positive_artists": 36,
+    "positive_fraction": 0.3786008230452675
+  },
+  {
+    "seed": 20260927,
+    "role": "evaluation",
+    "label": "pop",
+    "tracks": 243,
+    "artists": 94,
+    "positive": 49,
+    "positive_artists": 19,
+    "positive_fraction": 0.20164609053497942
+  },
+  {
+    "seed": 20260927,
+    "role": "evaluation",
+    "label": "ambient",
+    "tracks": 243,
+    "artists": 94,
+    "positive": 60,
+    "positive_artists": 25,
+    "positive_fraction": 0.24691358024691357
+  },
+  {
+    "seed": 20260927,
+    "role": "evaluation",
+    "label": "rock",
+    "tracks": 243,
+    "artists": 94,
+    "positive": 46,
+    "positive_artists": 22,
+    "positive_fraction": 0.18930041152263374
+  },
+  {
+    "seed": 20260928,
+    "role": "fit",
+    "label": "electronic",
+    "tracks": 731,
+    "artists": 281,
+    "positive": 263,
+    "positive_artists": 116,
+    "positive_fraction": 0.359781121751026
+  },
+  {
+    "seed": 20260928,
+    "role": "fit",
+    "label": "pop",
+    "tracks": 731,
+    "artists": 281,
+    "positive": 154,
+    "positive_artists": 73,
+    "positive_fraction": 0.2106703146374829
+  },
+  {
+    "seed": 20260928,
+    "role": "fit",
+    "label": "ambient",
+    "tracks": 731,
+    "artists": 281,
+    "positive": 149,
+    "positive_artists": 65,
+    "positive_fraction": 0.20383036935704515
+  },
+  {
+    "seed": 20260928,
+    "role": "fit",
+    "label": "rock",
+    "tracks": 731,
+    "artists": 281,
+    "positive": 138,
+    "positive_artists": 69,
+    "positive_fraction": 0.18878248974008208
+  },
+  {
+    "seed": 20260928,
+    "role": "calibration",
+    "label": "electronic",
+    "tracks": 238,
+    "artists": 94,
+    "positive": 93,
+    "positive_artists": 38,
+    "positive_fraction": 0.3907563025210084
+  },
+  {
+    "seed": 20260928,
+    "role": "calibration",
+    "label": "pop",
+    "tracks": 238,
+    "artists": 94,
+    "positive": 46,
+    "positive_artists": 21,
+    "positive_fraction": 0.19327731092436976
+  },
+  {
+    "seed": 20260928,
+    "role": "calibration",
+    "label": "ambient",
+    "tracks": 238,
+    "artists": 94,
+    "positive": 43,
+    "positive_artists": 22,
+    "positive_fraction": 0.18067226890756302
+  },
+  {
+    "seed": 20260928,
+    "role": "calibration",
+    "label": "rock",
+    "tracks": 238,
+    "artists": 94,
+    "positive": 44,
+    "positive_artists": 20,
+    "positive_fraction": 0.18487394957983194
+  },
+  {
+    "seed": 20260928,
+    "role": "evaluation",
+    "label": "electronic",
+    "tracks": 237,
+    "artists": 94,
+    "positive": 79,
+    "positive_artists": 35,
+    "positive_fraction": 0.3333333333333333
+  },
+  {
+    "seed": 20260928,
+    "role": "evaluation",
+    "label": "pop",
+    "tracks": 237,
+    "artists": 94,
+    "positive": 61,
+    "positive_artists": 25,
+    "positive_fraction": 0.25738396624472576
+  },
+  {
+    "seed": 20260928,
+    "role": "evaluation",
+    "label": "ambient",
+    "tracks": 237,
+    "artists": 94,
+    "positive": 52,
+    "positive_artists": 28,
+    "positive_fraction": 0.21940928270042195
+  },
+  {
+    "seed": 20260928,
+    "role": "evaluation",
+    "label": "rock",
+    "tracks": 237,
+    "artists": 94,
+    "positive": 38,
+    "positive_artists": 24,
+    "positive_fraction": 0.16033755274261605
+  },
+  {
+    "seed": 20260929,
+    "role": "fit",
+    "label": "electronic",
+    "tracks": 727,
+    "artists": 281,
+    "positive": 268,
+    "positive_artists": 112,
+    "positive_fraction": 0.3686382393397524
+  },
+  {
+    "seed": 20260929,
+    "role": "fit",
+    "label": "pop",
+    "tracks": 727,
+    "artists": 281,
+    "positive": 157,
+    "positive_artists": 71,
+    "positive_fraction": 0.21595598349381018
+  },
+  {
+    "seed": 20260929,
+    "role": "fit",
+    "label": "ambient",
+    "tracks": 727,
+    "artists": 281,
+    "positive": 144,
+    "positive_artists": 69,
+    "positive_fraction": 0.19807427785419532
+  },
+  {
+    "seed": 20260929,
+    "role": "fit",
+    "label": "rock",
+    "tracks": 727,
+    "artists": 281,
+    "positive": 142,
+    "positive_artists": 71,
+    "positive_fraction": 0.1953232462173315
+  },
+  {
+    "seed": 20260929,
+    "role": "calibration",
+    "label": "electronic",
+    "tracks": 248,
+    "artists": 94,
+    "positive": 89,
+    "positive_artists": 41,
+    "positive_fraction": 0.3588709677419355
+  },
+  {
+    "seed": 20260929,
+    "role": "calibration",
+    "label": "pop",
+    "tracks": 248,
+    "artists": 94,
+    "positive": 52,
+    "positive_artists": 24,
+    "positive_fraction": 0.20967741935483872
+  },
+  {
+    "seed": 20260929,
+    "role": "calibration",
+    "label": "ambient",
+    "tracks": 248,
+    "artists": 94,
+    "positive": 51,
+    "positive_artists": 23,
+    "positive_fraction": 0.2056451612903226
+  },
+  {
+    "seed": 20260929,
+    "role": "calibration",
+    "label": "rock",
+    "tracks": 248,
+    "artists": 94,
+    "positive": 44,
+    "positive_artists": 21,
+    "positive_fraction": 0.1774193548387097
+  },
+  {
+    "seed": 20260929,
+    "role": "evaluation",
+    "label": "electronic",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 78,
+    "positive_artists": 36,
+    "positive_fraction": 0.33766233766233766
+  },
+  {
+    "seed": 20260929,
+    "role": "evaluation",
+    "label": "pop",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 52,
+    "positive_artists": 24,
+    "positive_fraction": 0.22510822510822512
+  },
+  {
+    "seed": 20260929,
+    "role": "evaluation",
+    "label": "ambient",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 49,
+    "positive_artists": 23,
+    "positive_fraction": 0.21212121212121213
+  },
+  {
+    "seed": 20260929,
+    "role": "evaluation",
+    "label": "rock",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 34,
+    "positive_artists": 21,
+    "positive_fraction": 0.1471861471861472
+  },
+  {
+    "seed": 20260930,
+    "role": "fit",
+    "label": "electronic",
+    "tracks": 729,
+    "artists": 281,
+    "positive": 276,
+    "positive_artists": 116,
+    "positive_fraction": 0.3786008230452675
+  },
+  {
+    "seed": 20260930,
+    "role": "fit",
+    "label": "pop",
+    "tracks": 729,
+    "artists": 281,
+    "positive": 161,
+    "positive_artists": 71,
+    "positive_fraction": 0.22085048010973937
+  },
+  {
+    "seed": 20260930,
+    "role": "fit",
+    "label": "ambient",
+    "tracks": 729,
+    "artists": 281,
+    "positive": 149,
+    "positive_artists": 69,
+    "positive_fraction": 0.20438957475994513
+  },
+  {
+    "seed": 20260930,
+    "role": "fit",
+    "label": "rock",
+    "tracks": 729,
+    "artists": 281,
+    "positive": 138,
+    "positive_artists": 67,
+    "positive_fraction": 0.18930041152263374
+  },
+  {
+    "seed": 20260930,
+    "role": "calibration",
+    "label": "electronic",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 74,
+    "positive_artists": 38,
+    "positive_fraction": 0.3203463203463203
+  },
+  {
+    "seed": 20260930,
+    "role": "calibration",
+    "label": "pop",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 51,
+    "positive_artists": 25,
+    "positive_fraction": 0.22077922077922077
+  },
+  {
+    "seed": 20260930,
+    "role": "calibration",
+    "label": "ambient",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 37,
+    "positive_artists": 21,
+    "positive_fraction": 0.16017316017316016
+  },
+  {
+    "seed": 20260930,
+    "role": "calibration",
+    "label": "rock",
+    "tracks": 231,
+    "artists": 94,
+    "positive": 43,
+    "positive_artists": 23,
+    "positive_fraction": 0.18614718614718614
+  },
+  {
+    "seed": 20260930,
+    "role": "evaluation",
+    "label": "electronic",
+    "tracks": 246,
+    "artists": 94,
+    "positive": 85,
+    "positive_artists": 35,
+    "positive_fraction": 0.34552845528455284
+  },
+  {
+    "seed": 20260930,
+    "role": "evaluation",
+    "label": "pop",
+    "tracks": 246,
+    "artists": 94,
+    "positive": 49,
+    "positive_artists": 23,
+    "positive_fraction": 0.1991869918699187
+  },
+  {
+    "seed": 20260930,
+    "role": "evaluation",
+    "label": "ambient",
+    "tracks": 246,
+    "artists": 94,
+    "positive": 58,
+    "positive_artists": 25,
+    "positive_fraction": 0.23577235772357724
+  },
+  {
+    "seed": 20260930,
+    "role": "evaluation",
+    "label": "rock",
+    "tracks": 246,
+    "artists": 94,
+    "positive": 39,
+    "positive_artists": 23,
+    "positive_fraction": 0.15853658536585366
+  }
+]

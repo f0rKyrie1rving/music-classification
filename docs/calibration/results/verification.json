@@ -1,0 +1,10 @@
+{
+  "verified_utc": "2026-09-25T17:11:12.574834+00:00",
+  "all_five_predictions_reconstructed_from_saved_parameters": true,
+  "all_metrics_cross_checked_with_sklearn": true,
+  "first_bootstrap_draw_independently_reconstructed": true,
+  "v1_v2_splits_identical": true,
+  "max_logit_reconstruction_error": 0.0,
+  "max_metric_crosscheck_error": 1.1102230246251565e-16,
+  "unit_tests_passed": 5
+}

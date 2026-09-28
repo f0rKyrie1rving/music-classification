@@ -1,0 +1,553 @@
+{
+  "candidate_id": "music-candidate-20260927-v1",
+  "comparison": "Fixed candidate versus actual v1.1 application",
+  "scope": "New to documented project track and artist IDs; same dataset source, upstream encoder pretraining and artist aliases remain unknown; one fixed comparison, no refit or threshold changes.",
+  "assessment": {
+    "verdict": "go",
+    "go": true,
+    "point_gate_passed": true,
+    "point_checks": {
+      "focus_fp_reduction": true,
+      "each_focus_fp_nonincrease": true,
+      "micro_recall_guard": true,
+      "each_label_recall_guard": true,
+      "micro_f1_nondecrease": true,
+      "macro_brier_nonincrease": true,
+      "macro_log_loss_nonincrease": true,
+      "electronic_rock_exact": true,
+      "precision_target_exact": true
+    },
+    "focus_fp_relative_reduction": 0.1842105263157895,
+    "evidence_sufficient": true,
+    "evidence_checks": {
+      "track_coverage": true,
+      "artist_coverage": true,
+      "observed_tracks": true,
+      "observed_artists": true,
+      "pop_positive_tracks": true,
+      "pop_positive_artists": true,
+      "pop_negative_tracks": true,
+      "pop_negative_artists": true,
+      "ambient_positive_tracks": true,
+      "ambient_positive_artists": true,
+      "ambient_negative_tracks": true,
+      "ambient_negative_artists": true
+    },
+    "focus_support": {
+      "pop": {
+        "positive_tracks": 103,
+        "positive_artists": 73,
+        "negative_tracks": 269,
+        "negative_artists": 187
+      },
+      "ambient": {
+        "positive_tracks": 60,
+        "positive_artists": 45,
+        "negative_tracks": 312,
+        "negative_artists": 214
+      }
+    },
+    "confidence_checks": {
+      "macro_brier_ci_upper_below_zero": true,
+      "focus_fp_rate_ci_upper_below_zero": true
+    },
+    "interpretation": "A frozen operational confirmation rule for this sampled catalogue and proxy labels. No tuning, automatic deployment, universal calibration guarantee or claim of human-adjudicated genre correctness follows from this verdict."
+  },
+  "integrity": {
+    "label_policy_interface_checks": 2976,
+    "changed_tag_decisions": 0,
+    "transformed_threshold_mismatches": 0,
+    "candidate_label_policy_interface_checks": 2976,
+    "electronic_rock_exact": true,
+    "precision_target_exact": true
+  },
+  "coverage": {
+    "selected_tracks": 372,
+    "observed_tracks": 372,
+    "selected_artists": 250,
+    "observed_artists": 250,
+    "track_fraction": 1.0,
+    "artist_fraction": 1.0,
+    "missing_ids": []
+  },
+  "metrics": {
+    "baseline": {
+      "tracks": 372,
+      "artists": 250,
+      "macro_brier": 0.12898903174408477,
+      "macro_log_loss": 0.4057143971111447,
+      "per_label": {
+        "electronic": {
+          "positive_tracks": 150,
+          "negative_tracks": 222,
+          "positive_artists": 105,
+          "negative_artists": 158,
+          "positive_fraction": 0.4032258064516129,
+          "mean_score": 0.38240503728439346,
+          "brier": 0.11875641800353463,
+          "log_loss": 0.37290473515342876,
+          "average_precision": 0.8731314428510603
+        },
+        "pop": {
+          "positive_tracks": 103,
+          "negative_tracks": 269,
+          "positive_artists": 73,
+          "negative_artists": 187,
+          "positive_fraction": 0.2768817204301075,
+          "mean_score": 0.22507304610338996,
+          "brier": 0.1710075637085733,
+          "log_loss": 0.5146133117718233,
+          "average_precision": 0.5272480835685532
+        },
+        "ambient": {
+          "positive_tracks": 60,
+          "negative_tracks": 312,
+          "positive_artists": 45,
+          "negative_artists": 214,
+          "positive_fraction": 0.16129032258064516,
+          "mean_score": 0.15359620408342178,
+          "brier": 0.12143919784711997,
+          "log_loss": 0.38323534885291544,
+          "average_precision": 0.37257503878171666
+        },
+        "rock": {
+          "positive_tracks": 72,
+          "negative_tracks": 300,
+          "positive_artists": 52,
+          "negative_artists": 206,
+          "positive_fraction": 0.1935483870967742,
+          "mean_score": 0.21142827139242837,
+          "brier": 0.10475294741711115,
+          "log_loss": 0.35210419266641113,
+          "average_precision": 0.6537939658658212
+        }
+      },
+      "policies": {
+        "f1": {
+          "true_positives": 274,
+          "false_positives": 225,
+          "false_negatives": 111,
+          "focus_false_positives": 152,
+          "focus_false_positive_rate": 0.40860215053763443,
+          "micro_precision": 0.5490981963927856,
+          "micro_recall": 0.7116883116883117,
+          "micro_f1": 0.6199095022624435,
+          "macro_f1": 0.5964773798700362,
+          "coverage": 0.8978494623655914,
+          "per_label": {
+            "electronic": {
+              "precision": 0.7784810126582279,
+              "recall": 0.82,
+              "f1": 0.7987012987012987,
+              "true_positives": 123,
+              "false_positives": 35,
+              "false_negatives": 27,
+              "positive_decisions": 158
+            },
+            "pop": {
+              "precision": 0.5,
+              "recall": 0.5728155339805825,
+              "f1": 0.5339366515837104,
+              "true_positives": 59,
+              "false_positives": 59,
+              "false_negatives": 44,
+              "positive_decisions": 118
+            },
+            "ambient": {
+              "precision": 0.32608695652173914,
+              "recall": 0.75,
+              "f1": 0.45454545454545453,
+              "true_positives": 45,
+              "false_positives": 93,
+              "false_negatives": 15,
+              "positive_decisions": 138
+            },
+            "rock": {
+              "precision": 0.5529411764705883,
+              "recall": 0.6527777777777778,
+              "f1": 0.5987261146496815,
+              "true_positives": 47,
+              "false_positives": 38,
+              "false_negatives": 25,
+              "positive_decisions": 85
+            }
+          }
+        },
+        "precision_target": {
+          "true_positives": 128,
+          "false_positives": 28,
+          "false_negatives": 257,
+          "focus_false_positives": 0,
+          "focus_false_positive_rate": 0.0,
+          "micro_precision": 0.8205128205128205,
+          "micro_recall": 0.33246753246753247,
+          "micro_f1": 0.4731977818853974,
+          "macro_f1": 0.32784189723320156,
+          "coverage": 0.4166666666666667,
+          "per_label": {
+            "electronic": {
+              "precision": 0.883495145631068,
+              "recall": 0.6066666666666667,
+              "f1": 0.7193675889328063,
+              "true_positives": 91,
+              "false_positives": 12,
+              "false_negatives": 59,
+              "positive_decisions": 103
+            },
+            "pop": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "true_positives": 0,
+              "false_positives": 0,
+              "false_negatives": 103,
+              "positive_decisions": 0
+            },
+            "ambient": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "true_positives": 0,
+              "false_positives": 0,
+              "false_negatives": 60,
+              "positive_decisions": 0
+            },
+            "rock": {
+              "precision": 0.6981132075471698,
+              "recall": 0.5138888888888888,
+              "f1": 0.592,
+              "true_positives": 37,
+              "false_positives": 16,
+              "false_negatives": 35,
+              "positive_decisions": 53
+            }
+          }
+        }
+      }
+    },
+    "candidate": {
+      "tracks": 372,
+      "artists": 250,
+      "macro_brier": 0.12547490705605466,
+      "macro_log_loss": 0.39483737482133363,
+      "per_label": {
+        "electronic": {
+          "positive_tracks": 150,
+          "negative_tracks": 222,
+          "positive_artists": 105,
+          "negative_artists": 158,
+          "positive_fraction": 0.4032258064516129,
+          "mean_score": 0.38240503728439346,
+          "brier": 0.11875641800353463,
+          "log_loss": 0.37290473515342876,
+          "average_precision": 0.8731314428510603
+        },
+        "pop": {
+          "positive_tracks": 103,
+          "negative_tracks": 269,
+          "positive_artists": 73,
+          "negative_artists": 187,
+          "positive_fraction": 0.2768817204301075,
+          "mean_score": 0.21909918124269967,
+          "brier": 0.16207424237406817,
+          "log_loss": 0.4888468663698364,
+          "average_precision": 0.5989986359344601
+        },
+        "ambient": {
+          "positive_tracks": 60,
+          "negative_tracks": 312,
+          "positive_artists": 45,
+          "negative_artists": 214,
+          "positive_fraction": 0.16129032258064516,
+          "mean_score": 0.18792770868345726,
+          "brier": 0.1163160204295047,
+          "log_loss": 0.3654937050956584,
+          "average_precision": 0.39208320878233266
+        },
+        "rock": {
+          "positive_tracks": 72,
+          "negative_tracks": 300,
+          "positive_artists": 52,
+          "negative_artists": 206,
+          "positive_fraction": 0.1935483870967742,
+          "mean_score": 0.21142827139242837,
+          "brier": 0.10475294741711115,
+          "log_loss": 0.35210419266641113,
+          "average_precision": 0.6537939658658212
+        }
+      },
+      "policies": {
+        "f1": {
+          "true_positives": 272,
+          "false_positives": 197,
+          "false_negatives": 113,
+          "focus_false_positives": 124,
+          "focus_false_positive_rate": 0.3333333333333333,
+          "micro_precision": 0.579957356076759,
+          "micro_recall": 0.7064935064935065,
+          "micro_f1": 0.6370023419203747,
+          "macro_f1": 0.6103350564212113,
+          "coverage": 0.8709677419354839,
+          "per_label": {
+            "electronic": {
+              "precision": 0.7784810126582279,
+              "recall": 0.82,
+              "f1": 0.7987012987012987,
+              "true_positives": 123,
+              "false_positives": 35,
+              "false_negatives": 27,
+              "positive_decisions": 158
+            },
+            "pop": {
+              "precision": 0.5471698113207547,
+              "recall": 0.5631067961165048,
+              "f1": 0.5550239234449761,
+              "true_positives": 58,
+              "false_positives": 48,
+              "false_negatives": 45,
+              "positive_decisions": 106
+            },
+            "ambient": {
+              "precision": 0.36666666666666664,
+              "recall": 0.7333333333333333,
+              "f1": 0.4888888888888889,
+              "true_positives": 44,
+              "false_positives": 76,
+              "false_negatives": 16,
+              "positive_decisions": 120
+            },
+            "rock": {
+              "precision": 0.5529411764705883,
+              "recall": 0.6527777777777778,
+              "f1": 0.5987261146496815,
+              "true_positives": 47,
+              "false_positives": 38,
+              "false_negatives": 25,
+              "positive_decisions": 85
+            }
+          }
+        },
+        "precision_target": {
+          "true_positives": 128,
+          "false_positives": 28,
+          "false_negatives": 257,
+          "focus_false_positives": 0,
+          "focus_false_positive_rate": 0.0,
+          "micro_precision": 0.8205128205128205,
+          "micro_recall": 0.33246753246753247,
+          "micro_f1": 0.4731977818853974,
+          "macro_f1": 0.32784189723320156,
+          "coverage": 0.4166666666666667,
+          "per_label": {
+            "electronic": {
+              "precision": 0.883495145631068,
+              "recall": 0.6066666666666667,
+              "f1": 0.7193675889328063,
+              "true_positives": 91,
+              "false_positives": 12,
+              "false_negatives": 59,
+              "positive_decisions": 103
+            },
+            "pop": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "true_positives": 0,
+              "false_positives": 0,
+              "false_negatives": 103,
+              "positive_decisions": 0
+            },
+            "ambient": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "true_positives": 0,
+              "false_positives": 0,
+              "false_negatives": 60,
+              "positive_decisions": 0
+            },
+            "rock": {
+              "precision": 0.6981132075471698,
+              "recall": 0.5138888888888888,
+              "f1": 0.592,
+              "true_positives": 37,
+              "false_positives": 16,
+              "false_negatives": 35,
+              "positive_decisions": 53
+            }
+          }
+        }
+      }
+    }
+  },
+  "intervals": {
+    "replicates": 2000,
+    "seed": 2026092805,
+    "artists": 250,
+    "direction": "candidate minus baseline; negative favors candidate for losses and false positives",
+    "scope": "Paired artist-cluster 95% percentile intervals, conditional on this fixed candidate, observed licensed frame and successful acquisition. No finite-population correction, refitting or adjustment for annotation omissions, missing audio, within-artist song selection, undocumented exposure or encoder pretraining. Only the prespecified intersection of macro-Brier and focus-FP-rate benefits supports the go rule; other intervals are descriptive, without simultaneous coverage guarantees.",
+    "count_interval_definition": "focus_fp_count_equivalent = observed track count times focus FP rate; rate counts both focus-label FP cases per track and can exceed 1.",
+    "metrics": {
+      "macro_brier": {
+        "baseline": 0.12898903174408477,
+        "candidate": 0.12547490705605466,
+        "delta": -0.0035141246880301125,
+        "ci95": [
+          -0.0059144478084948,
+          -0.00119524735207888
+        ],
+        "valid_replicates": 2000
+      },
+      "macro_log_loss": {
+        "baseline": 0.4057143971111447,
+        "candidate": 0.39483737482133363,
+        "delta": -0.010877022289811078,
+        "ci95": [
+          -0.01890668371198815,
+          -0.0033293701390711993
+        ],
+        "valid_replicates": 2000
+      },
+      "micro_f1": {
+        "baseline": 0.6199095022624435,
+        "candidate": 0.6370023419203747,
+        "delta": 0.01709283965793129,
+        "ci95": [
+          0.002277949468823581,
+          0.03344217644786433
+        ],
+        "valid_replicates": 2000
+      },
+      "micro_recall": {
+        "baseline": 0.7116883116883117,
+        "candidate": 0.7064935064935065,
+        "delta": -0.0051948051948051965,
+        "ci95": [
+          -0.02393617021276595,
+          0.015037593984962405
+        ],
+        "valid_replicates": 2000
+      },
+      "focus_fp_rate": {
+        "baseline": 0.40860215053763443,
+        "candidate": 0.3333333333333333,
+        "delta": -0.07526881720430112,
+        "ci95": [
+          -0.1157053975813606,
+          -0.03759247313995445
+        ],
+        "valid_replicates": 2000
+      },
+      "focus_fp_count_equivalent": {
+        "baseline": 152.0,
+        "candidate": 124.0,
+        "delta": -28.0,
+        "ci95": [
+          -43.04240790026615,
+          -13.984400008063062
+        ],
+        "valid_replicates": 2000
+      },
+      "focus_fp_relative_change": {
+        "baseline": 0.0,
+        "candidate": -0.18421052631578957,
+        "delta": -0.18421052631578957,
+        "ci95": [
+          -0.2690172287004938,
+          -0.09696480938416424
+        ],
+        "valid_replicates": 2000,
+        "undefined_replicates": 0
+      }
+    },
+    "per_label_losses": {
+      "brier": {
+        "electronic": {
+          "baseline": 0.11875641800353458,
+          "candidate": 0.11875641800353458,
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000
+        },
+        "pop": {
+          "baseline": 0.17100756370857337,
+          "candidate": 0.1620742423740682,
+          "delta": -0.008933321334505168,
+          "ci95": [
+            -0.014798428362953052,
+            -0.0033594841043518594
+          ],
+          "valid_replicates": 2000
+        },
+        "ambient": {
+          "baseline": 0.12143919784712003,
+          "candidate": 0.11631602042950467,
+          "delta": -0.005123177417615352,
+          "ci95": [
+            -0.012391138322871463,
+            0.0013288980156597825
+          ],
+          "valid_replicates": 2000
+        },
+        "rock": {
+          "baseline": 0.10475294741711122,
+          "candidate": 0.10475294741711122,
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000
+        }
+      },
+      "log_loss": {
+        "electronic": {
+          "baseline": 0.3729047351534287,
+          "candidate": 0.3729047351534287,
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000
+        },
+        "pop": {
+          "baseline": 0.5146133117718237,
+          "candidate": 0.48884686636983654,
+          "delta": -0.025766445401987137,
+          "ci95": [
+            -0.04413487284380218,
+            -0.008385682056879734
+          ],
+          "valid_replicates": 2000
+        },
+        "ambient": {
+          "baseline": 0.38323534885291555,
+          "candidate": 0.3654937050956585,
+          "delta": -0.017741643757257064,
+          "ci95": [
+            -0.04444266221306214,
+            0.005833190605505653
+          ],
+          "valid_replicates": 2000
+        },
+        "rock": {
+          "baseline": 0.3521041926664113,
+          "candidate": 0.3521041926664113,
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid_replicates": 2000
+        }
+      }
+    }
+  },
+  "refitted": false,
+  "candidate_changed": false,
+  "application_replaced": false
+}

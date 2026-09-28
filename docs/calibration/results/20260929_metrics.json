@@ -1,0 +1,1487 @@
+{
+  "identity": {
+    "n": 231,
+    "macro_brier": 0.1472736237811621,
+    "macro_log_loss": 0.4537364626300825,
+    "per_label": {
+      "electronic": {
+        "positive_fraction": 0.33766233766233766,
+        "mean_score": 0.3221055726465527,
+        "brier": 0.14738352564716686,
+        "log_loss": 0.4544707991160832,
+        "ap": 0.7305225830238723,
+        "ece": {
+          "5": 0.03836437336025517,
+          "10": 0.054509915996561575
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 107,
+              "mean_score": 0.10587382616836158,
+              "positive_fraction": 0.08411214953271028
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 48,
+              "mean_score": 0.2865078137256246,
+              "positive_fraction": 0.3541666666666667
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 34,
+              "mean_score": 0.49055962554501126,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 27,
+              "mean_score": 0.716322451489148,
+              "positive_fraction": 0.8148148148148148
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 15,
+              "mean_score": 0.8870519575847744,
+              "positive_fraction": 0.8666666666666667
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 48,
+              "mean_score": 0.062137860086566986,
+              "positive_fraction": 0.020833333333333332
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 59,
+              "mean_score": 0.14145562908236398,
+              "positive_fraction": 0.13559322033898305
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 27,
+              "mean_score": 0.24192257598981,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 21,
+              "mean_score": 0.3438316908145291,
+              "positive_fraction": 0.38095238095238093
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 19,
+              "mean_score": 0.44629190016587134,
+              "positive_fraction": 0.47368421052631576
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 15,
+              "mean_score": 0.5466320776919218,
+              "positive_fraction": 0.5333333333333333
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 9,
+              "mean_score": 0.64571937913333,
+              "positive_fraction": 1.0
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 18,
+              "mean_score": 0.7516239876670568,
+              "positive_fraction": 0.7222222222222222
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 7,
+              "mean_score": 0.8377003955560659,
+              "positive_fraction": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 8,
+              "mean_score": 0.9302345743598942,
+              "positive_fraction": 0.75
+            }
+          ]
+        }
+      },
+      "pop": {
+        "positive_fraction": 0.22510822510822512,
+        "mean_score": 0.2222700435272376,
+        "brier": 0.17972058326877854,
+        "log_loss": 0.5461245768256215,
+        "ap": 0.33683947381808094,
+        "ece": {
+          "5": 0.09271975473044268,
+          "10": 0.09271975473044268
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 145,
+              "mean_score": 0.09611853004089477,
+              "positive_fraction": 0.15862068965517243
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 45,
+              "mean_score": 0.2894638111133349,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 23,
+              "mean_score": 0.4976412058323907,
+              "positive_fraction": 0.30434782608695654
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 13,
+              "mean_score": 0.6646859472556967,
+              "positive_fraction": 0.46153846153846156
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 5,
+              "mean_score": 0.858931330058606,
+              "positive_fraction": 0.2
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 81,
+              "mean_score": 0.06189573924921906,
+              "positive_fraction": 0.1111111111111111
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 64,
+              "mean_score": 0.13943174963660934,
+              "positive_fraction": 0.21875
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 24,
+              "mean_score": 0.2536881517536808,
+              "positive_fraction": 0.2916666666666667
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 21,
+              "mean_score": 0.33035027895293956,
+              "positive_fraction": 0.38095238095238093
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 12,
+              "mean_score": 0.4481950933858944,
+              "positive_fraction": 0.08333333333333333
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 11,
+              "mean_score": 0.5515824194103865,
+              "positive_fraction": 0.5454545454545454
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 9,
+              "mean_score": 0.6374500668728833,
+              "positive_fraction": 0.4444444444444444
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 4,
+              "mean_score": 0.7259666781170269,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 4,
+              "mean_score": 0.8457500392904046,
+              "positive_fraction": 0.25
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 1,
+              "mean_score": 0.9116564931314117,
+              "positive_fraction": 0.0
+            }
+          ]
+        }
+      },
+      "ambient": {
+        "positive_fraction": 0.21212121212121213,
+        "mean_score": 0.3594708938491972,
+        "brier": 0.18497811876551445,
+        "log_loss": 0.5464181933641452,
+        "ap": 0.4473986201509621,
+        "ece": {
+          "5": 0.14734968172798513,
+          "10": 0.154253732719848
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 86,
+              "mean_score": 0.08530746467744268,
+              "positive_fraction": 0.06976744186046512
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 51,
+              "mean_score": 0.2908611152192975,
+              "positive_fraction": 0.19607843137254902
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 38,
+              "mean_score": 0.5032635869825175,
+              "positive_fraction": 0.23684210526315788
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 38,
+              "mean_score": 0.6942450369168217,
+              "positive_fraction": 0.42105263157894735
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 18,
+              "mean_score": 0.8534494406969684,
+              "positive_fraction": 0.4444444444444444
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 53,
+              "mean_score": 0.049429354060913394,
+              "positive_fraction": 0.03773584905660377
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 33,
+              "mean_score": 0.1429298847585352,
+              "positive_fraction": 0.12121212121212122
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 26,
+              "mean_score": 0.24697456874074689,
+              "positive_fraction": 0.2692307692307692
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 25,
+              "mean_score": 0.33650312355699014,
+              "positive_fraction": 0.12
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 16,
+              "mean_score": 0.4508339842605817,
+              "positive_fraction": 0.25
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 22,
+              "mean_score": 0.5413942071439254,
+              "positive_fraction": 0.22727272727272727
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 19,
+              "mean_score": 0.6418345151188832,
+              "positive_fraction": 0.2631578947368421
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 19,
+              "mean_score": 0.7466555587147602,
+              "positive_fraction": 0.5789473684210527
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 15,
+              "mean_score": 0.8387231072910007,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 3,
+              "mean_score": 0.9270811077268065,
+              "positive_fraction": 1.0
+            }
+          ]
+        }
+      },
+      "rock": {
+        "positive_fraction": 0.1471861471861472,
+        "mean_score": 0.19786113499962477,
+        "brier": 0.07701226744318863,
+        "log_loss": 0.26793228121448026,
+        "ap": 0.7053787865784826,
+        "ece": {
+          "5": 0.06115730477463321,
+          "10": 0.06199411348483884
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 158,
+              "mean_score": 0.07705415154067563,
+              "positive_fraction": 0.02531645569620253
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 37,
+              "mean_score": 0.2747095173820309,
+              "positive_fraction": 0.21621621621621623
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 15,
+              "mean_score": 0.4920465858869855,
+              "positive_fraction": 0.5333333333333333
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 10,
+              "mean_score": 0.6577821707364903,
+              "positive_fraction": 0.4
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 11,
+              "mean_score": 0.8553266911528857,
+              "positive_fraction": 0.9090909090909091
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 114,
+              "mean_score": 0.05303768918475042,
+              "positive_fraction": 0.02631578947368421
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 44,
+              "mean_score": 0.13927862219011822,
+              "positive_fraction": 0.022727272727272728
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 23,
+              "mean_score": 0.22873493692016938,
+              "positive_fraction": 0.13043478260869565
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 14,
+              "mean_score": 0.35023918528366066,
+              "positive_fraction": 0.35714285714285715
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 7,
+              "mean_score": 0.42144740435411004,
+              "positive_fraction": 0.42857142857142855
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 8,
+              "mean_score": 0.5538208697282516,
+              "positive_fraction": 0.625
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 8,
+              "mean_score": 0.6331283967062536,
+              "positive_fraction": 0.375
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 2,
+              "mean_score": 0.7563972668574366,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 9,
+              "mean_score": 0.8442232283420549,
+              "positive_fraction": 0.8888888888888888
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 2,
+              "mean_score": 0.9052922738016242,
+              "positive_fraction": 1.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sigmoid": {
+    "n": 231,
+    "macro_brier": 0.13921799376784008,
+    "macro_log_loss": 0.4364896591744389,
+    "per_label": {
+      "electronic": {
+        "positive_fraction": 0.33766233766233766,
+        "mean_score": 0.304956794934436,
+        "brier": 0.14854018185529347,
+        "log_loss": 0.4564572419318808,
+        "ap": 0.7305225830238723,
+        "ece": {
+          "5": 0.03687517469707463,
+          "10": 0.06481620244550224
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 119,
+              "mean_score": 0.09663005009198931,
+              "positive_fraction": 0.10084033613445378
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 40,
+              "mean_score": 0.29375982833737935,
+              "positive_fraction": 0.425
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 31,
+              "mean_score": 0.4862296574046016,
+              "positive_fraction": 0.4838709677419355
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 26,
+              "mean_score": 0.7197714631912822,
+              "positive_fraction": 0.8076923076923077
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 15,
+              "mean_score": 0.8938982075264552,
+              "positive_fraction": 0.8666666666666667
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 60,
+              "mean_score": 0.05631974737631409,
+              "positive_fraction": 0.05
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 59,
+              "mean_score": 0.13762357827742172,
+              "positive_fraction": 0.15254237288135594
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 23,
+              "mean_score": 0.25408574267242207,
+              "positive_fraction": 0.391304347826087
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 17,
+              "mean_score": 0.34743653247232154,
+              "positive_fraction": 0.47058823529411764
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 18,
+              "mean_score": 0.44289828548008514,
+              "positive_fraction": 0.3888888888888889
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 13,
+              "mean_score": 0.5462269416077785,
+              "positive_fraction": 0.6153846153846154
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 9,
+              "mean_score": 0.6506107543907853,
+              "positive_fraction": 1.0
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 17,
+              "mean_score": 0.7563859560856627,
+              "positive_fraction": 0.7058823529411765
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 7,
+              "mean_score": 0.8442295928843724,
+              "positive_fraction": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 8,
+              "mean_score": 0.9373582453382778,
+              "positive_fraction": 0.75
+            }
+          ]
+        }
+      },
+      "pop": {
+        "positive_fraction": 0.22510822510822512,
+        "mean_score": 0.22160362440259757,
+        "brier": 0.17805754510643904,
+        "log_loss": 0.5402339578874996,
+        "ap": 0.33683947381808094,
+        "ece": {
+          "5": 0.08762877292473098,
+          "10": 0.08762877292473097
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 145,
+              "mean_score": 0.10040346972346885,
+              "positive_fraction": 0.15862068965517243
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 45,
+              "mean_score": 0.28701316079534683,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 27,
+              "mean_score": 0.49990662189387447,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 11,
+              "mean_score": 0.6908665916685427,
+              "positive_fraction": 0.36363636363636365
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 3,
+              "mean_score": 0.8731101972726224,
+              "positive_fraction": 0.3333333333333333
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 78,
+              "mean_score": 0.06499371561018605,
+              "positive_fraction": 0.08974358974358974
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 67,
+              "mean_score": 0.1416267655568429,
+              "positive_fraction": 0.23880597014925373
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 25,
+              "mean_score": 0.25497849381887355,
+              "positive_fraction": 0.32
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 20,
+              "mean_score": 0.32705649451593843,
+              "positive_fraction": 0.35
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 15,
+              "mean_score": 0.4477138640162947,
+              "positive_fraction": 0.2
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 12,
+              "mean_score": 0.5651475692408493,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 7,
+              "mean_score": 0.6541364894279199,
+              "positive_fraction": 0.5714285714285714
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 4,
+              "mean_score": 0.7551442705896323,
+              "positive_fraction": 0.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 3,
+              "mean_score": 0.8731101972726224,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "mean_score": null,
+              "positive_fraction": null
+            }
+          ]
+        }
+      },
+      "ambient": {
+        "positive_fraction": 0.21212121212121213,
+        "mean_score": 0.1966271163466991,
+        "brier": 0.14792964921624724,
+        "log_loss": 0.46668430520064796,
+        "ap": 0.4473986201509621,
+        "ece": {
+          "5": 0.03623600031575452,
+          "10": 0.05162216560509065
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 141,
+              "mean_score": 0.07348895987467657,
+              "positive_fraction": 0.11347517730496454
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 53,
+              "mean_score": 0.28765019851114315,
+              "positive_fraction": 0.2641509433962264
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 28,
+              "mean_score": 0.48797251997302515,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 9,
+              "mean_score": 0.6833588281580898,
+              "positive_fraction": 0.5555555555555556
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 0,
+              "mean_score": null,
+              "positive_fraction": null
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 95,
+              "mean_score": 0.041643598577808194,
+              "positive_fraction": 0.09473684210526316
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 46,
+              "mean_score": 0.13925655385733954,
+              "positive_fraction": 0.15217391304347827
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 32,
+              "mean_score": 0.24833098158783978,
+              "positive_fraction": 0.25
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 21,
+              "mean_score": 0.3475651957276056,
+              "positive_fraction": 0.2857142857142857
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 15,
+              "mean_score": 0.44423161659002414,
+              "positive_fraction": 0.5333333333333333
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 13,
+              "mean_score": 0.538442793107257,
+              "positive_fraction": 0.46153846153846156
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 6,
+              "mean_score": 0.6456944407929435,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 3,
+              "mean_score": 0.7586876028883823,
+              "positive_fraction": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "mean_score": null,
+              "positive_fraction": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "mean_score": null,
+              "positive_fraction": null
+            }
+          ]
+        }
+      },
+      "rock": {
+        "positive_fraction": 0.1471861471861472,
+        "mean_score": 0.22722039742242392,
+        "brier": 0.08234459889338061,
+        "log_loss": 0.282583131677727,
+        "ap": 0.7053787865784826,
+        "ece": {
+          "5": 0.08003425023627676,
+          "10": 0.09095876157154972
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 151,
+              "mean_score": 0.07871788848948547,
+              "positive_fraction": 0.026490066225165563
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 33,
+              "mean_score": 0.2740837965346186,
+              "positive_fraction": 0.09090909090909091
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 18,
+              "mean_score": 0.473055283899152,
+              "positive_fraction": 0.4444444444444444
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 16,
+              "mean_score": 0.7014391968261826,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 13,
+              "mean_score": 0.9091325459708888,
+              "positive_fraction": 0.8461538461538461
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 105,
+              "mean_score": 0.050920117701842654,
+              "positive_fraction": 0.01904761904761905
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 46,
+              "mean_score": 0.1421693218091049,
+              "positive_fraction": 0.043478260869565216
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 26,
+              "mean_score": 0.2521021166449795,
+              "positive_fraction": 0.11538461538461539
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 7,
+              "mean_score": 0.3557300361247067,
+              "positive_fraction": 0.0
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 12,
+              "mean_score": 0.44916232852742755,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 6,
+              "mean_score": 0.5208411946426009,
+              "positive_fraction": 0.3333333333333333
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 6,
+              "mean_score": 0.6479477379080166,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 10,
+              "mean_score": 0.7335340721770823,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 4,
+              "mean_score": 0.8676130247936779,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 9,
+              "mean_score": 0.9275856664940937,
+              "positive_fraction": 1.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "temperature": {
+    "n": 231,
+    "macro_brier": 0.14743763019445358,
+    "macro_log_loss": 0.4543265612819783,
+    "per_label": {
+      "electronic": {
+        "positive_fraction": 0.33766233766233766,
+        "mean_score": 0.3140560585576331,
+        "brier": 0.14754871713010034,
+        "log_loss": 0.4546075082348167,
+        "ap": 0.7305225830238723,
+        "ece": {
+          "5": 0.038029624812566935,
+          "10": 0.04167342069688798
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 117,
+              "mean_score": 0.09832574473321541,
+              "positive_fraction": 0.10256410256410256
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 39,
+              "mean_score": 0.29352161794305237,
+              "positive_fraction": 0.38461538461538464
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 33,
+              "mean_score": 0.4924719684494854,
+              "positive_fraction": 0.48484848484848486
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 21,
+              "mean_score": 0.7109332316185666,
+              "positive_fraction": 0.8571428571428571
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 21,
+              "mean_score": 0.8768724509726233,
+              "positive_fraction": 0.8095238095238095
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 58,
+              "mean_score": 0.056386598431639096,
+              "positive_fraction": 0.05172413793103448
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 59,
+              "mean_score": 0.13955405804662943,
+              "positive_fraction": 0.15254237288135594
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 21,
+              "mean_score": 0.25114806392467365,
+              "positive_fraction": 0.2857142857142857
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 18,
+              "mean_score": 0.3429574309644942,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 18,
+              "mean_score": 0.44374482074840427,
+              "positive_fraction": 0.4444444444444444
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 15,
+              "mean_score": 0.5509445456907828,
+              "positive_fraction": 0.5333333333333333
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 7,
+              "mean_score": 0.6457068842892212,
+              "positive_fraction": 1.0
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 14,
+              "mean_score": 0.7435464052832391,
+              "positive_fraction": 0.7857142857142857
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 13,
+              "mean_score": 0.8355505777634392,
+              "positive_fraction": 0.8461538461538461
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 8,
+              "mean_score": 0.944020494937547,
+              "positive_fraction": 0.75
+            }
+          ]
+        }
+      },
+      "pop": {
+        "positive_fraction": 0.22510822510822512,
+        "mean_score": 0.22519854021583163,
+        "brier": 0.1791686669668392,
+        "log_loss": 0.5435079725084923,
+        "ap": 0.33683947381808094,
+        "ece": {
+          "5": 0.0892480111560339,
+          "10": 0.08924801115603388
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 144,
+              "mean_score": 0.09932668590411964,
+              "positive_fraction": 0.1527777777777778
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 46,
+              "mean_score": 0.2912878986133349,
+              "positive_fraction": 0.34782608695652173
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 23,
+              "mean_score": 0.4976927750945552,
+              "positive_fraction": 0.30434782608695654
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 13,
+              "mean_score": 0.6615123020119901,
+              "positive_fraction": 0.46153846153846156
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 5,
+              "mean_score": 0.8543965860239643,
+              "positive_fraction": 0.2
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 78,
+              "mean_score": 0.06380107112555992,
+              "positive_fraction": 0.08974358974358974
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 66,
+              "mean_score": 0.14131150336969023,
+              "positive_fraction": 0.22727272727272727
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 24,
+              "mean_score": 0.2537103909476443,
+              "positive_fraction": 0.2916666666666667
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 22,
+              "mean_score": 0.33228154333954285,
+              "positive_fraction": 0.4090909090909091
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 12,
+              "mean_score": 0.4492846626548545,
+              "positive_fraction": 0.08333333333333333
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 11,
+              "mean_score": 0.5505016250287741,
+              "positive_fraction": 0.5454545454545454
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 9,
+              "mean_score": 0.6346987102126138,
+              "positive_fraction": 0.4444444444444444
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 4,
+              "mean_score": 0.7218428835605868,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 4,
+              "mean_score": 0.841100700172503,
+              "positive_fraction": 0.25
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 1,
+              "mean_score": 0.9075801294298088,
+              "positive_fraction": 0.0
+            }
+          ]
+        }
+      },
+      "ambient": {
+        "positive_fraction": 0.21212121212121213,
+        "mean_score": 0.35828734170481447,
+        "brier": 0.18539699235297463,
+        "log_loss": 0.5479578784697811,
+        "ap": 0.4473986201509621,
+        "ece": {
+          "5": 0.14616612958360242,
+          "10": 0.1560004739264283
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 86,
+              "mean_score": 0.08183396908053107,
+              "positive_fraction": 0.06976744186046512
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 51,
+              "mean_score": 0.2870015026433149,
+              "positive_fraction": 0.19607843137254902
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 36,
+              "mean_score": 0.49790972869703537,
+              "positive_fraction": 0.2222222222222222
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 38,
+              "mean_score": 0.6873818627957328,
+              "positive_fraction": 0.42105263157894735
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 20,
+              "mean_score": 0.8522158469373153,
+              "positive_fraction": 0.45
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 56,
+              "mean_score": 0.04938954434037206,
+              "positive_fraction": 0.05357142857142857
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 30,
+              "mean_score": 0.14239689526216123,
+              "positive_fraction": 0.1
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 26,
+              "mean_score": 0.24254448652954894,
+              "positive_fraction": 0.2692307692307692
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 25,
+              "mean_score": 0.33323679940163153,
+              "positive_fraction": 0.12
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 16,
+              "mean_score": 0.44977629696248766,
+              "positive_fraction": 0.25
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 20,
+              "mean_score": 0.5364164740846737,
+              "positive_fraction": 0.2
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 21,
+              "mean_score": 0.6405617230808986,
+              "positive_fraction": 0.2857142857142857
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 17,
+              "mean_score": 0.7452185059728806,
+              "positive_fraction": 0.5882352941176471
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 17,
+              "mean_score": 0.8383620495983413,
+              "positive_fraction": 0.35294117647058826
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 3,
+              "mean_score": 0.9307206985248352,
+              "positive_fraction": 1.0
+            }
+          ]
+        }
+      },
+      "rock": {
+        "positive_fraction": 0.1471861471861472,
+        "mean_score": 0.2021622468572062,
+        "brier": 0.07763614432790006,
+        "log_loss": 0.2712328859148228,
+        "ap": 0.7053787865784826,
+        "ece": {
+          "5": 0.05920640298259193,
+          "10": 0.05959332107130009
+        },
+        "bins": {
+          "5": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 156,
+              "mean_score": 0.08110929094389015,
+              "positive_fraction": 0.02564102564102564
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 39,
+              "mean_score": 0.27708659025168936,
+              "positive_fraction": 0.20512820512820512
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 16,
+              "mean_score": 0.4989577971302684,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 10,
+              "mean_score": 0.6728652649433939,
+              "positive_fraction": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "mean_score": 0.8528075213433658,
+              "positive_fraction": 0.9
+            }
+          ],
+          "10": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 107,
+              "mean_score": 0.05492434898481052,
+              "positive_fraction": 0.018691588785046728
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 49,
+              "mean_score": 0.13828865399739054,
+              "positive_fraction": 0.04081632653061224
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 25,
+              "mean_score": 0.2334509557134019,
+              "positive_fraction": 0.12
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 14,
+              "mean_score": 0.355007366212917,
+              "positive_fraction": 0.35714285714285715
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 7,
+              "mean_score": 0.42407608397966634,
+              "positive_fraction": 0.42857142857142855
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 9,
+              "mean_score": 0.5571991295807367,
+              "positive_fraction": 0.5555555555555556
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 7,
+              "mean_score": 0.633136293671153,
+              "positive_fraction": 0.42857142857142855
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 3,
+              "mean_score": 0.7655661979119558,
+              "positive_fraction": 0.6666666666666666
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 9,
+              "mean_score": 0.8472877675766303,
+              "positive_fraction": 0.8888888888888888
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 1,
+              "mean_score": 0.9024853052439838,
+              "positive_fraction": 1.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

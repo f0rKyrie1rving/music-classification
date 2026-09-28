@@ -14,10 +14,22 @@ analysis = Analysis(
         (str(project_root / "artifacts/final_heads.npy"), "artifacts"),
         (str(project_root / "artifacts/final_heads.json"), "artifacts"),
         (str(project_root / "artifacts/score_correction.json"), "artifacts"),
+        (str(project_root / "artifacts/application_release.json"), "artifacts"),
+        *[
+            (str(project_root / "artifacts/candidates/20260927_v1" / name),
+             "artifacts/candidates/20260927_v1")
+            for name in (
+                "candidate.json", "candidate.npz", "freeze.json",
+                "future_exclusions.json", "threshold_selection.json", "training.json",
+            )
+        ],
         (str(project_root / "experiments/final_holdout_plan.json"), "experiments"),
         (str(project_root / "data/previews/track_0207501_30s.wav"), "data/previews"),
     ],
     hiddenimports=[
+        "application_predict",
+        "application_release",
+        "candidate_predict",
         "predict_app",
         "score_correction",
         "safetensors.torch",

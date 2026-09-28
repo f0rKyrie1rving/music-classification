@@ -1,0 +1,45 @@
+{
+  "state": "passed",
+  "checked_utc": "2026-09-28T11:53:03.495573+00:00",
+  "application_version": "1.2.0",
+  "candidate_id": "music-candidate-20260927-v1",
+  "candidate_weights_sha256": "70ceca1ab53b9b8d968d6e1ca4664bc78e22b78e2c70def772d495cbbf208036",
+  "unit_tests": {
+    "count": 215,
+    "research_environment_passed": true,
+    "base_environment_without_torch_passed": true,
+    "command": "python -m unittest discover -s tests -q"
+  },
+  "cached_regression": {
+    "tracks": 372,
+    "artists": 250,
+    "policies": 2,
+    "public_calls": 744,
+    "checks": 24576,
+    "exact_match": true
+  },
+  "real_audio_cli_and_desktop_passed": true,
+  "native_mac_ui_passed": true,
+  "dark_mode_visually_checked": true,
+  "bundle_relocation_passed": true,
+  "research_freeze_unchanged": true,
+  "no_retraining_or_threshold_tuning": true,
+  "windows_executable_built": false,
+  "windows_install_uninstall_verified": false,
+  "published": false,
+  "source_hashes": {
+    "application_predict.py": "867c4a27b0b070ce557d041a2d7c728238490cf9d73ff12454aca345f1e27d7d",
+    "application_release.py": "0a0f3ac467c1f81a53c5d78c9628f0d44e34ded82fe1dc3ca5be53380e2a4ccd",
+    "artifacts/application_release.json": "f1729a461f17c0b87a7668f8e189e35e4f5c5d2f5928ae8d631fc1a97b7d4a00",
+    "desktop_app.py": "954671806f6ab80fc58a96c5582c007b044e23d85f93d7e87ea2b4c2bb331f83",
+    "packaging/windows/MusicClassification.spec": "644cc6dd4883ef1cdb3ab3205dfb62b534746d653d10071694c01477405f7350",
+    "packaging/windows/installer.iss": "d8c233bc3d6c16e1f07f8638e11e026b8d7173a55eb844789b75b8644ac7099e",
+    "packaging/windows/verify_smoke.py": "2c56c8d599f5c00754eca538c2a63e0fb603a530670bfb5177dafcda375ba5d3",
+    ".github/workflows/windows-installer.yml": "a6af4b8111d31fb515eb59c7b10899f4f5f92bf79f5cd6c2ccd43086a72c5101",
+    "requirements-test.txt": "ee39416453b46773ccc545cc4fae98799881ee138a69bdda9197a9fdf108ac5c",
+    "tests/test_application_integration.py": "5b6ca90b747e6bfce2b32ba0da24c9a25aaf00f2997a379eaa1be9f39cfb7b29",
+    "tests/test_application_packaging.py": "0de915d3030d32367182e2583d217f8a38e6d19b4184994493a799bf11ca5b2b",
+    "tests/test_desktop_release.py": "badbc82854a0606e9b0ae4ce9c5e5f1526f96a4e9dc9a1f7697886ecd2ee0081",
+    "docs/application_integration/check_desktop_ui.py": "d24fe55e6fc15fb4618065ee070cfa368387e3513df7e8028baaef5c9f8b1937"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-09-26T15:46:09.887899+00:00",
+  "status": "post-hoc diagnostic; selected split was already known",
+  "git_commit": "fa09b95ef889be769e3d7add4abdb31288fc1191",
+  "git_status": "?? docs/calibration/\n?? docs/calibration_budget/\n?? research/",
+  "source_hashes": {
+    "research/calibration_diagnostics/report.py": "1bacd4c1522725a140b6ce9632cf762fb042b1b9309d030a5e837e23df241914",
+    "research/calibration_diagnostics/run.py": "ddd877019bfbcb9e12c4620b2e813b5a30fb69bb1e978de21bc5a55839a935fc",
+    "research/calibration_diagnostics/test_diagnostics.py": "3c561f4961d608a7f629a1853cd33c101112fd8cc1c1a91ca71a343bb0b1e71c",
+    "research/calibration_diagnostics/verify_results.py": "d6ac9073496dd2dccb8ce0113cfd14906d1038591da0a40384da86a7c2ac10a8",
+    "research/calibration/common.py": "59bf8224d9da36ccd8b223c1eb94bb5acda9b5edbac0d578d9640b5ba3e41cc0",
+    "research/calibration/metrics.py": "1e8e83e4c262deadb5c25e842f4cc3616eae2854a1d699b5ab5d17235827293a",
+    "research/calibration/calibrators.py": "119ad9ef417e56deea69b7c1decaed7a6c88909bf371c97e367f3b50a50a551d",
+    "research/calibration/run_experiment.py": "35b183f1003e4b1b778c240aa1895796bcff19e70045feaa4402b41199151cbc",
+    "research/calibration/report.py": "df0046e340d2d4c744c620cfefe1c8a6d7ca8f07ffecf5c6339e249e6a6d56a4",
+    "research/calibration/splits.py": "54ec1aa92837c60a15f1ccd982a47d7e8039f36c5691427b52c88a8e7ec690e9",
+    "research/calibration/audit_inputs.py": "d061d66909866ccd8ffc8ce84f428a2d121408ae0f28e047878dbfa77b27988d"
+  },
+  "input_hashes": {
+    "outputs/calibration/20260926_v2/freeze.json": "97377bf16ecae6754838adc76879c991e7820411156ebbf8591093469379b3c1",
+    "outputs/calibration/20260926_v2/splits.json": "98be5f0eb9f39ef16b6e0591b26c8f86a857700e609b7615c322d207209189b1",
+    "outputs/calibration/20260926_v2/config.json": "4be0722cf53e190e0059bba460ab5b7bfcb0ddb2a858f8172ecf1918cb696e5b",
+    "outputs/calibration/20260926_v2/seed_20260926/predictions.npz": "a896249035dd6571cce39738a849958fa1d7820b8e7d6c5f18829dc1a9b5774e",
+    "outputs/calibration/20260926_v2/seed_20260926/parameters.json": "020aaac493023e93f8da85bfa7f8147d585038cd7fab1bf335ccd7ef6f60c219",
+    "outputs/calibration/20260926_v2/seed_20260926/metrics.json": "5ddf93e7225c8420dfdc7b2e43cbfea793dab9c56a269bf9afd070d2c93553c0",
+    "outputs/calibration/20260926_v2/seed_20260927/predictions.npz": "4c1779607813692b4d16af8384a7ce8803ec27158162bc5e0775a1782db8bd2e",
+    "outputs/calibration/20260926_v2/seed_20260927/parameters.json": "50c58249df3445b22a4f8597d473f068c592c4d0e6ba76369dbd642219c9dd83",
+    "outputs/calibration/20260926_v2/seed_20260927/metrics.json": "e43663fa45cde783e124b2b56b0da5069a59c15706d22df499df048f96b492d1",
+    "outputs/calibration/20260926_v2/seed_20260928/predictions.npz": "32640340714c35746897f3430c3809d184d5adba12d8de76d8b84ac732ce046d",
+    "outputs/calibration/20260926_v2/seed_20260928/parameters.json": "c0a56460d24d68229ec9d89241f1c4b7d92e2a7efeb435a3246fcc0d96087527",
+    "outputs/calibration/20260926_v2/seed_20260928/metrics.json": "f5aa2651f35aae5e6e8ff68e8a53b2b8f81fa42f0b49c81f84e62d904b10f374",
+    "outputs/calibration/20260926_v2/seed_20260929/predictions.npz": "cc222b149b1eaa4fa9bd65f3b0f7218d2055caad8595ce0e71704eaed9338f71",
+    "outputs/calibration/20260926_v2/seed_20260929/parameters.json": "5336352f9c9a4318e74c99a8911bab3945af41739efa792ae421ad3035b0b9e8",
+    "outputs/calibration/20260926_v2/seed_20260929/metrics.json": "846c7bea7831149278ba636892188c76990ae6be74a9654d279b20b69832c160",
+    "outputs/calibration/20260926_v2/seed_20260930/predictions.npz": "e7b9ed97ebc5471407c54f2325ac6855bf06f90540c48b664eb661e5c774529d",
+    "outputs/calibration/20260926_v2/seed_20260930/parameters.json": "fcd07d291c089505fd32a8f576a4e05fba39ffa53f7cba7fee6c73355b4a789a",
+    "outputs/calibration/20260926_v2/seed_20260930/metrics.json": "74442fb4b4b12579df82a3451f4cb786cb7c19249d6f335c536107c3cbf09b24"
+  },
+  "local_hashes": {
+    "config.json": "3dbd947fd28d3d1efb3845996a402643eb83a0556b0798cec2081778b8e626e8",
+    "protocol.md": "c06252f20146480520c492e36d901ee0ab4394058a62bf11bd9b6cfec26dd307"
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1"
+  }
+}

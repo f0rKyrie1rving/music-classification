@@ -38,7 +38,7 @@ jobs:
         shell: pwsh
         run: |
           python -m venv .venv-tests
-          .venv-tests/Scripts/python.exe -m pip install -r requirements.txt certifi==2026.7.22
+          .venv-tests/Scripts/python.exe -m pip install -r requirements-test.txt
           if ($LASTEXITCODE -ne 0) { throw "Test dependency installation failed." }
           .venv-tests/Scripts/python.exe -m unittest discover -s tests -v
           if ($LASTEXITCODE -ne 0) { throw "Windows unit tests failed." }
@@ -46,13 +46,12 @@ jobs:
       - name: Resolve application version
         shell: pwsh
         run: |
-          if ("${{ github.ref_type }}" -eq "tag") {
-            $version = "${{ github.ref_name }}".TrimStart("v")
-          } else {
-            $version = (Get-Content "app_version.txt" -Raw).Trim()
-          }
+          $version = (python -c "from application_release import APP_VERSION, load_release; load_release(); print(APP_VERSION)").Trim()
+          if ($LASTEXITCODE -ne 0) { throw "Application release identity validation failed." }
           if ($version -notmatch '^\d+\.\d+\.\d+$') { throw "Expected a numeric major.minor.patch version." }
-          $version | Set-Content "app_version.txt" -Encoding ascii
+          if ("${{ github.ref_type }}" -eq "tag" -and "${{ github.ref_name }}" -ne "v$version") {
+            throw "Release tag must match the validated application version v$version."
+          }
           "APP_VERSION=$version" | Out-File $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Build the desktop bundle
@@ -72,17 +71,8 @@ jobs:
             if (Test-Path $result) { Get-Content $result }
             throw "Packaged inference failed with exit code $($process.ExitCode)."
           }
-          $payload = Get-Content $result -Raw | ConvertFrom-Json
-          if (-not $payload.ok -or $payload.result.predicted_tags -notcontains "rock") {
-            Get-Content $result
-            throw "Packaged inference did not reproduce the included-example decision."
-          }
-          $ambient = $payload.result.scores | Where-Object { $_.label -eq "ambient" }
-          if ($payload.result.score_mode -ne "weight_corrected" -or
-              -not $ambient -or $ambient.score -ge $ambient.raw_score -or
-              [Math]::Abs($ambient.threshold - 0.1321) -gt 0.00001) {
-            throw "Packaged inference did not apply the v1.1 score correction."
-          }
+          python packaging/windows/verify_smoke.py $result --expected-version $env:APP_VERSION
+          if ($LASTEXITCODE -ne 0) { throw "Packaged v1.2 model identity or comparison verification failed." }
           Get-Content $result
 
       - name: Install Inno Setup when needed
@@ -130,13 +120,8 @@ jobs:
             -ArgumentList @("--smoke-test", "`"$audio`"", "--output", "`"$result`"") `
             -Wait -PassThru
           if ($analysis.ExitCode -ne 0) { throw "Installed app inference failed." }
-          $payload = Get-Content $result -Raw | ConvertFrom-Json
-          if (-not $payload.ok -or $payload.result.predicted_tags -notcontains "rock") {
-            throw "Installed app did not reproduce the example decision."
-          }
-          if ($payload.result.score_mode -ne "weight_corrected") {
-            throw "Installed app did not use the v1.1 score correction."
-          }
+          python packaging/windows/verify_smoke.py $result --expected-version $env:APP_VERSION
+          if ($LASTEXITCODE -ne 0) { throw "Installed v1.2 model identity or comparison verification failed." }
           $uninstaller = Get-ChildItem "$installed/unins*.exe" | Select-Object -First 1
           $uninstall = Start-Process $uninstaller.FullName `
             -ArgumentList @("/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART") `

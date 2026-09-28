@@ -1,0 +1,4814 @@
+{
+  "created_utc": "2026-09-27T05:15:51.442347+00:00",
+  "requested": 232,
+  "successful": [
+    {
+      "track_id": "track_1400610",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            446193152,
+            446586367
+          ],
+          "sha256": "756a1eb68f88dbb161508f9239a1623b92db689309b8b736f44f9ca651cd6218",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1400610.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "756a1eb68f88dbb161508f9239a1623b92db689309b8b736f44f9ca651cd6218",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "08fd3d6a013df02dc305d3ddba3c2b2524c89407a1767dd93c11933aeba207ab",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:41:52.922045+00:00"
+    },
+    {
+      "track_id": "track_0219511",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            111070208,
+            111463423
+          ],
+          "sha256": "d8b5e77a0743b044914b9c42c119f7717b9a0689ad07235104fe787ef7059172",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0219511.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "d8b5e77a0743b044914b9c42c119f7717b9a0689ad07235104fe787ef7059172",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "fa4e68da4bc16e6f52782e03dbecc752355024dd0b345c6c339e193f0bc159a0",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:41:53.788645+00:00"
+    },
+    {
+      "track_id": "track_0166409",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            998898688,
+            999291903
+          ],
+          "sha256": "389dcd01408078085483535af47f311dccc0e789092b9592a160dfe9803c3e13",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0166409.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 105,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "389dcd01408078085483535af47f311dccc0e789092b9592a160dfe9803c3e13",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "2fdbfe804ed0bc6e637c0712ec89b9b1905632f70255bb4c502061a7a61946d7",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:41:53.954805+00:00"
+    },
+    {
+      "track_id": "track_0219510",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            331703296,
+            332096511
+          ],
+          "sha256": "bf88dca3512127d1f7c857175f552f627d47f1b22067106dc1496fe3c883706a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0219510.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "bf88dca3512127d1f7c857175f552f627d47f1b22067106dc1496fe3c883706a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "28cfcece1822325b74badf5c446801b9dd789ef075d3ad539422bcca2970b7e4",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:41:54.924963+00:00"
+    },
+    {
+      "track_id": "track_0216408",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1092892160,
+            1093285375
+          ],
+          "sha256": "5e644618a236ca2122dec34ea741cd26dd472a865daab211073cd1d493a3f2c2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0216408.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5e644618a236ca2122dec34ea741cd26dd472a865daab211073cd1d493a3f2c2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "85a285f84be577cb9399b6f124be6236f592c8a462efa78455d0968d25b2abdd",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:01.699710+00:00"
+    },
+    {
+      "track_id": "track_1043411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            855555584,
+            855948799
+          ],
+          "sha256": "d8ea221e0c8053b46f7db4d43e6173a6354d7f05f0cd4d36a4e55fe665132fc4",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1043411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "d8ea221e0c8053b46f7db4d43e6173a6354d7f05f0cd4d36a4e55fe665132fc4",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b3ec5bafa09f1be1dc7b999692ac4e526f0dbe3642c62581115c850d0a54827e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:03.295359+00:00"
+    },
+    {
+      "track_id": "track_0216410",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1058778624,
+            1059171839
+          ],
+          "sha256": "1c0b8c4924989e5aa797d766631be997006736d08c96f013f9913435653e3fe7",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0216410.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "1c0b8c4924989e5aa797d766631be997006736d08c96f013f9913435653e3fe7",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b9d3209443c1b252572e6a024b18758194f621a2112e52f810685ddc1c73a3e4",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:03.333988+00:00"
+    },
+    {
+      "track_id": "track_0156108",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            204550656,
+            205074943
+          ],
+          "sha256": "41216830ab97da865b49fc229616fe2bd87a451cae4207cbe5b6a322bb491b7c",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0156108.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "41216830ab97da865b49fc229616fe2bd87a451cae4207cbe5b6a322bb491b7c",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0141b196b3242a08c2dd9ad7c9eb4adf4bd0ea9305858886a19949ebed4c9916",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:05.201078+00:00"
+    },
+    {
+      "track_id": "track_0208109",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            537459200,
+            537852415
+          ],
+          "sha256": "360501209bd6fa8cbec822f5664f136e4c32328f07677e8a9363256df69409e7",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0208109.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "360501209bd6fa8cbec822f5664f136e4c32328f07677e8a9363256df69409e7",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f78e07cd6b312f731cf7ecdd40efd75603ac7797cd94d019df426c83d3e0f09f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:14.434219+00:00"
+    },
+    {
+      "track_id": "track_0156008",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1322416128,
+            1322940415
+          ],
+          "sha256": "4941cd97695ae1c7dd56748b8f0259f381e0477ef3e7a1eaceb0599807883066",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0156008.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4941cd97695ae1c7dd56748b8f0259f381e0477ef3e7a1eaceb0599807883066",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "769bdcf76d8d30568d9cb1adcfcf0c9d2a95e77ed9681897297e6b2cf425d6e2",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:14.520885+00:00"
+    },
+    {
+      "track_id": "track_0648408",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1274828288,
+            1275221503
+          ],
+          "sha256": "62288708535781688f1a4fdc723a30c0a0fab8062641eeb7c3fb4e9d81aac992",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0648408.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "62288708535781688f1a4fdc723a30c0a0fab8062641eeb7c3fb4e9d81aac992",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7f65860cae0fff1ffa1ddf76cc5321b92dfc0f5f54cbaed545ed4806120ff4bf",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T03:42:15.147134+00:00"
+    },
+    {
+      "track_id": "track_0207811",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1483631104,
+            1484024319
+          ],
+          "sha256": "82bf3add0f2ef6d76b9e6c094dcea5e20a598d9ef0129b6542f9211726f8b296",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0207811.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "82bf3add0f2ef6d76b9e6c094dcea5e20a598d9ef0129b6542f9211726f8b296",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "80b358293207ed559c91b7d8f9070397fac9670b9b3f5c88bd3cea9aaa107a8c",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T04:02:27.131193+00:00"
+    },
+    {
+      "track_id": "track_1119811",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1294485504,
+            1294878719
+          ],
+          "sha256": "e52622e141d86375c70cdf1bb2e547aa38df888426607cd245d53887cf56e295",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1119811.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e52622e141d86375c70cdf1bb2e547aa38df888426607cd245d53887cf56e295",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "719b3de1cec629c8b678ea26cf18e3ebc1bd28981041887daff93505d157e5cf",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:04.552518+00:00"
+    },
+    {
+      "track_id": "track_1328809",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            191959040,
+            192352255
+          ],
+          "sha256": "63f1210dab9f47050e69f6b5a436f9ef78402b55ad8f5955d652ac6e5c5c1193",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1328809.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "63f1210dab9f47050e69f6b5a436f9ef78402b55ad8f5955d652ac6e5c5c1193",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b6ea8d9932f1a6ecfe4df23bcb7adc5c85e122c26ca9bc84ee9181c17714d3a8",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:04.778097+00:00"
+    },
+    {
+      "track_id": "track_1119808",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1051515392,
+            1052039679
+          ],
+          "sha256": "302d3eb1cbfbd29dc4803d15cd6d522738981fa9cc9f227530328f3fbdb38759",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1119808.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "302d3eb1cbfbd29dc4803d15cd6d522738981fa9cc9f227530328f3fbdb38759",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "573835f4e65ffd5973e7571fe330c368b48e70452b2de907b48643dce4fc1ef9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:12.282814+00:00"
+    },
+    {
+      "track_id": "track_0357210",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1013724672,
+            1014248959
+          ],
+          "sha256": "23ea6452fd99fb107f97745def08e6d1e3ea04b922325ff766965d2c567dc859",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0357210.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "23ea6452fd99fb107f97745def08e6d1e3ea04b922325ff766965d2c567dc859",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "eae1bd53d10e1a6b7d7c322b6ed4606bb607ffad82b94de35179957f3853a3da",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:13.632383+00:00"
+    },
+    {
+      "track_id": "track_0316610",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1234225152,
+            1234618367
+          ],
+          "sha256": "b03d769b3cb671cf8e685501cd5d371806deacf8f258990994b30bd3d3e0a9ee",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0316610.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b03d769b3cb671cf8e685501cd5d371806deacf8f258990994b30bd3d3e0a9ee",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c3f60e4a73b5c84ab3a2bb803bff6168150b3c70e31b110bdb86ee585471c553",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:22.468749+00:00"
+    },
+    {
+      "track_id": "track_0053310",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            657446400,
+            657839615
+          ],
+          "sha256": "07ce2b0ff849d11b7f8e82d63be75fbaa190fc5e9599825e79192447494459b6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0053310.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "07ce2b0ff849d11b7f8e82d63be75fbaa190fc5e9599825e79192447494459b6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "55e9a20261d07c34dd7ed492b594a5188356868457d3bf6b768d2d5be85b54c8",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:24.772796+00:00"
+    },
+    {
+      "track_id": "track_0330211",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            181445632,
+            181838847
+          ],
+          "sha256": "21862707a9c05ce40fdf0891a0159f914994587826474a0ff895b5329d2128c2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0330211.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "21862707a9c05ce40fdf0891a0159f914994587826474a0ff895b5329d2128c2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "71370a2c32bddaeba925255d6ad8729feb3c71f9e48503bce410ad8791acea01",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:28.949072+00:00"
+    },
+    {
+      "track_id": "track_0289009",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1091864064,
+            1092388351
+          ],
+          "sha256": "5d2a0575576c19ec4bcb8f37b27254bd0b380f6701d5d15df3cbf781c3745479",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0289009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5d2a0575576c19ec4bcb8f37b27254bd0b380f6701d5d15df3cbf781c3745479",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "01f88a1b5d2aad2f9929788751909fa3a50b3e7afa2eb4ffabb467ab054a84f5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:32.848984+00:00"
+    },
+    {
+      "track_id": "track_0289008",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            192839168,
+            193232383
+          ],
+          "sha256": "b8af2718ad4e29f233c8fa30172b90ece1d9d369dfa52e2b503cd650e8a32d93",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0289008.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b8af2718ad4e29f233c8fa30172b90ece1d9d369dfa52e2b503cd650e8a32d93",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "ac9152a221d4738ecbd17b36aa6413fe64781909ff3781c2459b4b3af67681f0",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:39.939039+00:00"
+    },
+    {
+      "track_id": "track_0378211",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            392357888,
+            392751103
+          ],
+          "sha256": "8c6a3a55c128cb179b69b2030e865b6ee91d7bb33a1699a86abe3c98ba1f2f7a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0378211.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "8c6a3a55c128cb179b69b2030e865b6ee91d7bb33a1699a86abe3c98ba1f2f7a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "49e602b0bbe16e4d6df19fb8619510718d2cc5a49dde777c31e623252d02fbdd",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:43.110632+00:00"
+    },
+    {
+      "track_id": "track_1038911",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            148293632,
+            148686847
+          ],
+          "sha256": "53558cc267745e4b1c25a81e877781e29f5b75fc590b14ea6c38133b4c307b0a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1038911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "53558cc267745e4b1c25a81e877781e29f5b75fc590b14ea6c38133b4c307b0a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "19fafbc12e89c31b46567ffd308b6050d0062b0e13080615388238e2516aa6fc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:44.181040+00:00"
+    },
+    {
+      "track_id": "track_1038908",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            722373632,
+            722766847
+          ],
+          "sha256": "f3af6bf60a13ef1a1f12b564da304f5a227963e6a2ffc6c8331740dafdbf52c3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1038908.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f3af6bf60a13ef1a1f12b564da304f5a227963e6a2ffc6c8331740dafdbf52c3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f42e4079373a75e6814f476a47d87f3ef8b7e73ce83160c10b41f86908cf06e4",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:46.838009+00:00"
+    },
+    {
+      "track_id": "track_1308209",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1147207680,
+            1147600895
+          ],
+          "sha256": "5a7832c9959267147f5e189dfe7b1048b097ed0f444d0c9a65dadfbcb38a9069",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1308209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5a7832c9959267147f5e189dfe7b1048b097ed0f444d0c9a65dadfbcb38a9069",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "dc2eea5273bfe7e606e057bb18b6c162214801ba8e26e21165299c5e6575f1cc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:54.862794+00:00"
+    },
+    {
+      "track_id": "track_0270411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            155919872,
+            156313087
+          ],
+          "sha256": "2c598951efc7293f68a7c25244ef446b9512b2d8b79d8d73a5c4e8733d8f22a2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0270411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "2c598951efc7293f68a7c25244ef446b9512b2d8b79d8d73a5c4e8733d8f22a2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "dc82ae67c5d8cff3635768869064bb9398bfca49e8705a5fb104a3cc2d6317b8",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:02:58.067155+00:00"
+    },
+    {
+      "track_id": "track_0074411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            620570112,
+            620963327
+          ],
+          "sha256": "f51032d9ec296923307011ce3509d811874e6716adcc224f4c6789f82ea76fb5",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0074411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f51032d9ec296923307011ce3509d811874e6716adcc224f4c6789f82ea76fb5",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "bf35c02590bec036fc8004dc7e782529d4f809fc898774f9fa269576c29efcc9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:00.868081+00:00"
+    },
+    {
+      "track_id": "track_1255511",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            426640896,
+            427034111
+          ],
+          "sha256": "d6222a1f8d058d15a8b125619f045f5a258655d2c6be48a80c5b59cf9a4cd284",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1255511.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "d6222a1f8d058d15a8b125619f045f5a258655d2c6be48a80c5b59cf9a4cd284",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "50f9d60657278436797bd2ac6dafc60edaf0fc534afa758ef16e72e5b042fd84",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:01.973679+00:00"
+    },
+    {
+      "track_id": "track_1084710",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1011007488,
+            1011400703
+          ],
+          "sha256": "b410e85f4fb95e529047eca300b4eb9f4c39e91564b1bbdea74f0e7e218b2f9e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1084710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b410e85f4fb95e529047eca300b4eb9f4c39e91564b1bbdea74f0e7e218b2f9e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6e18dcd0247db638d4153ab65b7f67da1d260fbf2308582f4d33e0b0c771b658",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:11.048381+00:00"
+    },
+    {
+      "track_id": "track_1113608",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            143140352,
+            143533567
+          ],
+          "sha256": "44e49d9b4e4fad6b279d2198a91ef590d02d3a888c4c0ee512b8986fadd72dd6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1113608.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "44e49d9b4e4fad6b279d2198a91ef590d02d3a888c4c0ee512b8986fadd72dd6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6b426e43b12a6cbebf6937197522a64fb23686df5234e4c91b53418cafc17c19",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:17.787101+00:00"
+    },
+    {
+      "track_id": "track_1113611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            711243264,
+            711636479
+          ],
+          "sha256": "e5ff505c8e5fd227d9801aae8a2ec47e7b87d8e1dda6a3a246d0da48211697f2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1113611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e5ff505c8e5fd227d9801aae8a2ec47e7b87d8e1dda6a3a246d0da48211697f2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1d3acd4bdfd725caeaaefbd4ee398f778a1b544c39c0b9c09ef066fadf36d9c9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:19.430767+00:00"
+    },
+    {
+      "track_id": "track_1083409",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            310171136,
+            310564351
+          ],
+          "sha256": "148f66caee23c8ba205a467633d37874dab2dea8df786572f13e615c85c77ece",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1083409.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "148f66caee23c8ba205a467633d37874dab2dea8df786572f13e615c85c77ece",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "335dc0d5c59570031e552cf9a62ecdd9b83f95dcbdac9010893c9e1b1f614cb9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:20.844053+00:00"
+    },
+    {
+      "track_id": "track_0273110",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            19374080,
+            19767295
+          ],
+          "sha256": "63e145bca4bb0453a4b71cb0fb01db71a91cc89159122f4c048528e59c602d7e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0273110.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "63e145bca4bb0453a4b71cb0fb01db71a91cc89159122f4c048528e59c602d7e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "2240d21fef745a8e4fd3d2108df3bb93f07f3969a12c58c507fddd77e930a265",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:27.275738+00:00"
+    },
+    {
+      "track_id": "track_0666611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            784901632,
+            785294847
+          ],
+          "sha256": "e41c3dffa1dc0458562c5ce1e6de749dd6e33c0771910c9aa7667ff3ed8f9b32",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0666611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e41c3dffa1dc0458562c5ce1e6de749dd6e33c0771910c9aa7667ff3ed8f9b32",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "433c78bb4cec5ffe2a265c98efa89e962fa94a05e354fc46ff6cd3e607b919d9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:55.774048+00:00"
+    },
+    {
+      "track_id": "track_1211211",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1268860416,
+            1269253631
+          ],
+          "sha256": "bc5dc55b6c6388d811b6dd55f968cbe079088f167333359f7bb207333c4ce21a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1211211.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "bc5dc55b6c6388d811b6dd55f968cbe079088f167333359f7bb207333c4ce21a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "dfab61884f88f4e3bf3fe4566f8d964c18d7283862b188ba68584eb8ae955368",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:56.543759+00:00"
+    },
+    {
+      "track_id": "track_1218609",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1079237632,
+            1079630847
+          ],
+          "sha256": "08fe3d5073049bf35e60a5f0593195e521adaaeff3e8a90df0b3bc7b0bb21ed0",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1218609.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "08fe3d5073049bf35e60a5f0593195e521adaaeff3e8a90df0b3bc7b0bb21ed0",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "823f55e7799fd0c91573eda56f71402004588ff975f0c1e1aa928e67727cb017",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:03:57.375612+00:00"
+    },
+    {
+      "track_id": "track_1218608",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1198781440,
+            1199174655
+          ],
+          "sha256": "673c3d0a9f5b4ce9892a6a903a753b8d8ea002b38361b8ee0bdb8c16e461417b",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1218608.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "673c3d0a9f5b4ce9892a6a903a753b8d8ea002b38361b8ee0bdb8c16e461417b",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c4be3ab7ae585011f974cc7a2acc6b26a73ce04550fe595ffcd1a6326bea60b6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:06.428238+00:00"
+    },
+    {
+      "track_id": "track_1131209",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1045353472,
+            1045877759
+          ],
+          "sha256": "435430ce23556adfbc2c61ce2b7a344bd4c4378bd0b7bb627efe3229bc766743",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1131209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "435430ce23556adfbc2c61ce2b7a344bd4c4378bd0b7bb627efe3229bc766743",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "fcd1f425019fc70c5a85c2986acee2e31fea05fcae9f926ca6684fbc2fc594df",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:16.727793+00:00"
+    },
+    {
+      "track_id": "track_1033910",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1126279680,
+            1126672895
+          ],
+          "sha256": "f1a324696ad0c61c5f4f7895178f1f0b8c16623717d4114249356747478914a5",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1033910.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f1a324696ad0c61c5f4f7895178f1f0b8c16623717d4114249356747478914a5",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "873fde834009ee1c0054225440c1a5545c1f7114d68bf6ef6983b3d13069bb6f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:18.826524+00:00"
+    },
+    {
+      "track_id": "track_1033909",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1433699840,
+            1434224127
+          ],
+          "sha256": "165f2c0c5b3898fefe5411267f4668aafde0bde3cce04a5da98df43c63939ac5",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1033909.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "165f2c0c5b3898fefe5411267f4668aafde0bde3cce04a5da98df43c63939ac5",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c21843908cd3eba52f879fb2b164010cbc2700c9f484325cbd7414b10f34c846",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:19.706082+00:00"
+    },
+    {
+      "track_id": "track_1079811",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            285659136,
+            286052351
+          ],
+          "sha256": "ef66699498da3a85b3decb28e316b63732997fc451a9ccb0ba0672a436426280",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1079811.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ef66699498da3a85b3decb28e316b63732997fc451a9ccb0ba0672a436426280",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "fee6ba597c81bc6c9aaec95344648729cde6ba30d20233bfc8763a3121a66aaf",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:28.064989+00:00"
+    },
+    {
+      "track_id": "track_1079809",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1111342080,
+            1111735295
+          ],
+          "sha256": "0df923df342f1e78d7fd2c030c66b45f4a1bee5e50d978000f2843130ddae956",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1079809.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "0df923df342f1e78d7fd2c030c66b45f4a1bee5e50d978000f2843130ddae956",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "e43ea45ebe74a525e853ce7b17ceff1877ef87c6121fd5aa4c3652ef7f43874d",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:30.821443+00:00"
+    },
+    {
+      "track_id": "track_0355708",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            149275648,
+            149668863
+          ],
+          "sha256": "cd70d58c7263fbc975e9431ba8b189718cd1d8d85af3ab9a36c96a47d388c569",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0355708.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "cd70d58c7263fbc975e9431ba8b189718cd1d8d85af3ab9a36c96a47d388c569",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "46e01895f5acfaf40e6a5c8519c80794c00d4dedb01edfd78aa8d828b42d0a48",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:34.219446+00:00"
+    },
+    {
+      "track_id": "track_0355608",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            510311424,
+            510835711
+          ],
+          "sha256": "15482aaa5d54c1ce0efb448fdcc1ed6f990108b052e25b37a437e66e93010dcd",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0355608.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "15482aaa5d54c1ce0efb448fdcc1ed6f990108b052e25b37a437e66e93010dcd",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "cc6a631f6c72a9b8efe5ab2465f57d018eda3d7586761856a80ef5a762407ad2",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:37.072972+00:00"
+    },
+    {
+      "track_id": "track_1154709",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            492161024,
+            492685311
+          ],
+          "sha256": "51ef60c9bd9d33bea3ec40cd1aace2bb00542f2bca55db2da26d79dd4c673a18",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1154709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "51ef60c9bd9d33bea3ec40cd1aace2bb00542f2bca55db2da26d79dd4c673a18",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1b088c4653a67b400871a6538ce3026e95115f5514800e4de7019f7798d37f52",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:50.173397+00:00"
+    },
+    {
+      "track_id": "track_0762508",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            120510464,
+            120903679
+          ],
+          "sha256": "11c9c594a87f490581af768118f5c30375b9956088d0ecb91069c54ff543a93a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0762508.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "11c9c594a87f490581af768118f5c30375b9956088d0ecb91069c54ff543a93a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "07f5fdb8e1d53f86b787dd30306ad6a4dc0ca7a9ea52c26469e8c5f4d1249877",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:04:51.278949+00:00"
+    },
+    {
+      "track_id": "track_1418411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            289714176,
+            290107391
+          ],
+          "sha256": "5c3795b08e56a7d8044533c2fa8984b79b4e65c7ea3c8a00f9764f794b616bf6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1418411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5c3795b08e56a7d8044533c2fa8984b79b4e65c7ea3c8a00f9764f794b616bf6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "a30be2e6973e16a15c4716c1faa47d846fead871ba58472e9be0b8efebeaefa0",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:04:54.095896+00:00"
+    },
+    {
+      "track_id": "track_0762509",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1295914496,
+            1296438783
+          ],
+          "sha256": "18240376963167c2586293ce219fedecfbe905b850d4409f8086b5170e1af71d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0762509.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "18240376963167c2586293ce219fedecfbe905b850d4409f8086b5170e1af71d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1dde5938946ac5bce204865a1acd276839045647074a4cd5803c0220dcae116e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:04:57.093664+00:00"
+    },
+    {
+      "track_id": "track_1096808",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1420118016,
+            1420511231
+          ],
+          "sha256": "8ea503b351ffc3cb2905158a7234be2ecb86c00e0f61d7e034df5d6f924c0779",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1096808.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "8ea503b351ffc3cb2905158a7234be2ecb86c00e0f61d7e034df5d6f924c0779",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "63617c7b14d0b0c24b2f28eedcb0d872d0f34fc88e5f0870f111392b2b25c5fc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:06.720837+00:00"
+    },
+    {
+      "track_id": "track_1096809",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            533220864,
+            533614079
+          ],
+          "sha256": "dbb1b59ae7a09a6c8ea2145f8ad96f0f1efbe4348427899e0e50d942cc7303e8",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1096809.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "dbb1b59ae7a09a6c8ea2145f8ad96f0f1efbe4348427899e0e50d942cc7303e8",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "52e4696bfdddba895eb9964246f080318b61067a72467c7a1e8dc8cfc49e36d5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:13.350072+00:00"
+    },
+    {
+      "track_id": "track_0107909",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            713222144,
+            713615359
+          ],
+          "sha256": "d9f502da115029ff26224c76e18beb254ae5392b1d0ccb947f4c8ec96c327593",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0107909.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "d9f502da115029ff26224c76e18beb254ae5392b1d0ccb947f4c8ec96c327593",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "976794c221a2c73db1afacf58673f87ae64f29465d34535b5a98f99a52e75cc8",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:17.771461+00:00"
+    },
+    {
+      "track_id": "track_1012509",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            362834944,
+            363359231
+          ],
+          "sha256": "30f9565b1908d4f88fedb1fa9f9e630c6f9d83ddfe3310578d4d8968c310f4fc",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1012509.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 325739,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "30f9565b1908d4f88fedb1fa9f9e630c6f9d83ddfe3310578d4d8968c310f4fc",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6a530b372cc8eb71271093cecb873345e17ab0aedbf8cd700b3052c2e84fa1e3",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:20.259509+00:00"
+    },
+    {
+      "track_id": "track_0379710",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            711371264,
+            711895551
+          ],
+          "sha256": "ffce8b934ceca344b377506ca67e6d5eae31413b38c5e3910576c967d7406399",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0379710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ffce8b934ceca344b377506ca67e6d5eae31413b38c5e3910576c967d7406399",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "436528899355cd7c08efdd47613eace5d7edf4946d66be0e13081d3810b8bbcb",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:32.967598+00:00"
+    },
+    {
+      "track_id": "track_0379709",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            871832064,
+            872356351
+          ],
+          "sha256": "586903d4ad3e6993d3453e2e2f50914fbf77b82bc3caa36a0313c8283cc3a95e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0379709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "586903d4ad3e6993d3453e2e2f50914fbf77b82bc3caa36a0313c8283cc3a95e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "462d934edb20ee6c0917726b28c4c524f2be7781a51e9976ad67e45b6dbaab32",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:36.091200+00:00"
+    },
+    {
+      "track_id": "track_0014508",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            240652288,
+            241045503
+          ],
+          "sha256": "409b6e505f2f42b26ae1c79f37af53af7a7d8f1bb0a9c94f55004af5acf67641",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0014508.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "409b6e505f2f42b26ae1c79f37af53af7a7d8f1bb0a9c94f55004af5acf67641",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "141088d2dafc7a02e820dbb996de02c18f91d3c12b0a1115ea1a8ad45678e1d5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:37.921441+00:00"
+    },
+    {
+      "track_id": "track_0473411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1102806528,
+            1103199743
+          ],
+          "sha256": "de84b30903e733c3fc21719fccc9961e9ef72b2808250e1916ba61032d6260a3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0473411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "de84b30903e733c3fc21719fccc9961e9ef72b2808250e1916ba61032d6260a3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f1864d7db5ce3fc6ed0c6ef0c7136b6f3fc8e2c711e28b08b2dc10a88fcfd4f5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:38.167232+00:00"
+    },
+    {
+      "track_id": "track_0795410",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1186866176,
+            1187259391
+          ],
+          "sha256": "f0c594668208448790610a444a972f2d14f091027da18a4199afad8d2bd704b6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0795410.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f0c594668208448790610a444a972f2d14f091027da18a4199afad8d2bd704b6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "ee8946cb70919e3ef0811c2fd54a8aa1686b492c927837c5d91750c42bf57fef",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:48.878990+00:00"
+    },
+    {
+      "track_id": "track_1126010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            471954944,
+            472348159
+          ],
+          "sha256": "660944a2342be5694491816d562d0960c0de8cee7d82c422a127c5aa5cc036d5",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1126010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "660944a2342be5694491816d562d0960c0de8cee7d82c422a127c5aa5cc036d5",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b816858f7a530b502f03ba51a84967c84975b730b017a09324851d345c3ab1af",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:50.356758+00:00"
+    },
+    {
+      "track_id": "track_1126009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            98397184,
+            98790399
+          ],
+          "sha256": "b3418718919416eb963050a7ea7f98e16a7ce5a523f35cc8974ba2e81622f954",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1126009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b3418718919416eb963050a7ea7f98e16a7ce5a523f35cc8974ba2e81622f954",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "d8a1aee8b1e23a11974f34a77bc72a04ccfd8c1331223dc712bd3e473bd29cac",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:05:52.365901+00:00"
+    },
+    {
+      "track_id": "track_1129411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            251529728,
+            251922943
+          ],
+          "sha256": "b5871d36b6cee7b3275f1832d25ac6b026cfa6ec7e7733f95bbc1f94e7340f03",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1129411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b5871d36b6cee7b3275f1832d25ac6b026cfa6ec7e7733f95bbc1f94e7340f03",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "53c9918ac5e1090c7a7418b727000f61a89b64281ae6c9140d50843b2fd09f41",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:03.690458+00:00"
+    },
+    {
+      "track_id": "track_0036711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1561055744,
+            1561448959
+          ],
+          "sha256": "6f4f27d0a4bfd012f534022115f555224df5c0c82a659c679dc2ed77835a774a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0036711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6f4f27d0a4bfd012f534022115f555224df5c0c82a659c679dc2ed77835a774a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "e32d967d1a2a5c35b1d13d02a5b321ac6a91c940460f168e7e4f3699f3911df7",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:06.384030+00:00"
+    },
+    {
+      "track_id": "track_0357510",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1152512000,
+            1153036287
+          ],
+          "sha256": "ee805ef4eec4a97d53daa6ed74a873899bc318878d2e77f700110c0d95d72b85",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0357510.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ee805ef4eec4a97d53daa6ed74a873899bc318878d2e77f700110c0d95d72b85",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "bc1a000ae8e64723c3d9d3f602fec99533c5b6179282b337c14265ce8434ddd5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:10.001331+00:00"
+    },
+    {
+      "track_id": "track_0036709",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            2539008,
+            2932223
+          ],
+          "sha256": "60fb28b5e6869b541cd1b00a3852ad446c368a49408952372a2a60f41058adc1",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0036709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "60fb28b5e6869b541cd1b00a3852ad446c368a49408952372a2a60f41058adc1",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "ab2fbc7d90b3d2aaee0564597c6323788b0957b0a0a7547899c72013ee6b57c5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:13.452841+00:00"
+    },
+    {
+      "track_id": "track_1418110",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            775579648,
+            775972863
+          ],
+          "sha256": "6a6950bfb8ac7c86999874cbf5b8f86ff26b29dfa9acf68812803d83c7a980aa",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1418110.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6a6950bfb8ac7c86999874cbf5b8f86ff26b29dfa9acf68812803d83c7a980aa",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8d0cd51d1ad43f13ddd14c9e2733dd5dba8f5598c18a7602188341ddc6158f9c",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:19.220062+00:00"
+    },
+    {
+      "track_id": "track_0043411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1167403008,
+            1167796223
+          ],
+          "sha256": "533c90d6911504b37eb1933f58764fe39aa5b9f705e5e84a73b7e899e10953e0",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0043411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "533c90d6911504b37eb1933f58764fe39aa5b9f705e5e84a73b7e899e10953e0",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "35447a0adb0b69a87b36892b63b70b2f4c0c65dadbd5d37884129700fd0494a6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:22.079428+00:00"
+    },
+    {
+      "track_id": "track_1082011",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            723947520,
+            724340735
+          ],
+          "sha256": "9dfb65ed71bf2350bc9dc02a0020a6780a28c3cab4e5132654c0880ae7e63b3d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1082011.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "9dfb65ed71bf2350bc9dc02a0020a6780a28c3cab4e5132654c0880ae7e63b3d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "46600c989938276e48db42c8fd93ec91b1d48e272104e4ca761fb7f8e93b7a48",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:24.413496+00:00"
+    },
+    {
+      "track_id": "track_1082009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            326372352,
+            326765567
+          ],
+          "sha256": "92c691fe3ee777487541c58c85a78f999a1b19b788322d3231c01e0b337774ea",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1082009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "92c691fe3ee777487541c58c85a78f999a1b19b788322d3231c01e0b337774ea",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6e27afe79cbec36c81038908ca840383ee808d830141325704594209afd3fc2d",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:25.840033+00:00"
+    },
+    {
+      "track_id": "track_0498808",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            53432832,
+            53826047
+          ],
+          "sha256": "f80f684f7ee76bba3ece0f89bb5c1fb19e50db02b600d5392ad2c2d839c77139",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0498808.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f80f684f7ee76bba3ece0f89bb5c1fb19e50db02b600d5392ad2c2d839c77139",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0a864d35ade246444094ed3fbda1e9d73671a6962aba3adb12c5d97dcebc7b85",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:35.498757+00:00"
+    },
+    {
+      "track_id": "track_0498810",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            690190848,
+            690715135
+          ],
+          "sha256": "8b1245fa493f0a7f662dabd3354afa524c1e8c9ed96e411236f2338ec4a69fbc",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0498810.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "8b1245fa493f0a7f662dabd3354afa524c1e8c9ed96e411236f2338ec4a69fbc",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "a6b11dee833a81192b0a8ec75a26b1d6a39c141b8a15c909423ba76ced5e083b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:38.408706+00:00"
+    },
+    {
+      "track_id": "track_1384009",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1087903232,
+            1088427519
+          ],
+          "sha256": "818cc0cb3035ab6b67d5393a1490167ef223a50639bf8a8e6405bc368524812a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1384009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "818cc0cb3035ab6b67d5393a1490167ef223a50639bf8a8e6405bc368524812a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "dfff6913ba56847bc2f75d63a0d993230ee32ea46e416bdde55e90168cf90607",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:40.838258+00:00"
+    },
+    {
+      "track_id": "track_1384010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            295642624,
+            296035839
+          ],
+          "sha256": "dab90ae1db950525ab66a4ed8e8f306be6a5a59c92962c3de6dda9d76ddc64b8",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1384010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "dab90ae1db950525ab66a4ed8e8f306be6a5a59c92962c3de6dda9d76ddc64b8",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "4357a583926e937cfdcdcacea597acc8cc6a5faf520d5e37fb8aa8462c77cde6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:43.266376+00:00"
+    },
+    {
+      "track_id": "track_1136808",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            944466432,
+            944859647
+          ],
+          "sha256": "215eb4d5fb7398e1fbe83870546f2c43607316d87b21d8f0afc2a999b8e648ac",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1136808.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "215eb4d5fb7398e1fbe83870546f2c43607316d87b21d8f0afc2a999b8e648ac",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "887c1b5a04b4490bbe0639e3b5ace7ac86da626a31fdf8bcc417918eb3d00807",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:53.571422+00:00"
+    },
+    {
+      "track_id": "track_1153110",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            602093056,
+            602617343
+          ],
+          "sha256": "fd7ae68461e84f0042b7988040c194c3805e7590da6c3b26725cd6d9a1820bf1",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1153110.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "fd7ae68461e84f0042b7988040c194c3805e7590da6c3b26725cd6d9a1820bf1",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8fc70713dc6b23d8105482486022e176080f8294999b0bcb7d7577421086fd55",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:54.214812+00:00"
+    },
+    {
+      "track_id": "track_1138808",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            399447552,
+            399840767
+          ],
+          "sha256": "ea14f58be63cefa91fb6201797cc290593a1537e8f402537bcbe59815a58c455",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1138808.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ea14f58be63cefa91fb6201797cc290593a1537e8f402537bcbe59815a58c455",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b0f17b1e266c00101776a1881a5aca30b0f211d8239b5e35665fe1b55a0b2c8e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:56.418474+00:00"
+    },
+    {
+      "track_id": "track_1082910",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            615087104,
+            615611391
+          ],
+          "sha256": "6f8fc92cabb00588db7b699a24caee5a44968f4e4297ef42d419e8ba1c413ceb",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1082910.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6f8fc92cabb00588db7b699a24caee5a44968f4e4297ef42d419e8ba1c413ceb",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "757540348f20d8d76af19fb6da3a1e3dc1079c3b0edf0cf3bd078a142584d790",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:06:58.343880+00:00"
+    },
+    {
+      "track_id": "track_1122111",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            328471040,
+            328864255
+          ],
+          "sha256": "ee4c89f6f3156cf1c3ebeab9522918e7ec5724bfa4858ed58a8294999623690c",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1122111.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ee4c89f6f3156cf1c3ebeab9522918e7ec5724bfa4858ed58a8294999623690c",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "a50918e9c0a731c9a72644066037b1995fefd23be215e318e4cb1b62ff47bbd8",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:07:04.027926+00:00"
+    },
+    {
+      "track_id": "track_1056611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            14635008,
+            15028223
+          ],
+          "sha256": "e32585cf81c70680be2d2e98e76b01412b008e2781c259f63fd370e23c4ac17b",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1056611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e32585cf81c70680be2d2e98e76b01412b008e2781c259f63fd370e23c4ac17b",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "22c9f8c8f01a2e98c7e3721c7d5b3278fb4ce4a03db5020ee04dd338ae79d35e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:10.836821+00:00"
+    },
+    {
+      "track_id": "track_1109810",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            486102016,
+            486626303
+          ],
+          "sha256": "26a2b6cff9ac75c9e33d1a440a09b1d027b7e3efe4d028534bdf855093f005ff",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1109810.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "26a2b6cff9ac75c9e33d1a440a09b1d027b7e3efe4d028534bdf855093f005ff",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "66fb266fd9106c2cd609d8bc9aa2f6e5f09e114e29a655b64420acb00e0c9565",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:11.004094+00:00"
+    },
+    {
+      "track_id": "track_0939911",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1549597184,
+            1549990399
+          ],
+          "sha256": "4bf4452f299d1f206932cffb1943eaaf192cf969c97e1abef2db04f52493c46e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0939911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4bf4452f299d1f206932cffb1943eaaf192cf969c97e1abef2db04f52493c46e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1062d76769c0fa8a176f1619640865a7d797e7c7d40d8b05d21248b2111a4c9e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:16.616302+00:00"
+    },
+    {
+      "track_id": "track_0939910",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            652987904,
+            653381119
+          ],
+          "sha256": "b163458857cd475fbbbc59d35d18707e7d67b96f5e5a5371d510ff91cacf07e2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0939910.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b163458857cd475fbbbc59d35d18707e7d67b96f5e5a5371d510ff91cacf07e2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7e624e0f4190bfe9d67c420c008a58ee38ec77f38c243f6fee2e28393c67dd44",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:23.364613+00:00"
+    },
+    {
+      "track_id": "track_1418009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1220866048,
+            1221259263
+          ],
+          "sha256": "c9674f797823150ea06a375aa061520c9adbbe33e7d2b228f93655140237edf3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1418009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "c9674f797823150ea06a375aa061520c9adbbe33e7d2b228f93655140237edf3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "19ab2307ab29af7e7990c9b8737f24d7fe352d570b9f088a5850e45b041be158",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:26.773510+00:00"
+    },
+    {
+      "track_id": "track_0714711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1204439552,
+            1204832767
+          ],
+          "sha256": "c7a94d21645bdc9fa822b0525aa6301841e47ec36ce31d9572a2e61d213f2da9",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0714711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "c7a94d21645bdc9fa822b0525aa6301841e47ec36ce31d9572a2e61d213f2da9",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "e98ff064ab86604cf7f0a68e8277109be935a39ad201a7f66a41627992a35a1f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:26.793410+00:00"
+    },
+    {
+      "track_id": "track_0714710",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            63602176,
+            63995391
+          ],
+          "sha256": "7b4cae00e314f63d6063ca45dcfddd6cb1866dd99f916c54b091d4e3bba3bcaa",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0714710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "7b4cae00e314f63d6063ca45dcfddd6cb1866dd99f916c54b091d4e3bba3bcaa",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "20449332cfbf2e4f2277869b072e7be3187869d6e69660c1154738c4a615882a",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:27.821509+00:00"
+    },
+    {
+      "track_id": "track_1343011",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            885493760,
+            885886975
+          ],
+          "sha256": "82eec982649cb518b75886c984ab202d3ff4ed15021a90fdc919cbdd6de7fa4b",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1343011.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "82eec982649cb518b75886c984ab202d3ff4ed15021a90fdc919cbdd6de7fa4b",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1afa41519e694be3328521aa68a7e344966ed4d3e52c628f06a9ccd513c04e54",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:40.208811+00:00"
+    },
+    {
+      "track_id": "track_1343010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            95638528,
+            96031743
+          ],
+          "sha256": "8c66f36addae8233100da008427653012951eff0aa5742a1de9ec919df535260",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1343010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "8c66f36addae8233100da008427653012951eff0aa5742a1de9ec919df535260",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0322edb72d5628962141d739c6025b27055b51a75f2348649652e7e78d0244a0",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:40.789395+00:00"
+    },
+    {
+      "track_id": "track_0760009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            624934912,
+            625328127
+          ],
+          "sha256": "421f86d51bde970218cda2c50f8e6ac836ae376142ad79847f6d8e768846ec0e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0760009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "421f86d51bde970218cda2c50f8e6ac836ae376142ad79847f6d8e768846ec0e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "54ed9f6d2343cc4e8e04fd6ff983fb6e2442549142ab9eba8f90de35a56d041b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:41.390526+00:00"
+    },
+    {
+      "track_id": "track_0083411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            755642880,
+            756036095
+          ],
+          "sha256": "632baae3a26cd0adad779edaf2e21a9366f18ad759621c03ff9fe4f97bcf5711",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0083411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "632baae3a26cd0adad779edaf2e21a9366f18ad759621c03ff9fe4f97bcf5711",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "ee25113286dc1929a049b46da53d87012f4c7b38a6752b10093d9ee95605e886",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:44.001084+00:00"
+    },
+    {
+      "track_id": "track_0093208",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            874152960,
+            874546175
+          ],
+          "sha256": "01ab7319aaf5e9c3b41e83a09df45d7533a062abce1d82f0b73699161ebabbd4",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0093208.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "01ab7319aaf5e9c3b41e83a09df45d7533a062abce1d82f0b73699161ebabbd4",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f6e0a9cf9513d08ca504e33a2a88295f235ab6606e28d0e5902ff9fb4882d960",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:52.605496+00:00"
+    },
+    {
+      "track_id": "track_1316311",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1509499904,
+            1509893119
+          ],
+          "sha256": "345f6a2098d7037c689a539e7b2b3dd6bbd95ca9d49e6bdb2d3ea3d3b8b88cec",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1316311.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "345f6a2098d7037c689a539e7b2b3dd6bbd95ca9d49e6bdb2d3ea3d3b8b88cec",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "5c6e68efa53d7573502b87fa702869833cc6847a3afe4c464610c0e883f94401",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:55.509598+00:00"
+    },
+    {
+      "track_id": "track_0093311",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            378262016,
+            378655231
+          ],
+          "sha256": "364643932da4771dc698cb1bfa0ec09234ca27847b5349442de5e98f293f4011",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0093311.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "364643932da4771dc698cb1bfa0ec09234ca27847b5349442de5e98f293f4011",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "4f6269970c26140e6704a85b09b1b3fababdd6a268fdb118a86d5bdcde9e0b19",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:07:57.036764+00:00"
+    },
+    {
+      "track_id": "track_0387408",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1260777984,
+            1261171199
+          ],
+          "sha256": "6eee29eeda811dbd2037e73442272fe7c742572657c389f5005ebdd447d9c74d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0387408.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6eee29eeda811dbd2037e73442272fe7c742572657c389f5005ebdd447d9c74d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "188e589333ed9805f1c1bcfe10d00846c305da09596dc5dde62249184288ce8a",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:00.038949+00:00"
+    },
+    {
+      "track_id": "track_0359111",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1049780224,
+            1050173439
+          ],
+          "sha256": "6ed96dab434117166592e00547c420d1a077b7f14c533bfbfcab74b29070fafd",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0359111.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6ed96dab434117166592e00547c420d1a077b7f14c533bfbfcab74b29070fafd",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "5ee7f89967bf6dee05ce5106f97f97278140d5c3a9c79a5937fe6a76ed94c129",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:07.963279+00:00"
+    },
+    {
+      "track_id": "track_0193811",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            283272704,
+            283796991
+          ],
+          "sha256": "1800ac98fb555bc09a4cad4aa0ba595343aecd22d5d041e06e710e6dd64a3e23",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0193811.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 180,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "1800ac98fb555bc09a4cad4aa0ba595343aecd22d5d041e06e710e6dd64a3e23",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "22ea7c7e6fdcc14e4cc347f704ec2c8d38e882d16312d69043c32f071e250ef3",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:08.979281+00:00"
+    },
+    {
+      "track_id": "track_0359109",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1441920512,
+            1442313727
+          ],
+          "sha256": "edf2c03df931b8ccd2242bbd78b2a0cdecaae1476519d29a71531bb8f3288e17",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0359109.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "edf2c03df931b8ccd2242bbd78b2a0cdecaae1476519d29a71531bb8f3288e17",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "027ebad04d49111498d5cd233f7d8b8ed582f1742543939f9769d87f68ad6a43",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:10.124824+00:00"
+    },
+    {
+      "track_id": "track_1097911",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            514207232,
+            514600447
+          ],
+          "sha256": "39948a500a1f0de985333c95b9815ad472b36c33fc0817d16ddf29dd4c462dd1",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1097911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "39948a500a1f0de985333c95b9815ad472b36c33fc0817d16ddf29dd4c462dd1",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1b87016abad491e0d18f99bbf1a8a8a1f36e490186ccb538cea518e06f330828",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:13.031724+00:00"
+    },
+    {
+      "track_id": "track_0392210",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1306725888,
+            1307119103
+          ],
+          "sha256": "f1d30b93d60da05687cd7cc93503fd03d74042ba838b231b65dc8ae887170a76",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0392210.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f1d30b93d60da05687cd7cc93503fd03d74042ba838b231b65dc8ae887170a76",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "5d60e84dd2339afdaa9107c65a00c76ef2e70f2844d7c1c50d38b145aafa47f5",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:23.409832+00:00"
+    },
+    {
+      "track_id": "track_0033209",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1410393600,
+            1410786815
+          ],
+          "sha256": "766a97a4c73a31a35667667c219af6eec441850fb64c0bb6df8d2f917806ecab",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0033209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "766a97a4c73a31a35667667c219af6eec441850fb64c0bb6df8d2f917806ecab",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "d75914712d59b6065e8d187fba008b539ad03e54ed5c0cad1f37dc77a3e71e5b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:27.028675+00:00"
+    },
+    {
+      "track_id": "track_1037711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1454961664,
+            1455354879
+          ],
+          "sha256": "2a9e07e8f4547997452077a3b2552a1e446294b7a02398bba514da09aa076717",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1037711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "2a9e07e8f4547997452077a3b2552a1e446294b7a02398bba514da09aa076717",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8de9bb28fed10fe1631761a91c2c9384fa39574fbf8dccbd48174f105378fa22",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:27.771830+00:00"
+    },
+    {
+      "track_id": "track_1191611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            787019264,
+            787412479
+          ],
+          "sha256": "099257b48005aeb5e6111681708a97c4b8d9ff7fcaf40d600c5a2969407d3e4f",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1191611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "099257b48005aeb5e6111681708a97c4b8d9ff7fcaf40d600c5a2969407d3e4f",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "bb797e62c35fd2271cd58da3e04fca6dcf992a71ad3fe00bcc33cd4eb7c4c5bd",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:30.512350+00:00"
+    },
+    {
+      "track_id": "track_1247310",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            545639424,
+            546032639
+          ],
+          "sha256": "e3a5babbcbf5887403d23b881d38741ed5f8b467c4bee460496d2a5fa0a73879",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1247310.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e3a5babbcbf5887403d23b881d38741ed5f8b467c4bee460496d2a5fa0a73879",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "84de11edfc479f1c38bfab3299a42acea940f85bda376d8627568987dd49595e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:43.770655+00:00"
+    },
+    {
+      "track_id": "track_1247308",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            61112320,
+            61505535
+          ],
+          "sha256": "014ae3f08d58e4cf7b94662fce5586c6b833c1115cebac8df9893f05dd65fa48",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1247308.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "014ae3f08d58e4cf7b94662fce5586c6b833c1115cebac8df9893f05dd65fa48",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "171c8dd1771ce116979a3674e7598da2917bb89874d9e6b2e8051df6d65885ce",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:46.996906+00:00"
+    },
+    {
+      "track_id": "track_1074709",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            798312960,
+            798837247
+          ],
+          "sha256": "13d97f602cc99a2281016aae024de40373a90cdb653dfd1de18d8882ca55bba8",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1074709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "13d97f602cc99a2281016aae024de40373a90cdb653dfd1de18d8882ca55bba8",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c0a153b969b31d17b432e96440f45657a570540c7df4e4cfb0ffdb5160c5d2cc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:48.180106+00:00"
+    },
+    {
+      "track_id": "track_1074710",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            24607744,
+            25132031
+          ],
+          "sha256": "f017ec9f64ffee1b4b560a4bef64e4601c2a818bb60661a3bd2cedd388122d4d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1074710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f017ec9f64ffee1b4b560a4bef64e4601c2a818bb60661a3bd2cedd388122d4d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "d9f6081a03f79903c9160d5655473d45169b34baf5f8c3f1e5bbf7dab5c94074",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:54.663863+00:00"
+    },
+    {
+      "track_id": "track_0248009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1337269760,
+            1337662975
+          ],
+          "sha256": "896368c84e6d5a5fdc54eff3bbfcc40c6148d553c7081210be50a27209c8708f",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0248009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "896368c84e6d5a5fdc54eff3bbfcc40c6148d553c7081210be50a27209c8708f",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "79709c17f3219542af6b070c10fbd3889b55f26504d1212a8838fc9f98fce575",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:08:56.290006+00:00"
+    },
+    {
+      "track_id": "track_1212608",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1082938368,
+            1083331583
+          ],
+          "sha256": "3ced708d6c200344732ab13f8a101b21169dfcaa9cf6fb73d4e84151e0dee0e0",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1212608.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "3ced708d6c200344732ab13f8a101b21169dfcaa9cf6fb73d4e84151e0dee0e0",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "17e31dce87d29eb3c6b649091dae4e1832dc7f8ade5c88b47e5a70025a0c01ab",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:03.484583+00:00"
+    },
+    {
+      "track_id": "track_1055908",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1009351680,
+            1009875967
+          ],
+          "sha256": "5ba569169ee771e7e8ca130fd6fdd9ce3dcbcb502177bc5477a0bdefc7f4cd8d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1055908.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5ba569169ee771e7e8ca130fd6fdd9ce3dcbcb502177bc5477a0bdefc7f4cd8d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "ddcfdbec2379fb121ba1f334966c92b8c55cc25239427941aa91c45d0c26c1e3",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:09:03.671888+00:00"
+    },
+    {
+      "track_id": "track_1039110",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            815358976,
+            815752191
+          ],
+          "sha256": "e29e5422c34a6e4fe59ee76277a301a7bafd18aebd35a9d9965c8695ee962c44",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1039110.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e29e5422c34a6e4fe59ee76277a301a7bafd18aebd35a9d9965c8695ee962c44",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0250ce76be40670f2d6b0e477381034b004e63c43f364e49165e6cee4f68a92f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:09:06.180801+00:00"
+    },
+    {
+      "track_id": "track_1039111",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1313483264,
+            1313876479
+          ],
+          "sha256": "024c53222707e7a7cdb1a2025b870d2435abbee9580cd6c6d7d80df9ba14206d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1039111.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "024c53222707e7a7cdb1a2025b870d2435abbee9580cd6c6d7d80df9ba14206d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8889a77671ea28df44a4ca14517a15cba5a40f1b423f597a3fd2bfdb443cc8d6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:09:14.001111+00:00"
+    },
+    {
+      "track_id": "track_0002011",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            335530496,
+            335923711
+          ],
+          "sha256": "35b903ad52ea4bfa57af1b32cccbff340d5e4b52575e589087f4b0efe4c10fdc",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0002011.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "35b903ad52ea4bfa57af1b32cccbff340d5e4b52575e589087f4b0efe4c10fdc",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1f2f8bdb833e38d03cea5f373ec004f5dee67c24fb5ee2247781f3dea7823157",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:21.341183+00:00"
+    },
+    {
+      "track_id": "track_0003111",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            499619840,
+            500013055
+          ],
+          "sha256": "e3fc1a1d3e2cd2d5e3f5a91857be4422fa1236ccf62d37538f9696ef78694807",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0003111.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e3fc1a1d3e2cd2d5e3f5a91857be4422fa1236ccf62d37538f9696ef78694807",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c27ecaba98d10f57a4157715ffd7f681b6fdadc005cb1c76276c07e066817914",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:09:22.014427+00:00"
+    },
+    {
+      "track_id": "track_0003108",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            502465024,
+            502989311
+          ],
+          "sha256": "938a2ba6b5a8d0f2cb896a2350aa3a2b286538543407da2abe123fbe9dc0123a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0003108.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "938a2ba6b5a8d0f2cb896a2350aa3a2b286538543407da2abe123fbe9dc0123a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0633410ccd1abe8db18ea2458cc64e74996be2736bd0915c6a533867b3bda629",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:09:25.526324+00:00"
+    },
+    {
+      "track_id": "track_0952611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            495737856,
+            496131071
+          ],
+          "sha256": "77e672a80655aa4e51742090ab2f896a123ca0ba6450c3c1d9216294dfee74bc",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0952611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "77e672a80655aa4e51742090ab2f896a123ca0ba6450c3c1d9216294dfee74bc",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "699d329412574e84a4e84f79bf6fd30f9cf6297362390f148057f6ee2b3601cd",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:28.505315+00:00"
+    },
+    {
+      "track_id": "track_0952610",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1443673600,
+            1444066815
+          ],
+          "sha256": "98b56036840400e7abe603886da9d7c5c36ae7eb9d1359d30f0ab03158d9f9b2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0952610.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "98b56036840400e7abe603886da9d7c5c36ae7eb9d1359d30f0ab03158d9f9b2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "158b4176a0b302221be152da4a2c89f436aa7b7e5c7a72a1c9d843fcafb12020",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:36.185331+00:00"
+    },
+    {
+      "track_id": "track_0078709",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1232334848,
+            1232728063
+          ],
+          "sha256": "905199a6a4e436c2543dd56ba90b76f4c93112e7114369180b86ff53aa0eb220",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0078709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "905199a6a4e436c2543dd56ba90b76f4c93112e7114369180b86ff53aa0eb220",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "74796e944f557c11b886c12191e7f15b36d79f290ff986b84cb7e219656e9d03",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:40.452139+00:00"
+    },
+    {
+      "track_id": "track_0078708",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1173194240,
+            1173587455
+          ],
+          "sha256": "5c23cea06bf43d2190958b0302999f19e8292eae356d7690ce2fbb60a4447425",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0078708.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5c23cea06bf43d2190958b0302999f19e8292eae356d7690ce2fbb60a4447425",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "bc0cea1d365ef0ba388ccb2b00e8eb3fc08ff82380d51095d5d01808062033eb",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:46.690523+00:00"
+    },
+    {
+      "track_id": "track_1306909",
+      "downloaded_bytes": 257420,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            215515136,
+            215772555
+          ],
+          "sha256": "3bcd8bd47f3eae818dbc003ea63237ca5fbd46d6923aec072c3465b7aef4cca0",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1306909.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "3bcd8bd47f3eae818dbc003ea63237ca5fbd46d6923aec072c3465b7aef4cca0",
+      "full_mp3_sha256_verified": true,
+      "wav_sha256": "218c5df5b25397c75e79c46e14308d60c077891acd19addaf359680f8bac5795",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:49.281153+00:00"
+    },
+    {
+      "track_id": "track_0439010",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            83314688,
+            83838975
+          ],
+          "sha256": "1cd7a8490be03629962ac08c629b686f777471ac04b2c4aee2c7dfd503925eb3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0439010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "1cd7a8490be03629962ac08c629b686f777471ac04b2c4aee2c7dfd503925eb3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "cfbcd48cf2f0f6331f6607283806537d14a07cf89d2b13b8eca88ab687bb2694",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:49.912758+00:00"
+    },
+    {
+      "track_id": "track_1361911",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1333753344,
+            1334146559
+          ],
+          "sha256": "68a25760f08ac17fba466fb73b4857560d1986c50ecff56d5f938e1be50c5b58",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1361911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "68a25760f08ac17fba466fb73b4857560d1986c50ecff56d5f938e1be50c5b58",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6ee647eadda5dffd42162ffbf3cb63849b3db8961ab51d992bbc1042fbc29081",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:09:59.471947+00:00"
+    },
+    {
+      "track_id": "track_1361910",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            89448960,
+            89842175
+          ],
+          "sha256": "095bdf0613dd7b43dac32209f85812d237bfa08b7bfc75baf4f43017eabd2cc4",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1361910.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "095bdf0613dd7b43dac32209f85812d237bfa08b7bfc75baf4f43017eabd2cc4",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "9c6e3dc200500454d309a5b78ae39a8a64a83bf685e1befb60161d4806406e2b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:02.215237+00:00"
+    },
+    {
+      "track_id": "track_1280409",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            307774976,
+            308168191
+          ],
+          "sha256": "de52c8677a9b18c9567af560089512f4a83cdb01e9be778d584bb180bbeb00a7",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1280409.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "de52c8677a9b18c9567af560089512f4a83cdb01e9be778d584bb180bbeb00a7",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8aa193d725413ae54dace5d27d89446cef667bd7e11416b6c048ecfedc697374",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:05.557637+00:00"
+    },
+    {
+      "track_id": "track_0666108",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            24737280,
+            25130495
+          ],
+          "sha256": "96a00a5d27a9da67ae96db13e1a85043a3b4b71b5bad53b627d2958cd90c6fe6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0666108.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "96a00a5d27a9da67ae96db13e1a85043a3b4b71b5bad53b627d2958cd90c6fe6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "24eb19b2b8569ac98a79cce17ba7edd203ddfdda5a957d15b1f8ce5562e3d80b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:08.850910+00:00"
+    },
+    {
+      "track_id": "track_1066711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            847814144,
+            848207359
+          ],
+          "sha256": "9abaa72306db9c6a827c943c94cc96a2b1dc29990c803341ce0fd0584a98190b",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1066711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "9abaa72306db9c6a827c943c94cc96a2b1dc29990c803341ce0fd0584a98190b",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c44469bc51c89929051e3124ed61ed150c0059ab73949b5b592cfb43a92606a1",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:10.946644+00:00"
+    },
+    {
+      "track_id": "track_1128909",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1270014464,
+            1270538751
+          ],
+          "sha256": "7cf8040e72ce9a7232cfc46acb308111ccece68dad3afc74000c6a9ddfc59013",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1128909.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "7cf8040e72ce9a7232cfc46acb308111ccece68dad3afc74000c6a9ddfc59013",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7e6400bd842b4ec31bcd5fa655f74f23a2493f64a7bd890d221c3e693e9681a6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:20.083960+00:00"
+    },
+    {
+      "track_id": "track_1329911",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            672877568,
+            673270783
+          ],
+          "sha256": "0dfde7e3280c0af4dd0f895d993193ac5362934c8fcf1c70b3f4fe61d15689e3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1329911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "0dfde7e3280c0af4dd0f895d993193ac5362934c8fcf1c70b3f4fe61d15689e3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "9064ad6db09713493182988ea5a493bdfb6146e56808ee5271656f3a8b5f2b48",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:23.904958+00:00"
+    },
+    {
+      "track_id": "track_0044209",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            573833728,
+            574226943
+          ],
+          "sha256": "2443f381ebbf1509f4a64962c974a8d1eb10fb2cc10c767da04a4be2e53179f6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0044209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "2443f381ebbf1509f4a64962c974a8d1eb10fb2cc10c767da04a4be2e53179f6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "5077a7ca5a9aea6aa9115d0b22286160f6146d5b165f59cbdefa3dd30786b931",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:28.231363+00:00"
+    },
+    {
+      "track_id": "track_0044210",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1168283648,
+            1168807935
+          ],
+          "sha256": "3baa7798bea1ba25f274df3cfa0954892af611bf3082764404ee905190eaa188",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0044210.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "3baa7798bea1ba25f274df3cfa0954892af611bf3082764404ee905190eaa188",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "63a7cd83757bbdc36fe8aac57793b3b5587c981e757f052e74ee71c08cc0b339",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:30.321483+00:00"
+    },
+    {
+      "track_id": "track_0007408",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            88608768,
+            89001983
+          ],
+          "sha256": "92143494e81fe69bbecf65d94206cade940702b975b2138614f8325a16ac11ee",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0007408.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "92143494e81fe69bbecf65d94206cade940702b975b2138614f8325a16ac11ee",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "d78ef6566f451d7ffb156677be66eecc51c31979e91941479e0f73174bc3cdc8",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:10:37.234733+00:00"
+    },
+    {
+      "track_id": "track_0300708",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1121568256,
+            1121961471
+          ],
+          "sha256": "c23fe49fef4ee906ddf82a1085a41b53aabe35b3bf894f447caaf37d4360a6cc",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0300708.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "c23fe49fef4ee906ddf82a1085a41b53aabe35b3bf894f447caaf37d4360a6cc",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c9edf0bb3aab13b274ca2dc68bbbbb619117bd582264b907157a5c2ad1b6dfd2",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:40.023741+00:00"
+    },
+    {
+      "track_id": "track_1338010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            728788992,
+            729182207
+          ],
+          "sha256": "079dd302e0ae8881fbd510640702824ae1e8e1e161540af652dd77f2c1dcf467",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1338010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "079dd302e0ae8881fbd510640702824ae1e8e1e161540af652dd77f2c1dcf467",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "4af28767dc14f2a10c3a6d0ef9ad85d72cad9df3015b78356e9fd39211993e08",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:43.182210+00:00"
+    },
+    {
+      "track_id": "track_1338009",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1198426112,
+            1198950399
+          ],
+          "sha256": "808ae716ec49999cb4c15e85cccabaf9a1c07c04452ad275a7d8ce922839cd05",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1338009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "808ae716ec49999cb4c15e85cccabaf9a1c07c04452ad275a7d8ce922839cd05",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6a2900dfb9ab3a16d7e5a791cdee2d98255a95fd4006d0a50cdfb17a92e10969",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:48.832944+00:00"
+    },
+    {
+      "track_id": "track_1203411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            66254848,
+            66648063
+          ],
+          "sha256": "78960356424b4c3a48485320399abcfb6589586e0b3e451490f4510c637d4176",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1203411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "78960356424b4c3a48485320399abcfb6589586e0b3e451490f4510c637d4176",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0390479fb05cf4d36148646b78f8aafd689bc83ae359ee8aeba4f46cb7872f8c",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:10:53.709821+00:00"
+    },
+    {
+      "track_id": "track_0040611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1519666176,
+            1520059391
+          ],
+          "sha256": "701c88869fcc722f7b9b10362ecb71f361acb5e1035775e3dc9873e228f4f5e1",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0040611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "701c88869fcc722f7b9b10362ecb71f361acb5e1035775e3dc9873e228f4f5e1",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "97a955b3bf761f6b3ceb247b31608c7a25aaee0f46fddfa1d9ca0f1d8d8a7173",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:00.616907+00:00"
+    },
+    {
+      "track_id": "track_0206711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            868923904,
+            869317119
+          ],
+          "sha256": "3d7e2ed2722b9b8e2484384234f1148f954bc49141e107a8ce66ae4c4237ae88",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0206711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "3d7e2ed2722b9b8e2484384234f1148f954bc49141e107a8ce66ae4c4237ae88",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "230929825279388b8a99b9ea8a36b58743f7bff749cdfc63774ed92562be9a82",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:11:00.927622+00:00"
+    },
+    {
+      "track_id": "track_1252011",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            260027392,
+            260420607
+          ],
+          "sha256": "9b89f489f3052794768d38f4d8f60ef20f7466a70f65e80c7769db30c8af8f33",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1252011.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "9b89f489f3052794768d38f4d8f60ef20f7466a70f65e80c7769db30c8af8f33",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "12d5cbe070d3002f0e8ddab2322a123e7b0e6708100fe95a33bf699a4e138bbf",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:09.730952+00:00"
+    },
+    {
+      "track_id": "track_1252010",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1318678528,
+            1319202815
+          ],
+          "sha256": "9a55f7805f67490b880cd81bd22086c56643af8080cdfd376c6cae58abb105f2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1252010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "9a55f7805f67490b880cd81bd22086c56643af8080cdfd376c6cae58abb105f2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "74d012cba3234422c1cb32bc469f084a2fbe8eff9b8156710e715730373cb5af",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:11.356485+00:00"
+    },
+    {
+      "track_id": "track_1179510",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            421242368,
+            421635583
+          ],
+          "sha256": "f7b2ad37871441b08feb97977379dc54f2ba6c111ad4d6a2bd0be04e04187424",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1179510.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f7b2ad37871441b08feb97977379dc54f2ba6c111ad4d6a2bd0be04e04187424",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "21bae9f9a21588d19be83d2c0769c0c47623ceb01896b1b8515b4cbb065fe3dc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:12.517725+00:00"
+    },
+    {
+      "track_id": "track_1179511",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            947494912,
+            947888127
+          ],
+          "sha256": "c9339a735d5a49106ee1904e1df733e17d5d421aad498e4c3abbaab5b8529956",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1179511.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "c9339a735d5a49106ee1904e1df733e17d5d421aad498e4c3abbaab5b8529956",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6ce64ef02ec9b692eb84534af0b8f4b6bf545f578b58a80dcb8846cfcb152eb6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:17.841642+00:00"
+    },
+    {
+      "track_id": "track_1159310",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            560068608,
+            560461823
+          ],
+          "sha256": "6bef93071bce0d6ad8f7cc942dcc3c714a5af37d24b7f1f09c47eb623ea62cff",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1159310.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6bef93071bce0d6ad8f7cc942dcc3c714a5af37d24b7f1f09c47eb623ea62cff",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7b089acd4518790ce1c28508ff2f509cb5e05d6c9bcb5afeceb34a5bebc47c52",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:26.532502+00:00"
+    },
+    {
+      "track_id": "track_1160010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            231197184,
+            231590399
+          ],
+          "sha256": "ae0b98f75a072207ed79e3e967267fa41ec95009169e5715d0896e04066c1881",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1160010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ae0b98f75a072207ed79e3e967267fa41ec95009169e5715d0896e04066c1881",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "123f33f5106842255be19dfa1aa46bb7e764af5d096a442ee15ffa4ae3424da2",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:27.018640+00:00"
+    },
+    {
+      "track_id": "track_1060611",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1171186176,
+            1171579391
+          ],
+          "sha256": "5941d5b65dd96cd026bda6e57b0d12d4af3ab449374a32c9ad8f8bda135254c9",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1060611.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5941d5b65dd96cd026bda6e57b0d12d4af3ab449374a32c9ad8f8bda135254c9",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "502775f8930db7b97c6ec420f289fa70a8e51505e4a4e9201e863a4d470df6fa",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:27.290520+00:00"
+    },
+    {
+      "track_id": "track_0037010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1431230464,
+            1431623679
+          ],
+          "sha256": "d37cadfccb9f378e80c1e10837777cacaed1f73583cc08c6b53dba9acd029a7e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0037010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "d37cadfccb9f378e80c1e10837777cacaed1f73583cc08c6b53dba9acd029a7e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "23a5a183da144cf4e70a8941cbad9982a5eb264d22fd80f09276e46b2095a5fb",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:32.538450+00:00"
+    },
+    {
+      "track_id": "track_1040508",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            139734016,
+            140127231
+          ],
+          "sha256": "01812c70a72bc45f9f2017c3084ccf373ffeed6fc2840db01aba8aa407904941",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1040508.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "01812c70a72bc45f9f2017c3084ccf373ffeed6fc2840db01aba8aa407904941",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "20368d98482a1c992da4891bf44252ae10d69811a0b4a4e681eadc4775e6acbe",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:38.574265+00:00"
+    },
+    {
+      "track_id": "track_0199209",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1365224960,
+            1365618175
+          ],
+          "sha256": "e6b8416a6ae46864a6c40da21982229b8ae2a474f633f5e7df96243d65303132",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0199209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e6b8416a6ae46864a6c40da21982229b8ae2a474f633f5e7df96243d65303132",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8dd31077f33b82458d2c2233fb5da7af3967ac9d3b33cb7c1ce3107ef6294eec",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:40.941837+00:00"
+    },
+    {
+      "track_id": "track_0290511",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            951465472,
+            951989759
+          ],
+          "sha256": "ff74c7f017bf17048625ad85f499c2b7371d34406aa5bd3a52c83ec5230c31c3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0290511.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ff74c7f017bf17048625ad85f499c2b7371d34406aa5bd3a52c83ec5230c31c3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "62ae4cf0f2b8acfcfa039074f9eed984140616bf980f69fa90d4ff8969542d39",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:45.724785+00:00"
+    },
+    {
+      "track_id": "track_0734509",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1453244416,
+            1453637631
+          ],
+          "sha256": "01f5a1385b88810bfd664755210a9fa89e7e1748ca413ab7b3b3cdad60576d89",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0734509.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "01f5a1385b88810bfd664755210a9fa89e7e1748ca413ab7b3b3cdad60576d89",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "cb0ee694b65ea11816028594fc935669f5c449acd86c6aa86da273072b87494d",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:48.680083+00:00"
+    },
+    {
+      "track_id": "track_0734510",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1353381888,
+            1353775103
+          ],
+          "sha256": "a68d25a51590f389dadc5d6a41dee0f5be56ddb4eaccef4ceb31febce7e57940",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0734510.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "a68d25a51590f389dadc5d6a41dee0f5be56ddb4eaccef4ceb31febce7e57940",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "13d933f8d4bc5c3327bac33062c948e3014c1372ae976b8d8c174855f7ac9af1",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:52.429546+00:00"
+    },
+    {
+      "track_id": "track_1162011",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            634054656,
+            634447871
+          ],
+          "sha256": "deec589df2f2a16bc155281d95cce214e4d7cab3375011c8957875210143de54",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1162011.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "deec589df2f2a16bc155281d95cce214e4d7cab3375011c8957875210143de54",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "16ccbac4303ee863b086892503fb31405b008667efa941783cfc156c160c5227",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:54.206372+00:00"
+    },
+    {
+      "track_id": "track_0194909",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            979505664,
+            979898879
+          ],
+          "sha256": "73edf4fe72c4584e4290ec9ed050e06bbfce2a2f9ee61bc73f307d7b2e1abf04",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0194909.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "73edf4fe72c4584e4290ec9ed050e06bbfce2a2f9ee61bc73f307d7b2e1abf04",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8fd3412465995f5e18a00295c2d324f5fd5e999d3aa1aefd5aeb38619540f2d1",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:58.899118+00:00"
+    },
+    {
+      "track_id": "track_0195710",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            885887488,
+            886280703
+          ],
+          "sha256": "201559cd51b3ad0ddb9db881029bed2d3a98ba12e1a6c33d5860c05d637ef09b",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0195710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "201559cd51b3ad0ddb9db881029bed2d3a98ba12e1a6c33d5860c05d637ef09b",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "44ad031a106d8961556d5756dbf5cca607b93afd824e90058590fc71834139e9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:11:59.204265+00:00"
+    },
+    {
+      "track_id": "track_1085610",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            163146752,
+            163539967
+          ],
+          "sha256": "65130236fc1b8c8c7ea477872b5792ef355eee1df2810c1101a95a319cead56e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1085610.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "65130236fc1b8c8c7ea477872b5792ef355eee1df2810c1101a95a319cead56e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "9690b9bf08446275adcf3c5d6c02e2e5e26a29048de37ef6991922c0e41846cb",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:11.913896+00:00"
+    },
+    {
+      "track_id": "track_0012410",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            467923456,
+            468316671
+          ],
+          "sha256": "27b5e2577c5e2ace0e48dd6e004fcf1af4979b4b65f7542921294016a53af446",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0012410.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "27b5e2577c5e2ace0e48dd6e004fcf1af4979b4b65f7542921294016a53af446",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0a672d68305aafd7cac0cf2a2be31c0a6a252d7bbeaacdc883da4d6375df6c6e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:13.248290+00:00"
+    },
+    {
+      "track_id": "track_0012411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1045151744,
+            1045544959
+          ],
+          "sha256": "1f0ccf79c1dedba210dd5bdf451cce79a7d7f00d3f4a47079c2fd0da82df87d7",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0012411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "1f0ccf79c1dedba210dd5bdf451cce79a7d7f00d3f4a47079c2fd0da82df87d7",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "a6bb6db881418cf35fb4d42d9b3bb79a51545ad6e43cbe8430f255e5e8ae49bc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:13.343235+00:00"
+    },
+    {
+      "track_id": "track_0309708",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            976963584,
+            977487871
+          ],
+          "sha256": "d4367ce80e985b54bf72d417ee9d1da02e632310104830b9682034900dff8e76",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0309708.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "d4367ce80e985b54bf72d417ee9d1da02e632310104830b9682034900dff8e76",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8fe5fcd7f204cb0988d4ebc061aeb599e6b2a24245fc111c4a589eeffad28ade",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:15.570287+00:00"
+    },
+    {
+      "track_id": "track_0039711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1349489664,
+            1349882879
+          ],
+          "sha256": "f9f464bc986762a080d6a81e485831527e2a24ec95027d3a6144a6a12423d28d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0039711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f9f464bc986762a080d6a81e485831527e2a24ec95027d3a6144a6a12423d28d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0fd01c8db8dfd1b97b7b7a958fda194d4300ea1af6e72b0fb394bd9ac0598324",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:24.160186+00:00"
+    },
+    {
+      "track_id": "track_0298508",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            18149888,
+            18543103
+          ],
+          "sha256": "8e4bf20a332acb372899e93b8be1ea54a5771b5cd955861a8bb14d8ee5ac0f18",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0298508.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 337,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "8e4bf20a332acb372899e93b8be1ea54a5771b5cd955861a8bb14d8ee5ac0f18",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "43539bd876726a9768be6cc0a2257f880ba2ba145f7445b66ea3768900109cbf",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:12:27.667504+00:00"
+    },
+    {
+      "track_id": "track_0298509",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1404060672,
+            1404453887
+          ],
+          "sha256": "a27792c947855cd14759eb14dbc9ca3cab436ccf8def2192f5147e61b0c0d45e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0298509.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 337,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "a27792c947855cd14759eb14dbc9ca3cab436ccf8def2192f5147e61b0c0d45e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "85b460b84d363550aa0dcee688aba9771aa5615813de71d4047b278d59596874",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:12:27.756234+00:00"
+    },
+    {
+      "track_id": "track_1364708",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            296622592,
+            297015807
+          ],
+          "sha256": "07d2e0a36322a8fe502ff6be8bf1064747bdde4f935fc9a29c806c10d379885b",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1364708.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "07d2e0a36322a8fe502ff6be8bf1064747bdde4f935fc9a29c806c10d379885b",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "6c255c99d63c7c353f66643c86da6db2b46dd83089536e8d3bae2ac83ebd84be",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:28.813793+00:00"
+    },
+    {
+      "track_id": "track_1364709",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            386284032,
+            386677247
+          ],
+          "sha256": "6c9b208286902dbb406d3fe9e84d90418f13344743827fd6a0d75e6d640e22b2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1364709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6c9b208286902dbb406d3fe9e84d90418f13344743827fd6a0d75e6d640e22b2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "e0d748020152e13017e11cc19438280eb244fadd52980b0a5019c35b409b391e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:38.071944+00:00"
+    },
+    {
+      "track_id": "track_0161211",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            603582976,
+            603976191
+          ],
+          "sha256": "5208ddba61a834c6e097ba99a7040ae65e28f5bc11378b80574e38bf9640de6a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0161211.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5208ddba61a834c6e097ba99a7040ae65e28f5bc11378b80574e38bf9640de6a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7ab13e276c13d471d18112a2306efb0082b583a60fb56669b178b7cbe90f0cdb",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:40.031117+00:00"
+    },
+    {
+      "track_id": "track_0157711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1493351424,
+            1493744639
+          ],
+          "sha256": "8ca148c08743188e426db868de695733a2d18fa69749ae050437c8b293c2a1b1",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0157711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "8ca148c08743188e426db868de695733a2d18fa69749ae050437c8b293c2a1b1",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "eb8bf6a15ca31334686833561fdd566dd0fdbe30c13ace0fb9f22ad25cee9189",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:40.983680+00:00"
+    },
+    {
+      "track_id": "track_0309711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1091937280,
+            1092330495
+          ],
+          "sha256": "0ade9d34b02fde52b475ed8c8aafd6f4c62ef8a14ee9ba9017f02354028fd259",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0309711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "0ade9d34b02fde52b475ed8c8aafd6f4c62ef8a14ee9ba9017f02354028fd259",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "e4e1e5957fbe82d88d9a2e03e6d376e9da5739e018f92b1414df1323b072c7f4",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:44.479448+00:00"
+    },
+    {
+      "track_id": "track_0363710",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            414951936,
+            415345151
+          ],
+          "sha256": "9bbb683c43bfb99bafd2a89e8338b214d50d0b9a10cd784e139dde40365e26a3",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0363710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "9bbb683c43bfb99bafd2a89e8338b214d50d0b9a10cd784e139dde40365e26a3",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1714c715230e6a773033a03e27da665aabc3680f993c7ac647f43c34d362bbfd",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:53.503128+00:00"
+    },
+    {
+      "track_id": "track_0482710",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            792578048,
+            793102335
+          ],
+          "sha256": "df8208010f3bd68cd70033d792c50e78569f19deae1dce06b70c532a7495dfa8",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0482710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "df8208010f3bd68cd70033d792c50e78569f19deae1dce06b70c532a7495dfa8",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "67be806ca26e28033b92c1615b20e5eac621f91469ca907764f7e8c7c71dae77",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:55.493031+00:00"
+    },
+    {
+      "track_id": "track_0363709",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            636608512,
+            637001727
+          ],
+          "sha256": "4e031298a41dac28292512d886a015405a8b8345a12be85edc3b1394479d89b4",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0363709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4e031298a41dac28292512d886a015405a8b8345a12be85edc3b1394479d89b4",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "afa6d2a1d35cc6d51ef7f32c14063e693f2d84b8f2bd2f63f0dc1f5c94b36250",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:57.059704+00:00"
+    },
+    {
+      "track_id": "track_0482711",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1321799680,
+            1322323967
+          ],
+          "sha256": "1be83990d4be644ebb47aef8ba812026406de8e8cae1ff711e906b7cf275eaae",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0482711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "1be83990d4be644ebb47aef8ba812026406de8e8cae1ff711e906b7cf275eaae",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "fa88ae0626561e6cdd702356e6c675d22014dc57461e605108f48e49dbc647fe",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:12:57.563221+00:00"
+    },
+    {
+      "track_id": "track_0258610",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            506626048,
+            507019263
+          ],
+          "sha256": "9bace24d3af1bb92046ce4ba38e922f2c38577746f4b27cd6e64ea67a7ced93e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0258610.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "9bace24d3af1bb92046ce4ba38e922f2c38577746f4b27cd6e64ea67a7ced93e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "fbf90cef9a9cd5ef4dd95511f2e1be14a3427f887fc626e26fe0204593619203",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:09.574141+00:00"
+    },
+    {
+      "track_id": "track_0455711",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            833459712,
+            833852927
+          ],
+          "sha256": "e34a9ae2c1a39b011a9c886f58aff7f6324020688fd00ea0b57623de23fd13a5",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0455711.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e34a9ae2c1a39b011a9c886f58aff7f6324020688fd00ea0b57623de23fd13a5",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8e2146e6e3c52dc8139acfd7a4b2f407d5083f7fe59b15e0fa84938e4ec6d98b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:11.824591+00:00"
+    },
+    {
+      "track_id": "track_0080408",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1005735424,
+            1006259711
+          ],
+          "sha256": "ee7e12613a22746cb78abd4f2e2e58bdc5ca1de3b4f5201bf226745a53a1242c",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0080408.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ee7e12613a22746cb78abd4f2e2e58bdc5ca1de3b4f5201bf226745a53a1242c",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7f6f308bba736e3380b6b660415e2bbcdd2d9e08a3e1a31d49ef6b2f056bf30b",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:12.214810+00:00"
+    },
+    {
+      "track_id": "track_0080410",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            80483840,
+            80877055
+          ],
+          "sha256": "e70e7100605079b8df484d4781569615785000cdc3af8704811382947789acdc",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0080410.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e70e7100605079b8df484d4781569615785000cdc3af8704811382947789acdc",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f2b62794ea286f4ac9bc7203762b8447794c23603e2fb17191f107487f85d3d4",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:13.534289+00:00"
+    },
+    {
+      "track_id": "track_1119108",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            158434304,
+            158827519
+          ],
+          "sha256": "4a9cbc9a488048edf98db50025d996f1e818202f51a4fef0a212f81654efbd77",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1119108.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4a9cbc9a488048edf98db50025d996f1e818202f51a4fef0a212f81654efbd77",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8feadd2092fd010d2c46cd88e69dbaccb7029d759be9412d37bfd62b774ceda9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:26.790659+00:00"
+    },
+    {
+      "track_id": "track_0357511",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1052461056,
+            1052854271
+          ],
+          "sha256": "a7a637d907c72c554dd48b7448afb2538b43694be8553a40a19bc3a5c305ff48",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0357511.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "a7a637d907c72c554dd48b7448afb2538b43694be8553a40a19bc3a5c305ff48",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "fe81a273958048adbdb28dc2e7fd0db1b7ea054c01ba1638bd19e04d7feeaa24",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:27.920607+00:00"
+    },
+    {
+      "track_id": "track_0839308",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            980782592,
+            981175807
+          ],
+          "sha256": "0fe2ce4c542d8323a7ccfde8304808ba1acce1c6728842a5a4f4e73c8607cf09",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0839308.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "0fe2ce4c542d8323a7ccfde8304808ba1acce1c6728842a5a4f4e73c8607cf09",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1df4d9cb44cc1143ea7f644c9691864919ec11136492eae9b3d2889d74edcaba",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:28.964110+00:00"
+    },
+    {
+      "track_id": "track_1293911",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1055889920,
+            1056414207
+          ],
+          "sha256": "06e7fc5d31eaf04bfc3dca03f89d7a45ed1a26f8ce8b37fa4be95e0c55cd10b2",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1293911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "06e7fc5d31eaf04bfc3dca03f89d7a45ed1a26f8ce8b37fa4be95e0c55cd10b2",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "066672afe02f37ae58f42b5521c1ece64f25ceed5949d9814ba7547644acd7e4",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:35.419439+00:00"
+    },
+    {
+      "track_id": "track_1383310",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            962721792,
+            963115007
+          ],
+          "sha256": "78be28929d3417ac4bf803266615a96414c0b76de096bd6797bef22886bbc320",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1383310.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "78be28929d3417ac4bf803266615a96414c0b76de096bd6797bef22886bbc320",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8ccc5bfcd0e9203dcc82619c38ba312a62221c67c6c0d7c327650969295097c6",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:46.952149+00:00"
+    },
+    {
+      "track_id": "track_1199610",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1460897280,
+            1461290495
+          ],
+          "sha256": "61cb0d272ce90316259b65c1f58df5b60fdc8e92fb2f814903c8a032a8770988",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1199610.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "61cb0d272ce90316259b65c1f58df5b60fdc8e92fb2f814903c8a032a8770988",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "ee41ab734d4c63001e9a93bfe6cd57a8f3293f7d7e182ed7d6359fcbf033fefc",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:48.019383+00:00"
+    },
+    {
+      "track_id": "track_1223010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            700490240,
+            700883455
+          ],
+          "sha256": "e6d877777addd9aaccf3d59d8f95fdc5c3c758af5bd48d48ef47f6e47164ce54",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1223010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "e6d877777addd9aaccf3d59d8f95fdc5c3c758af5bd48d48ef47f6e47164ce54",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b5623266f5b023d682530dce2c1d8b840ed5d098abbed3b346c83fcd9c3cc346",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:51.731001+00:00"
+    },
+    {
+      "track_id": "track_1093009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            439944192,
+            440337407
+          ],
+          "sha256": "764d6378761465e6aa85c7d214edd763adf9fc85743f9a5a7cd310ad3ff2e24a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1093009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "764d6378761465e6aa85c7d214edd763adf9fc85743f9a5a7cd310ad3ff2e24a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "18e8edcbcc1f05e9cc21cb7f86ac8523a458b4549973ac80d8d99e7d8c3f3a89",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:13:54.211168+00:00"
+    },
+    {
+      "track_id": "track_0208410",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1016020480,
+            1016413695
+          ],
+          "sha256": "eb6b35cb52cfd6e0b930211d41c09f2822b0486819353585bce259180afc3550",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0208410.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "eb6b35cb52cfd6e0b930211d41c09f2822b0486819353585bce259180afc3550",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "9f7665345476e2a3f6729702c1b3391440d3f8a327882ffe99f8f7d5122f4b74",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:01.246355+00:00"
+    },
+    {
+      "track_id": "track_1044810",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            444632576,
+            445025791
+          ],
+          "sha256": "39029d6235427aa615ad19f24987a55b7904c5368197930e84d8263e6c9697df",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1044810.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "39029d6235427aa615ad19f24987a55b7904c5368197930e84d8263e6c9697df",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "55f5c9794bce2b101275885b2fcb206b96bb6af895815ed2d3d48dcd3aa19988",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:04.892305+00:00"
+    },
+    {
+      "track_id": "track_1145709",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1351720960,
+            1352114175
+          ],
+          "sha256": "b39a30c3552d6bcb6eaa5f708580462750a08bb97f8025ced68ffdec5707cf40",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1145709.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b39a30c3552d6bcb6eaa5f708580462750a08bb97f8025ced68ffdec5707cf40",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "837519747706f558e4a2786733217cfbe67d08e1929054bfdb5da583bbfdc859",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:10.855878+00:00"
+    },
+    {
+      "track_id": "track_1044811",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1116894720,
+            1117287935
+          ],
+          "sha256": "ba0fabd352102baf3b332a51cb449af1a889db99a8a58f3c52edc6d0c8be060c",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1044811.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ba0fabd352102baf3b332a51cb449af1a889db99a8a58f3c52edc6d0c8be060c",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f542bb4462b12718c7b8572790aaf5901d45a2d11bb5a719fe3bddd0d15e5e72",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:11.159486+00:00"
+    },
+    {
+      "track_id": "track_1300010",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            768228864,
+            768622079
+          ],
+          "sha256": "ab22f755adadaded24d89bb8f14437cefaf396bc35e1564da90a43baa003b682",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1300010.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 107,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "ab22f755adadaded24d89bb8f14437cefaf396bc35e1564da90a43baa003b682",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "45f0b3e60b6dfabf8488254aede9a077051d3bc191c9f1d7c7d9da89591288a9",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:23.417469+00:00"
+    },
+    {
+      "track_id": "track_0246908",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1493867520,
+            1494260735
+          ],
+          "sha256": "da11b37d7138611c8b69385a4853386faed9cd95cbf994d7ef9df293b35600a7",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0246908.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "da11b37d7138611c8b69385a4853386faed9cd95cbf994d7ef9df293b35600a7",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "3af212ed7ad0cb1172a2be6631081437bf6d2831e9ed54223f0b68f12c502743",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:24.383958+00:00"
+    },
+    {
+      "track_id": "track_0431508",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            67975680,
+            68368895
+          ],
+          "sha256": "51b71c237b7183b9990c95760bb52db9e8740a1819e729e342c6534e7c9dc2b8",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0431508.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 361,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "51b71c237b7183b9990c95760bb52db9e8740a1819e729e342c6534e7c9dc2b8",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "4a2677bed1cbb5695d12fa01c28a8e58c04aefcc86d6256be749a74ef8a94c5f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:25.456165+00:00"
+    },
+    {
+      "track_id": "track_0962910",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            209414144,
+            209807359
+          ],
+          "sha256": "6769860f68d7f8c29e2bf233c0d1da829b56d08fe74706528ec71e43b804c6d4",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0962910.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "6769860f68d7f8c29e2bf233c0d1da829b56d08fe74706528ec71e43b804c6d4",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "bed7852c02988d22c2dfe7c940771065b901e0edf2b757e31b1bc553a27eb6df",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:25.657019+00:00"
+    },
+    {
+      "track_id": "track_0765209",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            657637888,
+            658031103
+          ],
+          "sha256": "b62035fcdfd0edef258fca20f25f785a06c848a0fd238cbc1764c11aabfe3c66",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0765209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "b62035fcdfd0edef258fca20f25f785a06c848a0fd238cbc1764c11aabfe3c66",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "e1e1eae3ba1c3f2c9fa057c454f57851191c862934b237f12fe4fd8b6aa09150",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:40.341901+00:00"
+    },
+    {
+      "track_id": "track_0083910",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            57169408,
+            57562623
+          ],
+          "sha256": "7bcd7c8bb8fb387756f5642f84f6beb34ad85b51bf6bc16ef14a3458581fac71",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0083910.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "7bcd7c8bb8fb387756f5642f84f6beb34ad85b51bf6bc16ef14a3458581fac71",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "7399c91c223ae6f05ab71586f37f7865ad2489c04fe6a17cfb215dae1c64e318",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:42.657267+00:00"
+    },
+    {
+      "track_id": "track_0204211",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            229870080,
+            230263295
+          ],
+          "sha256": "5d0f459734d980e8ddd54ecc5421ab83652688d2ed0b4b63b8d88644e2a7f352",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0204211.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "5d0f459734d980e8ddd54ecc5421ab83652688d2ed0b4b63b8d88644e2a7f352",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "d3f21ff88b0d601237df91d81ac91850167697d235051ec24cc10fdaf91d6579",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:43.780345+00:00"
+    },
+    {
+      "track_id": "track_0269309",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            116593152,
+            117117439
+          ],
+          "sha256": "cd1e432208ad09ffb717cc0d9d564fc0ddf7bb9f4e2c5087971af4d75fcb0263",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0269309.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "cd1e432208ad09ffb717cc0d9d564fc0ddf7bb9f4e2c5087971af4d75fcb0263",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "bc6676012536651890a3049d12eed3ace29102626636bed8d2bbfa9a8d16b88d",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:45.775962+00:00"
+    },
+    {
+      "track_id": "track_1414511",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            778671616,
+            779064831
+          ],
+          "sha256": "610417832824e33d083b6406789b1e95ead8ccf4c68d93fc7f0af401bce2535f",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1414511.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "610417832824e33d083b6406789b1e95ead8ccf4c68d93fc7f0af401bce2535f",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "93d8d7324e1c25e834c1994902287a6acfb7a94d8f3f08e1832d17deb160200e",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:54.113721+00:00"
+    },
+    {
+      "track_id": "track_1381310",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1295835136,
+            1296228351
+          ],
+          "sha256": "92e401065f000951b3c004a250c42b7ea0ca74adef0bb8cab80c27662554924a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1381310.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "92e401065f000951b3c004a250c42b7ea0ca74adef0bb8cab80c27662554924a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "c9249015d988798141ef7ddaa51faa3ac4efc1c68e1f5eb419e002771c404ddd",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:14:55.087737+00:00"
+    },
+    {
+      "track_id": "track_0943411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            179442688,
+            179835903
+          ],
+          "sha256": "2377a224a256e98657f071b1776413b28ccc80cf86b282f5eb68c1adbce16fa9",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0943411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "2377a224a256e98657f071b1776413b28ccc80cf86b282f5eb68c1adbce16fa9",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0caf16a834bc50a27d1320f370534f632ed59337ede2cf353b9987ebe1313a9f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:00.803695+00:00"
+    },
+    {
+      "track_id": "track_0834109",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            89144320,
+            89537535
+          ],
+          "sha256": "4f8ec450d83cd14cc88e4e12e38c9302261f642d03164501a12bcc2fe2b4b4f6",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0834109.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4f8ec450d83cd14cc88e4e12e38c9302261f642d03164501a12bcc2fe2b4b4f6",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "f8dfec6ee4ca560fec05c3682b37316ec3976ab952b80cd6ff0cc6f83c090ce1",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 48000,
+      "retrieved_at_utc": "2026-09-27T05:15:03.112319+00:00"
+    },
+    {
+      "track_id": "track_1151411",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            81176576,
+            81569791
+          ],
+          "sha256": "1b0f8c549a4c8c9322ff81b873747384859cc30c361dd732fa7dc4c83b64b857",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1151411.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "1b0f8c549a4c8c9322ff81b873747384859cc30c361dd732fa7dc4c83b64b857",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "91540c9bc69a77f0bc423e3175538d4d8431bf54c97506e753b887bd6e3c59b3",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:06.458507+00:00"
+    },
+    {
+      "track_id": "track_0799909",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            70579200,
+            70972415
+          ],
+          "sha256": "bb02723dbbf07ef212021a6a5da92d6657fd35833483bd1995163de34b32bd2a",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0799909.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "bb02723dbbf07ef212021a6a5da92d6657fd35833483bd1995163de34b32bd2a",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "85caf414d8d8d7d2a67b6138d11c5bbd09b644f47cb12a699cc1397300842a17",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:14.997970+00:00"
+    },
+    {
+      "track_id": "track_1151410",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            843001344,
+            843394559
+          ],
+          "sha256": "378cc4e6e19ee2dcf8985d79ae77142a5956f51910214f1f5b3002dbbf76d16d",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1151410.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "378cc4e6e19ee2dcf8985d79ae77142a5956f51910214f1f5b3002dbbf76d16d",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "486d384854978f6323df18e25f30dcb83bc64484238bc75aa9b1a57d4f8c2d62",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:15.498623+00:00"
+    },
+    {
+      "track_id": "track_0799908",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            769458688,
+            769851903
+          ],
+          "sha256": "166c43c91dea381e346574cb0ff202bc3510a2ba841dc101b52ab6f2ba866608",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0799908.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "166c43c91dea381e346574cb0ff202bc3510a2ba841dc101b52ab6f2ba866608",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "b83abb1f3ffa1bcab00ed9d7baa9e8bae433ca6b30dd86d97f5d1fb3d41f2051",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:17.786815+00:00"
+    },
+    {
+      "track_id": "track_0354911",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            314855424,
+            315248639
+          ],
+          "sha256": "4e3e19c2003981f74b58da80a87344da5477f982e8499da0d717dc14b6b800f7",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0354911.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4e3e19c2003981f74b58da80a87344da5477f982e8499da0d717dc14b6b800f7",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "54b1c5fbcf422f99e916f8b5488f3af4eec8e39efa12c6cab1ce5e09469c052f",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:25.757434+00:00"
+    },
+    {
+      "track_id": "track_1045311",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            1240545280,
+            1240938495
+          ],
+          "sha256": "0b798ab87e3b3b7a77428a613b8c432c30a6bddc71d8b0b334eaaf424fa9b406",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1045311.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "0b798ab87e3b3b7a77428a613b8c432c30a6bddc71d8b0b334eaaf424fa9b406",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "36e508e3e4e6824ecbb6c99bd1ad9a54083029f0eed280dd09c843631bf1415a",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:31.232713+00:00"
+    },
+    {
+      "track_id": "track_1045310",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            625311744,
+            625704959
+          ],
+          "sha256": "c02d3a077c417e49b4f1d065d168c2e5634b60b34102045589adcd6bab2aaf8e",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1045310.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "c02d3a077c417e49b4f1d065d168c2e5634b60b34102045589adcd6bab2aaf8e",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "8f519cc23096eb392115e28c080a55debb26a52f3a3fa538a6979ec08d4d5605",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:35.873723+00:00"
+    },
+    {
+      "track_id": "track_0318508",
+      "downloaded_bytes": 524288,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            257231360,
+            257755647
+          ],
+          "sha256": "f005347336328c1e1111e5c9f85b3ed8cee4be8b4eeaf9e6d7b0f6661550d69c",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0318508.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "f005347336328c1e1111e5c9f85b3ed8cee4be8b4eeaf9e6d7b0f6661550d69c",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "0a4bb66f7e5f9c51e2aaafede342c515bb57af9833b032a150b19d5329151166",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:36.428628+00:00"
+    },
+    {
+      "track_id": "track_0259710",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            88467968,
+            88861183
+          ],
+          "sha256": "4ccfb84f1015ec48c5074e07d4dec2a6d19c25896963e7096915474530273ed4",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0259710.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "4ccfb84f1015ec48c5074e07d4dec2a6d19c25896963e7096915474530273ed4",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "1e30926cb959072e540f700665d36981663a2aa35a99a593b286d83e0436a9c1",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:37.479968+00:00"
+    },
+    {
+      "track_id": "track_1033209",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            374144512,
+            374537727
+          ],
+          "sha256": "3cb48042c1180c35b63c54bf9ccb79ab12bbfbb0a29ae1139875b3be5eb6e248",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_1033209.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "3cb48042c1180c35b63c54bf9ccb79ab12bbfbb0a29ae1139875b3be5eb6e248",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "a7eee21eb033bc9626538cc1dc29bfcd673e285223cc013e6a66104dc05567f0",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:44.983869+00:00"
+    },
+    {
+      "track_id": "track_0117009",
+      "downloaded_bytes": 393216,
+      "byte_ranges": [
+        {
+          "byte_range": [
+            388951040,
+            389344255
+          ],
+          "sha256": "910cb9a990bbf7d23fb3adf1163b16b2032f87f4a15ed67dce7689deefc1fcb5",
+          "cache_file": "outputs/application_fresh_validation/20260927_v1/acquisition/audio_prefixes/track_0117009.mp3.part"
+        }
+      ],
+      "leading_id3_bytes": 45,
+      "skipped_id3_bytes": 0,
+      "prefix_sha256": "910cb9a990bbf7d23fb3adf1163b16b2032f87f4a15ed67dce7689deefc1fcb5",
+      "full_mp3_sha256_verified": false,
+      "wav_sha256": "a48ca037746c2101ebaf2e9641f53dbe19cfec64411ee1cb657da97a21abe043",
+      "frames": 661500,
+      "sample_rate": 22050,
+      "original_sample_rate": 44100,
+      "retrieved_at_utc": "2026-09-27T05:15:51.441164+00:00"
+    }
+  ],
+  "failures": [
+    {
+      "track_id": "track_1274711",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1246808",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1287910",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0807111",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0388810",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0138811",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0341608",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1196911",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1333311",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0387011",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0364010",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0364009",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0452711",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0385608",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0966110",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0345611",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1078511",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0403708",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1411909",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0416010",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1411910",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0448210",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0468109",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1373108",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1177008",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1177009",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1035010",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1035011",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    }
+  ],
+  "replacement_tracks": 0,
+  "checkpoint_policy": "completed success/failure immutable; interrupted started requests fail without extra retries"
+}

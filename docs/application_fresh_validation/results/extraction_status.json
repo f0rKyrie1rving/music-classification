@@ -1,0 +1,139 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-09-27T05:19:11.176526+00:00",
+  "selected_tracks": 232,
+  "selected_artists": 171,
+  "observed_tracks": 204,
+  "observed_artists": 150,
+  "positive_tracks": [
+    84,
+    26,
+    52,
+    36
+  ],
+  "positive_artists": [
+    60,
+    23,
+    38,
+    27
+  ],
+  "download_failures": [
+    {
+      "track_id": "track_1274711",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1246808",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1287910",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0807111",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0388810",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0138811",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0341608",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1196911",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1333311",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0387011",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0364010",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0364009",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0452711",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0385608",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0966110",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0345611",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1078511",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0403708",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1411909",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0416010",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1411910",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0448210",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_0468109",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1373108",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1177008",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1177009",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1035010",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    },
+    {
+      "track_id": "track_1035011",
+      "error": "RuntimeError('Range download failed: curl: (6) Could not resolve host: cdn.freesound.org')"
+    }
+  ],
+  "extraction_failures": [],
+  "selected_manifest_sha256": "fd91bbc9a2641ce87541b11197f1c4394640151d08b255772c43e75fd8b61706",
+  "observed_manifest_sha256": "486395c8849b5cc0160738c88d8c946b4327b9f97f2a1e454e36e8131328354b",
+  "download_status_sha256": "80cb27114e8603728fada0d3a0172900e66952e87fce92df4f167ba364fde659",
+  "runtime_control_sha256": "9d7107f76748298daa42371aeafeef32891e0cad43bc7581312372d8a3f1ebcc"
+}

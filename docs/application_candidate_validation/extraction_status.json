@@ -1,0 +1,26 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-09-27T17:35:51.423235+00:00",
+  "selected_tracks": 372,
+  "selected_artists": 250,
+  "observed_tracks": 372,
+  "observed_artists": 250,
+  "positive_tracks": [
+    150,
+    103,
+    60,
+    72
+  ],
+  "positive_artists": [
+    105,
+    73,
+    45,
+    52
+  ],
+  "download_failures": [],
+  "extraction_failures": [],
+  "selected_manifest_sha256": "acf6acdc046c1749e9bdaa78e23fc9b6da4b12a1567f1d4e2a9147ac32120ea5",
+  "observed_manifest_sha256": "55d0c4ef88c6e9ffc0f5e7c5d7861471ff365193a2ae9b14c0a2acee37b478e9",
+  "download_status_sha256": "57829c9b2d4072766e46e05d8fae426ca32bbe62f286e5aa15f17b161dbac0b3",
+  "runtime_control_sha256": "12350b44be33008afaa94db982bcdadc800e5fd929d96ae461a7416ceb78414f"
+}

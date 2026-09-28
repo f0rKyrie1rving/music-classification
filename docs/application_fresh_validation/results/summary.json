@@ -1,0 +1,77 @@
+{
+  "scope": "Frozen actual-application comparison on new documented project track and artist IDs",
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "coverage": {
+    "selected_tracks": 232,
+    "observed_tracks": 204,
+    "selected_artists": 171,
+    "observed_artists": 150,
+    "track_fraction": 0.8793103448275862,
+    "artist_fraction": 0.8771929824561403,
+    "minimum_required_fraction": 0.8,
+    "missing_ids": [
+      "track_0807111",
+      "track_1274711",
+      "track_1287910",
+      "track_1246808",
+      "track_0388810",
+      "track_0138811",
+      "track_1196911",
+      "track_0341608",
+      "track_1333311",
+      "track_0387011",
+      "track_0364009",
+      "track_0364010",
+      "track_0452711",
+      "track_0385608",
+      "track_0966110",
+      "track_0345611",
+      "track_1078511",
+      "track_0403708",
+      "track_0416010",
+      "track_1411909",
+      "track_1411910",
+      "track_0448210",
+      "track_1373108",
+      "track_0468109",
+      "track_1177008",
+      "track_1177009",
+      "track_1035010",
+      "track_1035011"
+    ]
+  },
+  "assessment": {
+    "verdict": "promising",
+    "go": false,
+    "both_point_estimates_improve": true,
+    "minimum_coverage_met": true,
+    "changed_tag_decisions": 0,
+    "interpretation": "Frozen operational evidence rule, not a universal calibration guarantee, proof of recognition improvement, or multiplicity-adjusted hypothesis test."
+  },
+  "interface_checks": {
+    "label_policy_interface_checks": 1632,
+    "changed_tag_decisions": 0,
+    "transformed_threshold_mismatches": 0
+  },
+  "macro_brier": {
+    "raw": 0.10712273902802256,
+    "weight_corrected": 0.10639990494347977
+  },
+  "macro_log_loss": {
+    "raw": 0.35218232181692893,
+    "weight_corrected": 0.34924077471077336
+  },
+  "relative_brier_reduction": 0.006747718468566255,
+  "limitations": [
+    "Observed uploader tags are incomplete and apply to whole tracks, while audio uses the first 30 seconds.",
+    "Novelty is relative to audited project records; artist aliases, undocumented exposure and encoder pretraining overlap remain unknown.",
+    "The restricted four-shard licensed sample is not an external music catalogue or a streaming population.",
+    "Missing audio/features can bias the observed sample even if the prespecified coverage threshold is met.",
+    "All outcomes are retained. These tracks are consumed for future method-development decisions."
+  ]
+}
