@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-09-27T06:01:24.000214+00:00",
+  "scope": "development-only nested artist validation; source tags are proxy labels",
+  "git_commit": "931c58b1e2144f81a7441e2f1fb937a09ae56ddd",
+  "git_status": " M README.md\n M docs/APPLICATION_V1_1.md\n M docs/RELEASE_NOTES_WINDOWS.md\n?? docs/CALIBRATION_EXPLAINED_ZH.md\n?? docs/application_auto_improvement/\n?? docs/application_fp_audit/\n?? docs/application_fresh_validation/\n?? docs/calibration/\n?? docs/calibration_budget/\n?? docs/calibration_conservative/\n?? docs/calibration_diagnostics/\n?? docs/calibration_extension/\n?? docs/calibration_validation/\n?? research/\n?? review_application_errors.py\n?? tests/test_application_auto_improvement.py\n?? tests/test_application_auto_pipeline.py\n?? tests/test_application_error_review.py\n",
+  "source_hashes": {
+    "research/application_auto_improvement/config.json": "10668bf6afdbc19a6b6bd293939dbd6969d99146e01de2a57237ea840af524fc",
+    "research/application_auto_improvement/core.py": "9b71a35059da756534cc4385f08bc1c9790142ec4fb005c20d304ef723c2803a",
+    "research/application_auto_improvement/protocol.md": "cf36288705d6e977dcc968a7fa19280a64c265ca06c28fd70452a3517ed89bdc",
+    "research/application_auto_improvement/run.py": "e4a61e095da7493b79f9df15c0df272931cb120090587890bc450af18f74ae2f",
+    "research/calibration/common.py": "59bf8224d9da36ccd8b223c1eb94bb5acda9b5edbac0d578d9640b5ba3e41cc0"
+  },
+  "input_hashes": {
+    "outputs/maest_hf/features.npy": "cfb693735b4affcd966375926026fb39c45348bb60d19cef8e244ac436aeca52",
+    "outputs/maest_hf/features.json": "d73ce7028619ce1cdb75cef1c20a4a3757fa4bb64d0da4368e0654e144e7d936",
+    "data/expanded_manifest.json": "01d93dbe0474e517861e0d0cbe95ca4a4e8dc769f180ec74d2e3d34490689077",
+    "data/expanded_development_audit.json": "663f78cf052f040eeb3b65584c952f4644f28da07e0b9713b8fd488eab33af7d",
+    "data/evaluation/development_feature_provenance.json": "47fc2baf8cdaae4d0dd5f298e6a13fafd84f06ec11e30c9579b1be188c52c1e3",
+    "experiments/final_holdout_plan.json": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+    "experiments/maest_hf_plan.json": "8cbc02cdb76502716ed09dbb00e60fb1df04fd9a4986c0f4c6a89d8e941df6a1",
+    "models/mtg-upf-maest-519l/SOURCES.json": "e66f4f95449160762555170f5db6420a15ce6d2ff2fbe2280e98369685047523",
+    "maest_hf_features.py": "7015d06e939c2f492c9a10ae0b8dce12580f3d9e159f157e90b3979c4d758a74",
+    "extract_expanded_maest_hf.py": "782340859bbe89b40fb3c9c5df1def85d8aad8ccbe474d726ef61b84062607e4",
+    "artifacts/final_heads.npy": "1ae6b52dbbba422f4fca3c61ac9858f9e46ff480792c1bc85f73ea9c84933632",
+    "artifacts/final_heads.json": "4f7d1e948f33e8b46bcfad6c479f0da2d1550956850e179bedb3b888baa8b9ad",
+    "artifacts/score_correction.json": "6c92b416ccd3e4f30a8d211cec110a8a39bbcf74636fb3984986f6269655026e",
+    "models/mtg-upf-maest-519l/README.md": "0336368f8274a5ed09f54cee8d56a851ecee96026d9f391a6735762c16608a60",
+    "models/mtg-upf-maest-519l/config.json": "ad1275da0a204fcc3d6e6bae59d3f2b9088d5e6d017c12351545f12a38ffb4a1",
+    "models/mtg-upf-maest-519l/feature_extraction_maest.py": "a8734c24b8df09410aad3d33897ad5ee2484ab0909b2050e9e857289022d0162",
+    "models/mtg-upf-maest-519l/preprocessor_config.json": "98652a981e9c6a77dcc9282f6b83ce13368eb3d0a7ecfece73bf9d78b9319310",
+    "models/mtg-upf-maest-519l/model.safetensors": "881cec6abdcb6ef986367e6c0db02dc760cc0f88a52b625cb9d6e2b54d505548"
+  },
+  "local_hashes": {
+    "config.json": "6f7797507aee8f7aa928822b25dc7fb16c5a19332497a6855a2958903c23fa4a",
+    "splits.json": "bbf8b0d5662bc6c0907a98844b226a49b52a8cbc61f2ef012d5cd74311298381",
+    "development.json": "b36cf4f2663ea1201cef233c1409f5c3bb6a67ef563e704cce050f16008869b3"
+  },
+  "runtime": {
+    "python": "3.13.15",
+    "packages": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.0",
+      "joblib": "1.5.3",
+      "threadpoolctl": "3.6.0"
+    }
+  },
+  "numerical_thread_limit": 1,
+  "policy": "f1",
+  "feature_dtype_for_fitting": "float64 from unchanged float32 cache",
+  "outer_prediction_rule": "Each development row is scored once with its artist excluded from new fits and selections in this run; the historical baseline recipe and thresholds already saw the development pool",
+  "candidate_search_uses_old_evaluation_data": false
+}

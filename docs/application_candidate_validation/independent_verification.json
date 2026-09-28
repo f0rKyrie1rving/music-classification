@@ -1,0 +1,26 @@
+{
+  "state": "passed",
+  "checked_utc": "2026-09-27T17:36:30.642832+00:00",
+  "checks": 144517,
+  "maximum_absolute_difference": 1.6653345369377348e-15,
+  "tracks": 372,
+  "artists": 250,
+  "verdict": "go",
+  "no_fitting_or_data_acquisition": true,
+  "bootstrap_reconstruction": "direct artist row concatenation",
+  "proxy_labels_unchanged": true,
+  "acquisition": {
+    "full_mp3_checksums": 2,
+    "partial_prefixes": 370,
+    "download_failures": 0,
+    "extraction_failures": 0
+  },
+  "network_requests": {
+    "index": 4331,
+    "audio": 2377
+  },
+  "freeze_sha256": "db6c022cece91c5c98fbb430e0c9ee29304b4303f376b58673177f8e5ff5118a",
+  "predictions_sha256": "f5afce44f35d4d2288196bd46a2d4dc2cfbd4584eab07afa5dd81acc377cf7f9",
+  "summary_sha256": "6524d2c3297d4eb1e882b062ca727c6477f8a77035a907a5a7371de9824108e4",
+  "verifier_sha256": "6df739d6395e3a1ed282e38c6ff75c93ba38b1854a8869ea5743456cb33dceba"
+}

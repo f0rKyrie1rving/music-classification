@@ -1,0 +1,173 @@
+{
+  "scope": "One outer OOF prediction per development song; historically reused pool, not independent confirmation",
+  "policy": "f1",
+  "metrics": {
+    "baseline": {
+      "tracks": 1206,
+      "artists": 469,
+      "tp": 793,
+      "fp": 791,
+      "fn": 367,
+      "micro_precision": 0.5006313131313131,
+      "micro_recall": 0.6836206896551724,
+      "micro_f1": 0.5779883381924198,
+      "macro_f1": 0.5718137666301193,
+      "macro_brier": 0.13264064436650463,
+      "macro_log_loss": 0.4180987080507515,
+      "coverage": 0.8839137645107794,
+      "per_label": {
+        "electronic": {
+          "brier": 0.1501528245096632,
+          "log_loss": 0.4646788309328413,
+          "n": 1206,
+          "positive_count": 435,
+          "predicted_positive_count": 474,
+          "tp": 314,
+          "fp": 160,
+          "fn": 121,
+          "tn": 611,
+          "precision": 0.6624472573839663,
+          "recall": 0.7218390804597701,
+          "f1": 0.6908690869086909
+        },
+        "pop": {
+          "brier": 0.1501507272270742,
+          "log_loss": 0.47091505585957516,
+          "n": 1206,
+          "positive_count": 261,
+          "predicted_positive_count": 339,
+          "tp": 136,
+          "fp": 203,
+          "fn": 125,
+          "tn": 742,
+          "precision": 0.40117994100294985,
+          "recall": 0.5210727969348659,
+          "f1": 0.4533333333333333
+        },
+        "ambient": {
+          "brier": 0.13860646587409522,
+          "log_loss": 0.43164041718149326,
+          "n": 1206,
+          "positive_count": 244,
+          "predicted_positive_count": 526,
+          "tp": 195,
+          "fp": 331,
+          "fn": 49,
+          "tn": 631,
+          "precision": 0.37072243346007605,
+          "recall": 0.7991803278688525,
+          "f1": 0.5064935064935064
+        },
+        "rock": {
+          "brier": 0.09165255985518586,
+          "log_loss": 0.3051605282290964,
+          "n": 1206,
+          "positive_count": 220,
+          "predicted_positive_count": 245,
+          "tp": 148,
+          "fp": 97,
+          "fn": 72,
+          "tn": 889,
+          "precision": 0.6040816326530613,
+          "recall": 0.6727272727272727,
+          "f1": 0.6365591397849463
+        }
+      }
+    },
+    "candidate": {
+      "tracks": 1206,
+      "artists": 469,
+      "tp": 781,
+      "fp": 765,
+      "fn": 379,
+      "micro_precision": 0.5051746442432082,
+      "micro_recall": 0.6732758620689655,
+      "micro_f1": 0.5772357723577236,
+      "macro_f1": 0.5698449055046316,
+      "macro_brier": 0.13206837347317224,
+      "macro_log_loss": 0.41535520390276837,
+      "coverage": 0.8822553897180763,
+      "per_label": {
+        "electronic": {
+          "brier": 0.1501528245096632,
+          "log_loss": 0.4646788309328413,
+          "n": 1206,
+          "positive_count": 435,
+          "predicted_positive_count": 474,
+          "tp": 314,
+          "fp": 160,
+          "fn": 121,
+          "tn": 611,
+          "precision": 0.6624472573839663,
+          "recall": 0.7218390804597701,
+          "f1": 0.6908690869086909
+        },
+        "pop": {
+          "brier": 0.1510793497252767,
+          "log_loss": 0.47088357031713246,
+          "n": 1206,
+          "positive_count": 261,
+          "predicted_positive_count": 324,
+          "tp": 132,
+          "fp": 192,
+          "fn": 129,
+          "tn": 753,
+          "precision": 0.4074074074074074,
+          "recall": 0.5057471264367817,
+          "f1": 0.4512820512820513
+        },
+        "ambient": {
+          "brier": 0.1353887598025633,
+          "log_loss": 0.4206978861320034,
+          "n": 1206,
+          "positive_count": 244,
+          "predicted_positive_count": 503,
+          "tp": 187,
+          "fp": 316,
+          "fn": 57,
+          "tn": 646,
+          "precision": 0.3717693836978131,
+          "recall": 0.7663934426229508,
+          "f1": 0.500669344042838
+        },
+        "rock": {
+          "brier": 0.09165255985518586,
+          "log_loss": 0.3051605282290964,
+          "n": 1206,
+          "positive_count": 220,
+          "predicted_positive_count": 245,
+          "tp": 148,
+          "fp": 97,
+          "fn": 72,
+          "tn": 889,
+          "precision": 0.6040816326530613,
+          "recall": 0.6727272727272727,
+          "f1": 0.6365591397849463
+        }
+      }
+    }
+  },
+  "gate": {
+    "passed": false,
+    "checks": {
+      "focus_fp_relative_reduction": false,
+      "each_focus_fp_nonincrease": true,
+      "micro_recall": true,
+      "each_label_recall": true,
+      "micro_f1": false,
+      "macro_brier": true,
+      "macro_log_loss": true,
+      "exact_controls_and_complete_rows": true
+    },
+    "failed_checks": [
+      "focus_fp_relative_reduction",
+      "micro_f1"
+    ],
+    "baseline_focus_fp": 534,
+    "candidate_focus_fp": 508,
+    "focus_fp_relative_reduction": 0.048689138576779034,
+    "rule": "Prespecified exploratory development tradeoffs; not significance or untouched final validation"
+  },
+  "exact_electronic_rock_controls": true,
+  "final_refit_permitted": false
+}

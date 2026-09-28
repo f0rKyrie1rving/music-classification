@@ -1,0 +1,92 @@
+{
+  "format_version": 1,
+  "candidate_id": "music-candidate-20260927-v1",
+  "status": "candidate_not_fresh_validated",
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "representation": "maest_block07_cls_dist_signal_mean",
+  "feature_width": 2304,
+  "encoder": {
+    "model_id": "mtg-upf/discogs-maest-30s-pw-129e-519l",
+    "revision": "6c35f32a350f74351870937d5ae0bae1d898d1df",
+    "hidden_state_index": 7
+  },
+  "weights_file": "candidate.npz",
+  "weights_sha256": "70ceca1ab53b9b8d968d6e1ca4664bc78e22b78e2c70def772d495cbbf208036",
+  "thresholds": {
+    "f1": [
+      0.39999999999999997,
+      0.27499999999999997,
+      0.2,
+      0.27499999999999997
+    ],
+    "precision_target": [
+      0.625,
+      1.01,
+      1.01,
+      0.525
+    ]
+  },
+  "precision_supported": [
+    true,
+    false,
+    false,
+    true
+  ],
+  "head_provenance": [
+    {
+      "label": "electronic",
+      "kind": "copied_application_head",
+      "n_fit": 1206,
+      "C": 0.001,
+      "class_weight": null,
+      "model_file": null
+    },
+    {
+      "label": "pop",
+      "kind": "full_development_refit",
+      "n_fit": 1915,
+      "C": 0.0003,
+      "class_weight": null,
+      "model_file": "final/pop.npz"
+    },
+    {
+      "label": "ambient",
+      "kind": "full_development_refit",
+      "n_fit": 1915,
+      "C": 0.0003,
+      "class_weight": null,
+      "model_file": "final/ambient.npz"
+    },
+    {
+      "label": "rock",
+      "kind": "copied_application_head",
+      "n_fit": 1206,
+      "C": 0.001,
+      "class_weight": null,
+      "model_file": null
+    }
+  ],
+  "baseline_reference": {
+    "artifacts/final_heads.npy": "1ae6b52dbbba422f4fca3c61ac9858f9e46ff480792c1bc85f73ea9c84933632",
+    "artifacts/final_heads.json": "4f7d1e948f33e8b46bcfad6c479f0da2d1550956850e179bedb3b888baa8b9ad",
+    "artifacts/score_correction.json": "6c92b416ccd3e4f30a8d211cec110a8a39bbcf74636fb3984986f6269655026e",
+    "app_version.txt": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8",
+    "predict_app.py": "5f826b2a8f44011950e2e681b4bbafe3fa1ddb8b5c5c43540fc822e646581f25",
+    "predict_maest.py": "ba1ad54702a03d8361033ebf018dda72d0f32750d360bc63d872fc057dc83f1f",
+    "score_correction.py": "050756fe7af4ee7e112702b28dd765648ff590fbc04347a37b4bd16e2dc00fe5"
+  },
+  "license": "CC-BY-NC-4.0; see ../MODEL_LICENSE.md",
+  "training_file": "training.json",
+  "training_sha256": "2af2c4d336b28ee4ff31cfc3b011dc754297ee4544ac1be8d3ed955d4c53b41b",
+  "selection_file": "threshold_selection.json",
+  "selection_sha256": "1f9c0e244959e8bfa4a53b728a48d256e5264104cb0cc3a5f8eafa0317a2de3e",
+  "freeze_file": "freeze.json",
+  "freeze_sha256": "a7b113f255072f21cb7590ca452023fbb5ec167c59dc00035dd4605031599b99",
+  "future_exclusions_file": "future_exclusions.json",
+  "future_exclusions_sha256": "5da366f49904e1d07c51fe63691bbf69cc8a8914a95c8320212992cf0af25ea8"
+}

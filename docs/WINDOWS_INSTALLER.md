@@ -5,6 +5,15 @@ version 1809 or newer. Reviewers do not need Python, Git, or a terminal.
 The release workflow builds with Python 3.12 because all pinned runtime
 dependencies publish Windows x64 wheels for that interpreter version.
 
+The v1.2 validation build passed on 2026-09-28 using Windows Server 2025 x64 and
+Python 3.12.10: all 215 tests, packaged and installed real-audio inference, silent
+installation, complete uninstall, and preservation of user audio. See the
+[successful workflow](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877)
+and [verification receipt](application_integration/windows_verification.json).
+Its temporary [installer artifact](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877/artifacts/10978217942)
+requires GitHub sign-in and expires on 2026-10-12. This validation does not create
+a permanent v1.2.0 Release; use the release assets below for public distribution.
+
 ## Install and run
 
 1. Open the repository's [Releases page](https://github.com/f0rKyrie1rving/music-classification/releases).
@@ -28,8 +37,13 @@ Face; if it fails, check connectivity and retry. The installer excludes these th
 weights because the exact upstream model card does not declare their license.
 
 The app reads exactly the first 30 seconds. It does not upload, move, rewrite,
-or retain the selected audio. Scores are classifier outputs, not calibrated
-confidence percentages.
+or retain the selected audio. Version 1.2 defaults to the confirmed candidate and has
+a **Compare v1.1** checkbox. Switching views uses the existing result, so the audio
+is not analyzed again. Scores, thresholds and tags all switch to the selected
+model's result; tags can differ between versions. Estimates may
+still be wrong; this is not a promise of calibrated confidence for arbitrary music.
+See [the v1.2 integration record](APPLICATION_V1_2.md). The included example returns
+`pop, rock` in v1.2 and `rock` in v1.1.
 
 ## Uninstall
 
@@ -78,14 +92,17 @@ Run the workflow manually to obtain a temporary GitHub Actions artifact. To
 publish a permanent GitHub Release, push a version tag:
 
 ```bash
-git tag v1.0.0
-git push origin v1.0.0
+git tag v1.2.0
+git push origin v1.2.0
 ```
 
 The workflow publishes the installer, its SHA-256 checksum, and the reviewer
-instructions in `docs/RELEASE_NOTES_WINDOWS.md`. The fourth source commit adds
-the first desktop release, `v1.0.0`; source revision numbers and app versions
-are separate. PyInstaller is
+instructions in `docs/RELEASE_NOTES_WINDOWS.md`. The first desktop release was
+`v1.0.0`; the current source targets `v1.2.0`. The tag must match
+`application_release.APP_VERSION` and its pinned release receipt. Do not edit
+`app_version.txt`, which belongs to the frozen v1.1 research comparator.
+Source changes do not themselves
+produce or publish the installer. PyInstaller is
 not a cross-compiler, so a Windows application must be built on Windows; the
 workflow supplies that environment rather than attempting to cross-build from
 macOS.

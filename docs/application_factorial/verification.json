@@ -1,0 +1,8 @@
+{
+  "state": "passed",
+  "all_predictions_replayed_exactly": true,
+  "all_metrics_recomputed": true,
+  "no_refitting": true,
+  "freeze_sha256": "b90ce503928ad8ec5adbe36d7bbf90a4cdb1ce818d2337b67a9a11430e233e04",
+  "output_files_verified": 197
+}

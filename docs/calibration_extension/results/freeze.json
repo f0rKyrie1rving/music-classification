@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-09-26T17:06:20.994455+00:00",
+  "git_commit": "fa09b95ef889be769e3d7add4abdb31288fc1191",
+  "git_status": "?? docs/CALIBRATION_EXPLAINED_ZH.md\n?? docs/calibration/\n?? docs/calibration_budget/\n?? docs/calibration_conservative/\n?? docs/calibration_diagnostics/\n?? docs/calibration_validation/\n?? research/",
+  "stage": "before new fitted heads/predictions; historical outcomes already known",
+  "input_hashes": {
+    "data/expanded_manifest.json": "01d93dbe0474e517861e0d0cbe95ca4a4e8dc769f180ec74d2e3d34490689077",
+    "experiments/expanded_model_plan.json": "5e2788d921944dec60c988a84ad7b4fa84c1e3f30c22f3774f16fbe713ca18fd",
+    "experiments/final_holdout_plan.json": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+    "experiments/maest_hf_plan.json": "8cbc02cdb76502716ed09dbb00e60fb1df04fd9a4986c0f4c6a89d8e941df6a1",
+    "experiments/mert_v1_plan_v2.json": "2ceb8a71d8ce241f02b759620ca1b683847eaac3d2568616336f15624382a7c6",
+    "extract_expanded_maest_hf.py": "782340859bbe89b40fb3c9c5df1def85d8aad8ccbe474d726ef61b84062607e4",
+    "extract_expanded_mert.py": "8b81f7dff5847d7b69d1ff1901b8d18564577700f37ae8c0bfa3314f0f76f58f",
+    "extract_expanded_mert_v1.py": "f6a8ab79acf2cb0c1e341b27603c883ead59f8991708e0f18aab5beaf9f36a7a",
+    "maest_hf_features.py": "7015d06e939c2f492c9a10ae0b8dce12580f3d9e159f157e90b3979c4d758a74",
+    "mert_features.py": "e41e428e43224affeed9b890d4b8b2138aadff8db55c2e079ed6895630ef0ff0",
+    "mert_layer_features.py": "933e5d2d4536cc1e1d593f150ded165ee3e3151a492a1211004ae6a22293af37",
+    "mert_v1_features.py": "cc558f69d1c5fea37875ec64e0bc75e12904603de4a493ca104034eafc2b2a34",
+    "models/mert-v0-public/SOURCES.json": "bbd857f0776ba9dde255f6a7c7938f2319b50772cd4dfdf2296469b4ca7015a8",
+    "models/mert-v1-95m/SOURCES.json": "0e009fbafa1de926750cc3fba1645a6325338d43f8eb075a9c7cd940cff6b16c",
+    "models/mtg-upf-maest-519l/SOURCES.json": "e66f4f95449160762555170f5db6420a15ce6d2ff2fbe2280e98369685047523",
+    "outputs/expanded/mert_layers.json": "5f8fcf3a5bae5144ee4d8209f0ed25907c1cf2174a7a8c1cd5318ec380a643c1",
+    "outputs/expanded/mert_layers.npy": "9dd42abf98970e65a933c95e322a60db9726510bc9c988422a7d84df1ad06cfd",
+    "outputs/maest_hf/features.json": "d73ce7028619ce1cdb75cef1c20a4a3757fa4bb64d0da4368e0654e144e7d936",
+    "outputs/maest_hf/features.npy": "cfb693735b4affcd966375926026fb39c45348bb60d19cef8e244ac436aeca52",
+    "outputs/mert_v1/mert_layers.json": "82b5d6c7455168e74e7cb661ae6ef079427609d2de36f3297bff9c4ffaa9f0f1",
+    "outputs/mert_v1/mert_layers.npy": "cd0b53a1dc54c00ae12a80a1cb94295de48773cdf2008d3600a16ff3f3f0b9f9",
+    "outputs/calibration_validation/20260927_v1/manifest.json": "65a829898827e089e0688b586815a8666740cee8f25e728d7efa0fba8218ef69",
+    "outputs/calibration_validation/20260927_v1/features.json": "9f36a5f7ece8d84627d7a1219fce956725cec8c557e029380e811bb26240495c",
+    "outputs/calibration_validation/20260927_v1/features.npy": "e23e901f09f0d26569dae3e89e374ed09472c596312fac646b5ffac922300b0f",
+    "outputs/calibration_validation/20260927_v1/download_status.json": "9d05683064057b82fb35a74c090b87f34c8e5c1ab943d0db2eaf2c49b592e0c9"
+  },
+  "source_hashes": {
+    "research/calibration_extension/core.py": "9ff48cfff76598690051d48bb61eda6e9c0d0cc77b6c62c38d27eb8033e6e404",
+    "research/calibration_extension/run.py": "2fb576b3055941765c9a71c8f35c6a1045ee32ec6f8059ed54f80d80593187b7",
+    "research/calibration/common.py": "59bf8224d9da36ccd8b223c1eb94bb5acda9b5edbac0d578d9640b5ba3e41cc0",
+    "research/calibration/splits.py": "54ec1aa92837c60a15f1ccd982a47d7e8039f36c5691427b52c88a8e7ec690e9",
+    "research/calibration/calibrators.py": "119ad9ef417e56deea69b7c1decaed7a6c88909bf371c97e367f3b50a50a551d",
+    "research/calibration/metrics.py": "1e8e83e4c262deadb5c25e842f4cc3616eae2854a1d699b5ab5d17235827293a",
+    "research/calibration_conservative/core.py": "8966fd3b3502d7c3f8957b71d056ceb4c21efb03c6baff863d29cb22f2a8a582"
+  },
+  "local_hashes": {
+    "config.json": "56faaf1e38a866bf2eea42ede1865c142b9506ebf5793e556af4b4b6cc84f3d1",
+    "protocol.md": "5f15f8c51f45317e4af0a7cfb8adb4acf81f8f4f5dab21b79c687ed9eea7816b",
+    "splits.json": "dde0301bd7e54f8a9f8fe0240488e68f4aeae3db889a009be50acfea766d332b",
+    "audit.json": "d918c934e9c80d6fc750e78a324a56c078d10ef56df564314cacc479a53d376f"
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "threadpoolctl": "3.6.0"
+  }
+}

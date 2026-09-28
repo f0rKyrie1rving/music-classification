@@ -1,0 +1,50 @@
+{
+  "primary_seed": 20260926,
+  "tracks": 266,
+  "artists": 200,
+  "primary_metric": "track-weighted equally label-weighted macro binary Brier",
+  "primary_comparison": "conservative_sigmoid minus identity",
+  "selected_strengths": {
+    "electronic": 0.0,
+    "pop": 0.0,
+    "ambient": 0.25,
+    "rock": 0.0
+  },
+  "methods": [
+    {
+      "method": "identity",
+      "macro_brier": 0.13372621686547934,
+      "macro_log_loss": 0.420119753910344,
+      "delta_brier_vs_raw": 0.0,
+      "delta_brier_vs_full_sigmoid": 0.007460079188837315
+    },
+    {
+      "method": "sigmoid",
+      "macro_brier": 0.12626613767664202,
+      "macro_log_loss": 0.4033005423677498,
+      "delta_brier_vs_raw": -0.007460079188837315,
+      "delta_brier_vs_full_sigmoid": 0.0
+    },
+    {
+      "method": "conservative_sigmoid",
+      "macro_brier": 0.13111784204454982,
+      "macro_log_loss": 0.4135690673935269,
+      "delta_brier_vs_raw": -0.0026083748209295154,
+      "delta_brier_vs_full_sigmoid": 0.0048517043679078
+    }
+  ],
+  "primary_interval": {
+    "delta": -0.002608374820929497,
+    "ci95": [
+      -0.0035478994723131137,
+      -0.001672603565430367
+    ]
+  },
+  "secondary_interval": {
+    "delta": 0.004851704367907828,
+    "ci95": [
+      0.0017854279412795695,
+      0.0079723551251019
+    ]
+  }
+}

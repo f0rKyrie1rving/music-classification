@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "scope": "exploratory calibration-budget sensitivity on previously evaluated splits",
+  "base_run": "outputs/calibration/20260926_v2",
+  "outer_seeds": [20260926, 20260927, 20260928, 20260929, 20260930],
+  "primary_outer_seed": 20260926,
+  "fractions": [0.25, 0.5, 0.75, 1.0],
+  "subset_repeats": 30,
+  "subset_seed": 2026092601,
+  "methods": ["sigmoid", "temperature"],
+  "primary_metric": "macro_binary_brier",
+  "secondary_metric": "macro_binary_log_loss",
+  "spread_quantiles": [0.1, 0.9],
+  "failure_policy": "retain every sampled subset; no redraw or fallback; mark failed label unavailable and macro unavailable if any label failed"
+}

@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-27T03:32:38.000651+00:00",
+  "stage": "metadata only; no selected audio acquisition or new predictions",
+  "original_requested_artist_count": 200,
+  "fixed_frame": [
+    "08",
+    "09",
+    "10",
+    "11"
+  ],
+  "eligible_tracks": 266,
+  "eligible_artists": 171,
+  "decision": "Use all 171 eligible artists and up to two hash-ordered tracks per artist; do not widen frame. Keep statistical gates fixed. This is not a power guarantee."
+}

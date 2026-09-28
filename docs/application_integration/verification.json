@@ -1,0 +1,26 @@
+{
+  "state": "passed",
+  "checked_utc": "2026-09-28T11:32:21.837818+00:00",
+  "application_version": "1.2.0",
+  "candidate_id": "music-candidate-20260927-v1",
+  "checks": 24576,
+  "tracks": 372,
+  "artists": 250,
+  "policies": [
+    "f1",
+    "precision_target"
+  ],
+  "public_entrypoint_calls": 744,
+  "full_precision_predictions_exact": true,
+  "decisions_and_display_scores_exact": true,
+  "one_feature_extraction_per_comparison": true,
+  "frozen_research_unchanged": true,
+  "no_training_or_audio_downloads": true,
+  "real_audio_extraction": false,
+  "application_release_sha256": "f1729a461f17c0b87a7668f8e189e35e4f5c5d2f5928ae8d631fc1a97b7d4a00",
+  "application_entrypoint_sha256": "867c4a27b0b070ce557d041a2d7c728238490cf9d73ff12454aca345f1e27d7d",
+  "release_loader_sha256": "0a0f3ac467c1f81a53c5d78c9628f0d44e34ded82fe1dc3ca5be53380e2a4ccd",
+  "candidate_weights_sha256": "70ceca1ab53b9b8d968d6e1ca4664bc78e22b78e2c70def772d495cbbf208036",
+  "validation_predictions_sha256": "f5afce44f35d4d2288196bd46a2d4dc2cfbd4584eab07afa5dd81acc377cf7f9",
+  "verifier_sha256": "11630cc8bfd3474cfe40262e33c161c1aef9b83b890ed31645e730d003d54d3b"
+}

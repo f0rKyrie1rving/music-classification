@@ -1,0 +1,105 @@
+{
+  "audio": "data/previews/track_0207501_30s.wav",
+  "analyzed": "Exactly the first 30 seconds of an input at least 30 seconds long",
+  "model": "Discogs-MAEST block 7 plus four logistic-regression heads",
+  "application_version": "1.2.0",
+  "candidate_id": "music-candidate-20260927-v1",
+  "model_weights_sha256": "70ceca1ab53b9b8d968d6e1ca4664bc78e22b78e2c70def772d495cbbf208036",
+  "status": "validated_candidate",
+  "score_mode": "validated_candidate",
+  "validation": {
+    "id": "application_candidate_validation/20260928_v1",
+    "verdict": "go",
+    "tracks": 372,
+    "artists": 250,
+    "scope": "Fixed candidate versus application v1.1; new documented-project track and artist IDs, same MTG-Jamendo source and proxy labels. No universal calibration or genre-accuracy guarantee.",
+    "freeze_sha256": "db6c022cece91c5c98fbb430e0c9ee29304b4303f376b58673177f8e5ff5118a",
+    "summary_sha256": "6524d2c3297d4eb1e882b062ca727c6477f8a77035a907a5a7371de9824108e4",
+    "verification_sha256": "ca1d88558790648005e6c9cf10ebd372d86507f97ea53f8b1d23b97d639017b6",
+    "independent_verification_sha256": "04024b6e77d2103c9fdc3be425128ff6c01eca933832631588945b022425e0f3",
+    "predictions_sha256": "f5afce44f35d4d2288196bd46a2d4dc2cfbd4584eab07afa5dd81acc377cf7f9"
+  },
+  "policy": "f1",
+  "predicted_tags": [
+    "pop",
+    "rock"
+  ],
+  "scores": [
+    {
+      "label": "electronic",
+      "score": 0.0699,
+      "threshold": 0.4,
+      "selected": false,
+      "raw_score": 0.0699,
+      "raw_threshold": 0.4
+    },
+    {
+      "label": "pop",
+      "score": 0.3219,
+      "threshold": 0.275,
+      "selected": true,
+      "raw_score": 0.3219,
+      "raw_threshold": 0.275
+    },
+    {
+      "label": "ambient",
+      "score": 0.0272,
+      "threshold": 0.2,
+      "selected": false,
+      "raw_score": 0.0272,
+      "raw_threshold": 0.2
+    },
+    {
+      "label": "rock",
+      "score": 0.6237,
+      "threshold": 0.275,
+      "selected": true,
+      "raw_score": 0.6237,
+      "raw_threshold": 0.275
+    }
+  ],
+  "warning": "Research estimates, not guaranteed confidence percentages. Pop and ambient can still produce false positives.",
+  "baseline": {
+    "application_version": "1.1.0",
+    "score_mode": "weight_corrected",
+    "policy": "f1",
+    "predicted_tags": [
+      "rock"
+    ],
+    "scores": [
+      {
+        "label": "electronic",
+        "score": 0.0699,
+        "threshold": 0.4,
+        "selected": false,
+        "raw_score": 0.0699,
+        "raw_threshold": 0.4
+      },
+      {
+        "label": "pop",
+        "score": 0.2483,
+        "threshold": 0.275,
+        "selected": false,
+        "raw_score": 0.2483,
+        "raw_threshold": 0.275
+      },
+      {
+        "label": "ambient",
+        "score": 0.0078,
+        "threshold": 0.1321,
+        "selected": false,
+        "raw_score": 0.0301,
+        "raw_threshold": 0.375
+      },
+      {
+        "label": "rock",
+        "score": 0.6237,
+        "threshold": 0.275,
+        "selected": true,
+        "raw_score": 0.6237,
+        "raw_threshold": 0.275
+      }
+    ],
+    "shared_feature": true
+  }
+}

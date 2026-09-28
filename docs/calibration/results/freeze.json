@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-09-25T17:09:35.993051+00:00",
+  "commit": "fa09b95ef889be769e3d7add4abdb31288fc1191",
+  "git_status": "?? research/",
+  "scope": "exploratory reuse of historical development pool",
+  "config_sha256": "4be0722cf53e190e0059bba460ab5b7bfcb0ddb2a858f8172ecf1918cb696e5b",
+  "protocol_sha256": "2b9171c4ed47ea879497e9369407674b63efa64021c3d2ababe929f2520f6171",
+  "splits_sha256": "98be5f0eb9f39ef16b6e0591b26c8f86a857700e609b7615c322d207209189b1",
+  "source_hashes": {
+    "audit_inputs.py": "d061d66909866ccd8ffc8ce84f428a2d121408ae0f28e047878dbfa77b27988d",
+    "calibrators.py": "119ad9ef417e56deea69b7c1decaed7a6c88909bf371c97e367f3b50a50a551d",
+    "common.py": "59bf8224d9da36ccd8b223c1eb94bb5acda9b5edbac0d578d9640b5ba3e41cc0",
+    "metrics.py": "1e8e83e4c262deadb5c25e842f4cc3616eae2854a1d699b5ab5d17235827293a",
+    "report.py": "df0046e340d2d4c744c620cfefe1c8a6d7ca8f07ffecf5c6339e249e6a6d56a4",
+    "run_experiment.py": "35b183f1003e4b1b778c240aa1895796bcff19e70045feaa4402b41199151cbc",
+    "splits.py": "54ec1aa92837c60a15f1ccd982a47d7e8039f36c5691427b52c88a8e7ec690e9",
+    "test_calibration.py": "3b00924d8b4089d427d9bd21ac08fb3fe909d2b676caf036029e7019e2d1e5ac"
+  },
+  "input_hashes": {
+    "data/expanded_manifest.json": "01d93dbe0474e517861e0d0cbe95ca4a4e8dc769f180ec74d2e3d34490689077",
+    "experiments/final_holdout_plan.json": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+    "experiments/maest_hf_plan.json": "8cbc02cdb76502716ed09dbb00e60fb1df04fd9a4986c0f4c6a89d8e941df6a1",
+    "data/evaluation/holdout.json": "e1acb204ae55558ee758630efded655da494ca1b95ae20564f5dc1c08fda4df0",
+    "outputs/maest_hf/features.npy": "cfb693735b4affcd966375926026fb39c45348bb60d19cef8e244ac436aeca52",
+    "outputs/maest_hf/features.json": "d73ce7028619ce1cdb75cef1c20a4a3757fa4bb64d0da4368e0654e144e7d936"
+  },
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "ontology": {
+    "electronic": [
+      "electronic",
+      "electronica",
+      "edm",
+      "house",
+      "deephouse",
+      "techno",
+      "trance",
+      "idm",
+      "dubstep",
+      "drumnbass",
+      "breakbeat",
+      "triphop",
+      "downtempo",
+      "electropop",
+      "synthpop"
+    ],
+    "pop": [
+      "pop",
+      "poprock",
+      "popfolk",
+      "instrumentalpop",
+      "electropop",
+      "synthpop"
+    ],
+    "ambient": [
+      "ambient",
+      "darkambient",
+      "atmospheric",
+      "chillout",
+      "newage"
+    ],
+    "rock": [
+      "rock",
+      "alternativerock",
+      "hardrock",
+      "instrumentalrock",
+      "postrock",
+      "punkrock",
+      "classicrock",
+      "bluesrock",
+      "rocknroll",
+      "grunge",
+      "poprock"
+    ]
+  },
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1"
+  }
+}

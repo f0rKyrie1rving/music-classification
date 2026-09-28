@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "heads_checked": 226,
+  "metrics": {
+    "baseline": {
+      "tp": 793,
+      "fp": 791,
+      "fn": 367,
+      "micro_recall": 0.6836206896551724,
+      "micro_f1": 0.5779883381924198,
+      "macro_brier": 0.13264064436650463,
+      "macro_log_loss": 0.41809870805075144,
+      "per_label": {
+        "electronic": {
+          "tp": 314,
+          "fp": 160,
+          "fn": 121,
+          "tn": 611,
+          "recall": 0.7218390804597701,
+          "brier": 0.150152824509663,
+          "log_loss": 0.4646788309328412
+        },
+        "pop": {
+          "tp": 136,
+          "fp": 203,
+          "fn": 125,
+          "tn": 742,
+          "recall": 0.5210727969348659,
+          "brier": 0.15015072722707432,
+          "log_loss": 0.4709150558595756
+        },
+        "ambient": {
+          "tp": 195,
+          "fp": 331,
+          "fn": 49,
+          "tn": 631,
+          "recall": 0.7991803278688525,
+          "brier": 0.1386064658740953,
+          "log_loss": 0.43164041718149276
+        },
+        "rock": {
+          "tp": 148,
+          "fp": 97,
+          "fn": 72,
+          "tn": 889,
+          "recall": 0.6727272727272727,
+          "brier": 0.09165255985518596,
+          "log_loss": 0.3051605282290964
+        }
+      }
+    },
+    "candidate": {
+      "tp": 781,
+      "fp": 765,
+      "fn": 379,
+      "micro_recall": 0.6732758620689655,
+      "micro_f1": 0.5772357723577236,
+      "macro_brier": 0.1320683734731722,
+      "macro_log_loss": 0.41535520390276837,
+      "per_label": {
+        "electronic": {
+          "tp": 314,
+          "fp": 160,
+          "fn": 121,
+          "tn": 611,
+          "recall": 0.7218390804597701,
+          "brier": 0.150152824509663,
+          "log_loss": 0.4646788309328412
+        },
+        "pop": {
+          "tp": 132,
+          "fp": 192,
+          "fn": 129,
+          "tn": 753,
+          "recall": 0.5057471264367817,
+          "brier": 0.1510793497252766,
+          "log_loss": 0.4708835703171325
+        },
+        "ambient": {
+          "tp": 187,
+          "fp": 316,
+          "fn": 57,
+          "tn": 646,
+          "recall": 0.7663934426229508,
+          "brier": 0.13538875980256332,
+          "log_loss": 0.4206978861320034
+        },
+        "rock": {
+          "tp": 148,
+          "fp": 97,
+          "fn": 72,
+          "tn": 889,
+          "recall": 0.6727272727272727,
+          "brier": 0.09165255985518596,
+          "log_loss": 0.3051605282290964
+        }
+      }
+    }
+  },
+  "gate_checks": {
+    "focus_fp_relative_reduction": false,
+    "each_focus_fp_nonincrease": true,
+    "micro_recall": true,
+    "each_label_recall": true,
+    "micro_f1": false,
+    "macro_brier": true,
+    "macro_log_loss": true,
+    "exact_controls_and_complete_rows": true
+  },
+  "gate_passed": false,
+  "checks": 2077,
+  "no_fitting_or_selection": true,
+  "checker_sha256": "bf50ccd5d5f9aa832bd9e611fb85c9eea9e7b93c4356abd61062aabd245baf2e"
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "source_commit": "cafd8e20c265ed84f1e61f1c875327971f43a62f",
+  "source_blobs": {
+    "genres.tsv": "b7b14e433e524d6c6bb5aff8fc814ea0d702f285",
+    "licenses.txt": "0672e1840650a4e1352dfe9ab487f67de8954171",
+    "checksums.txt": "570ff1abe98ed09c16f734a935f33797c3e1b22d"
+  },
+  "archives": ["04", "05", "06", "07"],
+  "artist_count": 200,
+  "tracks_per_artist": 2,
+  "sample_seed": "music-calibration-independent-2026-09-27-v1",
+  "allowed_license_codes": ["by", "by-sa", "by-nc", "by-nc-sa"],
+  "maximum_prefix_bytes_per_track": 1310720,
+  "primary_seed": 20260926,
+  "bootstrap_seed": 2026092702,
+  "bootstrap_replicates": 2000,
+  "evaluation_scope": "new to documented project track and artist IDs; upstream encoder novelty unknown"
+}

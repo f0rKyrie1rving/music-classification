@@ -1,0 +1,22 @@
+{
+  "state": "passed",
+  "actual_fit_count": 18,
+  "threshold_selection_replayed": true,
+  "candidate_export_exact": true,
+  "controls": {
+    "f1": {
+      "tracks": 1915,
+      "electronic_rock_exact": true,
+      "all_selected_tags_exact": false
+    },
+    "precision_target": {
+      "tracks": 1915,
+      "electronic_rock_exact": true,
+      "all_selected_tags_exact": true
+    }
+  },
+  "baseline_files_unchanged": true,
+  "candidate_sha256": "8c335d7140a6b5ea72b6be43c087c72ce917ba352a9f112fd2774464d6a79b12",
+  "no_refitting": true,
+  "fresh_validation_complete": false
+}

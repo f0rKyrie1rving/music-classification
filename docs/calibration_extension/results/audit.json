@@ -1,0 +1,46 @@
+{
+  "maest": {
+    "source_shape": [
+      1206,
+      2304
+    ],
+    "classifier_shape": [
+      1206,
+      2304
+    ],
+    "source_sha256": "cfb693735b4affcd966375926026fb39c45348bb60d19cef8e244ac436aeca52",
+    "ids_match": true,
+    "finite": true,
+    "pooling": "original MAEST"
+  },
+  "mert_v0": {
+    "source_shape": [
+      1206,
+      13,
+      768
+    ],
+    "classifier_shape": [
+      1206,
+      768
+    ],
+    "source_sha256": "9dd42abf98970e65a933c95e322a60db9726510bc9c988422a7d84df1ad06cfd",
+    "ids_match": true,
+    "finite": true,
+    "pooling": "float32 mean of layers 1..12"
+  },
+  "mert_v1": {
+    "source_shape": [
+      1206,
+      13,
+      768
+    ],
+    "classifier_shape": [
+      1206,
+      768
+    ],
+    "source_sha256": "cd0b53a1dc54c00ae12a80a1cb94295de48773cdf2008d3600a16ff3f3f0b9f9",
+    "ids_match": true,
+    "finite": true,
+    "pooling": "float32 mean of layers 1..12"
+  }
+}

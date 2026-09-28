@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-27T03:32:39.097875+00:00",
+  "counts": {
+    "all_genre_rows": 55215,
+    "outside_fixed_archives": 53148,
+    "in_fixed_archives": 2067,
+    "excluded_license": 490,
+    "excluded_historical_track_or_artist": 1311,
+    "eligible_tracks": 266,
+    "eligible_artists": 171
+  },
+  "source_commit": "cafd8e20c265ed84f1e61f1c875327971f43a62f",
+  "source_files": {
+    "genres.tsv": {
+      "sha256": "2b59cf0ba1c447da88858f7f51bdd8b15f791e65330b1710918324543680a998",
+      "git_blob": "b7b14e433e524d6c6bb5aff8fc814ea0d702f285",
+      "bytes": 5710640
+    },
+    "licenses.txt": {
+      "sha256": "c207c476d1714dfc9061f5ae9f2047c0490bfaa5d861dc090acc786508948933",
+      "git_blob": "0672e1840650a4e1352dfe9ab487f67de8954171",
+      "bytes": 12686550
+    },
+    "checksums.txt": {
+      "sha256": "7b7dcb44af0013d672377b9f9bce91247bf8b961f6a9c4b9527c055608e491ad",
+      "git_blob": "570ff1abe98ed09c16f734a935f33797c3e1b22d",
+      "bytes": 4648197
+    }
+  },
+  "historical_tracks": 1929,
+  "historical_artists": 837,
+  "local_audio_ids": 1801,
+  "local_audio_ids_outside_history": 0,
+  "eligible_positive_tracks": [
+    114,
+    31,
+    74,
+    47
+  ],
+  "no_predictions_computed": true
+}

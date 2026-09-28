@@ -1,0 +1,182 @@
+[
+  {
+    "seed": 20260926,
+    "label": "electronic",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.15841877034379803,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260926,
+    "label": "pop",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.13007059478644278,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260926,
+    "label": "ambient",
+    "selected_lambda": 0.25,
+    "best_lambda": 1.0,
+    "paired_se": 0.010731701651460722,
+    "threshold": 0.15385950357516692,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260926,
+    "label": "rock",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.11336078568998667,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260927,
+    "label": "electronic",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.14025209429769797,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260927,
+    "label": "pop",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.16065007114173452,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260927,
+    "label": "ambient",
+    "selected_lambda": 0.25,
+    "best_lambda": 0.75,
+    "paired_se": 0.011030813213691952,
+    "threshold": 0.13957696129959146,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260927,
+    "label": "rock",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.25,
+    "paired_se": 0.001304360670844117,
+    "threshold": 0.09570655341864082,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260928,
+    "label": "electronic",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.15731804531973786,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260928,
+    "label": "pop",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.13077292692066675,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260928,
+    "label": "ambient",
+    "selected_lambda": 0.25,
+    "best_lambda": 0.75,
+    "paired_se": 0.01028750124521265,
+    "threshold": 0.13656800147336626,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260928,
+    "label": "rock",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.09813687532659485,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260929,
+    "label": "electronic",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.1542257661718512,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260929,
+    "label": "pop",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.1372921860830974,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260929,
+    "label": "ambient",
+    "selected_lambda": 0.5,
+    "best_lambda": 1.0,
+    "paired_se": 0.01461876384810792,
+    "threshold": 0.14232706176287113,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260929,
+    "label": "rock",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.10590706412647863,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260930,
+    "label": "electronic",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.25,
+    "paired_se": 0.0009640807972221688,
+    "threshold": 0.10398930232047447,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260930,
+    "label": "pop",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.13020565786729907,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260930,
+    "label": "ambient",
+    "selected_lambda": 0.5,
+    "best_lambda": 1.0,
+    "paired_se": 0.017580149275202538,
+    "threshold": 0.13466318574996694,
+    "fallback_reason": null
+  },
+  {
+    "seed": 20260930,
+    "label": "rock",
+    "selected_lambda": 0.0,
+    "best_lambda": 0.0,
+    "paired_se": 0.0,
+    "threshold": 0.08217294249122284,
+    "fallback_reason": null
+  }
+]

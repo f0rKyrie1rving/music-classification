@@ -1,0 +1,12 @@
+{
+  "verified_utc": "2026-09-26T15:46:19.305524+00:00",
+  "maximum_saved_prediction_reconstruction_error": 0.0,
+  "maximum_sklearn_metric_error": 1.1102230246251565e-16,
+  "maximum_decomposition_error": 2.0816681711721685e-17,
+  "maximum_direct_leave_one_artist_out_error": 3.469446951953614e-18,
+  "all_previous_evaluation_metrics_reproduced": true,
+  "all_label_and_artist_contributions_add_to_original": true,
+  "new_unit_tests_passed": 4,
+  "new_model_fits": 0,
+  "scope": "implementation verification of post-hoc diagnostics; not causal or independent validation"
+}

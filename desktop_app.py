@@ -9,16 +9,11 @@ import sys
 import threading
 from pathlib import Path
 
+from application_release import APP_VERSION
 from desktop_runtime import configure_runtime, model_files_present, prepare_desktop_model
 
 
 BUNDLE_ROOT = Path(getattr(sys, "_MEIPASS", Path(__file__).resolve().parent))
-VERSION_FILE = BUNDLE_ROOT / "app_version.txt"
-APP_VERSION = (
-    VERSION_FILE.read_text(encoding="utf-8").strip()
-    if VERSION_FILE.is_file()
-    else "development"
-)
 # Source checkouts keep the established repository-local model directory.
 # Frozen installers use a durable per-user directory instead of PyInstaller's
 # temporary/read-only bundle location.
@@ -28,19 +23,36 @@ APP_DATA_ROOT, MODEL_DIR = configure_runtime(
 SAMPLE_AUDIO = BUNDLE_ROOT / "data/previews/track_0207501_30s.wav"
 
 
+def score_display_rows(result, compare_v1_1=False):
+    """Format one cached model's scores, thresholds, and original decisions."""
+    displayed = result["baseline"] if compare_v1_1 else result
+    rows = []
+    for item in displayed["scores"]:
+        score, threshold = item["score"], item["threshold"]
+        rows.append(
+            (item["label"], (f"{score:.4f}", f"{threshold:.4f}", "Yes" if item["selected"] else "No"))
+        )
+    return rows
+
+
 def run_prediction(audio, callback=None):
     """Prepare the model if needed, then classify one audio file."""
-    prepare_desktop_model(data_root=APP_DATA_ROOT, callback=callback)
     # Import only after configure_runtime has redirected model and cache paths.
+    from application_predict import classify, load_application
+
+    # Reject missing or altered release files before a potentially large download.
+    load_application(root=BUNDLE_ROOT)
+    prepare_desktop_model(data_root=APP_DATA_ROOT, callback=callback)
     from maest_hf_features import HfMaestEncoder
-    from predict_maest import classify
 
     if callback is not None:
         callback("Loading MAEST encoder", None)
     encoder = HfMaestEncoder(device="cpu")
     if callback is not None:
         callback("Analyzing the first 30 seconds", None)
-    return classify(audio, device="cpu", encoder=encoder)
+    return classify(
+        audio, device="cpu", encoder=encoder, compare_baseline=True, root=BUNDLE_ROOT
+    )
 
 
 class MusicTaggingApp:
@@ -55,6 +67,11 @@ class MusicTaggingApp:
         self.root = root
         self.events = queue.Queue()
         self.audio_path = tk.StringVar()
+        self.last_result = None
+        self.compare_v1_1 = tk.BooleanVar(value=False)
+        self.score_note = tk.StringVar(
+            value="Estimates suggest how likely each tag is; they can be wrong."
+        )
         self.status = tk.StringVar(
             value="Model ready" if model_files_present(MODEL_DIR) else "Model downloads on first analysis"
         )
@@ -69,7 +86,7 @@ class MusicTaggingApp:
         if "vista" in style.theme_names():
             style.theme_use("vista")
         style.configure("Title.TLabel", font=("Segoe UI Semibold", 22))
-        style.configure("Subtitle.TLabel", foreground="#4b5563")
+        # Inherit the native foreground so status/help text stays readable in dark mode.
         style.configure("Result.TLabel", font=("Segoe UI Semibold", 13))
 
         outer = ttk.Frame(root, padding=24)
@@ -117,7 +134,7 @@ class MusicTaggingApp:
         columns = ("score", "threshold", "decision")
         self.results = ttk.Treeview(outer, columns=columns, show="tree headings", height=6)
         self.results.heading("#0", text="Label")
-        self.results.heading("score", text="Score")
+        self.results.heading("score", text=f"Estimate (v{APP_VERSION})")
         self.results.heading("threshold", text="Threshold")
         self.results.heading("decision", text="Selected")
         self.results.column("#0", width=220, anchor="w")
@@ -136,11 +153,19 @@ class MusicTaggingApp:
         )
         ttk.Label(
             footer,
-            text="Scores are classifier outputs, not calibrated confidence percentages.",
+            textvariable=self.score_note,
             style="Subtitle.TLabel",
-        ).grid(row=1, column=0, sticky="w", pady=(3, 0))
+            wraplength=640,
+        ).grid(row=2, column=0, sticky="w", pady=(3, 0))
+        self.compare_checkbox = ttk.Checkbutton(
+            footer,
+            text="Compare v1.1",
+            variable=self.compare_v1_1,
+            command=self.refresh_result_view,
+        )
+        self.compare_checkbox.grid(row=1, column=0, sticky="w", pady=(5, 0))
         ttk.Button(footer, text="About", command=self.show_about).grid(
-            row=0, column=1, rowspan=2, sticky="e"
+            row=0, column=1, rowspan=3, sticky="e"
         )
 
         root.after(100, self.process_events)
@@ -213,19 +238,8 @@ class MusicTaggingApp:
                 elif kind == "result":
                     self.progress.stop()
                     self.progress.configure(mode="determinate", value=100)
-                    tags = payload["predicted_tags"]
-                    self.selected_tags.set(
-                        "Selected tags: " + (", ".join(tags) if tags else "none")
-                    )
-                    for item in payload["scores"]:
-                        self.results.item(
-                            item["label"],
-                            values=(
-                                f'{item["score"]:.4f}',
-                                f'{item["threshold"]:.4f}',
-                                "Yes" if item["selected"] else "No",
-                            ),
-                        )
+                    self.last_result = payload
+                    self.refresh_result_view()
                     self.status.set("Analysis complete")
                     self.set_busy(False)
                 elif kind == "error":
@@ -237,6 +251,31 @@ class MusicTaggingApp:
         except queue.Empty:
             pass
         self.root.after(100, self.process_events)
+
+    def refresh_result_view(self):
+        """Switch the displayed values from the cached prediction only."""
+        compare = self.compare_v1_1.get()
+        displayed = None
+        if self.last_result is not None:
+            displayed = self.last_result["baseline"] if compare else self.last_result
+        version = displayed["application_version"] if displayed is not None else (
+            "1.1.0" if compare else APP_VERSION
+        )
+        self.results.heading("score", text=f"Estimate (v{version})")
+        self.score_note.set(
+            "Showing v1.1 estimates, thresholds, and selected tags for the same audio."
+            if compare else (
+                f"Showing v{APP_VERSION}. Estimates suggest how likely each tag is; "
+                "they can be wrong."
+            )
+        )
+        if displayed is not None:
+            tags = displayed["predicted_tags"]
+            self.selected_tags.set(
+                f"v{version} · Selected tags: " + (", ".join(tags) if tags else "none")
+            )
+            for label, values in score_display_rows(self.last_result, compare):
+                self.results.item(label, values=values)
 
     def show_about(self):
         from tkinter import messagebox

@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "method": "inverse_balanced_class_weight_log_odds",
+  "labels": [
+    "electronic",
+    "pop",
+    "ambient",
+    "rock"
+  ],
+  "fit_count": 1206,
+  "fit_positive_counts": [
+    435,
+    261,
+    244,
+    220
+  ],
+  "fit_ids_sha256": "3fb7860038f55370ad2aec589d95dea81cd769ec046ddf21554c466b3ffc23ea",
+  "fit_manifest_sha256": "01d93dbe0474e517861e0d0cbe95ca4a4e8dc769f180ec74d2e3d34490689077",
+  "source_metadata_sha256": "4f7d1e948f33e8b46bcfad6c479f0da2d1550956850e179bedb3b888baa8b9ad",
+  "source_weights_sha256": "1ae6b52dbbba422f4fca3c61ac9858f9e46ff480792c1bc85f73ea9c84933632",
+  "source_plan_sha256": "00e902fef9a9a1d49b5fabf2be5d17cc54f6cf11633e369dd20db239c22e8be4",
+  "class_weight": [
+    null,
+    null,
+    "balanced",
+    null
+  ],
+  "logit_offsets": [
+    0.0,
+    0.0,
+    -1.3718462253725046,
+    0.0
+  ],
+  "interpretation": "Inverse training-class-weight shift; ambient only. No claim of perfect calibration or improved tag accuracy."
+}

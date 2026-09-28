@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": 456414,
+  "completed_runs": 120,
+  "retrospective_runs": 120,
+  "planned_runs": 120,
+  "partial": false,
+  "maximum_absolute_comparison_error": 3.019806626980426e-14,
+  "errors": [],
+  "verifier_sha256": "47213c5a1bb3219026086969f502b74ed07307e96f404d95f873a61b5e0f17d7",
+  "independence": "No tested prediction, policy-selection, or metric function imported.",
+  "scope": "Numerical and artifact verification, not independent scientific replication."
+}

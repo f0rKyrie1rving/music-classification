@@ -1,0 +1,174 @@
+{
+  "raw": {
+    "replicates": 2000,
+    "seed": 2026092604,
+    "artists": 94,
+    "direction": "calibrated minus identity; negative favors calibration",
+    "scope": "pointwise percentile intervals conditional on fitted classifier and calibrator; no multiplicity adjustment",
+    "results": {
+      "conservative_sigmoid": {
+        "brier": {
+          "macro": {
+            "delta": -0.003070308701868946,
+            "ci95": [
+              -0.004358114431056753,
+              -0.0016790837657974203
+            ]
+          },
+          "electronic": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "pop": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "ambient": {
+            "delta": -0.012281234807475781,
+            "ci95": [
+              -0.017432457724227014,
+              -0.006716335063189681
+            ]
+          },
+          "rock": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "log_loss": {
+          "macro": {
+            "delta": -0.00875187671515765,
+            "ci95": [
+              -0.012592456083983338,
+              -0.0045810389250692425
+            ]
+          },
+          "electronic": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "pop": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "ambient": {
+            "delta": -0.03500750686063059,
+            "ci95": [
+              -0.05036982433593335,
+              -0.01832415570027697
+            ]
+          },
+          "rock": {
+            "delta": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "baseline": "identity"
+  },
+  "full_sigmoid": {
+    "replicates": 2000,
+    "seed": 2026092604,
+    "artists": 94,
+    "direction": "calibrated minus identity; negative favors calibration",
+    "scope": "pointwise percentile intervals conditional on fitted classifier and calibrator; no multiplicity adjustment",
+    "results": {
+      "conservative_sigmoid": {
+        "brier": {
+          "macro": {
+            "delta": 0.004477520614858419,
+            "ci95": [
+              0.0001981602133028592,
+              0.008471011632050187
+            ]
+          },
+          "electronic": {
+            "delta": -7.39050850137591e-06,
+            "ci95": [
+              -0.0016845881290828005,
+              0.001504882672408724
+            ]
+          },
+          "pop": {
+            "delta": -0.0036908120337431597,
+            "ci95": [
+              -0.008887614665440545,
+              0.0013778988879485526
+            ]
+          },
+          "ambient": {
+            "delta": 0.024077965236518978,
+            "ci95": [
+              0.007776124762684467,
+              0.039304191125797014
+            ]
+          },
+          "rock": {
+            "delta": -0.002469680234840745,
+            "ci95": [
+              -0.006976691395430688,
+              0.002172796108025119
+            ]
+          }
+        },
+        "log_loss": {
+          "macro": {
+            "delta": 0.011398911706097626,
+            "ci95": [
+              0.0001926946997715335,
+              0.02147974250489714
+            ]
+          },
+          "electronic": {
+            "delta": 0.0004904975291937209,
+            "ci95": [
+              -0.003358101677643237,
+              0.0040806724529630495
+            ]
+          },
+          "pop": {
+            "delta": -0.009625662733965562,
+            "ci95": [
+              -0.02351408694428603,
+              0.003452746866677896
+            ]
+          },
+          "ambient": {
+            "delta": 0.06412063622472979,
+            "ci95": [
+              0.02068547207462545,
+              0.10263011399324834
+            ]
+          },
+          "rock": {
+            "delta": -0.009389824195567453,
+            "ci95": [
+              -0.02110328664042157,
+              0.003768672751438953
+            ]
+          }
+        }
+      }
+    },
+    "baseline": "sigmoid"
+  }
+}

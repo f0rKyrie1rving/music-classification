@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-09-27T05:03:49.849453+00:00",
+  "incident": "Temporary DNS resolution failure for official cdn.freesound.org during bounded requests",
+  "checkpoint_states_at_pause": {
+    "success": 33,
+    "failed": 28,
+    "started": 4
+  },
+  "action": "Temporarily SIGSTOP existing process, verify hostname now resolves, then resume same process. Preserve all 28 completed failures; no replacement and no extra attempt beyond existing per-request limits.",
+  "new_predictions_computed": false,
+  "selection_changed": false,
+  "protocol_changed": false
+}

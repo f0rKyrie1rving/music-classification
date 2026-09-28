@@ -1,0 +1,13 @@
+{
+  "verified_utc": "2026-09-25T17:31:57.576576+00:00",
+  "binary_fit_records": 3640,
+  "failed_binary_fits": 2,
+  "bound_hits": 1,
+  "max_probability_reconstruction_error": 0.0,
+  "max_sklearn_metric_crosscheck_error": 3.3306690738754696e-16,
+  "max_full_budget_vs_previous_error": 0.0,
+  "all_successful_fits_improve_or_match_calibration_training_objective": true,
+  "all_frozen_input_and_source_hashes_match": true,
+  "new_unit_tests_passed": 4,
+  "scope": "numerical and leakage-boundary checks; not independent scientific validation"
+}

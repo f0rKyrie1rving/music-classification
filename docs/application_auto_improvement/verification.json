@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "Read-only replay from every saved inner/outer head and selection; no refitting",
+  "freeze_sha256": "aea6f43753bbe9aefd6bb22126747720d8294efa2fca3bb061ec8664c9ba547e",
+  "predictions_sha256": "e06040676ccc18d3f8719f487e6e5af0cb6f213648843304447f536f4919fb70",
+  "summary_sha256": "bf32b6e976ec059d9ce7917bee5336611fda6592af3f743e2799d4b0f2e45b18",
+  "outer_rows": 1206,
+  "gate_passed": false,
+  "heads_checked": 226,
+  "old_evaluation_feature_values_read": false,
+  "exact_controls": true
+}
