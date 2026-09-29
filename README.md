@@ -16,13 +16,13 @@ prototype with an honest error analysis, not a claim of production accuracy.
 
 ## Windows desktop app
 
-For a reviewer-friendly demonstration, download
-`MusicClassification-Setup-<version>-win64.exe` from the
-[GitHub Releases page](https://github.com/f0rKyrie1rving/music-classification/releases).
+For a reviewer-friendly demonstration, download the
+[v1.2.0 Windows installer](https://github.com/f0rKyrie1rving/music-classification/releases/download/v1.2.0/MusicClassification-Setup-1.2.0-win64.exe)
+from the public [v1.2.0 release](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0).
 Under **Assets**, choose the `.exe` installer. GitHub's **Source code (zip)**,
 **Source code (tar.gz)**, and **Code → Download ZIP** contain source files, not
-an installable app. If no `.exe` asset is listed yet, the Windows build has not
-been published; check [build progress](https://github.com/f0rKyrie1rving/music-classification/actions/workflows/windows-installer.yml).
+an installable app. Release downloads do not require GitHub sign-in and are
+separate from the temporary 14-day workflow artifacts.
 The 64-bit, per-user installer targets Windows 10 version 1809 or newer and
 does not require Python, Git, administrator access, or a terminal. The app
 provides an audio picker, an included attributed example, and a four-label
@@ -51,9 +51,10 @@ The current source version is **1.2.0**. The desktop app and
 confirmation. **Compare v1.1** shows the previous application's scores,
 thresholds and selected tags using the same audio features. See the
 [v1.2 integration record](docs/APPLICATION_V1_2.md) for checks and release status.
-The [Windows validation build](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877)
+The [v1.2.0 release build](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36512571056)
 passed all 215 tests, packaged and installed audio inference, installation and
-uninstall checks. Its temporary artifact is separate from a published release.
+uninstall checks before publication on 2026-09-29. See the
+[publication receipt](docs/application_integration/release_publication.json).
 
 The retained v1.1 comparator corrects the ambient score's training class-weight
 offset. Its original interface offered **Compare original scores**.

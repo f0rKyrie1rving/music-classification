@@ -10,14 +10,17 @@ Python 3.12.10: all 215 tests, packaged and installed real-audio inference, sile
 installation, complete uninstall, and preservation of user audio. See the
 [successful workflow](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877)
 and [verification receipt](application_integration/windows_verification.json).
-Its temporary [installer artifact](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877/artifacts/10978217942)
-requires GitHub sign-in and expires on 2026-10-12. This validation does not create
-a permanent v1.2.0 Release; use the release assets below for public distribution.
+The [formal v1.2.0 release](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0)
+was published on 2026-09-29 after the tagged source passed the complete
+[release workflow](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36512571056).
+Its installer is publicly downloadable without GitHub sign-in and is not subject
+to the temporary workflow artifacts' 14-day retention period. See the
+[publication receipt](application_integration/release_publication.json).
 
 ## Install and run
 
-1. Open the repository's [Releases page](https://github.com/f0rKyrie1rving/music-classification/releases).
-2. Download `MusicClassification-Setup-<version>-win64.exe` and the optional
+1. Open the [v1.2.0 release page](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0).
+2. Download [MusicClassification-Setup-1.2.0-win64.exe](https://github.com/f0rKyrie1rving/music-classification/releases/download/v1.2.0/MusicClassification-Setup-1.2.0-win64.exe) and the optional
    `SHA256SUMS.txt` verification file from **Assets**. Do not choose **Source
    code (zip)** or **Source code (tar.gz)**: those are source archives.
 3. Run the installer. Administrator access is not required.
@@ -25,9 +28,7 @@ a permanent v1.2.0 Release; use the release assets below for public distribution
 5. Choose a WAV, FLAC, OGG, or MP3 file of at least 30 seconds, or use the
    included attributed example, then select **Analyze audio**.
 
-If the release has no `.exe` asset, a downloadable installer is not available
-yet. The [Windows workflow](https://github.com/f0rKyrie1rving/music-classification/actions/workflows/windows-installer.yml)
-shows build progress. The interface is in English for academic reviewers.
+The interface is in English for academic reviewers.
 
 The first analysis downloads approximately 348 MB of pinned Discogs-MAEST
 files from the official MTG-UPF Hugging Face repository. The app verifies their

@@ -1,0 +1,62 @@
+{
+  "state": "published",
+  "application_version": "1.2.0",
+  "tag": "v1.2.0",
+  "tagged_commit": "6d4ddb6f24775ba73342753f8185ccdbab992a6b",
+  "annotated_tag_object": "a144f4d8a03eb40a897b910161c2d7a52a5aed07",
+  "release_id": 398778705,
+  "release_url": "https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0",
+  "published_at": "2026-09-29T02:34:26Z",
+  "draft": false,
+  "prerelease": false,
+  "workflow": {
+    "run_id": 36512571056,
+    "job_id": 109227737174,
+    "url": "https://github.com/f0rKyrie1rving/music-classification/actions/runs/36512571056",
+    "conclusion": "success",
+    "runner": "Windows Server 2025 x64",
+    "unit_tests_passed": 215,
+    "passed_steps": [
+      "Set up job",
+      "Check out the tagged source",
+      "Set up Python 3.12 x64",
+      "Install runtime and build dependencies",
+      "Run unit tests on Windows",
+      "Resolve application version",
+      "Build the desktop bundle",
+      "Run packaged end-to-end inference",
+      "Install Inno Setup when needed",
+      "Build installer and checksum",
+      "Verify silent install and complete uninstall",
+      "Upload workflow artifact",
+      "Publish tagged GitHub release",
+      "Post Set up Python 3.12 x64",
+      "Post Check out the tagged source",
+      "Complete job"
+    ]
+  },
+  "assets": [
+    {
+      "id": 597038261,
+      "name": "MusicClassification-Setup-1.2.0-win64.exe",
+      "bytes": 125121634,
+      "sha256": "8fc9fedeae7307fcc81ebf18bd8651f16cd855158a5cef0412e6cf5579aa9815",
+      "url": "https://github.com/f0rKyrie1rving/music-classification/releases/download/v1.2.0/MusicClassification-Setup-1.2.0-win64.exe"
+    },
+    {
+      "id": 597038263,
+      "name": "SHA256SUMS.txt",
+      "bytes": 109,
+      "sha256": "56eb8abef4ee2dbd1dd0a9c53911812389d5a36fad821e81ec23bb42f2886717",
+      "url": "https://github.com/f0rKyrie1rving/music-classification/releases/download/v1.2.0/SHA256SUMS.txt"
+    }
+  ],
+  "public_download_verification": {
+    "authentication_used": false,
+    "full_installer_downloaded": true,
+    "downloaded_bytes": 125121634,
+    "sha256_matches_published_checksum_and_asset_digest": true
+  },
+  "scope": "Release of the previously validated, merged v1.2 application. No model retraining or new model-quality evaluation. Follow-up repository changes update documentation only.",
+  "historical_validation_receipt": "docs/application_integration/windows_verification.json"
+}

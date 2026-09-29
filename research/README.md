@@ -1,11 +1,12 @@
 # Probability-calibration research
 
-Current application status (2026-09-28): the confirmed fixed candidate is now
+Current application status (2026-09-29): the confirmed fixed candidate is now
 integrated into the v1.2 desktop and command-line application. See the
 [integration report](../docs/APPLICATION_V1_2.md). Statements below that the
 application was unchanged describe the state at those earlier research stages.
 Windows packaging, audio inference, installation and uninstall validation have
-since passed; public installer publication remains a separate step.
+since passed. The installer is publicly available in the
+[v1.2.0 release](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0).
 
 This directory preserves the experiments and evidence behind the application.
 The calibration study has not yet been extracted into a standalone research

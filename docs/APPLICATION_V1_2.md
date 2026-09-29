@@ -5,8 +5,14 @@
 
 后续 Windows 自动验收已通过：[构建与验收记录](https://github.com/f0rKyrie1rving/music-classification/actions/runs/36441140877)。
 验收源码为 `6ee1a9c61cda37ed405ad63d45629dc1e446faae`，包括215项测试、打包后和安装后
-的真实音频分析、静默安装与完整卸载。安装包已上传为临时工作流产物，尚未创建正式
-v1.2.0 Release；下载位置、有效期和校验记录见 [Windows验收凭据](application_integration/windows_verification.json)。
+的真实音频分析、静默安装与完整卸载。这次验收生成的临时工作流产物及校验记录保留在
+[Windows验收凭据](application_integration/windows_verification.json)。
+
+2026年9月29日，已合并的提交 `6d4ddb6f24775ba73342753f8185ccdbab992a6b` 标记为
+`v1.2.0`，经完整 Windows 发布流程重新验证后，已发布
+[正式 Release](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0)。
+其中的安装包可公开下载，不需要 GitHub 登录，也不受临时产物14天保留期限限制。
+发布信息与安装包校验值见 [正式发布凭据](application_integration/release_publication.json)。
 
 打开桌面程序后，直接选择音频并点击 **Analyze audio** 即可使用新版。
 **Compare v1.1** 可以查看同一段音频的旧版结果；分数、门槛、是否选中和顶部标签列表

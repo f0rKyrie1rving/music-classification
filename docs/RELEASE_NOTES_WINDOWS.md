@@ -22,8 +22,8 @@ The older v1.1 correction experiments retain their original scope in the
 
 ## Download and try
 
-1. When the v1.2 release has an installer under **Assets**, download
-   `MusicClassification-Setup-1.2.0-win64.exe`.
+1. Download [MusicClassification-Setup-1.2.0-win64.exe](https://github.com/f0rKyrie1rving/music-classification/releases/download/v1.2.0/MusicClassification-Setup-1.2.0-win64.exe)
+   from **Assets** on the public [v1.2.0 release page](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0).
    **Source code (zip)** and **Source code (tar.gz)** are for developers.
 2. Run the installer and open **Music Tagging Demo** from the Start menu.
    The Windows x64 app targets Windows 10 version 1809 or newer, including
@@ -57,7 +57,7 @@ features** (Windows 10), select **Music Tagging Demo**, and choose **Uninstall**
 This removes the program, shortcuts, downloaded model, and app cache. Audio
 selected from other folders is preserved.
 
-Before publication, the Windows workflow must pass the unit suite, packaged
+Before publication, the Windows workflow passed the unit suite, packaged
 inference, inference from the installed app, and install/uninstall cleanup.
 See the [installation guide](https://github.com/f0rKyrie1rving/music-classification/blob/main/docs/WINDOWS_INSTALLER.md)
 for details. Source integration alone does not build or publish an installer.
