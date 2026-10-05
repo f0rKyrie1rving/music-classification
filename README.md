@@ -5,14 +5,34 @@ An academic music-information-retrieval portfolio project that tags the first
 **ambient**, and **rock**. The final system uses a frozen pretrained
 Discogs-MAEST encoder and four locally trained logistic-regression heads.
 
-The project began with a 26-feature MFCC baseline, compared frozen music
-representations in separately documented development stages, and finished
-with a one-time artist-disjoint holdout evaluation. It is a research
-prototype with an honest error analysis, not a claim of production accuracy.
+The project began with a 26-feature MFCC baseline and compared frozen music
+representations in separately documented development stages. The original
+v1.0 evaluation used a 239-track holdout; the current v1.2 application was
+subsequently confirmed on 372 new project tracks. Those studies are reported
+separately below. This is a research prototype with documented limitations.
 
 **Author:** Chenglin Song（宋承麟）
 
-![Final holdout results](docs/assets/final_holdout_results.png)
+[Windows installer](https://github.com/f0rKyrie1rving/music-classification/releases/tag/v1.2.0)
+· [Current v1.2 results](#current-v12-results)
+· [Separate calibration research](https://github.com/f0rKyrie1rving/music-probability-calibration)
+· [Bilingual preprint](https://github.com/f0rKyrie1rving/music-probability-calibration/blob/main/paper/README.md)
+
+## Current v1.2 results
+
+The fixed v1.2 candidate was compared with the actual v1.1 application on
+**372 tracks from 250 artist IDs absent from the documented project history**. Pop/ambient
+false-positive cases fell from **152 to 124**, while missed focus labels
+increased from **59 to 61**. Four-label micro F1 rose from **0.620 to 0.637**.
+These are results against same-source dataset tags, not listener-confirmed
+accuracy on arbitrary music. See the
+[372-track confirmation report](docs/application_candidate_validation/SUMMARY_ZH.md)
+and [application integration record](docs/APPLICATION_V1_2.md).
+
+The separate calibration study asks whether the displayed probabilities are
+reliable. Its methods and preprint are linked above; its conclusions do not
+replace this application's validation results. The 239-track results farther
+down this page describe the historical v1.0 model.
 
 ## Windows desktop app
 
@@ -104,11 +124,11 @@ shown on the downloaded release asset.
 - audio preprocessing and frozen representation extraction;
 - artist-disjoint development and evaluation to reduce identity leakage;
 - validation-only model and threshold selection;
-- a final 239-track holdout scored after the protocol was frozen, with prior exposure disclosed;
+- a historical v1.0 239-track holdout, with prior exposure disclosed, and a later fixed 372-track confirmation of v1.2;
 - quantitative evaluation plus a separately frozen listening review;
 - a local command that accepts a user's WAV, FLAC, OGG, or supported MP3 file.
 
-## Try the final model from source
+## Try the current model from source
 
 The following setup was tested on Apple Silicon macOS with Python 3.13.15.
 The first run downloads approximately 348 MB of pinned MAEST files from the
@@ -208,14 +228,14 @@ layer or pooling search. The [design rationale](docs/DESIGN_RATIONALE.md)
 explains this choice, the linear heads, metrics, artist grouping, background
 tracks, and the limits of the evaluation.
 
-## Data and experimental boundary
+## Historical v1.0 data and experimental boundary
 
 The source is the [MTG-Jamendo Dataset](https://github.com/MTG/mtg-jamendo-dataset).
 The four broad targets preserve its multi-label annotations and conservatively
 map declared subgenres such as `techno`, `synthpop`, and `hardrock` to their
 parent labels.
 
-The final experiment used:
+The original v1.0 experiment used:
 
 | Role | Tracks | Purpose |
 | --- | ---: | --- |
@@ -241,7 +261,14 @@ The original 239-track results are retained; exclusions of that sample/artist
 and artist-cluster uncertainty are reported as post-hoc checks in
 [the evaluation review supplement](EVALUATION_REVIEW.md).
 
-## Results
+## Historical v1.0 results
+
+![Historical v1.0 holdout results](docs/assets/final_holdout_results.png)
+
+These results describe the original 239-track holdout, not the current v1.2
+application. The [current confirmation](#current-v12-results) used a different
+cohort and a direct v1.1 comparator; scores across the two cohorts should not
+be treated as a controlled estimate of improvement.
 
 The primary policy returned all four possible labels independently:
 
@@ -349,9 +376,9 @@ ignored by Git. A compact [evaluation package](data/evaluation/README.md)
 publishes all 239 sets of targets, scores and decisions, plus archived metrics.
 
 <details>
-<summary><strong>Verify results and reproduce the fixed final model</strong></summary>
+<summary><strong>Verify historical v1.0 results and reproduce its fixed model</strong></summary>
 
-### Recalculate the reported results (no audio or encoder required)
+### Recalculate historical v1.0 results (no audio or encoder required)
 
 The following verifies both policies' complete metrics, the original bootstrap
 intervals, and all listening-summary counts. It also computes the post-hoc
@@ -363,7 +390,7 @@ python3 -m venv .venv-evaluation
 .venv-evaluation/bin/python evaluate_release.py --output outputs/review_audit.json
 ```
 
-### Reproduce the fixed final model
+### Reproduce the fixed historical v1.0 model
 
 This heavier workflow uses the published exact source pool/index snapshots and
 archived manifests. It downloads the 1,206 fit and 239 holdout excerpts, verifies
@@ -381,7 +408,7 @@ python3 -m venv .venv-improve
 .venv-improve/bin/python reproduce_final.py run --device cpu
 ```
 
-This replays the fixed final model, not every historical candidate-selection
+This replays the fixed historical v1.0 model, not every historical candidate-selection
 experiment. See [reproduction scope and verification](REPRODUCTION.md), including
 the distinction between clean-copy metric verification and retained-cache replay.
 Historical scripts still enforce their original byte-level records, including
@@ -403,7 +430,7 @@ training examples or reported metrics.
 The revised project passes the complete test suite, including listening-sheet
 protection, cluster resampling, published-result checks and resumable cache
 validation.
-The packaged classifier was also
+The original v1.0 packaged classifier was also
 compared with the archived sklearn bundle on all 239 holdout feature vectors;
 all threshold decisions matched.
 
